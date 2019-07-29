@@ -10,7 +10,7 @@
 module load bioinfo-tools
 module load FastQC/0.11.5
 #Your commands
-for filename in /home/karnair/GenomeAnalysis/BatWing/Data/chip_seq_data/*.fastq.g/z
+for filename in /home/karnair/GenomeAnalysis/BatWing/Data/chip_seq_data/*.fastq.gz
 do
 	echo "Running $filename ..."
 	fastqc -t 1 -o /home/karnair/GenomeAnalysis/BatWing/results/1_Qualitycontrol_RNA/chip_seq_data "$filename"
