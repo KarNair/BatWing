@@ -1,0 +1,714 @@
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.0
+           1,251 sequences; 566,270 total letters
+
+
+
+Query= NW_015504249.1 masked CHUNK number:29 size:100000 offset:2900000
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  TRINITY_DN2665_c0_g1_i1 len=240 path=[0:0-239]                      84.4    2e-17
+
+
+> TRINITY_DN2665_c0_g1_i1 len=240 path=[0:0-239]
+Length=240
+
+ Score = 84.4 bits (42),  Expect = 2e-17
+ Identities = 42/42 (100%), Gaps = 0/42 (0%)
+ Strand=Plus/Minus
+
+Query  41823  TTTTAAAACATGCAGTACCTGACTATTTAGTCAGGGGCACTG  41864
+              ||||||||||||||||||||||||||||||||||||||||||
+Sbjct  223    TTTTAAAACATGCAGTACCTGACTATTTAGTCAGGGGCACTG  182
+
+
+
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Gapped
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.0
+    Posted date:  Aug 12, 2019  6:17 PM
+  Number of letters in database: 566,270
+  Number of sequences in database:  1,251
+
+
+
+Matrix: blastn matrix 1 -5
+Gap Penalties: Existence: 5, Extension: 5
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.1
+           1,251 sequences; 517,797 total letters
+
+
+
+Query= NW_015504249.1 masked CHUNK number:29 size:100000 offset:2900000
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  TRINITY_DN4629_c0_g1_i1 len=392 path=[0:0-391]                      150     3e-37
+
+
+> TRINITY_DN4629_c0_g1_i1 len=392 path=[0:0-391]
+Length=392
+
+ Score = 150 bits (75),  Expect = 3e-37
+ Identities = 120/129 (93%), Gaps = 0/129 (0%)
+ Strand=Plus/Plus
+
+Query  25281  TCTTGTATCTCCTCAGGAAAACACAGCGCTATTGAGTGTCTATTATATCCTGTGGAGAAC  25340
+              ||||||||||||||||||||||| ||| ||||||||||||||||| ||||| ||||||||
+Sbjct  231    TCTTGTATCTCCTCAGGAAAACATAGCACTATTGAGTGTCTATTACATCCTATGGAGAAC  290
+
+Query  25341  TTCAATCTTAGGCCACAGTGTTAAGAGCTCCTGGTTTTGGTCCCATAAACTCTCTTTGAA  25400
+              |||| ||||||| || || ||||||||||||||||||||||||||||| |||||||||||
+Sbjct  291    TTCAGTCTTAGGTCATAGCGTTAAGAGCTCCTGGTTTTGGTCCCATAAGCTCTCTTTGAA  350
+
+Query  25401  ATGACCTAT  25409
+              |||||||||
+Sbjct  351    ATGACCTAT  359
+
+
+
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Gapped
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.1
+    Posted date:  Aug 12, 2019  6:17 PM
+  Number of letters in database: 517,797
+  Number of sequences in database:  1,251
+
+
+
+Matrix: blastn matrix 1 -5
+Gap Penalties: Existence: 5, Extension: 5
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.2
+           1,251 sequences; 519,191 total letters
+
+
+
+Query= NW_015504249.1 masked CHUNK number:29 size:100000 offset:2900000
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  TRINITY_DN1217_c1_g1_i9 len=271 path=[2:0-73 8:74-95 9:96-109 1...  90.4    3e-19
+
+
+> TRINITY_DN1217_c1_g1_i9 len=271 path=[2:0-73 8:74-95 9:96-109 
+11:110-143 14:144-223 15:224-270]
+Length=271
+
+ Score = 90.4 bits (45),  Expect = 3e-19
+ Identities = 50/51 (98%), Gaps = 0/51 (0%)
+ Strand=Plus/Minus
+
+Query  41823  TTTTAAAACATGCAGTACCTGACTATTTAGTCAGGGGCACTGGCCTCTTTT  41873
+              |||||||||||||||||||||||||||||||||||||||||| ||||||||
+Sbjct  216    TTTTAAAACATGCAGTACCTGACTATTTAGTCAGGGGCACTGACCTCTTTT  166
+
+
+
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Gapped
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.2
+    Posted date:  Aug 12, 2019  6:17 PM
+  Number of letters in database: 519,191
+  Number of sequences in database:  1,251
+
+
+
+Matrix: blastn matrix 1 -5
+Gap Penalties: Existence: 5, Extension: 5
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.3
+           1,251 sequences; 513,003 total letters
+
+
+
+Query= NW_015504249.1 masked CHUNK number:29 size:100000 offset:2900000
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  TRINITY_DN3593_c0_g1_i1 len=809 path=[0:0-808]                      392     4e-110
+  TRINITY_DN516_c0_g1_i1 len=962 path=[0:0-961]                       160     3e-40 
+  TRINITY_DN1217_c1_g1_i8 len=594 path=[1:0-301 4:302-333 5:334-3...  90.4    3e-19 
+  TRINITY_DN4727_c0_g1_i1 len=210 path=[0:0-209]                      88.4    1e-18 
+
+
+> TRINITY_DN3593_c0_g1_i1 len=809 path=[0:0-808]
+Length=809
+
+ Score = 392 bits (196),  Expect = 4e-110
+ Identities = 196/196 (100%), Gaps = 0/196 (0%)
+ Strand=Plus/Minus
+
+Query  44817  AGGTGACCCATGCACCATGGCCGACTATGCCCGCCTGAAGAATGTCCTTCTGGCACTTCA  44876
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  529    AGGTGACCCATGCACCATGGCCGACTATGCCCGCCTGAAGAATGTCCTTCTGGCACTTCA  470
+
+Query  44877  GACCCACCTGCAGCCACTCCAAGAAGGGGACAGCAGACGAGACCCTGCCTCCCAGAAGCG  44936
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  469    GACCCACCTGCAGCCACTCCAAGAAGGGGACAGCAGACGAGACCCTGCCTCCCAGAAGCG  410
+
+Query  44937  CCTCCTGGTGGAATCTCTATTTAAAGACTTGGATGCAGATGGTGATGGCCACCTCGGCAG  44996
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  409    CCTCCTGGTGGAATCTCTATTTAAAGACTTGGATGCAGATGGTGATGGCCACCTCGGCAG  350
+
+Query  44997  CTCTGAACTGGCTCAG  45012
+              ||||||||||||||||
+Sbjct  349    CTCTGAACTGGCTCAG  334
+
+
+ Score = 254 bits (127),  Expect = 1e-68
+ Identities = 127/127 (100%), Gaps = 0/127 (0%)
+ Strand=Plus/Minus
+
+Query  48698  CAGCACGTGCTGAAGGAGCAGGACCTGGAGGAGGGCTTCCTGGGATGCTCACCAAGCGAC  48757
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  336    CAGCACGTGCTGAAGGAGCAGGACCTGGAGGAGGGCTTCCTGGGATGCTCACCAAGCGAC  277
+
+Query  48758  CTCCTTCGATTTGATGACTACAACAGCGACGGCTGGCTGACCCTCCGAGAGTTCTACACA  48817
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  276    CTCCTTCGATTTGATGACTACAACAGCGACGGCTGGCTGACCCTCCGAGAGTTCTACACA  217
+
+Query  48818  GCCTTCC  48824
+              |||||||
+Sbjct  216    GCCTTCC  210
+
+
+> TRINITY_DN516_c0_g1_i1 len=962 path=[0:0-961]
+Length=962
+
+ Score = 160 bits (80),  Expect = 3e-40
+ Identities = 90/92 (98%), Gaps = 0/92 (0%)
+ Strand=Plus/Minus
+
+Query  37697  AAAGACACAGATGTCTTAAGGGGGTTGACCTCAAGTTCCTGAGAAACATGAGGTTTGCCA  37756
+              ||||||||| |||||||||||||||||||||||||||||||||||||||||| |||||||
+Sbjct  92     AAAGACACAAATGTCTTAAGGGGGTTGACCTCAAGTTCCTGAGAAACATGAGCTTTGCCA  33
+
+Query  37757  AGAAGCACTACAAGAAGGGCCTGAAGAAGATG  37788
+              ||||||||||||||||||||||||||||||||
+Sbjct  32     AGAAGCACTACAAGAAGGGCCTGAAGAAGATG  1
+
+
+> TRINITY_DN1217_c1_g1_i8 len=594 path=[1:0-301 4:302-333 5:334-388 
+7:389-396 8:397-418 9:419-432 11:433-466 14:467-546 15:547-593]
+Length=594
+
+ Score = 90.4 bits (45),  Expect = 3e-19
+ Identities = 50/51 (98%), Gaps = 0/51 (0%)
+ Strand=Plus/Minus
+
+Query  41823  TTTTAAAACATGCAGTACCTGACTATTTAGTCAGGGGCACTGGCCTCTTTT  41873
+              |||||||||||||||||||||||||||||||||||||||||| ||||||||
+Sbjct  539    TTTTAAAACATGCAGTACCTGACTATTTAGTCAGGGGCACTGACCTCTTTT  489
+
+
+> TRINITY_DN4727_c0_g1_i1 len=210 path=[0:0-209]
+Length=210
+
+ Score = 88.4 bits (44),  Expect = 1e-18
+ Identities = 49/50 (98%), Gaps = 0/50 (0%)
+ Strand=Plus/Minus
+
+Query  70575  TTCAGGCTGGGCCCCTGGCCATTGACACCAGGGGTATCCTCTGTCCCACT  70624
+              ||||||||||| ||||||||||||||||||||||||||||||||||||||
+Sbjct  191    TTCAGGCTGGGGCCCTGGCCATTGACACCAGGGGTATCCTCTGTCCCACT  142
+
+
+
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Gapped
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.3
+    Posted date:  Aug 12, 2019  6:17 PM
+  Number of letters in database: 513,003
+  Number of sequences in database:  1,251
+
+
+
+Matrix: blastn matrix 1 -5
+Gap Penalties: Existence: 5, Extension: 5
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.4
+           1,251 sequences; 498,698 total letters
+
+
+
+Query= NW_015504249.1 masked CHUNK number:29 size:100000 offset:2900000
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  TRINITY_DN516_c0_g2_i1 len=464 path=[0:0-463]                       162     7e-41
+  TRINITY_DN4483_c0_g1_i1 len=232 path=[0:0-231]                      136     5e-33
+  TRINITY_DN1217_c1_g1_i4 len=307 path=[0:0-68 4:69-100 6:101-148...  90.4    3e-19
+
+
+> TRINITY_DN516_c0_g2_i1 len=464 path=[0:0-463]
+Length=464
+
+ Score = 162 bits (81),  Expect = 7e-41
+ Identities = 161/177 (91%), Gaps = 0/177 (0%)
+ Strand=Plus/Minus
+
+Query  37750  TTTGCCAAGAAGCACTACAAGAAGGGCCTGAAGAAGATGCAGGCCGACAACACCAAGGCC  37809
+              ||||||||||||||| ||||||||||||||||||||||||||||| ||||| | ||||||
+Sbjct  301    TTTGCCAAGAAGCACAACAAGAAGGGCCTGAAGAAGATGCAGGCCAACAACGCTAAGGCC  242
+
+Query  37810  ATGAGTGCACATGCTGCAGCTATCAAGGCCCTTGTAAAGCCCAAGGAGGTCAAGCCCAAG  37869
+              |||||||| |  ||||  |||||||||||||| ||||||||||||||||||||||||| |
+Sbjct  241    ATGAGTGCGCGCGCTGAGGCTATCAAGGCCCTCGTAAAGCCCAAGGAGGTCAAGCCCAGG  182
+
+Query  37870  ATCCCAAAGGGCAGCAGCCACAAGTTCAATCGACTTGCCTATATCACTCACCCCAAG  37926
+              || ||||||||||||||||| ||| |||||||||||||||| ||| |||||||||||
+Sbjct  181    ATTCCAAAGGGCAGCAGCCAAAAGCTCAATCGACTTGCCTACATCGCTCACCCCAAG  125
+
+
+> TRINITY_DN4483_c0_g1_i1 len=232 path=[0:0-231]
+Length=232
+
+ Score = 136 bits (68),  Expect = 5e-33
+ Identities = 73/74 (99%), Gaps = 0/74 (0%)
+ Strand=Plus/Plus
+
+Query  28893  AATACGTAGAAATACAGGCGGCCTGTTGCTAGAGGTTCAAAAATTACTGGTGACTATTTT  28952
+              ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1      AATACGTAGAAATACAGGCAGCCTGTTGCTAGAGGTTCAAAAATTACTGGTGACTATTTT  60
+
+Query  28953  TTCTTTTGCCAAAT  28966
+              ||||||||||||||
+Sbjct  61     TTCTTTTGCCAAAT  74
+
+
+> TRINITY_DN1217_c1_g1_i4 len=307 path=[0:0-68 4:69-100 6:101-148 
+7:149-156 8:157-178 9:179-192 11:193-226 14:227-306]
+Length=307
+
+ Score = 90.4 bits (45),  Expect = 3e-19
+ Identities = 50/51 (98%), Gaps = 0/51 (0%)
+ Strand=Plus/Minus
+
+Query  41823  TTTTAAAACATGCAGTACCTGACTATTTAGTCAGGGGCACTGGCCTCTTTT  41873
+              |||||||||||||||||||||||||||||||||||||||||| ||||||||
+Sbjct  299    TTTTAAAACATGCAGTACCTGACTATTTAGTCAGGGGCACTGACCTCTTTT  249
+
+
+
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Gapped
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.4
+    Posted date:  Aug 12, 2019  6:17 PM
+  Number of letters in database: 498,698
+  Number of sequences in database:  1,251
+
+
+
+Matrix: blastn matrix 1 -5
+Gap Penalties: Existence: 5, Extension: 5
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.5
+           1,251 sequences; 529,888 total letters
+
+
+
+Query= NW_015504249.1 masked CHUNK number:29 size:100000 offset:2900000
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  TRINITY_DN516_c0_g3_i1 len=413 path=[0:0-412]                       194     2e-50
+  TRINITY_DN1150_c0_g1_i1 len=235 path=[0:0-234]                      78.4    1e-15
+
+
+> TRINITY_DN516_c0_g3_i1 len=413 path=[0:0-412]
+Length=413
+
+ Score = 194 bits (97),  Expect = 2e-50
+ Identities = 112/115 (97%), Gaps = 0/115 (0%)
+ Strand=Plus/Minus
+
+Query  37772  AGGGCCTGAAGAAGATGCAGGCCGACAACACCAAGGCCATGAGTGCACATGCTGCAGCTA  37831
+              |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||
+Sbjct  413    AGGGCCTGAAGAAGATGCAGGCCGACAACACCAAGGCCATCAGTGCACATGCTGCAGCTA  354
+
+Query  37832  TCAAGGCCCTTGTAAAGCCCAAGGAGGTCAAGCCCAAGATCCCAAAGGGCAGCAG  37886
+              ||||||||||||||||||||||||||||||| |||||||||||||| ||||||||
+Sbjct  353    TCAAGGCCCTTGTAAAGCCCAAGGAGGTCAACCCCAAGATCCCAAAAGGCAGCAG  299
+
+
+> TRINITY_DN1150_c0_g1_i1 len=235 path=[0:0-234]
+Length=235
+
+ Score = 78.4 bits (39),  Expect = 1e-15
+ Identities = 49/51 (96%), Gaps = 0/51 (0%)
+ Strand=Plus/Plus
+
+Query  41823  TTTTAAAACATGCAGTACCTGACTATTTAGTCAGGGGCACTGGCCTCTTTT  41873
+              |||||||||||| ||||||||||||||||||||||||||||| ||||||||
+Sbjct  100    TTTTAAAACATGTAGTACCTGACTATTTAGTCAGGGGCACTGACCTCTTTT  150
+
+
+
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Gapped
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.5
+    Posted date:  Aug 12, 2019  6:17 PM
+  Number of letters in database: 529,888
+  Number of sequences in database:  1,251
+
+
+
+Matrix: blastn matrix 1 -5
+Gap Penalties: Existence: 5, Extension: 5
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.6
+           1,250 sequences; 578,303 total letters
+
+
+
+Query= NW_015504249.1 masked CHUNK number:29 size:100000 offset:2900000
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  TRINITY_DN1217_c1_g1_i11 len=307 path=[0:0-68 4:69-100 6:101-14...  90.4    3e-19
+
+
+> TRINITY_DN1217_c1_g1_i11 len=307 path=[0:0-68 4:69-100 6:101-148 
+7:149-156 8:157-178 9:179-192 12:193-217 13:218-226 14:227-306]
+Length=307
+
+ Score = 90.4 bits (45),  Expect = 3e-19
+ Identities = 50/51 (98%), Gaps = 0/51 (0%)
+ Strand=Plus/Minus
+
+Query  41823  TTTTAAAACATGCAGTACCTGACTATTTAGTCAGGGGCACTGGCCTCTTTT  41873
+              |||||||||||||||||||||||||||||||||||||||||| ||||||||
+Sbjct  299    TTTTAAAACATGCAGTACCTGACTATTTAGTCAGGGGCACTGACCTCTTTT  249
+
+
+
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Gapped
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.6
+    Posted date:  Aug 12, 2019  6:17 PM
+  Number of letters in database: 578,303
+  Number of sequences in database:  1,250
+
+
+
+Matrix: blastn matrix 1 -5
+Gap Penalties: Existence: 5, Extension: 5
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.7
+           1,250 sequences; 533,893 total letters
+
+
+
+Query= NW_015504249.1 masked CHUNK number:29 size:100000 offset:2900000
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  TRINITY_DN1217_c1_g1_i10 len=212 path=[3:0-53 13:54-62 14:63-14...  90.4    3e-19
+
+
+> TRINITY_DN1217_c1_g1_i10 len=212 path=[3:0-53 13:54-62 14:63-142 
+16:143-211]
+Length=212
+
+ Score = 90.4 bits (45),  Expect = 3e-19
+ Identities = 50/51 (98%), Gaps = 0/51 (0%)
+ Strand=Plus/Minus
+
+Query  41823  TTTTAAAACATGCAGTACCTGACTATTTAGTCAGGGGCACTGGCCTCTTTT  41873
+              |||||||||||||||||||||||||||||||||||||||||| ||||||||
+Sbjct  135    TTTTAAAACATGCAGTACCTGACTATTTAGTCAGGGGCACTGACCTCTTTT  85
+
+
+
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Gapped
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.7
+    Posted date:  Aug 12, 2019  6:17 PM
+  Number of letters in database: 533,893
+  Number of sequences in database:  1,250
+
+
+
+Matrix: blastn matrix 1 -5
+Gap Penalties: Existence: 5, Extension: 5
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.8
+           1,250 sequences; 548,659 total letters
+
+
+
+Query= NW_015504249.1 masked CHUNK number:29 size:100000 offset:2900000
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  TRINITY_DN1548_c0_g1_i1 len=216 path=[0:0-215]                      82.4    8e-17
+
+
+> TRINITY_DN1548_c0_g1_i1 len=216 path=[0:0-215]
+Length=216
+
+ Score = 82.4 bits (41),  Expect = 8e-17
+ Identities = 61/65 (94%), Gaps = 0/65 (0%)
+ Strand=Plus/Plus
+
+Query  41990  ttttttGGTGTGCCACAGAATTTTAGCGATTGGTTTATGTGTGCCATGAGATGGAAAAGG  42049
+              ||||||||||||| ||||||||||||  ||| ||||||||||||||||||||||||||||
+Sbjct  90     TTTTTTGGTGTGCTACAGAATTTTAGTAATTAGTTTATGTGTGCCATGAGATGGAAAAGG  149
+
+Query  42050  TTGAA  42054
+              |||||
+Sbjct  150    TTGAA  154
+
+
+
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Gapped
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.8
+    Posted date:  Aug 12, 2019  6:17 PM
+  Number of letters in database: 548,659
+  Number of sequences in database:  1,250
+
+
+
+Matrix: blastn matrix 1 -5
+Gap Penalties: Existence: 5, Extension: 5
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.9
+           1,250 sequences; 525,601 total letters
+
+
+
+Query= NW_015504249.1 masked CHUNK number:29 size:100000 offset:2900000
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  TRINITY_DN3770_c0_g1_i1 len=470 path=[0:0-469]                      650     0.0  
+
+
+> TRINITY_DN3770_c0_g1_i1 len=470 path=[0:0-469]
+Length=470
+
+ Score = 650 bits (325),  Expect = 0.0
+ Identities = 340/343 (99%), Gaps = 0/343 (0%)
+ Strand=Plus/Minus
+
+Query  69145  AAAAGCGTGGTACTCTGTTTTGATGAGTTTCCCACTGTAGGGCTCTGTGACAAGTTTTAC  69204
+              |||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  470    AAAAGCGTCGTACTCTGTTTTGATGAGTTTCCCACTGTAGGGCTCTGTGACAAGTTTTAC  411
+
+Query  69205  GGCACTCTGGCTGGGCAGGTTCTGTGTTTGGTATTGTGAATTCTGAATGTGAATTCACTG  69264
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  410    GGCACTCTGGCTGGGCAGGTTCTGTGTTTGGTATTGTGAATTCTGAATGTGAATTCACTG  351
+
+Query  69265  TTTCCGCATGAGCAGCCACATCACCTTGGACAGCTCAATATAGTGAGAGGCCAGGAGTGG  69324
+              |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  350    TTTCCGTATGAGCAGCCACATCACCTTGGACAGCTCAATATAGTGAGAGGCCAGGAGTGG  291
+
+Query  69325  GGCCCAGGCAGAGCCACACCAGCCCTGGGAGGGGCAGCACCTCTCCCTGGCTGTGCCTGT  69384
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  290    GGCCCAGGCAGAGCCACACCAGCCCTGGGAGGGGCAGCACCTCTCCCTGGCTGTGCCTGT  231
+
+Query  69385  CCCCAAAACTCTCATCTAAGGTCCATGGATTCCACCAGGCCCCATCCTCAGAGAGAGTAA  69444
+              |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||
+Sbjct  230    CCCCAAAACTCTCATCTAAGGTCCGTGGATTCCACCAGGCCCCATCCTCAGAGAGAGTAA  171
+
+Query  69445  GTCACTGTTCCCAGGGCTACCCATCCAGTAAGAGGTGGAGCTG  69487
+              |||||||||||||||||||||||||||||||||||||||||||
+Sbjct  170    GTCACTGTTCCCAGGGCTACCCATCCAGTAAGAGGTGGAGCTG  128
+
+
+
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Gapped
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.9
+    Posted date:  Aug 12, 2019  6:17 PM
+  Number of letters in database: 525,601
+  Number of sequences in database:  1,250
+
+
+
+Matrix: blastn matrix 1 -5
+Gap Penalties: Existence: 5, Extension: 5

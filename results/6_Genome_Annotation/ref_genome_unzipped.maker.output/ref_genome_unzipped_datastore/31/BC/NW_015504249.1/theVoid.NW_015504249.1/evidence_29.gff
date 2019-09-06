@@ -1,0 +1,9 @@
+##gff-version 3
+NW_015504249.1	blastn	expressed_sequence_match	2890460	2890673	214	+	.	ID=NW_015504249.1:hit:8035:3.2.0.29;Name=TRINITY_DN4301_c0_g1_i1;target_length=214
+NW_015504249.1	blastn	match_part	2890460	2890673	214	+	.	ID=NW_015504249.1:hsp:10383:3.2.0.29;Parent=NW_015504249.1:hit:8035:3.2.0.29;Target=TRINITY_DN4301_c0_g1_i1 1 214 +;Gap=M214
+NW_015504249.1	blastn	expressed_sequence_match	2969145	2969487	325	-	.	ID=NW_015504249.1:hit:8036:3.2.0.29;Name=TRINITY_DN3770_c0_g1_i1;target_length=470
+NW_015504249.1	blastn	match_part	2969145	2969487	325	-	.	ID=NW_015504249.1:hsp:10384:3.2.0.29;Parent=NW_015504249.1:hit:8036:3.2.0.29;Target=TRINITY_DN3770_c0_g1_i1 128 470 +;Gap=M343
+NW_015504249.1	est2genome	expressed_sequence_match	2890460	2890673	1070	-	.	ID=NW_015504249.1:hit:8037:3.2.0.29;Name=TRINITY_DN4301_c0_g1_i1;target_length=214;aligned_coverage=100;aligned_identity=100
+NW_015504249.1	est2genome	match_part	2890460	2890673	1070	-	.	ID=NW_015504249.1:hsp:10385:3.2.0.29;Parent=NW_015504249.1:hit:8037:3.2.0.29;Target=TRINITY_DN4301_c0_g1_i1 1 214 -;Gap=M214
+NW_015504249.1	est2genome	expressed_sequence_match	2969145	2969614	2323	+	.	ID=NW_015504249.1:hit:8038:3.2.0.29;Name=TRINITY_DN3770_c0_g1_i1;target_length=470;aligned_coverage=100;aligned_identity=99.4
+NW_015504249.1	est2genome	match_part	2969145	2969614	2323	+	.	ID=NW_015504249.1:hsp:10386:3.2.0.29;Parent=NW_015504249.1:hit:8038:3.2.0.29;Target=TRINITY_DN3770_c0_g1_i1 1 470 -;Gap=M470

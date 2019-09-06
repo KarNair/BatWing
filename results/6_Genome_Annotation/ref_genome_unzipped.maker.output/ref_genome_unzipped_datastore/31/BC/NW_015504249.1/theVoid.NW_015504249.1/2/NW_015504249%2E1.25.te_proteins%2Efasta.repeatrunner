@@ -1,0 +1,506 @@
+BLASTX 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.0
+           2,492 sequences; 955,337 total letters
+
+
+
+Query= NW_015504249.1 CHUNK number:25 size:100000 offset:2500000
+
+Length=100000
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.0
+    Posted date:  Aug 12, 2019  5:41 PM
+  Number of letters in database: 955,337
+  Number of sequences in database:  2,492
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 12
+Window for multiple hits: 40
+BLASTX 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.1
+           2,492 sequences; 938,183 total letters
+
+
+
+Query= NW_015504249.1 CHUNK number:25 size:100000 offset:2500000
+
+Length=100000
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.1
+    Posted date:  Aug 12, 2019  5:41 PM
+  Number of letters in database: 938,183
+  Number of sequences in database:  2,492
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 12
+Window for multiple hits: 40
+BLASTX 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.2
+           2,492 sequences; 928,486 total letters
+
+
+
+Query= NW_015504249.1 CHUNK number:25 size:100000 offset:2500000
+
+Length=100000
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.2
+    Posted date:  Aug 12, 2019  5:41 PM
+  Number of letters in database: 928,486
+  Number of sequences in database:  2,492
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 12
+Window for multiple hits: 40
+BLASTX 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.3
+           2,492 sequences; 927,510 total letters
+
+
+
+Query= NW_015504249.1 CHUNK number:25 size:100000 offset:2500000
+
+Length=100000
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.3
+    Posted date:  Aug 12, 2019  5:41 PM
+  Number of letters in database: 927,510
+  Number of sequences in database:  2,492
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 12
+Window for multiple hits: 40
+BLASTX 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.4
+           2,492 sequences; 955,523 total letters
+
+
+
+Query= NW_015504249.1 CHUNK number:25 size:100000 offset:2500000
+
+Length=100000
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.4
+    Posted date:  Aug 12, 2019  5:41 PM
+  Number of letters in database: 955,523
+  Number of sequences in database:  2,492
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 12
+Window for multiple hits: 40
+BLASTX 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.5
+           2,492 sequences; 970,608 total letters
+
+
+
+Query= NW_015504249.1 CHUNK number:25 size:100000 offset:2500000
+
+Length=100000
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.5
+    Posted date:  Aug 12, 2019  5:41 PM
+  Number of letters in database: 970,608
+  Number of sequences in database:  2,492
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 12
+Window for multiple hits: 40
+BLASTX 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.6
+           2,491 sequences; 932,478 total letters
+
+
+
+Query= NW_015504249.1 CHUNK number:25 size:100000 offset:2500000
+
+Length=100000
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.6
+    Posted date:  Aug 12, 2019  5:41 PM
+  Number of letters in database: 932,478
+  Number of sequences in database:  2,491
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 12
+Window for multiple hits: 40
+BLASTX 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.7
+           2,491 sequences; 960,329 total letters
+
+
+
+Query= NW_015504249.1 CHUNK number:25 size:100000 offset:2500000
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|25029993|ref|XP_207290.1| similar to Pro-Pol-dUTPase polypro...  50.1    6e-15
+
+
+> gi|25029993|ref|XP_207290.1| similar to Pro-Pol-dUTPase polyprotein; 
+RNaseH; dUTPase; integrase; protease; reverse transcriptase 
+[Mus musculus]
+Length=1738
+
+ Score = 50.1 bits (118),  Expect(2) = 6e-15, Method: Compositional matrix adjust.
+ Identities = 44/157 (28%), Positives = 69/157 (44%), Gaps = 28/157 (18%)
+ Frame = -1
+
+Query  49486  PMVltpttlprlppptPMSHRELP---ISNKERRENLVYPCFAQHAETSQKNWDKVLQFH  49316
+              PMV TP T+P      P++   +P   ++ +E+         A++A T+QK     LQ  
+Sbjct  1048   PMVSTPVTMPSAAKHVPIASWGVPYDRLTEEEKTRAWFTDGSARYAGTTQKWTAAALQPL  1107
+
+Query  49315  SGVTRRDSVEGKSSGRQEMHAVVPITWKE---KAPDKPTLTCSLTIRLKHW*QRQS*GKA  49145
+              SG T +D+  G +            TWK+   K  +K     S+ I L  W +       
+Sbjct  1108   SGTTLKDTANGLAGWSG--------TWKDHNWKIGEKDIWGRSMWIDLSKWAKD------  1153
+
+Query  49144  SQREFRACVKIPTSHRYSHQRAITAQKALNNQINKTT  49034
+                      VKI  SH  +HQ+  +A++  NNQ++K T
+Sbjct  1154   --------VKIFVSHVNAHQKVTSAEEEFNNQVDKMT  1182
+
+
+ Score = 46.2 bits (108),  Expect(2) = 6e-15, Method: Compositional matrix adjust.
+ Identities = 34/88 (39%), Positives = 45/88 (51%), Gaps = 17/88 (19%)
+ Frame = -2
+
+Query  49707  APFVKQLLA---ALNRGKD*TPDHGTPSDYMTKP--PTMN*MLDDRMEHEIGSTQQNSIV  49543
+              +PF KQLLA   AL   +  T  H        +P  P M+ +L D   H++G  QQ SI+
+Sbjct  965    SPFEKQLLACYWALVETERLTIGH----QVTMRPELPIMSWVLSDPASHKVGRAQQQSII  1020
+
+Query  49542  KCKWYV*DQVRTG--------EEVARTP  49483
+              K KWY+ D+ R G        EEVA+ P
+Sbjct  1021   KWKWYIRDRARAGPEGTSKLHEEVAQMP  1048
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.7
+    Posted date:  Aug 12, 2019  5:41 PM
+  Number of letters in database: 960,329
+  Number of sequences in database:  2,491
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 12
+Window for multiple hits: 40
+BLASTX 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.8
+           2,491 sequences; 937,408 total letters
+
+
+
+Query= NW_015504249.1 CHUNK number:25 size:100000 offset:2500000
+
+Length=100000
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.8
+    Posted date:  Aug 12, 2019  5:41 PM
+  Number of letters in database: 937,408
+  Number of sequences in database:  2,491
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 12
+Window for multiple hits: 40
+BLASTX 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.9
+           2,491 sequences; 961,645 total letters
+
+
+
+Query= NW_015504249.1 CHUNK number:25 size:100000 offset:2500000
+
+Length=100000
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.9
+    Posted date:  Aug 12, 2019  5:41 PM
+  Number of letters in database: 961,645
+  Number of sequences in database:  2,491
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 12
+Window for multiple hits: 40

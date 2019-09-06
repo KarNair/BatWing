@@ -1,0 +1,1217 @@
+BLASTX 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.0
+           2,492 sequences; 955,337 total letters
+
+
+
+Query= NW_015504249.1 CHUNK number:0 size:100000 offset:0
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|2144419|pir||TVFVMI gag-Rmil-env polyprotein - avian retrovi...  102     1e-22
+  gi|323873|gb|AAA43041.1| gag polyprotein                            99.8    5e-22
+  gi|209659|gb|AAA42392.1| ARV polyprotein                            77.4    3e-15
+
+
+> gi|2144419|pir||TVFVMI gag-Rmil-env polyprotein - avian retrovirus 
+IC10 Alias=gi|61593|emb|CAA32008.1| gag-Rmil-env polypeptide 
+(1079 AA) [Avian retrovirus IC10]
+Length=1079
+
+ Score = 102 bits (253),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 70/259 (27%), Positives = 125/259 (48%), Gaps = 35/259 (14%)
+ Frame = -3
+
+Query  79928  IGRGSFAEV-RLAWHVPTATEVAVKIVATKG------HSYFKEVRCLKNLNHPNIVRLYE  79770
+              IG GSF  V +  WH     +VAVK++           ++  EV  L+   H NI+ L+ 
+Sbjct  718    IGSGSFGTVYKGKWH----GDVAVKMLNVTAPTPQQLQAFKNEVGVLRKTRHVNIL-LFM  772
+
+Query  79769  VITTEHRAYLFleylgggellryleerGPVCEKGAQAL-----FRQLLSAVEYCHRKGIV  79605
+                +T+ +  +  ++  G  L  +L     + E   + +      RQ    ++Y H K I+
+Sbjct  773    GYSTKPQLAIVTQWCEGSSLYHHLH----IIETKFEMIKLIDIARQTAQGMDYLHAKSII  828
+
+Query  79604  HLDLKPDNILIDEDLNIKVSDFGF----SEQYSEAKLTTFCGTVPYMAPEILKLQ---PY  79446
+              H DLK +NI + EDL +K+ DFG     S      +     G++ +MAPE++++Q   PY
+Sbjct  829    HRDLKSNNIFLHEDLTVKIGDFGLATVKSRWSGSHQFEQLSGSILWMAPEVIRMQDKNPY  888
+
+Query  79445  EGPKADVWSMGVILYRILTGELPFVGKSFEEQKRNIISGVFFVPSFLSPES------KTL  79284
+                 ++DV++ G++LY ++TG+LP+   +  +Q   ++   +  P      S      K L
+Sbjct  889    SF-QSDVYAFGIVLYELMTGQLPYSNINNRDQIIFMVGRGYLSPDLSKVRSNCPKAMKRL  947
+
+Query  79283  LGKLLTLEPSQRPTLAQVM  79227
+              + + L  +  +RP   Q++
+Sbjct  948    MAECLKKKRDERPLFPQIL  966
+
+
+ Score = 90.5 bits (223),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 70/280 (25%), Positives = 128/280 (46%), Gaps = 49/280 (18%)
+ Frame = -1
+
+Query  3070  DEEHRIGDYIVLGVIGMGSFAEV-RLAWHVRTATEVAVKIVDTKG------HSFISEVRC  2912
+             D E   G   V   IG GSF  V +  WH     +VAVK+++          +F +EV  
+Sbjct  704   DWEIPDGQITVGQRIGSGSFGTVYKGKWH----GDVAVKMLNVTAPTPQQLQAFKNEVGV  759
+
+Query  2911  LNNLNHPIIIRVFEVITIEHKAYMFLEYVSAGELLNYLEERGPVCEKGAQAL-----FRR  2747
+             L    H + I +F   + + +  +  ++     L ++L     + E   + +      R+
+Sbjct  760   LRKTRH-VNILLFMGYSTKPQLAIVTQWCEGSSLYHHLH----IIETKFEMIKLIDIARQ  814
+
+Query  2746  LLSAVEYCHRKGIVHRDLKPENILLDREMNIKLTNFGF----SEQYSEANLTTFCGTVPY  2579
+                 ++Y H K I+HRDLK  NI L  ++ +K+ +FG     S            G++ +
+Sbjct  815   TAQGMDYLHAKSIIHRDLKSNNIFLHEDLTVKIGDFGLATVKSRWSGSHQFEQLSGSILW  874
+
+Query  2578  MAPEILKLQ---PYEGPKADVWSMGVILYRILTGELPFVGKSFEEQKRNIISGVLFFA--  2414
+             MAPE++++Q   PY   ++DV++ G++LY ++TG+LP+   +  +Q       ++F    
+Sbjct  875   MAPEVIRMQDKNPYSF-QSDVYAFGIVLYELMTGQLPYSNINNRDQ-------IIFMVGR  926
+
+Query  2413  SFLSPE-----------SKNFLEKLLTLEPSQRPTLAQVM  2327
+              +LSP+            K  + + L  +  +RP   Q++
+Sbjct  927   GYLSPDLSKVRSNCPKAMKRLMAECLKKKRDERPLFPQIL  966
+
+
+> gi|323873|gb|AAA43041.1| gag polyprotein
+Length=957
+
+ Score = 99.8 bits (247),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 76/261 (29%), Positives = 120/261 (46%), Gaps = 25/261 (10%)
+ Frame = -3
+
+Query  79949  DYIMLGVIGRGSFAEVRLAWHVPTATEVAVK-----IVATKGHSYFKEVRCLKNLNHPNI  79785
+              D ++   IGRG+F EV         T VAVK     +       + +E + LK  +HPNI
+Sbjct  695    DLVLGEQIGRGNFGEVFSGRLRADNTLVAVKSCRETLPPDIKAKFLQEAKILKQYSHPNI  754
+
+Query  79784  VRLYEVITTEHRAYLFleylgggellryleerGPVCEKGAQALFRQLLSAV-------EY  79626
+              VRL  V T +   Y+ +E + GG+ L +L        +GA+   + LL  V       EY
+Sbjct  755    VRLIGVCTQKQPIYIVMELVQGGDFLTFLR------TEGARLRMKTLLQMVGDAAAGMEY  808
+
+Query  79625  CHRKGIVHLDLKPDNILIDEDLNIKVSDFGFSEQYSEAKLTTFCGT----VPYMAPEILK  79458
+                 K  +H DL   N L+ E   +K+SDFG S + ++       G     V + APE L 
+Sbjct  809    LESKCCIHRDLAARNCLVTEKNVLKISDFGMSREAADGIYAASGGLRQVPVKWTAPEALN  868
+
+Query  79457  LQPYEGPKADVWSMGVILYRILT-GELPFVGKSFEEQKRNIISGVFFVPSFLSPESK-TL  79284
+                 Y   ++DVWS G++L+   + G  P+   S ++ +  +  G       L P++   L
+Sbjct  869    YGRYSS-ESDVWSFGILLWETFSLGASPYPNLSNQQTREFVEKGGRLPCPELCPDAVFRL  927
+
+Query  79283  LGKLLTLEPSQRPTLAQVMDD  79221
+              + +    EP QRP+ + +  +
+Sbjct  928    MEQCWAYEPGQRPSFSAIYQE  948
+
+
+ Score = 94.4 bits (233),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 74/261 (28%), Positives = 119/261 (46%), Gaps = 28/261 (11%)
+ Frame = -1
+
+Query  3043  IVLG-VIGMGSFAEVRLAWHVRTATEVAVKIV------DTKGHSFISEVRCLNNLNHPII  2885
+             +VLG  IG G+F EV         T VAVK        D K   F+ E + L   +HP I
+Sbjct  696   LVLGEQIGRGNFGEVFSGRLRADNTLVAVKSCRETLPPDIKA-KFLQEAKILKQYSHPNI  754
+
+Query  2884  IRVFEVITIEHKAYMFLEYVSAGELLNYLEERGPVCEKGAQALFRRLLSAV-------EY  2726
+             +R+  V T +   Y+ +E V  G+ L +L        +GA+   + LL  V       EY
+Sbjct  755   VRLIGVCTQKQPIYIVMELVQGGDFLTFLR------TEGARLRMKTLLQMVGDAAAGMEY  808
+
+Query  2725  CHRKGIVHRDLKPENILLDREMNIKLTNFGFSEQYSEANLTTFCGT----VPYMAPEILK  2558
+                K  +HRDL   N L+  +  +K+++FG S + ++       G     V + APE L 
+Sbjct  809   LESKCCIHRDLAARNCLVTEKNVLKISDFGMSREAADGIYAASGGLRQVPVKWTAPEALN  868
+
+Query  2557  LQPYEGPKADVWSMGVILYRILT-GELPFVGKSFEEQKRNIISGVLFFASFLSPESK-NF  2384
+                Y   ++DVWS G++L+   + G  P+   S ++ +  +  G       L P++    
+Sbjct  869   YGRYSS-ESDVWSFGILLWETFSLGASPYPNLSNQQTREFVEKGGRLPCPELCPDAVFRL  927
+
+Query  2383  LEKLLTLEPSQRPTLAQVMDD  2321
+             +E+    EP QRP+ + +  +
+Sbjct  928   MEQCWAYEPGQRPSFSAIYQE  948
+
+
+> gi|209659|gb|AAA42392.1| ARV polyprotein
+Length=596
+
+ Score = 77.4 bits (189),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 79/292 (27%), Positives = 129/292 (44%), Gaps = 46/292 (16%)
+ Frame = -3
+
+Query  79931  VIGRGSFAEVRLAWHV-PTATEVAVKIVATKGHSYFKEVR-------CLKNLNHPNIVRL  79776
+              VIGRG F  V    ++ P    +   + +    +Y +EV         +K  +HP ++ L
+Sbjct  291    VIGRGHFGSVYHGTYMDPLLGNLHCAVKSLHRITYLEEVEEFLREGILMKGFHHPQVLSL  350
+
+Query  79775  YEVITTEHRA-YLFleylgggellryl--eerGPVCEKGAQALFRQLLSAVEYCHRKGIV  79605
+                V    H    + L Y+  G+L  ++  +ER P   K       Q+   +EY  +K  V
+Sbjct  351    LGVCLPRHGLPLVVLPYMRHGDLRHFVRAQERSPTV-KELIGFGLQVALGMEYLAQKKFV  409
+
+Query  79604  HLDLKPDNILIDEDLNIKVSDFGFS-----------EQYSEAKLTTFCGTVPYMAPEILK  79458
+              H DL   N ++DE L +KV+DFG +            Q+  AKL      V +MA E L+
+Sbjct  410    HRDLAARNCMLDETLTVKVADFGLARDVFGKEYYSIRQHRHAKL-----PVRWMALESLQ  464
+
+Query  79457  LQPYEGPKADVWSMGVILYRILT-GELPFVGKSFEEQKRNIISGVFFVPSFLSPESKTLL  79281
+               Q +   K+DVWS GV+++ +LT G  P+      +  R ++ G         P   TL 
+Sbjct  465    TQKFT-TKSDVWSFGVLMWELLTRGASPYPEVDPYDMARYLLRGRRLPQP--QPCPDTLY  521
+
+Query  79280  GKLLTL---EPSQRPT-----------LAQVMDDYWVNVGEEELRPYSEPPW  79167
+              G +L+     P +RP+           LA +  ++++N+    +   S PP+
+Sbjct  522    GVMLSCWAPTPEERPSFSGLVCELERVLASLEGEHYINMAVTYVNLESGPPF  573
+
+
+ Score = 64.7 bits (156),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 49/167 (29%), Positives = 81/167 (49%), Gaps = 20/167 (12%)
+ Frame = -1
+
+Query  2932  FISEVRCLNNLNHPIIIRVFEVITIEHKA-YMFLEYVSAGELLNYL--EERGPVCEK---  2771
+             F+ E   +   +HP ++ +  V    H    + L Y+  G+L +++  +ER P  ++   
+Sbjct  332   FLREGILMKGFHHPQVLSLLGVCLPRHGLPLVVLPYMRHGDLRHFVRAQERSPTVKELIG  391
+
+Query  2770  -GAQALFRRLLSAVEYCHRKGIVHRDLKPENILLDREMNIKLTNFGFS------EQYSEA  2612
+              G Q         +EY  +K  VHRDL   N +LD  + +K+ +FG +      E YS  
+Sbjct  392   FGLQVAL-----GMEYLAQKKFVHRDLAARNCMLDETLTVKVADFGLARDVFGKEYYSIR  446
+
+Query  2611  NLTTFCGTVPYMAPEILKLQPYEGPKADVWSMGVILYRILT-GELPF  2474
+                     V +MA E L+ Q +   K+DVWS GV+++ +LT G  P+
+Sbjct  447   QHRHAKLPVRWMALESLQTQKFT-TKSDVWSFGVLMWELLTRGASPY  492
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.0
+    Posted date:  Aug 12, 2019  5:41 PM
+  Number of letters in database: 955,337
+  Number of sequences in database:  2,492
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 12
+Window for multiple hits: 40
+BLASTX 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.1
+           2,492 sequences; 938,183 total letters
+
+
+
+Query= NW_015504249.1 CHUNK number:0 size:100000 offset:0
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|538540|pir||A40831 gag-akt polyprotein - AKT8 murine leukemi...  139     5e-34
+
+
+> gi|538540|pir||A40831 gag-akt polyprotein - AKT8 murine leukemia 
+virus Alias=gi|210068|gb|AAA42545.1| gag:akt fusion protein
+Length=763
+
+ Score = 139 bits (351),  Expect = 5e-34, Method: Compositional matrix adjust.
+ Identities = 82/247 (33%), Positives = 132/247 (53%), Gaps = 13/247 (5%)
+ Frame = -3
+
+Query  79955  IGDYIMLGVIGRGSFAEVRLAWHVPTATEVAVKIVATK--------GHSYFKEVRCLKNL  79800
+              + ++  L ++G+G+F +V L     T    A+KI+  +         H+   E R L+N 
+Sbjct  430    MNEFEYLKLLGKGTFGKVILVKEKATGRYYAMKILKKEVIVAKDEVAHT-LTENRVLQNS  488
+
+Query  79799  NHPNIVRLYEVITTEHRAYLFleylgggellryleerGPVCEKGAQALFRQLLSAVEYCH  79620
+               HP +  L     T  R    +EY  GGEL  +L       E  A+    +++SA++Y H
+Sbjct  489    RHPFLTALKYSFQTHDRLCFVMEYANGGELFFHLSRERVFSEDRARFYGAEIVSALDYLH  548
+
+Query  79619  -RKGIVHLDLKPDNILIDEDLNIKVSDFGFSEQ--YSEAKLTTFCGTVPYMAPEILKLQP  79449
+                K +V+ DLK +N+++D+D +IK++DFG  ++     A + TFCGT  Y+APE+L+   
+Sbjct  549    SEKNVVYRDLKLENLMLDKDGHIKITDFGLCKEGIKDGATMKTFCGTPEYLAPEVLEDND  608
+
+Query  79448  YEGPKADVWSMGVILYRILTGELPFVGKSFEEQKRNIISGVFFVPSFLSPESKTLLGKLL  79269
+              Y G   D W +GV++Y ++ G LPF  +  E+    I+      P  L PE+K+LL  LL
+Sbjct  609    Y-GRAVDWWGLGVVMYEMMCGRLPFYNQDHEKLFELILMEEIRFPRTLGPEAKSLLSGLL  667
+
+Query  79268  TLEPSQR  79248
+                +P+QR
+Sbjct  668    KKDPTQR  674
+
+
+ Score = 139 bits (349),  Expect = 9e-34, Method: Compositional matrix adjust.
+ Identities = 84/263 (32%), Positives = 139/263 (53%), Gaps = 15/263 (6%)
+ Frame = -1
+
+Query  3097  CDEIAETPADEEHRI--GDYIVLGVIGMGSFAEVRLAWHVRTATEVAVKIV--------D  2948
+              +E+  + A  +HR+   ++  L ++G G+F +V L     T    A+KI+        D
+Sbjct  414   AEEMEVSLAKPKHRVTMNEFEYLKLLGKGTFGKVILVKEKATGRYYAMKILKKEVIVAKD  473
+
+Query  2947  TKGHSFISEVRCLNNLNHPIIIRVFEVITIEHKAYMFLEYVSAGELLNYLEERGPVCEKG  2768
+                H+ ++E R L N  HP +  +        +    +EY + GEL  +L       E  
+Sbjct  474   EVAHT-LTENRVLQNSRHPFLTALKYSFQTHDRLCFVMEYANGGELFFHLSRERVFSEDR  532
+
+Query  2767  AQALFRRLLSAVEYCH-RKGIVHRDLKPENILLDREMNIKLTNFGFSEQ--YSEANLTTF  2597
+             A+     ++SA++Y H  K +V+RDLK EN++LD++ +IK+T+FG  ++     A + TF
+Sbjct  533   ARFYGAEIVSALDYLHSEKNVVYRDLKLENLMLDKDGHIKITDFGLCKEGIKDGATMKTF  592
+
+Query  2596  CGTVPYMAPEILKLQPYEGPKADVWSMGVILYRILTGELPFVGKSFEEQKRNIISGVLFF  2417
+             CGT  Y+APE+L+   Y G   D W +GV++Y ++ G LPF  +  E+    I+   + F
+Sbjct  593   CGTPEYLAPEVLEDNDY-GRAVDWWGLGVVMYEMMCGRLPFYNQDHEKLFELILMEEIRF  651
+
+Query  2416  ASFLSPESKNFLEKLLTLEPSQR  2348
+                L PE+K+ L  LL  +P+QR
+Sbjct  652   PRTLGPEAKSLLSGLLKKDPTQR  674
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.1
+    Posted date:  Aug 12, 2019  5:41 PM
+  Number of letters in database: 938,183
+  Number of sequences in database:  2,492
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 12
+Window for multiple hits: 40
+BLASTX 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.2
+           2,492 sequences; 928,486 total letters
+
+
+
+Query= NW_015504249.1 CHUNK number:0 size:100000 offset:0
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|1070475|pir||TVFVSA env-sea polyprotein - avian erythroblast...  75.1    2e-14
+
+
+> gi|1070475|pir||TVFVSA env-sea polyprotein - avian erythroblastosis 
+virus (strain S13) (fragment)
+Length=596
+
+ Score = 75.1 bits (183),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 79/292 (27%), Positives = 129/292 (44%), Gaps = 46/292 (16%)
+ Frame = -3
+
+Query  79931  VIGRGSFAEVR-------LAWHVPTATEVAVKIVATKG-HSYFKEVRCLKNLNHPNIVRL  79776
+              VIGRG F  V        L  ++  A +   +I   +    + +E   +K  +HP ++ L
+Sbjct  291    VIGRGHFGSVYHGTYMDPLLGNLHCAVKSLHRITDLEEVEEFLREGILMKGFHHPQVLSL  350
+
+Query  79775  YEVITTEHRA-YLFleylgggellryl--eerGPVCEKGAQALFRQLLSAVEYCHRKGIV  79605
+                V    H    + L Y+  G+L  ++  +ER P   K       Q+   +EY  +K  V
+Sbjct  351    LGVCLPRHGLPLVVLPYMRHGDLRHFVRAQERSPTV-KELIGFGLQVALGMEYLAQKKFV  409
+
+Query  79604  HLDLKPDNILIDEDLNIKVSDFGFS-----------EQYSEAKLTTFCGTVPYMAPEILK  79458
+              H DL   N ++DE L +KV+DFG +            Q+  AKL      V +MA E L+
+Sbjct  410    HRDLAARNCMLDETLTVKVADFGLARDVFGKEYYSIRQHRHAKL-----PVRWMALESLQ  464
+
+Query  79457  LQPYEGPKADVWSMGVILYRILT-GELPFVGKSFEEQKRNIISGVFFVPSFLSPESKTLL  79281
+               Q +   K+DVWS GV+++ +LT G  P+      +  R ++ G         P   TL 
+Sbjct  465    TQKFT-TKSDVWSFGVLMWELLTRGASPYPEVDPYDMARYLLRGRRLPQP--QPCPDTLY  521
+
+Query  79280  GKLLTL---EPSQRPT-----------LAQVMDDYWVNVGEEELRPYSEPPW  79167
+              G +L+     P +RP+           LA +  ++++N+    +   S PP+
+Sbjct  522    GVMLSCWAPTPEERPSFSGLVCELERVLASLEGEHYINMAVTYVNLESGPPF  573
+
+
+ Score = 67.8 bits (164),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 59/208 (28%), Positives = 96/208 (46%), Gaps = 28/208 (13%)
+ Frame = -1
+
+Query  3031  VIGMGSFAEVR-------LAWHVRTATEVAVKIVDTKG-HSFISEVRCLNNLNHPIIIRV  2876
+             VIG G F  V        L  ++  A +   +I D +    F+ E   +   +HP ++ +
+Sbjct  291   VIGRGHFGSVYHGTYMDPLLGNLHCAVKSLHRITDLEEVEEFLREGILMKGFHHPQVLSL  350
+
+Query  2875  FEVITIEHKA-YMFLEYVSAGELLNYL--EERGPVCEK----GAQALFRRLLSAVEYCHR  2717
+               V    H    + L Y+  G+L +++  +ER P  ++    G Q         +EY  +
+Sbjct  351   LGVCLPRHGLPLVVLPYMRHGDLRHFVRAQERSPTVKELIGFGLQVAL-----GMEYLAQ  405
+
+Query  2716  KGIVHRDLKPENILLDREMNIKLTNFGFS------EQYSEANLTTFCGTVPYMAPEILKL  2555
+             K  VHRDL   N +LD  + +K+ +FG +      E YS          V +MA E L+ 
+Sbjct  406   KKFVHRDLAARNCMLDETLTVKVADFGLARDVFGKEYYSIRQHRHAKLPVRWMALESLQT  465
+
+Query  2554  QPYEGPKADVWSMGVILYRILT-GELPF  2474
+             Q +   K+DVWS GV+++ +LT G  P+
+Sbjct  466   QKFT-TKSDVWSFGVLMWELLTRGASPY  492
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.2
+    Posted date:  Aug 12, 2019  5:41 PM
+  Number of letters in database: 928,486
+  Number of sequences in database:  2,492
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 12
+Window for multiple hits: 40
+BLASTX 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.3
+           2,492 sequences; 927,510 total letters
+
+
+
+Query= NW_015504249.1 CHUNK number:0 size:100000 offset:0
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|209722|gb|AAA42415.1| gag-fps polyprotein                        119     8e-28
+
+
+> gi|209722|gb|AAA42415.1| gag-fps polyprotein
+Length=634
+
+ Score = 119 bits (297),  Expect = 8e-28, Method: Compositional matrix adjust.
+ Identities = 80/255 (31%), Positives = 119/255 (47%), Gaps = 13/255 (5%)
+ Frame = -3
+
+Query  79949  DYIMLGVIGRGSFAEVRLAWHVPTATEVAVKIVATK-----GHSYFKEVRCLKNLNHPNI  79785
+              D ++   IGRG+F EV         T VAVK             + +E R LK  NHPNI
+Sbjct  372    DVLLGERIGRGNFGEVFSGRLRADNTPVAVKSCRETLPPELKAKFLQEARILKQYNHPNI  431
+
+Query  79784  VRLYEVITTEHRAYLFleylgggellryleerGPVCE-KGAQALFRQLLSAVEYCHRKGI  79608
+              VRL  V T +   Y+ +E + GG+ L +L  +GP  + K    +     + +EY   K  
+Sbjct  432    VRLIGVCTQKQPIYIVMELVQGGDFLSFLRSKGPHLKMKELIKMMENAAAGMEYLESKHC  491
+
+Query  79607  VHLDLKPDNILIDEDLNIKVSDFGFSEQYSEAKLTTFCGT----VPYMAPEILKLQPYEG  79440
+              +H DL   N L+ E   +K+SDFG S Q  +    +  G     V + APE L    Y  
+Sbjct  492    IHRDLAARNCLVTEKNTLKISDFGMSRQEEDGVYASTGGMKQIPVKWTAPEALNYGRYSS  551
+
+Query  79439  PKADVWSMGVILYRILT-GELPFVGKSFEEQKRNIISGVFFVPSFLSPES-KTLLGKLLT  79266
+               ++DVWS G++L+   + G +P+   S ++ +  I  GV   P    PE    L+ +   
+Sbjct  552    -ESDVWSFGILLWEAFSLGAVPYANLSNQQTREAIEQGVRLEPPEQCPEDVYRLMQRCWE  610
+
+Query  79265  LEPSQRPTLAQVMDD  79221
+               +P +RP+   V  D
+Sbjct  611    YDPRRRPSFGAVHQD  625
+
+
+ Score = 105 bits (262),  Expect = 9e-24, Method: Compositional matrix adjust.
+ Identities = 72/255 (28%), Positives = 116/255 (45%), Gaps = 13/255 (5%)
+ Frame = -1
+
+Query  3049  DYIVLGVIGMGSFAEVRLAWHVRTATEVAVKIVDTK-----GHSFISEVRCLNNLNHPII  2885
+             D ++   IG G+F EV         T VAVK             F+ E R L   NHP I
+Sbjct  372   DVLLGERIGRGNFGEVFSGRLRADNTPVAVKSCRETLPPELKAKFLQEARILKQYNHPNI  431
+
+Query  2884  IRVFEVITIEHKAYMFLEYVSAGELLNYLEERGPVCE-KGAQALFRRLLSAVEYCHRKGI  2708
+             +R+  V T +   Y+ +E V  G+ L++L  +GP  + K    +     + +EY   K  
+Sbjct  432   VRLIGVCTQKQPIYIVMELVQGGDFLSFLRSKGPHLKMKELIKMMENAAAGMEYLESKHC  491
+
+Query  2707  VHRDLKPENILLDREMNIKLTNFGFSEQYSEANLTTFCGT----VPYMAPEILKLQPYEG  2540
+             +HRDL   N L+  +  +K+++FG S Q  +    +  G     V + APE L    Y  
+Sbjct  492   IHRDLAARNCLVTEKNTLKISDFGMSRQEEDGVYASTGGMKQIPVKWTAPEALNYGRYSS  551
+
+Query  2539  PKADVWSMGVILYRILT-GELPFVGKSFEEQKRNIISGVLFFASFLSPES-KNFLEKLLT  2366
+              ++DVWS G++L+   + G +P+   S ++ +  I  GV        PE     +++   
+Sbjct  552   -ESDVWSFGILLWEAFSLGAVPYANLSNQQTREAIEQGVRLEPPEQCPEDVYRLMQRCWE  610
+
+Query  2365  LEPSQRPTLAQVMDD  2321
+              +P +RP+   V  D
+Sbjct  611   YDPRRRPSFGAVHQD  625
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.3
+    Posted date:  Aug 12, 2019  5:41 PM
+  Number of letters in database: 927,510
+  Number of sequences in database:  2,492
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 12
+Window for multiple hits: 40
+BLASTX 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.4
+           2,492 sequences; 955,523 total letters
+
+
+
+Query= NW_015504249.1 CHUNK number:0 size:100000 offset:0
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|210566|gb|AAA42673.1| polyprotein                                73.6    4e-14
+
+
+> gi|210566|gb|AAA42673.1| polyprotein
+Length=699
+
+ Score = 73.6 bits (179),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 70/267 (26%), Positives = 122/267 (46%), Gaps = 41/267 (15%)
+ Frame = -3
+
+Query  79931  VIGRGSFAEV---RLAWHVPTATEVAVKIVATKGHS------YFKEVRCLKNLNHPNIVR  79779
+              V+G G F  V   RL+    T  +VAVK +     S      +  E  C+K+ +HPN+++
+Sbjct  307    VLGEGEFGSVMEGRLSQPEGTPQKVAVKTMKLDNFSHREIEEFLSEAACIKDFDHPNVIK  366
+
+Query  79778  LYEV---ITTEH--RAYLFleylgggel----lryleerGPVCEKGAQALFRQLLS---A  79635
+              L  V   ++++   +  + L ++  G+L    LR   E  P      Q L + ++     
+Sbjct  367    LLGVCIELSSQQIPKPMVVLPFMKYGDLHSFLLRSRLEMAPQFVP-LQMLLKFMVDIALG  425
+
+Query  79634  VEYCHRKGIVHLDLKPDNILIDEDLNIKVSDFGFSEQ------YSEAKLTTFCGTVPYMA  79473
+              +EY   +  +H DL   N ++ +D+ + V+DFG S++      Y + ++      V ++A
+Sbjct  426    MEYLSSRQFLHRDLAARNCMLRDDMTVCVADFGLSKKIYSGDYYRQGRIAKM--PVKWIA  483
+
+Query  79472  PEILKLQPYEGPKADVWSMGVILYRILT-GELPFVGKSFEEQKRNIISGVFFVPSFLSPE  79296
+               E L  + Y   K+DVW+ GV ++ I T G  P+ G     Q   I   +F       PE
+Sbjct  484    IESLADRVYT-TKSDVWAFGVTMWEIATRGMTPYPGV----QNHEIYEYLFHGQRLKKPE  538
+
+Query  79295  S-----KTLLGKLLTLEPSQRPTLAQV  79230
+              +       ++      EP+ RPT +Q+
+Sbjct  539    NCLDELYDIMSSCWRAEPADRPTFSQL  565
+
+
+ Score = 72.4 bits (176),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 75/269 (28%), Positives = 124/269 (46%), Gaps = 42/269 (16%)
+ Frame = -1
+
+Query  3040  VLGVIGMGSFAEVRLAWHVRTATEVAVKIVDTKGHS------FISEVRCLNNLNHPIIIR  2879
+             VLG    GS  E RL+    T  +VAVK +     S      F+SE  C+ + +HP +I+
+Sbjct  307   VLGEGEFGSVMEGRLSQPEGTPQKVAVKTMKLDNFSHREIEEFLSEAACIKDFDHPNVIK  366
+
+Query  2878  VFEVITIEH------KAYMFLEYVSAGELLNYL-EERGPVCEKGA--QALFRRLLS---A  2735
+             +  V  IE       K  + L ++  G+L ++L   R  +  +    Q L + ++     
+Sbjct  367   LLGV-CIELSSQQIPKPMVVLPFMKYGDLHSFLLRSRLEMAPQFVPLQMLLKFMVDIALG  425
+
+Query  2734  VEYCHRKGIVHRDLKPENILLDREMNIKLTNFGFSEQ------YSEANLTTFCGTVPYMA  2573
+             +EY   +  +HRDL   N +L  +M + + +FG S++      Y +  +      V ++A
+Sbjct  426   MEYLSSRQFLHRDLAARNCMLRDDMTVCVADFGLSKKIYSGDYYRQGRIAKM--PVKWIA  483
+
+Query  2572  PEILKLQPYEGPKADVWSMGVILYRILT-GELPFVGKSFEEQKRNIISGVLFFASFLSPE  2396
+              E L  + Y   K+DVW+ GV ++ I T G  P+ G    E     I   LF    L  +
+Sbjct  484   IESLADRVYT-TKSDVWAFGVTMWEIATRGMTPYPGVQNHE-----IYEYLFHGQRLK-K  536
+
+Query  2395  SKNFLEKLLTL-------EPSQRPTLAQV  2330
+              +N L++L  +       EP+ RPT +Q+
+Sbjct  537   PENCLDELYDIMSSCWRAEPADRPTFSQL  565
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.4
+    Posted date:  Aug 12, 2019  5:41 PM
+  Number of letters in database: 955,523
+  Number of sequences in database:  2,492
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 12
+Window for multiple hits: 40
+BLASTX 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.5
+           2,492 sequences; 970,608 total letters
+
+
+
+Query= NW_015504249.1 CHUNK number:0 size:100000 offset:0
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|625609|pir||A26132 gag-abl-pol polyprotein - feline sarcoma ...  99.4    7e-22
+  gi|7548235|gb|AAA43046.2| gag polyprotein [Feline sarcoma virus]    97.8    2e-21
+
+
+> gi|625609|pir||A26132 gag-abl-pol polyprotein - feline sarcoma 
+virus (strain Hardy-Zuckerman 2) (fragment) Alias=gi|323884|gb|AAA43042.1| 
+gag-abl-pol fusion polyprotein
+Length=697
+
+ Score = 99.4 bits (246),  Expect = 7e-22, Method: Compositional matrix adjust.
+ Identities = 77/254 (30%), Positives = 116/254 (46%), Gaps = 13/254 (5%)
+ Frame = -3
+
+Query  79949  DYIMLGVIGRGSFAEVRLAWHVPTATEVAVKIV---ATKGHSYFKEVRCLKNLNHPNIVR  79779
+              D  M   +G G + EV        +  VAVK +     +   + KE   +K + HPN+V+
+Sbjct  242    DITMKHKLGGGQYGEVYEGVWKKYSLTVAVKTLKEDTMEVEEFLKEAAVMKEIKHPNLVQ  301
+
+Query  79778  LYEVITTEHRAYLFleylgggellrylee--rGPVCEKGAQALFRQLLSAVEYCHRKGIV  79605
+              L  V T E   Y+  E++  G LL YL E  R  V       +  Q+ SA+EY  +K  +
+Sbjct  302    LLGVCTREPPFYIITEFMTYGNLLDYLRECNRQEVNAVVLLYMATQISSAMEYLEKKNFI  361
+
+Query  79604  HLDLKPDNILIDEDLNIKVSDFGFSEQYSEAKLTTFCGT---VPYMAPEILKLQPYEGPK  79434
+              H DL   N L+ E+  +KV+DFG S   +    T   GT   + + APE L    +   K
+Sbjct  362    HRDLAARNCLVGENHLVKVADFGLSRLMTGDTYTAHAGTKFPIKWTAPESLAYNKF-SIK  420
+
+Query  79433  ADVWSMGVILYRILT-GELPFVGKSFEEQKRNIISGVFFV--PSFLSPESKTLLGKLLTL  79263
+              +DVW+ GV+L+ I T G  P+ G     Q   ++   + +  P     +   L+      
+Sbjct  421    SDVWAFGVLLWEIATYGMSPYPGIDL-SQVYELLEKDYRMERPEGCPEKVYELMRACWQW  479
+
+Query  79262  EPSQRPTLAQVMDD  79221
+               PS RP  A++  D
+Sbjct  480    NPSDRPAFAEIHHD  493
+
+
+ Score = 89.7 bits (221),  Expect = 6e-19, Method: Compositional matrix adjust.
+ Identities = 69/246 (28%), Positives = 111/246 (45%), Gaps = 11/246 (4%)
+ Frame = -1
+
+Query  3028  IGMGSFAEVRLAWHVRTATEVAVKIV--DT-KGHSFISEVRCLNNLNHPIIIRVFEVITI  2858
+             +G G + EV      + +  VAVK +  DT +   F+ E   +  + HP ++++  V T 
+Sbjct  249   LGGGQYGEVYEGVWKKYSLTVAVKTLKEDTMEVEEFLKEAAVMKEIKHPNLVQLLGVCTR  308
+
+Query  2857  EHKAYMFLEYVSAGELLNYLEE--RGPVCEKGAQALFRRLLSAVEYCHRKGIVHRDLKPE  2684
+             E   Y+  E+++ G LL+YL E  R  V       +  ++ SA+EY  +K  +HRDL   
+Sbjct  309   EPPFYIITEFMTYGNLLDYLRECNRQEVNAVVLLYMATQISSAMEYLEKKNFIHRDLAAR  368
+
+Query  2683  NILLDREMNIKLTNFGFSEQYSEANLTTFCGT---VPYMAPEILKLQPYEGPKADVWSMG  2513
+             N L+     +K+ +FG S   +    T   GT   + + APE L    +   K+DVW+ G
+Sbjct  369   NCLVGENHLVKVADFGLSRLMTGDTYTAHAGTKFPIKWTAPESLAYNKF-SIKSDVWAFG  427
+
+Query  2512  VILYRILT-GELPFVGKSFEEQKRNIISGVLFFASFLSPES-KNFLEKLLTLEPSQRPTL  2339
+             V+L+ I T G  P+ G    +    +            PE     +       PS RP  
+Sbjct  428   VLLWEIATYGMSPYPGIDLSQVYELLEKDYRMERPEGCPEKVYELMRACWQWNPSDRPAF  487
+
+Query  2338  AQVMDD  2321
+             A++  D
+Sbjct  488   AEIHHD  493
+
+
+> gi|7548235|gb|AAA43046.2| gag polyprotein [Feline sarcoma virus]
+Length=774
+
+ Score = 97.8 bits (242),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 76/256 (30%), Positives = 118/256 (46%), Gaps = 25/256 (10%)
+ Frame = -3
+
+Query  79949  DYIMLGVIGRGSFAEVRLAWHVPTATEVAVK-----IVATKGHSYFKEVRCLKNLNHPNI  79785
+              D ++   IGRG+F EV         T VAVK     +       + +E + LK  +HPNI
+Sbjct  512    DLVLGEQIGRGNFGEVFSGRLRADNTLVAVKSCRETLPPDIKAKFLQEAKILKQYSHPNI  571
+
+Query  79784  VRLYEVITTEHRAYLFleylgggellryleerGPVCEKGAQALFRQLLSAV-------EY  79626
+              VRL  V T +   Y+ +E + GG+ L +L        +GA+   + LL  V       EY
+Sbjct  572    VRLIGVCTQKQPIYIVMELVQGGDFLTFLR------TEGARLRMKTLLQMVGDAAAGMEY  625
+
+Query  79625  CHRKGIVHLDLKPDNILIDEDLNIKVSDFGFSEQYSEAKLTTFCGT----VPYMAPEILK  79458
+                 K  +H DL   N L+ E   +K+SDFG S + ++       G     V + APE L 
+Sbjct  626    LESKCCIHRDLAARNCLVTEKNVLKISDFGMSREEADGVYAASGGLRLVPVKWTAPEALN  685
+
+Query  79457  LQPYEGPKADVWSMGVILYRILT-GELPFVGKSFEEQKRNIISGVFFVPSFLSPESK-TL  79284
+                 Y   ++DVWS G++L+   + G  P+   S ++ +  +  G       L P++   L
+Sbjct  686    YGRYSS-ESDVWSFGILLWETFSLGASPYPNLSNQQTREFVEKGGRLPCPELCPDAVFRL  744
+
+Query  79283  LGKLLTLEPSQRPTLA  79236
+              + +    EP QRP+ +
+Sbjct  745    MEQCWAYEPGQRPSFS  760
+
+
+ Score = 92.0 bits (227),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 76/268 (28%), Positives = 121/268 (45%), Gaps = 28/268 (10%)
+ Frame = -1
+
+Query  3079  TPADEEHRIGDYIVLG-VIGMGSFAEVRLAWHVRTATEVAVKIV------DTKGHSFISE  2921
+              P D+     + +VLG  IG G+F EV         T VAVK        D K   F+ E
+Sbjct  501   VPKDKWVLNHEDLVLGEQIGRGNFGEVFSGRLRADNTLVAVKSCRETLPPDIKA-KFLQE  559
+
+Query  2920  VRCLNNLNHPIIIRVFEVITIEHKAYMFLEYVSAGELLNYLEERGPVCEKGAQALFRRLL  2741
+              + L   +HP I+R+  V T +   Y+ +E V  G+ L +L        +GA+   + LL
+Sbjct  560   AKILKQYSHPNIVRLIGVCTQKQPIYIVMELVQGGDFLTFLR------TEGARLRMKTLL  613
+
+Query  2740  SAV-------EYCHRKGIVHRDLKPENILLDREMNIKLTNFGFSEQYSEANLTTFCGT--  2588
+               V       EY   K  +HRDL   N L+  +  +K+++FG S + ++       G   
+Sbjct  614   QMVGDAAAGMEYLESKCCIHRDLAARNCLVTEKNVLKISDFGMSREEADGVYAASGGLRL  673
+
+Query  2587  --VPYMAPEILKLQPYEGPKADVWSMGVILYRILT-GELPFVGKSFEEQKRNIISGVLFF  2417
+               V + APE L    Y   ++DVWS G++L+   + G  P+   S ++ +  +  G    
+Sbjct  674   VPVKWTAPEALNYGRYSS-ESDVWSFGILLWETFSLGASPYPNLSNQQTREFVEKGGRLP  732
+
+Query  2416  ASFLSPESK-NFLEKLLTLEPSQRPTLA  2336
+                L P++    +E+    EP QRP+ +
+Sbjct  733   CPELCPDAVFRLMEQCWAYEPGQRPSFS  760
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.5
+    Posted date:  Aug 12, 2019  5:41 PM
+  Number of letters in database: 970,608
+  Number of sequences in database:  2,492
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 12
+Window for multiple hits: 40
+BLASTX 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.6
+           2,491 sequences; 932,478 total letters
+
+
+
+Query= NW_015504249.1 CHUNK number:0 size:100000 offset:0
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|61598|emb|CAA31790.1| IC10 polyprotein (567 AA) [Avian retro...  100     2e-22
+  gi|332202|gb|AAA46576.1| gag-raf polyprotein Alias=gi|332207|gb...  92.0    1e-19
+
+
+> gi|61598|emb|CAA31790.1| IC10 polyprotein (567 AA) [Avian retrovirus 
+IC10]
+Length=567
+
+ Score = 100 bits (250),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 70/259 (27%), Positives = 125/259 (48%), Gaps = 35/259 (14%)
+ Frame = -3
+
+Query  79928  IGRGSFAEV-RLAWHVPTATEVAVKIVATKG------HSYFKEVRCLKNLNHPNIVRLYE  79770
+              IG GSF  V +  WH     +VAVK++           ++  EV  L+   H NI+ L+ 
+Sbjct  206    IGSGSFGTVYKGKWH----GDVAVKMLNVTAPTPQQLQAFKNEVGVLRKTRHVNIL-LFM  260
+
+Query  79769  VITTEHRAYLFleylgggellryleerGPVCEKGAQAL-----FRQLLSAVEYCHRKGIV  79605
+                +T+ +  +  ++  G  L  +L     + E   + +      RQ    ++Y H K I+
+Sbjct  261    GYSTKPQLAIVTQWCEGSSLYHHLH----IIETKFEMIKLIDIARQTAQGMDYLHAKSII  316
+
+Query  79604  HLDLKPDNILIDEDLNIKVSDFGF----SEQYSEAKLTTFCGTVPYMAPEILKLQ---PY  79446
+              H DLK +NI + EDL +K+ DFG     S      +     G++ +MAPE++++Q   PY
+Sbjct  317    HRDLKSNNIFLHEDLTVKIGDFGLATVKSRWSGSHQFEQLSGSILWMAPEVIRMQDKNPY  376
+
+Query  79445  EGPKADVWSMGVILYRILTGELPFVGKSFEEQKRNIISGVFFVPSFLSPES------KTL  79284
+                 ++DV++ G++LY ++TG+LP+   +  +Q   ++   +  P      S      K L
+Sbjct  377    SF-QSDVYAFGIVLYELMTGQLPYSNINNRDQIIFMVGRGYLSPDLSKVRSNCPKAMKRL  435
+
+Query  79283  LGKLLTLEPSQRPTLAQVM  79227
+              + + L  +  +RP   Q++
+Sbjct  436    MAECLKKKRDERPLFPQIL  454
+
+
+ Score = 89.0 bits (219),  Expect = 9e-19, Method: Compositional matrix adjust.
+ Identities = 70/284 (25%), Positives = 130/284 (46%), Gaps = 49/284 (17%)
+ Frame = -1
+
+Query  3082  ETPADEEHRIGDYIVLGVIGMGSFAEV-RLAWHVRTATEVAVKIVDTKG------HSFIS  2924
+             ++  D E   G   V   IG GSF  V +  WH     +VAVK+++          +F +
+Sbjct  188   DSSDDWEIPDGQITVGQRIGSGSFGTVYKGKWH----GDVAVKMLNVTAPTPQQLQAFKN  243
+
+Query  2923  EVRCLNNLNHPIIIRVFEVITIEHKAYMFLEYVSAGELLNYLEERGPVCEKGAQAL----  2756
+             EV  L    H + I +F   + + +  +  ++     L ++L     + E   + +    
+Sbjct  244   EVGVLRKTRH-VNILLFMGYSTKPQLAIVTQWCEGSSLYHHLH----IIETKFEMIKLID  298
+
+Query  2755  -FRRLLSAVEYCHRKGIVHRDLKPENILLDREMNIKLTNFGF----SEQYSEANLTTFCG  2591
+               R+    ++Y H K I+HRDLK  NI L  ++ +K+ +FG     S            G
+Sbjct  299   IARQTAQGMDYLHAKSIIHRDLKSNNIFLHEDLTVKIGDFGLATVKSRWSGSHQFEQLSG  358
+
+Query  2590  TVPYMAPEILKLQ---PYEGPKADVWSMGVILYRILTGELPFVGKSFEEQKRNIISGVLF  2420
+             ++ +MAPE++++Q   PY   ++DV++ G++LY ++TG+LP+   +  +Q       ++F
+Sbjct  359   SILWMAPEVIRMQDKNPYSF-QSDVYAFGIVLYELMTGQLPYSNINNRDQ-------IIF  410
+
+Query  2419  FA--SFLSPE-----------SKNFLEKLLTLEPSQRPTLAQVM  2327
+                  +LSP+            K  + + L  +  +RP   Q++
+Sbjct  411   MVGRGYLSPDLSKVRSNCPKAMKRLMAECLKKKRDERPLFPQIL  454
+
+
+> gi|332202|gb|AAA46576.1| gag-raf polyprotein Alias=gi|332207|gb|AAA46579.1| 
+gag-raf polyprotein
+Length=359
+
+ Score = 92.0 bits (227),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 66/218 (30%), Positives = 112/218 (51%), Gaps = 30/218 (14%)
+ Frame = -3
+
+Query  79943  IMLGV-IGRGSFAEV-RLAWHVPTATEVAVKIVAT------KGHSYFKEVRCLKNLNHPN  79788
+              +ML   IG GSF  V +  WH     +VAVKI+        +  ++  EV  L+   H N
+Sbjct  60     VMLSTRIGSGSFGTVYKGKWH----GDVAVKILKVVDPTPEQLQAFRNEVAVLRKTRHVN  115
+
+Query  79787  IVRLYEVITTEHRAYLFleylgggellryleerGPVCEKGAQA-----LFRQLLSAVEYC  79623
+              I+     +T ++ A +  ++  G  L ++L     V E   Q      + RQ    ++Y 
+Sbjct  116    ILLFMGYMTKDNLA-IVTQWCEGSSLYKHLH----VQETKFQMFQLIDIARQTAQGMDYL  170
+
+Query  79622  HRKGIVHLDLKPDNILIDEDLNIKVSDFGFSEQYSE----AKLTTFCGTVPYMAPEILKL  79455
+              H K I+H D+K +NI + E L +K+ DFG +   S      ++    G+V +MAPE++++
+Sbjct  171    HAKNIIHRDMKSNNIFLHEGLTVKIGDFGLATVKSRWSGSQQVEQPTGSVLWMAPEVIRM  230
+
+Query  79454  QPYEGP---KADVWSMGVILYRILTGELPFVGKSFEEQ  79350
+              Q  + P   ++DV+S G++LY ++ GELP+   +  +Q
+Sbjct  231    QD-DNPFSFQSDVYSYGIVLYELMAGELPYAHINNRDQ  267
+
+
+ Score = 82.8 bits (203),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 60/209 (29%), Positives = 104/209 (50%), Gaps = 23/209 (11%)
+ Frame = -1
+
+Query  3028  IGMGSFAEV-RLAWHVRTATEVAVKIVD---TKGHSFISEVRCLNNLNHPIIIRVFEVIT  2861
+             IG GSF  V +  WH   A ++ +K+VD    +  +F +EV  L    H  I+     +T
+Sbjct  66    IGSGSFGTVYKGKWHGDVAVKI-LKVVDPTPEQLQAFRNEVAVLRKTRHVNILLFMGYMT  124
+
+Query  2860  IEHKAYMFLEYVSAGELLNYLEERGPVCEKGAQA-----LFRRLLSAVEYCHRKGIVHRD  2696
+              ++ A +  ++     L  +L     V E   Q      + R+    ++Y H K I+HRD
+Sbjct  125   KDNLA-IVTQWCEGSSLYKHLH----VQETKFQMFQLIDIARQTAQGMDYLHAKNIIHRD  179
+
+Query  2695  LKPENILLDREMNIKLTNFGF----SEQYSEANLTTFCGTVPYMAPEILKLQPYEGP---  2537
+             +K  NI L   + +K+ +FG     S       +    G+V +MAPE++++Q  + P   
+Sbjct  180   MKSNNIFLHEGLTVKIGDFGLATVKSRWSGSQQVEQPTGSVLWMAPEVIRMQD-DNPFSF  238
+
+Query  2536  KADVWSMGVILYRILTGELPFVGKSFEEQ  2450
+             ++DV+S G++LY ++ GELP+   +  +Q
+Sbjct  239   QSDVYSYGIVLYELMAGELPYAHINNRDQ  267
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.6
+    Posted date:  Aug 12, 2019  5:41 PM
+  Number of letters in database: 932,478
+  Number of sequences in database:  2,491
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 12
+Window for multiple hits: 40
+BLASTX 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.7
+           2,491 sequences; 960,329 total letters
+
+
+
+Query= NW_015504249.1 CHUNK number:0 size:100000 offset:0
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|9626954|ref|NP_057866.1| p120 polyprotein [Abelson murine le...  103     3e-23
+
+
+> gi|9626954|ref|NP_057866.1| p120 polyprotein [Abelson murine 
+leukemia virus] Alias=gi|625221|pir||FOMVGM gag-abl polyprotein 
+- Abelson murine leukemia virus Alias=gi|2801473|gb|AAC82569.1| 
+p120 polyprotein [Abelson murine leukemia virus]
+Length=981
+
+ Score = 103 bits (258),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 75/255 (29%), Positives = 116/255 (45%), Gaps = 13/255 (5%)
+ Frame = -3
+
+Query  79949  DYIMLGVIGRGSFAEVRLAWHVPTATEVAVKIV---ATKGHSYFKEVRCLKNLNHPNIVR  79779
+              D  M   +G G + EV        +  VAVK +     +   + KE   +K + HPN+V+
+Sbjct  362    DITMKHKLGGGQYGEVYEGVWKKYSLTVAVKTLKEDTMEVEEFLKEAAVMKEIKHPNLVQ  421
+
+Query  79778  LYEVITTEHRAYLFleylgggellrylee--rGPVCEKGAQALFRQLLSAVEYCHRKGIV  79605
+              L  V T E   Y+  E++  G LL YL E  R  V       +  Q+ SA+EY  +K  +
+Sbjct  422    LLGVCTREPPFYIITEFMTYGNLLDYLRECNRQEVSAVVLLYMATQISSAMEYLEKKNFI  481
+
+Query  79604  HLDLKPDNILIDEDLNIKVSDFGFSEQYSEAKLTTFCGT---VPYMAPEILKLQPYEGPK  79434
+              H DL   N L+ E+  +KV+DFG S   +    T   G    + + APE L    +   K
+Sbjct  482    HRDLAARNCLVGENHLVKVADFGLSRLMTGDTYTAHAGAKFPIKWTAPESLAYNKF-SIK  540
+
+Query  79433  ADVWSMGVILYRILT-GELPFVGKSFEEQKRNIISGVFFV--PSFLSPESKTLLGKLLTL  79263
+              +DVW+ GV+L+ I T G  P+ G     Q   ++   + +  P     +   L+      
+Sbjct  541    SDVWAFGVLLWEIATYGMSPYPGIDL-SQVYELLEKDYRMERPEGCPEKVYELMRACWQW  599
+
+Query  79262  EPSQRPTLAQVMDDY  79218
+               PS RP+ A++   +
+Sbjct  600    NPSDRPSFAEIHQAF  614
+
+
+ Score = 91.7 bits (226),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 68/254 (27%), Positives = 113/254 (44%), Gaps = 11/254 (4%)
+ Frame = -1
+
+Query  3049  DYIVLGVIGMGSFAEVRLAWHVRTATEVAVKIV--DT-KGHSFISEVRCLNNLNHPIIIR  2879
+             D  +   +G G + EV      + +  VAVK +  DT +   F+ E   +  + HP +++
+Sbjct  362   DITMKHKLGGGQYGEVYEGVWKKYSLTVAVKTLKEDTMEVEEFLKEAAVMKEIKHPNLVQ  421
+
+Query  2878  VFEVITIEHKAYMFLEYVSAGELLNYLEE--RGPVCEKGAQALFRRLLSAVEYCHRKGIV  2705
+             +  V T E   Y+  E+++ G LL+YL E  R  V       +  ++ SA+EY  +K  +
+Sbjct  422   LLGVCTREPPFYIITEFMTYGNLLDYLRECNRQEVSAVVLLYMATQISSAMEYLEKKNFI  481
+
+Query  2704  HRDLKPENILLDREMNIKLTNFGFSEQYSEANLTTFCGT---VPYMAPEILKLQPYEGPK  2534
+             HRDL   N L+     +K+ +FG S   +    T   G    + + APE L    +   K
+Sbjct  482   HRDLAARNCLVGENHLVKVADFGLSRLMTGDTYTAHAGAKFPIKWTAPESLAYNKFS-IK  540
+
+Query  2533  ADVWSMGVILYRILT-GELPFVGKSFEEQKRNIISGVLFFASFLSPES-KNFLEKLLTLE  2360
+             +DVW+ GV+L+ I T G  P+ G    +    +            PE     +       
+Sbjct  541   SDVWAFGVLLWEIATYGMSPYPGIDLSQVYELLEKDYRMERPEGCPEKVYELMRACWQWN  600
+
+Query  2359  PSQRPTLAQVMDDY  2318
+             PS RP+ A++   +
+Sbjct  601   PSDRPSFAEIHQAF  614
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.7
+    Posted date:  Aug 12, 2019  5:41 PM
+  Number of letters in database: 960,329
+  Number of sequences in database:  2,491
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 12
+Window for multiple hits: 40
+BLASTX 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.8
+           2,491 sequences; 937,408 total letters
+
+
+
+Query= NW_015504249.1 CHUNK number:0 size:100000 offset:0
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|9626155|ref|NP_056889.1| p140 polyprotein [Fujinami sarcoma ...  119     6e-28
+
+
+> gi|9626155|ref|NP_056889.1| p140 polyprotein [Fujinami sarcoma 
+virus] Alias=gi|209687|gb|AAA42402.1| p130 polyprotein Alias=gi|2801467|gb|AAC82565.1| 
+p140 polyprotein [Fujinami sarcoma 
+virus]
+Length=1182
+
+ Score = 119 bits (298),  Expect = 6e-28, Method: Compositional matrix adjust.
+ Identities = 80/255 (31%), Positives = 119/255 (47%), Gaps = 13/255 (5%)
+ Frame = -3
+
+Query  79949  DYIMLGVIGRGSFAEVRLAWHVPTATEVAVKIVATK-----GHSYFKEVRCLKNLNHPNI  79785
+              D ++   IGRG+F EV         T VAVK             + +E R LK  NHPNI
+Sbjct  920    DVLLGERIGRGNFGEVFSGRLRADNTPVAVKSCRETLPPELKAKFLQEARILKQCNHPNI  979
+
+Query  79784  VRLYEVITTEHRAYLFleylgggellryleerGPVCE-KGAQALFRQLLSAVEYCHRKGI  79608
+              VRL  V T +   Y+ +E + GG+ L +L  +GP  + K    +     + +EY   K  
+Sbjct  980    VRLIGVCTQKQPIYIVMELVQGGDFLSFLRSKGPRLKMKKLIKMMENAAAGMEYLESKHC  1039
+
+Query  79607  VHLDLKPDNILIDEDLNIKVSDFGFSEQYSEAKLTTFCGT----VPYMAPEILKLQPYEG  79440
+              +H DL   N L+ E   +K+SDFG S Q  +    +  G     V + APE L    Y  
+Sbjct  1040   IHRDLAARNCLVTEKNTLKISDFGMSRQEEDGVYASTGGMKQIPVKWTAPEALNYGWYSS  1099
+
+Query  79439  PKADVWSMGVILYRILT-GELPFVGKSFEEQKRNIISGVFFVPSFLSPES-KTLLGKLLT  79266
+               ++DVWS G++L+   + G +P+   S ++ +  I  GV   P    PE    L+ +   
+Sbjct  1100   -ESDVWSFGILLWEAFSLGAVPYANLSNQQTREAIEQGVRLEPPEQCPEDVYRLMQRCWE  1158
+
+Query  79265  LEPSQRPTLAQVMDD  79221
+               +P +RP+   V  D
+Sbjct  1159   YDPHRRPSFGAVHQD  1173
+
+
+ Score = 106 bits (264),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 72/255 (28%), Positives = 116/255 (45%), Gaps = 13/255 (5%)
+ Frame = -1
+
+Query  3049  DYIVLGVIGMGSFAEVRLAWHVRTATEVAVKIVDTK-----GHSFISEVRCLNNLNHPII  2885
+             D ++   IG G+F EV         T VAVK             F+ E R L   NHP I
+Sbjct  920   DVLLGERIGRGNFGEVFSGRLRADNTPVAVKSCRETLPPELKAKFLQEARILKQCNHPNI  979
+
+Query  2884  IRVFEVITIEHKAYMFLEYVSAGELLNYLEERGPVCE-KGAQALFRRLLSAVEYCHRKGI  2708
+             +R+  V T +   Y+ +E V  G+ L++L  +GP  + K    +     + +EY   K  
+Sbjct  980   VRLIGVCTQKQPIYIVMELVQGGDFLSFLRSKGPRLKMKKLIKMMENAAAGMEYLESKHC  1039
+
+Query  2707  VHRDLKPENILLDREMNIKLTNFGFSEQYSEANLTTFCGT----VPYMAPEILKLQPYEG  2540
+             +HRDL   N L+  +  +K+++FG S Q  +    +  G     V + APE L    Y  
+Sbjct  1040  IHRDLAARNCLVTEKNTLKISDFGMSRQEEDGVYASTGGMKQIPVKWTAPEALNYGWYSS  1099
+
+Query  2539  PKADVWSMGVILYRILT-GELPFVGKSFEEQKRNIISGVLFFASFLSPES-KNFLEKLLT  2366
+              ++DVWS G++L+   + G +P+   S ++ +  I  GV        PE     +++   
+Sbjct  1100  -ESDVWSFGILLWEAFSLGAVPYANLSNQQTREAIEQGVRLEPPEQCPEDVYRLMQRCWE  1158
+
+Query  2365  LEPSQRPTLAQVMDD  2321
+              +P +RP+   V  D
+Sbjct  1159  YDPHRRPSFGAVHQD  1173
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.8
+    Posted date:  Aug 12, 2019  5:41 PM
+  Number of letters in database: 937,408
+  Number of sequences in database:  2,491
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 12
+Window for multiple hits: 40
+BLASTX 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.9
+           2,491 sequences; 961,645 total letters
+
+
+
+Query= NW_015504249.1 CHUNK number:0 size:100000 offset:0
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|546327|gb|AAC60725.1| polyprotein [Rous-associated virus typ...  61.6    2e-10
+
+
+> gi|546327|gb|AAC60725.1| polyprotein [Rous-associated virus type 
+1]
+Length=729
+
+ Score = 61.6 bits (148),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 61/277 (22%), Positives = 117/277 (42%), Gaps = 25/277 (9%)
+ Frame = -3
+
+Query  79985  AETPADDERRI---GDYIMLGVIGRGSFAEVRLAWHVPTATEVAVKIVATK---------  79842
+               E P     RI    ++  + V+G G+F  V     +P   +V + +   +         
+Sbjct  270    GEAPNQAHLRILKETEFKKVKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELREATSPKA  329
+
+Query  79841  GHSYFKEVRCLKNLNHPNIVRLYEVITTEHRAYLFleylgggellryleerGPVCEKGAQ  79662
+                    E   + ++++P + RL  +  T     L  + +  G LL Y+ E       G+Q
+Sbjct  330    NKEILDEAYVMASVDNPRVCRLLGICLTS-TVQLITQLMPYGCLLDYIREHKD--NIGSQ  386
+
+Query  79661  ALFR---QLLSAVEYCHRKGIVHLDLKPDNILIDEDLNIKVSDFGFSEQY--SEAKLTTF  79497
+               L     Q+   + Y   + +VH DL   N+L+    ++K++DFG ++     E +    
+Sbjct  387    YLLNWCVQIAKGMNYLEERRLVHRDLAARNVLVKTPQHVKITDFGLAKLLGADEKEYHAE  446
+
+Query  79496  CGTVP--YMAPEILKLQPYEGPKADVWSMGVILYRILT-GELPFVGKSFEEQKRNIISGV  79326
+               G VP  +MA E +  + Y   ++DVWS GV ++ ++T G  P+ G    E    +  G 
+Sbjct  447    GGKVPIKWMALESILHRIYTH-QSDVWSYGVTVWELMTFGSKPYDGIPASEISSVLEKGE  505
+
+Query  79325  FF-VPSFLSPESKTLLGKLLTLEPSQRPTLAQVMDDY  79218
+                  P   + +   ++ K   ++   RP   +++ ++
+Sbjct  506    RLPQPPICTIDVYMIMVKCWMIDADSRPKFRELIAEF  542
+
+
+ Score = 56.6 bits (135),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 52/226 (23%), Positives = 99/226 (44%), Gaps = 24/226 (11%)
+ Frame = -1
+
+Query  3085  AETPADEEHRI---GDYIVLGVIGMGSFAEVRLAWHVRTATEVAVKIV---------DTK  2942
+              E P     RI    ++  + V+G G+F  V     +    +V + +             
+Sbjct  270   GEAPNQAHLRILKETEFKKVKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELREATSPKA  329
+
+Query  2941  GHSFISEVRCLNNLNHPIIIRVFEVITIEHKAYMFLEYVSAGELLNYLEERGPVCEKGAQ  2762
+                 + E   + ++++P + R+   I +     +  + +  G LL+Y+ E       G+Q
+Sbjct  330   NKEILDEAYVMASVDNPRVCRLLG-ICLTSTVQLITQLMPYGCLLDYIREHKD--NIGSQ  386
+
+Query  2761  ALFR---RLLSAVEYCHRKGIVHRDLKPENILLDREMNIKLTNFGFSE--QYSEANLTTF  2597
+              L     ++   + Y   + +VHRDL   N+L+    ++K+T+FG ++     E      
+Sbjct  387   YLLNWCVQIAKGMNYLEERRLVHRDLAARNVLVKTPQHVKITDFGLAKLLGADEKEYHAE  446
+
+Query  2596  CGTVP--YMAPEILKLQPYEGPKADVWSMGVILYRILT-GELPFVG  2468
+              G VP  +MA E +  + Y   ++DVWS GV ++ ++T G  P+ G
+Sbjct  447   GGKVPIKWMALESILHRIYTH-QSDVWSYGVTVWELMTFGSKPYDG  491
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/te_proteins%2Efasta.mpi.10
+.9
+    Posted date:  Aug 12, 2019  5:41 PM
+  Number of letters in database: 961,645
+  Number of sequences in database:  2,491
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 12
+Window for multiple hits: 40

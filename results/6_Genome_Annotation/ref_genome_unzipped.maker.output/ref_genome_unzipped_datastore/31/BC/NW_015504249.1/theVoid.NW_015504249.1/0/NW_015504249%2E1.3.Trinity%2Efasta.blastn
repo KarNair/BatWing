@@ -1,0 +1,1994 @@
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.0
+           1,251 sequences; 566,270 total letters
+
+
+
+Query= NW_015504249.1 masked CHUNK number:3 size:100000 offset:300000
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  TRINITY_DN1090_c0_g1_i4 len=347 path=[0:0-46 13:47-75 16:76-78 ...  190     3e-49
+  TRINITY_DN31_c0_g1_i1 len=693 path=[0:0-171 3:172-220 4:221-253...  182     7e-47
+  TRINITY_DN1479_c0_g1_i1 len=252 path=[0:0-98 2:99-122 4:123-156...  178     1e-45
+  TRINITY_DN159_c0_g1_i6 len=425 path=[1:0-50 3:51-91 13:92-101 1...  138     1e-33
+  TRINITY_DN1155_c0_g1_i1 len=221 path=[0:0-220]                      112     7e-26
+  TRINITY_DN1537_c1_g1_i2 len=396 path=[0:0-77 2:78-103 3:104-395]    92.4    8e-20
+
+
+> TRINITY_DN1090_c0_g1_i4 len=347 path=[0:0-46 13:47-75 16:76-78 
+17:79-80 19:81-85 21:86-95 23:96-98 25:99-104 27:105-121 34:122-133 
+35:134-134 37:135-137 38:138-150 39:151-174 40:175-175 
+41:176-176 43:177-191 44:192-207 46:208-221 47:222-346]
+Length=347
+
+ Score = 190 bits (95),  Expect = 3e-49
+ Identities = 195/215 (91%), Gaps = 0/215 (0%)
+ Strand=Plus/Minus
+
+Query  53066  GTCCTGAGGGGGAAGGGAGAGCAGCTCACAGGAGGACTTTGCAAGAATAAGACTCTTGGG  53125
+              ||||||||| |||||||||||||||||||||| |||  |  ||||||||| |||||  ||
+Sbjct  280    GTCCTGAGGAGGAAGGGAGAGCAGCTCACAGGTGGATGTCACAAGAATAACACTCTCAGG  221
+
+Query  53126  GACTGTTGTTTGGGAACTGGAGGAAAAGCTGAAAACCCGTGCTGGGGGCTGGACAGGCAA  53185
+              |||||||||||||||||||||||||| ||||||||||| ||||||||||||| |||||||
+Sbjct  220    GACTGTTGTTTGGGAACTGGAGGAAACGCTGAAAACCCCTGCTGGGGGCTGGGCAGGCAA  161
+
+Query  53186  AGGGCCCACCAGAATGTGTTCTAAATCTAACCCACTGGGCCCAGGCTGCTGAAACGGCCC  53245
+              ||||| |||||||||||||||| |||| |||||||||  ||||||||||||||| |||||
+Sbjct  160    AGGGCTCACCAGAATGTGTTCTTAATCGAACCCACTGAACCCAGGCTGCTGAAATGGCCC  101
+
+Query  53246  AGACAGAAGAGGCAACAGGCTGAAATCAATCTGAA  53280
+              | |||||| ||||||||||||||||||||||||||
+Sbjct  100    ATACAGAAAAGGCAACAGGCTGAAATCAATCTGAA  66
+
+
+> TRINITY_DN31_c0_g1_i1 len=693 path=[0:0-171 3:172-220 4:221-253 
+8:254-256 9:257-409 10:410-415 12:416-459 14:460-483 15:484-543 
+18:544-574 19:575-580 21:581-604 22:605-611 23:612-620 
+26:621-630 27:631-639 29:640-645 30:646-667 31:668-692]
+Length=693
+
+ Score = 182 bits (91),  Expect = 7e-47
+ Identities = 196/215 (91%), Gaps = 2/215 (1%)
+ Strand=Plus/Plus
+
+Query  53066  GTCCTGAGGGGGAAGGGAGAGCAGCTCACAGGAGGACTTTGCAAGAATAAGACTCTTGGG  53125
+              |||||||||||||||||||||||| ||||||||||||||| |||||||||||||| ||||
+Sbjct  198    GTCCTGAGGGGGAAGGGAGAGCAGATCACAGGAGGACTTTACAAGAATAAGACTC-TGGG  256
+
+Query  53126  GACTGTTGTTTGGGAACTGGAGGAAAAGCTGAAAACCCGTGCTGGGGGCTGGACAGGCAA  53185
+              |||||||||||||||||||||||||| ||||||||||| ||||||||||||| |||||||
+Sbjct  257    GACTGTTGTTTGGGAACTGGAGGAAACGCTGAAAACCCCTGCTGGGGGCTGGGCAGGCAA  316
+
+Query  53186  AGGGCCCACCAGAATGTGTTCTAAATCTAACCCACTGGGCCCAGGCTGCTGAAACGGCCC  53245
+              || || |||  ||||||  | ||| |  ||||||||| ||||||||||||||||||||||
+Sbjct  317    AGAGCTCACTGGAATGTTCTTTAATTG-AACCCACTGAGCCCAGGCTGCTGAAACGGCCC  375
+
+Query  53246  AGACAGAAGAGGCAACAGGCTGAAATCAATCTGAA  53280
+              | |||||| ||||||||||||||||||||||||||
+Sbjct  376    ATACAGAAAAGGCAACAGGCTGAAATCAATCTGAA  410
+
+
+> TRINITY_DN1479_c0_g1_i1 len=252 path=[0:0-98 2:99-122 4:123-156 
+5:157-251]
+Length=252
+
+ Score = 178 bits (89),  Expect = 1e-45
+ Identities = 144/154 (94%), Gaps = 3/154 (2%)
+ Strand=Plus/Minus
+
+Query  53997  TGTTAGTTTCTCTTATTCTCTTTATTGTATTTTTGTTTTCTCATTTTCAACTATTATCCT  54056
+              |||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||
+Sbjct  157    TGTTAGTTTCTCTTATTCTCTTTATTGTATTTTTATTTTCTCATTTTCAACTATTATCCT  98
+
+Query  54057  ATTCCTATTCTCTCCCTTAATTTTGTG---CTGGCGCTTCTTTCAGAATCTTTTCTCTGC  54113
+              |||||||||||||||||||||||| |    ||||| ||||||||||||| ||||||||||
+Sbjct  97     ATTCCTATTCTCTCCCTTAATTTTTTTTTTCTGGCCCTTCTTTCAGAATATTTTCTCTGC  38
+
+Query  54114  TTCTGTTACCTCACAGTAGCTTCTCTATTTTTTA  54147
+              |||||||| ||| |||||||||||||||||||||
+Sbjct  37     TTCTGTTATCTCCCAGTAGCTTCTCTATTTTTTA  4
+
+
+> TRINITY_DN159_c0_g1_i6 len=425 path=[1:0-50 3:51-91 13:92-101 
+14:102-393 16:394-424]
+Length=425
+
+ Score = 138 bits (69),  Expect = 1e-33
+ Identities = 139/152 (91%), Gaps = 1/152 (1%)
+ Strand=Plus/Minus
+
+Query  53996  TTGTTAGTTTCTCTTATTCTCTTTATTGTATTTTTGTTTTCTCATTTTCAACTATTATCC  54055
+              ||||||||||||||||||||||||||||||||||| |||| ||||||| ||||| |||||
+Sbjct  159    TTGTTAGTTTCTCTTATTCTCTTTATTGTATTTTTATTTTTTCATTTTAAACTACTATCC  100
+
+Query  54056  TATTCCTATTCTCTCCCTTAATTTTGTGCTGGCGCTTCTTTCAGAATCTTTTCTCTGCTT  54115
+              ||||||| ||||||||||||||||| | ||||| ||||||||||||||||| ||||||||
+Sbjct  99     TATTCCTGTTCTCTCCCTTAATTTTTTTCTGGCCCTTCTTTCAGAATCTTT-CTCTGCTT  41
+
+Query  54116  CTGTTACCTCACAGTAGCTTCTCTATTTTTTA  54147
+              || |||  || |||||||||||||||||||||
+Sbjct  40     CTATTATTTCCCAGTAGCTTCTCTATTTTTTA  9
+
+
+> TRINITY_DN1155_c0_g1_i1 len=221 path=[0:0-220]
+Length=221
+
+ Score = 112 bits (56),  Expect = 7e-26
+ Identities = 136/151 (90%), Gaps = 3/151 (2%)
+ Strand=Plus/Minus
+
+Query  53997  TGTTAGTTTCTCTTATTCTCTTTATTGTATTTTTGTTTTCTCATTTTCAACTATTATCCT  54056
+              |||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||   
+Sbjct  162    TGTTAGTTTCTCCTATTCTCTTTATTGTATTTTTGTTTTCTCATTTTCAACTATCAT---  106
+
+Query  54057  ATTCCTATTCTCTCCCTTAATTTTGTGCTGGCGCTTCTTTCAGAATCTTTTCTCTGCTTC  54116
+              ||| |||||||| | ||||||| | ||||||| || |||||||||| |||||||||||||
+Sbjct  105    ATTTCTATTCTCGCTCTTAATTCTTTGCTGGCCCTCCTTTCAGAATATTTTCTCTGCTTC  46
+
+Query  54117  TGTTACCTCACAGTAGCTTCTCTATTTTTTA  54147
+              | ||||||| |||||||||||||||||||||
+Sbjct  45     TATTACCTCCCAGTAGCTTCTCTATTTTTTA  15
+
+
+> TRINITY_DN1537_c1_g1_i2 len=396 path=[0:0-77 2:78-103 3:104-395]
+Length=396
+
+ Score = 92.4 bits (46),  Expect = 8e-20
+ Identities = 51/52 (98%), Gaps = 0/52 (0%)
+ Strand=Plus/Minus
+
+Query  52992  GGCGGGCCTGGTGCGACCAGCCAACCAGAGCTGAGCAGGGAGGGGCGGAGCC  53043
+              |||||||||||||| |||||||||||||||||||||||||||||||||||||
+Sbjct  211    GGCGGGCCTGGTGCAACCAGCCAACCAGAGCTGAGCAGGGAGGGGCGGAGCC  160
+
+
+ Score = 64.4 bits (32),  Expect = 2e-11
+ Identities = 72/80 (90%), Gaps = 0/80 (0%)
+ Strand=Plus/Minus
+
+Query  52807  GTCCCCTCCCGCTGGGTGCCTTGGAGCAAAGGCGGCGGGACCTTGCAGGGCGGACTCTCT  52866
+              |||||||||| ||||| ||||||| ||| ||| ||| ||||| |||||||| ||||||||
+Sbjct  396    GTCCCCTCCCACTGGGGGCCTTGGTGCACAGGTGGCAGGACCCTGCAGGGCAGACTCTCT  337
+
+Query  52867  GCCTGTGTGTTGCTTTGTGC  52886
+              ||||||||||||||||||||
+Sbjct  336    GCCTGTGTGTTGCTTTGTGC  317
+
+
+
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Gapped
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.0
+    Posted date:  Aug 12, 2019  6:17 PM
+  Number of letters in database: 566,270
+  Number of sequences in database:  1,251
+
+
+
+Matrix: blastn matrix 1 -5
+Gap Penalties: Existence: 5, Extension: 5
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.1
+           1,251 sequences; 517,797 total letters
+
+
+
+Query= NW_015504249.1 masked CHUNK number:3 size:100000 offset:300000
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  TRINITY_DN4688_c0_g1_i1 len=219 path=[0:0-218]                      438     6e-124
+  TRINITY_DN1425_c0_g1_i1 len=273 path=[0:0-272]                      196     4e-51 
+  TRINITY_DN159_c0_g1_i1 len=730 path=[0:0-334 1:335-385 4:386-39...  184     2e-47 
+  TRINITY_DN31_c0_g1_i2 len=834 path=[0:0-171 3:172-220 4:221-253...  182     7e-47 
+  TRINITY_DN1479_c0_g1_i2 len=221 path=[0:0-98 2:99-122 3:123-123...  160     3e-40 
+  TRINITY_DN31_c3_g1_i3 len=273 path=[0:0-74 2:75-112 4:113-139 5...  142     7e-35 
+  TRINITY_DN1090_c0_g1_i5 len=397 path=[1:0-190 3:191-208 6:209-2...  86.4    5e-18 
+
+
+> TRINITY_DN4688_c0_g1_i1 len=219 path=[0:0-218]
+Length=219
+
+ Score = 438 bits (219),  Expect = 6e-124
+ Identities = 219/219 (100%), Gaps = 0/219 (0%)
+ Strand=Plus/Minus
+
+Query  90618  CCAGAGCTAGGTTTTCCTGGGTGACTTACCTGACTCTTGGATTTTGTTTGCTTCTATGTT  90677
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  219    CCAGAGCTAGGTTTTCCTGGGTGACTTACCTGACTCTTGGATTTTGTTTGCTTCTATGTT  160
+
+Query  90678  CAGTCGTGGAATGTTACAGACTGAATTGGTTTCAGGCTTGAATAATTTCCACAGAGACAT  90737
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  159    CAGTCGTGGAATGTTACAGACTGAATTGGTTTCAGGCTTGAATAATTTCCACAGAGACAT  100
+
+Query  90738  ACGGTGCATGTACCAATTTTGAAAAAAGACGACAAATATCTCTAAAAAGACATTTTGATT  90797
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  99     ACGGTGCATGTACCAATTTTGAAAAAAGACGACAAATATCTCTAAAAAGACATTTTGATT  40
+
+Query  90798  AAGTGGAGTTTTCTCACCAGTAATTAACAACAATCCCTG  90836
+              |||||||||||||||||||||||||||||||||||||||
+Sbjct  39     AAGTGGAGTTTTCTCACCAGTAATTAACAACAATCCCTG  1
+
+
+> TRINITY_DN1425_c0_g1_i1 len=273 path=[0:0-272]
+Length=273
+
+ Score = 196 bits (98),  Expect = 4e-51
+ Identities = 143/152 (94%), Gaps = 0/152 (0%)
+ Strand=Plus/Plus
+
+Query  53996  TTGTTAGTTTCTCTTATTCTCTTTATTGTATTTTTGTTTTCTCATTTTCAACTATTATCC  54055
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  16     TTGTTAGTTTCTCTTATTCTCTTTATTGTATTTTTGTTTTCTCATTTTCAACTATTATCT  75
+
+Query  54056  TATTCCTATTCTCTCCCTTAATTTTGTGCTGGCGCTTCTTTCAGAATCTTTTCTCTGCTT  54115
+              |||||||| ||||||||||||| || ||||||| |||||||||||||||||||||||| |
+Sbjct  76     TATTCCTACTCTCTCCCTTAATATTTTGCTGGCCCTTCTTTCAGAATCTTTTCTCTGCCT  135
+
+Query  54116  CTGTTACCTCACAGTAGCTTCTCTATTTTTTA  54147
+              || ||| ||| |||||||||||||||||||||
+Sbjct  136    CTTTTATCTCCCAGTAGCTTCTCTATTTTTTA  167
+
+
+> TRINITY_DN159_c0_g1_i1 len=730 path=[0:0-334 1:335-385 4:386-396 
+5:397-401 8:402-420 11:421-424 12:425-427 13:428-437 14:438-729]
+Length=730
+
+ Score = 184 bits (92),  Expect = 2e-47
+ Identities = 142/152 (93%), Gaps = 0/152 (0%)
+ Strand=Plus/Minus
+
+Query  53996  TTGTTAGTTTCTCTTATTCTCTTTATTGTATTTTTGTTTTCTCATTTTCAACTATTATCC  54055
+              ||||||||||||||||||||||||||||||||||| |||| ||||||| ||||| |||||
+Sbjct  495    TTGTTAGTTTCTCTTATTCTCTTTATTGTATTTTTATTTTTTCATTTTAAACTACTATCC  436
+
+Query  54056  TATTCCTATTCTCTCCCTTAATTTTGTGCTGGCGCTTCTTTCAGAATCTTTTCTCTGCTT  54115
+              ||||||||||||||||||||||||| ||||||| ||||||||||||||||||||||||||
+Sbjct  435    TATTCCTATTCTCTCCCTTAATTTTTTGCTGGCCCTTCTTTCAGAATCTTTTCTCTGCTT  376
+
+Query  54116  CTGTTACCTCACAGTAGCTTCTCTATTTTTTA  54147
+              || |||  || |||||||||||||||||||||
+Sbjct  375    CTATTATTTCCCAGTAGCTTCTCTATTTTTTA  344
+
+
+> TRINITY_DN31_c0_g1_i2 len=834 path=[0:0-171 3:172-220 4:221-253 
+8:254-256 9:257-409 10:410-415 12:416-459 14:460-483 15:484-543 
+18:544-574 19:575-580 20:581-604 22:605-611 23:612-620 
+25:621-630 27:631-639 29:640-645 30:646-667 31:668-692 33:693-704 
+34:705-725 37:726-740 39:741-749 41:750-833]
+Length=834
+
+ Score = 182 bits (91),  Expect = 7e-47
+ Identities = 196/215 (91%), Gaps = 2/215 (1%)
+ Strand=Plus/Plus
+
+Query  53066  GTCCTGAGGGGGAAGGGAGAGCAGCTCACAGGAGGACTTTGCAAGAATAAGACTCTTGGG  53125
+              |||||||||||||||||||||||| ||||||||||||||| |||||||||||||| ||||
+Sbjct  198    GTCCTGAGGGGGAAGGGAGAGCAGATCACAGGAGGACTTTACAAGAATAAGACTC-TGGG  256
+
+Query  53126  GACTGTTGTTTGGGAACTGGAGGAAAAGCTGAAAACCCGTGCTGGGGGCTGGACAGGCAA  53185
+              |||||||||||||||||||||||||| ||||||||||| ||||||||||||| |||||||
+Sbjct  257    GACTGTTGTTTGGGAACTGGAGGAAACGCTGAAAACCCCTGCTGGGGGCTGGGCAGGCAA  316
+
+Query  53186  AGGGCCCACCAGAATGTGTTCTAAATCTAACCCACTGGGCCCAGGCTGCTGAAACGGCCC  53245
+              || || |||  ||||||  | ||| |  ||||||||| ||||||||||||||||||||||
+Sbjct  317    AGAGCTCACTGGAATGTTCTTTAATTG-AACCCACTGAGCCCAGGCTGCTGAAACGGCCC  375
+
+Query  53246  AGACAGAAGAGGCAACAGGCTGAAATCAATCTGAA  53280
+              | |||||| ||||||||||||||||||||||||||
+Sbjct  376    ATACAGAAAAGGCAACAGGCTGAAATCAATCTGAA  410
+
+
+> TRINITY_DN1479_c0_g1_i2 len=221 path=[0:0-98 2:99-122 3:123-123 
+4:124-157 6:158-160 8:161-220]
+Length=221
+
+ Score = 160 bits (80),  Expect = 3e-40
+ Identities = 145/156 (93%), Gaps = 4/156 (3%)
+ Strand=Plus/Minus
+
+Query  53996  TTGTTAGTTTCTCTTATTCTCTTTATTGTATTTTT-GTTTTCTCATTTTCAACTATTATC  54054
+              |||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||
+Sbjct  159    TTGTTAGTTTCTCTTATTCTCTTTATTGTATTTTTAATTTTCTCATTTTCAACTATTATC  100
+
+Query  54055  CTATTCCTATTCTCTCCCTTAATTTTGTG---CTGGCGCTTCTTTCAGAATCTTTTCTCT  54111
+              |||||||||||||||||||||||||| |    ||||| ||||||||||||| ||||||||
+Sbjct  99     CTATTCCTATTCTCTCCCTTAATTTTTTTTTTCTGGCCCTTCTTTCAGAATATTTTCTCT  40
+
+Query  54112  GCTTCTGTTACCTCACAGTAGCTTCTCTATTTTTTA  54147
+              |||||||||| ||| |||||||||||||||||||||
+Sbjct  39     GCTTCTGTTATCTCCCAGTAGCTTCTCTATTTTTTA  4
+
+
+> TRINITY_DN31_c3_g1_i3 len=273 path=[0:0-74 2:75-112 4:113-139 
+5:140-184 6:185-272]
+Length=273
+
+ Score = 142 bits (71),  Expect = 7e-35
+ Identities = 106/113 (94%), Gaps = 0/113 (0%)
+ Strand=Plus/Plus
+
+Query  52931  GCACTGCACAGACAGACCAGCAGAGGCTGCCACTGGGGTCTGCGCAGTAGACGGTCTGAG  52990
+              ||||||| ||||||||||||| |||||||  | |||||||||| ||||||||||||||||
+Sbjct  1      GCACTGCGCAGACAGACCAGCGGAGGCTGGGATTGGGGTCTGCACAGTAGACGGTCTGAG  60
+
+Query  52991  AGGCGGGCCTGGTGCGACCAGCCAACCAGAGCTGAGCAGGGAGGGGCGGAGCC  53043
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61     GGGCGGGCCTGGTGCGACCAGCCAACCAGAGCTGAGCAGGGAGGGGCGGAGCC  113
+
+
+> TRINITY_DN1090_c0_g1_i5 len=397 path=[1:0-190 3:191-208 6:209-239 
+10:240-277 12:278-297 15:298-309 16:310-312 17:313-314 
+19:315-319 20:320-325 22:326-332 25:333-338 26:339-342 29:343-343 
+30:344-357 33:358-396]
+Length=397
+
+ Score = 86.4 bits (43),  Expect = 5e-18
+ Identities = 63/67 (94%), Gaps = 0/67 (0%)
+ Strand=Plus/Minus
+
+Query  53214  AACCCACTGGGCCCAGGCTGCTGAAACGGCCCAGACAGAAGAGGCAACAGGCTGAAATCA  53273
+              ||||||||| |||||||||||||||||||||||||||||| |||| |||||||||| |||
+Sbjct  366    AACCCACTGAGCCCAGGCTGCTGAAACGGCCCAGACAGAAAAGGCGACAGGCTGAAGTCA  307
+
+Query  53274  ATCTGAA  53280
+              |||||||
+Sbjct  306    ATCTGAA  300
+
+
+
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Gapped
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.1
+    Posted date:  Aug 12, 2019  6:17 PM
+  Number of letters in database: 517,797
+  Number of sequences in database:  1,251
+
+
+
+Matrix: blastn matrix 1 -5
+Gap Penalties: Existence: 5, Extension: 5
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.2
+           1,251 sequences; 519,191 total letters
+
+
+
+Query= NW_015504249.1 masked CHUNK number:3 size:100000 offset:300000
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  TRINITY_DN721_c0_g1_i4 len=597 path=[1:0-283 5:284-306 6:307-32...  568     5e-163
+  TRINITY_DN1090_c0_g1_i6 len=322 path=[0:0-46 13:47-75 16:76-78 ...  234     1e-62 
+  TRINITY_DN1479_c0_g1_i3 len=210 path=[1:0-114 2:115-138 4:139-1...  172     7e-44 
+  TRINITY_DN159_c0_g1_i2 len=730 path=[0:0-334 1:335-385 4:386-39...  172     7e-44 
+  TRINITY_DN1425_c0_g2_i1 len=344 path=[0:0-343]                      148     1e-36 
+  TRINITY_DN31_c3_g1_i2 len=215 path=[0:0-74 2:75-112 3:113-139 5...  142     7e-35 
+  TRINITY_DN6_c0_g3_i1 len=627 path=[0:0-557 2:558-626]               108     1e-24 
+
+
+> TRINITY_DN721_c0_g1_i4 len=597 path=[1:0-283 5:284-306 6:307-329 
+7:330-331 9:332-347 12:348-354 14:355-366 17:367-422 18:423-487 
+20:488-502 21:503-522 22:523-531 25:532-545 28:546-596]
+Length=597
+
+ Score = 568 bits (284),  Expect = 5e-163
+ Identities = 479/518 (92%), Gaps = 0/518 (0%)
+ Strand=Plus/Minus
+
+Query  52526  TGTCCCAAGGCCTGTGGCACCCAAGTAGTAAGGGACCAGAGGACTGCCCTGAGCACCCGC  52585
+              |||||||||| |||||||||||||||||| ||||||||||||||| | || |||||||||
+Sbjct  597    TGTCCCAAGGACTGTGGCACCCAAGTAGTGAGGGACCAGAGGACTACGCTAAGCACCCGC  538
+
+Query  52586  ACACGGGGACCCTCTGCCTCCCTGTGGGGCACTGTGTTGAGCCCCAGAAAGCGCTGAATC  52645
+              |||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||
+Sbjct  537    ACACGGGGACCCTCTGCCTCCCTGTGGGGCACTGGGTTGAGCCCCAGAAAGTGCTGAATC  478
+
+Query  52646  TGTGTGGCACGGGGGAGGGGAGGAGCCCTCCCACCCTGAGCTCCCGGGTGCCAAGAGGCT  52705
+              ||  |||   |||||||||||||||||||||| |||||||||||||||||||||||||||
+Sbjct  477    TGCATGGTGTGGGGGAGGGGAGGAGCCCTCCCGCCCTGAGCTCCCGGGTGCCAAGAGGCT  418
+
+Query  52706  GGGATCTGTGACCGGCCCTGAGGGGCCCCGTGGTGGCACATGAAGCCGCTCCAGCTTTGC  52765
+              |||||||||||||||||||||||||||| |||||||  | | ||||||||||||||||||
+Sbjct  417    GGGATCTGTGACCGGCCCTGAGGGGCCCAGTGGTGGTGCCTCAAGCCGCTCCAGCTTTGC  358
+
+Query  52766  TCAGACCAGCGGTGTGGAGAGCTGCATGGAGCTGACTTTGGGTCCCCTCCCGCTGGGTGC  52825
+              | ||||||| ||||||||||||||  ||||||||||||||||||||||||||||||||||
+Sbjct  357    TGAGACCAGTGGTGTGGAGAGCTGTGTGGAGCTGACTTTGGGTCCCCTCCCGCTGGGTGC  298
+
+Query  52826  CTTGGAGCAAAGGCGGCGGGACCTTGCAGGGCGGACTCTCTGCCTGTGTGTTGCTTTGTG  52885
+              |||||||||| || || |||||||||||||||||||||||||||||||||||||||||||
+Sbjct  297    CTTGGAGCAAGGGTGGTGGGACCTTGCAGGGCGGACTCTCTGCCTGTGTGTTGCTTTGTG  238
+
+Query  52886  CTTTTGCGAGTTTGATTGTGGAACTGGTTCCCCCCTTCCCGGCGTGCACTGCACAGACAG  52945
+              ||||||  |||| ||||||||||||||||||| |||||||||||||||||||||||||||
+Sbjct  237    CTTTTGGAAGTTCGATTGTGGAACTGGTTCCCACCTTCCCGGCGTGCACTGCACAGACAG  178
+
+Query  52946  ACCAGCAGAGGCTGCCACTGGGGTCTGCGCAGTAGACGGTCTGAGAGGCGGGCCTGGTGC  53005
+              |||||| |||||||||| |||||| ||| ||||||| |||||||| || |||  ||||||
+Sbjct  177    ACCAGCGGAGGCTGCCATTGGGGTGTGCACAGTAGATGGTCTGAGGGGTGGGAGTGGTGC  118
+
+Query  53006  GACCAGCCAACCAGAGCTGAGCAGGGAGGGGCGGAGCC  53043
+              ||||||||||||||||||||||||||||||| ||||||
+Sbjct  117    GACCAGCCAACCAGAGCTGAGCAGGGAGGGGTGGAGCC  80
+
+
+> TRINITY_DN1090_c0_g1_i6 len=322 path=[0:0-46 13:47-75 16:76-78 
+17:79-80 19:81-85 21:86-95 24:96-133 35:134-134 37:135-137 
+38:138-150 39:151-174 40:175-175 42:176-207 46:208-221 48:222-321]
+Length=322
+
+ Score = 234 bits (117),  Expect = 1e-62
+ Identities = 192/207 (93%), Gaps = 0/207 (0%)
+ Strand=Plus/Minus
+
+Query  53074  GGGGAAGGGAGAGCAGCTCACAGGAGGACTTTGCAAGAATAAGACTCTTGGGGACTGTTG  53133
+              |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||
+Sbjct  272    GGGGAAGGGAGAGCAGCTCACAGGAGGACTCTGCAAGAATAAGACTCTTGGGGACTGTTG  213
+
+Query  53134  TTTGGGAACTGGAGGAAAAGCTGAAAACCCGTGCTGGGGGCTGGACAGGCAAAGGGCCCA  53193
+              |||| ||||||||||| | ||||||||||| |||| |||||||| |||||||||||| ||
+Sbjct  212    TTTGAGAACTGGAGGACACGCTGAAAACCCCTGCTTGGGGCTGGGCAGGCAAAGGGCTCA  153
+
+Query  53194  CCAGAATGTGTTCTAAATCTAACCCACTGGGCCCAGGCTGCTGAAACGGCCCAGACAGAA  53253
+              |||||||||||||| |||  |||||||||||||| |||||||||||||||||| | ||||
+Sbjct  152    CCAGAATGTGTTCTTAATTGAACCCACTGGGCCCTGGCTGCTGAAACGGCCCATATAGAA  93
+
+Query  53254  GAGGCAACAGGCTGAAATCAATCTGAA  53280
+               ||||||||||||||||||||||||||
+Sbjct  92     AAGGCAACAGGCTGAAATCAATCTGAA  66
+
+
+> TRINITY_DN1479_c0_g1_i3 len=210 path=[1:0-114 2:115-138 4:139-172 
+6:173-175 7:176-209]
+Length=210
+
+ Score = 172 bits (86),  Expect = 7e-44
+ Identities = 141/152 (93%), Gaps = 0/152 (0%)
+ Strand=Plus/Minus
+
+Query  53996  TTGTTAGTTTCTCTTATTCTCTTTATTGTATTTTTGTTTTCTCATTTTCAACTATTATCC  54055
+              ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| 
+Sbjct  174    TTGTTAGTTTCTCTTATTCTCTTTATTGTATTTTTATTTTCTCATTTTCAACTATTATCT  115
+
+Query  54056  TATTCCTATTCTCTCCCTTAATTTTGTGCTGGCGCTTCTTTCAGAATCTTTTCTCTGCTT  54115
+              |||||||||||||| | |||||||| ||| ||| ||||||||||||||||||| ||||||
+Sbjct  114    TATTCCTATTCTCTTCTTTAATTTTTTGCCGGCCCTTCTTTCAGAATCTTTTCACTGCTT  55
+
+Query  54116  CTGTTACCTCACAGTAGCTTCTCTATTTTTTA  54147
+              |||||| ||| ||||| |||||||||||||||
+Sbjct  54     CTGTTATCTCCCAGTAACTTCTCTATTTTTTA  23
+
+
+> TRINITY_DN159_c0_g1_i2 len=730 path=[0:0-334 1:335-385 4:386-396 
+6:397-409 9:410-424 12:425-427 13:428-437 14:438-729]
+Length=730
+
+ Score = 172 bits (86),  Expect = 7e-44
+ Identities = 141/152 (93%), Gaps = 0/152 (0%)
+ Strand=Plus/Minus
+
+Query  53996  TTGTTAGTTTCTCTTATTCTCTTTATTGTATTTTTGTTTTCTCATTTTCAACTATTATCC  54055
+              ||||||||||||||||||||||||||||||||||| |||| ||||||| ||||| |||||
+Sbjct  495    TTGTTAGTTTCTCTTATTCTCTTTATTGTATTTTTATTTTTTCATTTTAAACTACTATCC  436
+
+Query  54056  TATTCCTATTCTCTCCCTTAATTTTGTGCTGGCGCTTCTTTCAGAATCTTTTCTCTGCTT  54115
+              |||||||||| |||||||||||||||||||||| ||| ||||||||||||||||||||||
+Sbjct  435    TATTCCTATTTTCTCCCTTAATTTTGTGCTGGCCCTTTTTTCAGAATCTTTTCTCTGCTT  376
+
+Query  54116  CTGTTACCTCACAGTAGCTTCTCTATTTTTTA  54147
+              || |||  || |||||||||||||||||||||
+Sbjct  375    CTATTATTTCCCAGTAGCTTCTCTATTTTTTA  344
+
+
+> TRINITY_DN1425_c0_g2_i1 len=344 path=[0:0-343]
+Length=344
+
+ Score = 148 bits (74),  Expect = 1e-36
+ Identities = 139/152 (91%), Gaps = 0/152 (0%)
+ Strand=Plus/Plus
+
+Query  53996  TTGTTAGTTTCTCTTATTCTCTTTATTGTATTTTTGTTTTCTCATTTTCAACTATTATCC  54055
+              |||||||||||||||||||||||||||||||||||  ||||||||||| |||||||||||
+Sbjct  16     TTGTTAGTTTCTCTTATTCTCTTTATTGTATTTTTACTTTCTCATTTTTAACTATTATCC  75
+
+Query  54056  TATTCCTATTCTCTCCCTTAATTTTGTGCTGGCGCTTCTTTCAGAATCTTTTCTCTGCTT  54115
+              | |||||||| |||||| |||| || ||||| | ||||||||||||||||||||||||||
+Sbjct  76     TGTTCCTATTGTCTCCCATAATGTTTTGCTGTCCCTTCTTTCAGAATCTTTTCTCTGCTT  135
+
+Query  54116  CTGTTACCTCACAGTAGCTTCTCTATTTTTTA  54147
+              |||||| ||| ||||||||||||| |||||||
+Sbjct  136    CTGTTATCTCCCAGTAGCTTCTCTGTTTTTTA  167
+
+
+> TRINITY_DN31_c3_g1_i2 len=215 path=[0:0-74 2:75-112 3:113-139 
+5:140-184 7:185-186 8:187-214]
+Length=215
+
+ Score = 142 bits (71),  Expect = 7e-35
+ Identities = 106/113 (94%), Gaps = 0/113 (0%)
+ Strand=Plus/Plus
+
+Query  52931  GCACTGCACAGACAGACCAGCAGAGGCTGCCACTGGGGTCTGCGCAGTAGACGGTCTGAG  52990
+              ||||||| ||||||||||||| |||||||  | |||||||||| ||||||||||||||||
+Sbjct  1      GCACTGCGCAGACAGACCAGCGGAGGCTGGGATTGGGGTCTGCACAGTAGACGGTCTGAG  60
+
+Query  52991  AGGCGGGCCTGGTGCGACCAGCCAACCAGAGCTGAGCAGGGAGGGGCGGAGCC  53043
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61     GGGCGGGCCTGGTGCGACCAGCCAACCAGAGCTGAGCAGGGAGGGGCGGAGCC  113
+
+
+> TRINITY_DN6_c0_g3_i1 len=627 path=[0:0-557 2:558-626]
+Length=627
+
+ Score = 108 bits (54),  Expect = 1e-24
+ Identities = 89/95 (94%), Gaps = 1/95 (1%)
+ Strand=Plus/Minus
+
+Query  86465  GGAAaataatacaataattaataaataataatacaagaataaACTCTGTGTTTCATGTAC  86524
+              ||||||||||| ||||||||||||||| ||| | ||||||||||||||| ||||||||||
+Sbjct  613    GGAAAATAATATAATAATTAATAAATA-TAACAGAAGAATAAACTCTGTATTTCATGTAC  555
+
+Query  86525  TCACAACTGTAAATCTACTTTTGTCCCACCCTGTA  86559
+              ||||||||||||||||||||||| |||||||||||
+Sbjct  554    TCACAACTGTAAATCTACTTTTGCCCCACCCTGTA  520
+
+
+
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Gapped
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.2
+    Posted date:  Aug 12, 2019  6:17 PM
+  Number of letters in database: 519,191
+  Number of sequences in database:  1,251
+
+
+
+Matrix: blastn matrix 1 -5
+Gap Penalties: Existence: 5, Extension: 5
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.3
+           1,251 sequences; 513,003 total letters
+
+
+
+Query= NW_015504249.1 masked CHUNK number:3 size:100000 offset:300000
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  TRINITY_DN4637_c0_g1_i1 len=228 path=[0:0-227]                      456     2e-129
+  TRINITY_DN721_c0_g1_i5 len=225 path=[0:0-51 15:52-59 21:60-79 2...  168     1e-42 
+  TRINITY_DN159_c0_g1_i3 len=730 path=[0:0-334 1:335-385 4:386-39...  160     3e-40 
+  TRINITY_DN1425_c0_g3_i2 len=310 path=[1:0-188 2:189-309]            130     3e-31 
+  TRINITY_DN31_c3_g1_i1 len=238 path=[1:0-39 2:40-77 4:78-104 5:1...  80.4    3e-16 
+
+
+> TRINITY_DN4637_c0_g1_i1 len=228 path=[0:0-227]
+Length=228
+
+ Score = 456 bits (228),  Expect = 2e-129
+ Identities = 228/228 (100%), Gaps = 0/228 (0%)
+ Strand=Plus/Plus
+
+Query  65128  GAAATACGTGAGAAAACAGTCTTCACAAAATGTAAAATTCAAAACTTGATGTGAAAGAAA  65187
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1      GAAATACGTGAGAAAACAGTCTTCACAAAATGTAAAATTCAAAACTTGATGTGAAAGAAA  60
+
+Query  65188  AGGAAATTCCTACATGTCAAGAATGAATAGGCAAAGCAATAAAGGGACACTACTGTCCTG  65247
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61     AGGAAATTCCTACATGTCAAGAATGAATAGGCAAAGCAATAAAGGGACACTACTGTCCTG  120
+
+Query  65248  TGGATCAAGGGAGTATGGGGCCAGATGTAGGCTCCAGGGGACTGGGAGTTGGGGTTTTAA  65307
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121    TGGATCAAGGGAGTATGGGGCCAGATGTAGGCTCCAGGGGACTGGGAGTTGGGGTTTTAA  180
+
+Query  65308  GACACACTCAGGAATGCAGGGTCACATGGGACACAGCCCCATACTACA  65355
+              ||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181    GACACACTCAGGAATGCAGGGTCACATGGGACACAGCCCCATACTACA  228
+
+
+> TRINITY_DN721_c0_g1_i5 len=225 path=[0:0-51 15:52-59 21:60-79 
+22:80-88 25:89-102 27:103-128 29:129-168 30:169-224]
+Length=225
+
+ Score = 168 bits (84),  Expect = 1e-42
+ Identities = 159/173 (92%), Gaps = 1/173 (1%)
+ Strand=Plus/Minus
+
+Query  52471  AGGGGCGGCTGCGACCCGGCGTCTGGTGCTTGGGGTGCTGACCATAGGGAAGGACTGTCC  52530
+              |||||| ||||||||| |||||||||||||   ||||| |||||||||||||| ||||||
+Sbjct  208    AGGGGCAGCTGCGACCGGGCGTCTGGTGCTCATGGTGCCGACCATAGGGAAGG-CTGTCC  150
+
+Query  52531  CAAGGCCTGTGGCACCCAAGTAGTAAGGGACCAGAGGACTGCCCTGAGCACCCGCACACG  52590
+              ||||||||||||||||||||  || | |||||| |||||||| |||||||||||||||||
+Sbjct  149    CAAGGCCTGTGGCACCCAAGCGGTGAAGGACCAAAGGACTGCGCTGAGCACCCGCACACG  90
+
+Query  52591  GGGACCCTCTGCCTCCCTGTGGGGCACTGTGTTGAGCCCCAGAAAGCGCTGAA  52643
+              ||||||||||||||||||||||||||||||||||||| |||||||||||||||
+Sbjct  89     GGGACCCTCTGCCTCCCTGTGGGGCACTGTGTTGAGCTCCAGAAAGCGCTGAA  37
+
+
+> TRINITY_DN159_c0_g1_i3 len=730 path=[0:0-334 1:335-385 4:386-396 
+5:397-401 8:402-420 10:421-437 14:438-729]
+Length=730
+
+ Score = 160 bits (80),  Expect = 3e-40
+ Identities = 140/152 (92%), Gaps = 0/152 (0%)
+ Strand=Plus/Minus
+
+Query  53996  TTGTTAGTTTCTCTTATTCTCTTTATTGTATTTTTGTTTTCTCATTTTCAACTATTATCC  54055
+              ||||||||||||||||||||||||||||||||||| |||| ||||||| ||||| || ||
+Sbjct  495    TTGTTAGTTTCTCTTATTCTCTTTATTGTATTTTTATTTTTTCATTTTAAACTACTAACC  436
+
+Query  54056  TATTCCTATTCTCTCCCTTAATTTTGTGCTGGCGCTTCTTTCAGAATCTTTTCTCTGCTT  54115
+              ||||||||||||| ||||||||||| ||||||| ||||||||||||||||||||||||||
+Sbjct  435    TATTCCTATTCTCACCCTTAATTTTTTGCTGGCCCTTCTTTCAGAATCTTTTCTCTGCTT  376
+
+Query  54116  CTGTTACCTCACAGTAGCTTCTCTATTTTTTA  54147
+              || |||  || |||||||||||||||||||||
+Sbjct  375    CTATTATTTCCCAGTAGCTTCTCTATTTTTTA  344
+
+
+> TRINITY_DN1425_c0_g3_i2 len=310 path=[1:0-188 2:189-309]
+Length=310
+
+ Score = 130 bits (65),  Expect = 3e-31
+ Identities = 125/136 (92%), Gaps = 1/136 (1%)
+ Strand=Plus/Plus
+
+Query  54012  TTCTCTTTATTGTATTTTTGTTTTCTCATTTTCAACTATTATCCTATTCCTATTCTCTCC  54071
+              ||||||||||||||||||| |||| |||||||||||||||||||||||||||||||||||
+Sbjct  1      TTCTCTTTATTGTATTTTTATTTTTTCATTTTCAACTATTATCCTATTCCTATTCTCTCC  60
+
+Query  54072  CTTAATTTTGTGCTGGCGCTTCTTTCAGAATCTTTTCTCTGCTTCTGTTACCTCACAGTA  54131
+              ||| ||||| ||||||| |||| ||||||||||||||||||| ||| ||| ||| ||| |
+Sbjct  61     CTTGATTTTTTGCTGGCCCTTC-TTCAGAATCTTTTCTCTGCCTCTATTATCTCCCAGCA  119
+
+Query  54132  GCTTCTCTATTTTTTA  54147
+              ||||||||||||||||
+Sbjct  120    GCTTCTCTATTTTTTA  135
+
+
+> TRINITY_DN31_c3_g1_i1 len=238 path=[1:0-39 2:40-77 4:78-104 5:105-149 
+6:150-237]
+Length=238
+
+ Score = 80.4 bits (40),  Expect = 3e-16
+ Identities = 50/52 (96%), Gaps = 0/52 (0%)
+ Strand=Plus/Plus
+
+Query  52992  GGCGGGCCTGGTGCGACCAGCCAACCAGAGCTGAGCAGGGAGGGGCGGAGCC  53043
+              ||||||||||| | ||||||||||||||||||||||||||||||||||||||
+Sbjct  27     GGCGGGCCTGGAGGGACCAGCCAACCAGAGCTGAGCAGGGAGGGGCGGAGCC  78
+
+
+
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Gapped
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.3
+    Posted date:  Aug 12, 2019  6:17 PM
+  Number of letters in database: 513,003
+  Number of sequences in database:  1,251
+
+
+
+Matrix: blastn matrix 1 -5
+Gap Penalties: Existence: 5, Extension: 5
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.4
+           1,251 sequences; 498,698 total letters
+
+
+
+Query= NW_015504249.1 masked CHUNK number:3 size:100000 offset:300000
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  TRINITY_DN370_c0_g1_i5 len=374 path=[1:0-225 2:226-269 4:270-27...  374     1e-104
+  TRINITY_DN1090_c0_g1_i1 len=322 path=[0:0-46 13:47-75 16:76-78 ...  270     2e-73 
+  TRINITY_DN721_c0_g1_i6 len=643 path=[3:0-162 6:163-185 7:186-18...  230     2e-61 
+  TRINITY_DN31_c0_g1_i9 len=697 path=[2:0-33 3:34-82 5:83-90 6:91...  192     6e-50 
+  TRINITY_DN1910_c0_g4_i1 len=253 path=[0:0-252]                      180     3e-46 
+  TRINITY_DN31_c3_g1_i4 len=219 path=[0:0-74 2:75-112 3:113-139 5...  142     7e-35 
+
+
+> TRINITY_DN370_c0_g1_i5 len=374 path=[1:0-225 2:226-269 4:270-271 
+5:272-273 9:274-373]
+Length=374
+
+ Score = 374 bits (187),  Expect = 1e-104
+ Identities = 312/335 (93%), Gaps = 3/335 (1%)
+ Strand=Plus/Minus
+
+Query  52089  GAAGATGGCAGCCCTGTGAGAAGCAGCAGCGCCCCCACTCCAGCCACGGATTTGATTTCC  52148
+              |||||||||||||||||||||||||||||||||||| ||||||||||||| |||||||||
+Sbjct  360    GAAGATGGCAGCCCTGTGAGAAGCAGCAGCGCCCCCGCTCCAGCCACGGACTTGATTTCC  301
+
+Query  52149  TCCCGAAATCCTATGTAACCAGCTTTaaaaaaaaaaCAGAGAAACATACCTGAGTGGACG  52208
+              |||  ||||||||||||||||||||   ||||||||||||||||||||||||||||||||
+Sbjct  300    TCCTAAAATCCTATGTAACCAGCTT--GAAAAAAAACAGAGAAACATACCTGAGTGGACG  243
+
+Query  52209  AAGTGTGAGTGGGGAGCACTGAGGAACCATCACAGAGTCCGGTAAGAGAGGGGGCCCTTG  52268
+               |||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||
+Sbjct  242    GAGTGTGAGTGGGGAGCACTGAGGAACCATCAGGGAGTCTGGTAAGAGAGGGGGCCCTTG  183
+
+Query  52269  GAAGGGGGAGTTCCCCTGAAGCCTGTGCTGGGCTCCGAGCCTAAAGGCTTGGAGGCTGCA  52328
+              ||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||
+Sbjct  182    GAAGGGGGAGTCCCCCTGAAGCCTGTGCTGGGCTCCGAGCCTGAAGGCTTGGAGGCTGCA  123
+
+Query  52329  AAACCCCGCGGACTGCATCCAAAAGCAGGGATCCCACACTCAGAGCAGAGAGGGGAAGGA  52388
+              || | |||||||| |||||||||||| ||||||||||||   ||||||||||||||||||
+Sbjct  122    AAGCTCCGCGGACGGCATCCAAAAGCGGGGATCCCACACCTGGAGCAGAGAGGGGAAGGA  63
+
+Query  52389  GCGCCCCGCACACAGGGCAGAGGGACCCAGGGGAG  52423
+              || ||| || |||||||||||||||||||||||||
+Sbjct  62     GCACCC-GCGCACAGGGCAGAGGGACCCAGGGGAG  29
+
+
+> TRINITY_DN1090_c0_g1_i1 len=322 path=[0:0-46 13:47-75 16:76-78 
+17:79-80 19:81-85 21:86-95 23:96-98 25:99-104 27:105-121 34:122-133 
+35:134-134 37:135-137 38:138-150 39:151-174 40:175-175 
+41:176-176 43:177-191 44:192-207 46:208-221 48:222-321]
+Length=322
+
+ Score = 270 bits (135),  Expect = 2e-73
+ Identities = 195/207 (94%), Gaps = 0/207 (0%)
+ Strand=Plus/Minus
+
+Query  53074  GGGGAAGGGAGAGCAGCTCACAGGAGGACTTTGCAAGAATAAGACTCTTGGGGACTGTTG  53133
+              |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||
+Sbjct  272    GGGGAAGGGAGAGCAGCTCACAGGAGGACTCTGCAAGAATAAGACTCTTGGGGACTGTTG  213
+
+Query  53134  TTTGGGAACTGGAGGAAAAGCTGAAAACCCGTGCTGGGGGCTGGACAGGCAAAGGGCCCA  53193
+              |||||||||||||||||| ||||||||||| ||||||||||||| |||||||||||| ||
+Sbjct  212    TTTGGGAACTGGAGGAAACGCTGAAAACCCCTGCTGGGGGCTGGGCAGGCAAAGGGCTCA  153
+
+Query  53194  CCAGAATGTGTTCTAAATCTAACCCACTGGGCCCAGGCTGCTGAAACGGCCCAGACAGAA  53253
+              |||||||||||||| |||| |||||||||  ||||||||||||||| |||||| ||||||
+Sbjct  152    CCAGAATGTGTTCTTAATCGAACCCACTGAACCCAGGCTGCTGAAATGGCCCATACAGAA  93
+
+Query  53254  GAGGCAACAGGCTGAAATCAATCTGAA  53280
+               ||||||||||||||||||||||||||
+Sbjct  92     AAGGCAACAGGCTGAAATCAATCTGAA  66
+
+
+> TRINITY_DN721_c0_g1_i6 len=643 path=[3:0-162 6:163-185 7:186-187 
+10:188-198 11:199-203 12:204-210 14:211-222 17:223-278 19:279-462 
+20:463-477 21:478-497 22:498-506 24:507-525 26:526-546 
+29:547-586 30:587-642]
+Length=643
+
+ Score = 230 bits (115),  Expect = 2e-61
+ Identities = 200/216 (93%), Gaps = 1/216 (0%)
+ Strand=Plus/Minus
+
+Query  52471  AGGGGCGGCTGCGACCCGGCGTCTGGTGCTTGGGGTGCTGACCATAGGGAAGGACTGTCC  52530
+              |||||| ||||||||| |||||||||||||   ||||| |||||||||||||| ||||||
+Sbjct  626    AGGGGCAGCTGCGACCGGGCGTCTGGTGCTCATGGTGCCGACCATAGGGAAGG-CTGTCC  568
+
+Query  52531  CAAGGCCTGTGGCACCCAAGTAGTAAGGGACCAGAGGACTGCCCTGAGCACCCGCACACG  52590
+              ||||||||||||||||||||| || ||||||||||||||||  |||||||||||||||| 
+Sbjct  567    CAAGGCCTGTGGCACCCAAGTGGTGAGGGACCAGAGGACTGTGCTGAGCACCCGCACACA  508
+
+Query  52591  GGGACCCTCTGCCTCCCTGTGGGGCACTGTGTTGAGCCCCAGAAAGCGCTGAATCTGTGT  52650
+              ||||||||||||||||||||||||||||| |||||||||||||| | |||||||||||||
+Sbjct  507    GGGACCCTCTGCCTCCCTGTGGGGCACTGGGTTGAGCCCCAGAAGGGGCTGAATCTGTGT  448
+
+Query  52651  GGCACGGGGGAGGGGAGGAGCCCTCCCACCCTGAGC  52686
+              ||| ||||||||||||||||||||||||||||||||
+Sbjct  447    GGCCCGGGGGAGGGGAGGAGCCCTCCCACCCTGAGC  412
+
+
+ Score = 210 bits (105),  Expect = 2e-55
+ Identities = 215/237 (91%), Gaps = 0/237 (0%)
+ Strand=Plus/Minus
+
+Query  52700  GAGGCTGGGATCTGTGACCGGCCCTGAGGGGCCCCGTGGTGGCACATGAAGCCGCTCCAG  52759
+              |||||||||||||||||||||||||||||||||| |||||||  | | ||||||||||||
+Sbjct  279    GAGGCTGGGATCTGTGACCGGCCCTGAGGGGCCCAGTGGTGGTGCCTCAAGCCGCTCCAG  220
+
+Query  52760  CTTTGCTCAGACCAGCGGTGTGGAGAGCTGCATGGAGCTGACTTTGGGTCCCCTCCCGCT  52819
+              ||||||| ||||||||||||||||||||||| |||||||||||||||||||||||| |||
+Sbjct  219    CTTTGCTGAGACCAGCGGTGTGGAGAGCTGCGTGGAGCTGACTTTGGGTCCCCTCCTGCT  160
+
+Query  52820  GGGTGCCTTGGAGCAAAGGCGGCGGGACCTTGCAGGGCGGACTCTCTGCCTGTGTGTTGC  52879
+               ||||||||||| ||| ||| | ||||| |||||||| |||||||| |||||||||||||
+Sbjct  159    CGGTGCCTTGGAACAAGGGCCGGGGGACGTTGCAGGGTGGACTCTCCGCCTGTGTGTTGC  100
+
+Query  52880  TTTGTGCTTTTGCGAGTTTGATTGTGGAACTGGTTCCCCCCTTCCCGGCGTGCACTG  52936
+              ||||||| ||| |||||||||| | ||||||||||||| ||||||| ||||||||||
+Sbjct  99     TTTGTGCATTTTCGAGTTTGATCGCGGAACTGGTTCCCACCTTCCCAGCGTGCACTG  43
+
+
+> TRINITY_DN31_c0_g1_i9 len=697 path=[2:0-33 3:34-82 5:83-90 6:91-119 
+9:120-272 10:273-278 12:279-322 14:323-346 15:347-406 
+18:407-437 19:438-443 20:444-467 22:468-474 23:475-483 25:484-493 
+27:494-502 29:503-508 30:509-530 31:531-555 33:556-567 
+34:568-588 37:589-603 39:604-612 41:613-696]
+Length=697
+
+ Score = 192 bits (96),  Expect = 6e-50
+ Identities = 196/215 (91%), Gaps = 1/215 (0%)
+ Strand=Plus/Plus
+
+Query  53066  GTCCTGAGGGGGAAGGGAGAGCAGCTCACAGGAGGACTTTGCAAGAATAAGACTCTTGGG  53125
+              |||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||
+Sbjct  60     GTCCTGAGGGGGAAGGGAGAGCAGCTCACAGGCGGACTTTGCAAGAATAAGACTCTCGGG  119
+
+Query  53126  GACTGTTGTTTGGGAACTGGAGGAAAAGCTGAAAACCCGTGCTGGGGGCTGGACAGGCAA  53185
+               ||||||||||||||||||||||||| ||||||||||| ||||||||||||| |||||||
+Sbjct  120    CACTGTTGTTTGGGAACTGGAGGAAACGCTGAAAACCCCTGCTGGGGGCTGGGCAGGCAA  179
+
+Query  53186  AGGGCCCACCAGAATGTGTTCTAAATCTAACCCACTGGGCCCAGGCTGCTGAAACGGCCC  53245
+              || || |||  ||||||  | ||| |  ||||||||| ||||||||||||||||||||||
+Sbjct  180    AGAGCTCACTGGAATGTTCTTTAATTG-AACCCACTGAGCCCAGGCTGCTGAAACGGCCC  238
+
+Query  53246  AGACAGAAGAGGCAACAGGCTGAAATCAATCTGAA  53280
+              | |||||| ||||||||||||||||||||||||||
+Sbjct  239    ATACAGAAAAGGCAACAGGCTGAAATCAATCTGAA  273
+
+
+> TRINITY_DN1910_c0_g4_i1 len=253 path=[0:0-252]
+Length=253
+
+ Score = 180 bits (90),  Expect = 3e-46
+ Identities = 175/192 (91%), Gaps = 0/192 (0%)
+ Strand=Plus/Minus
+
+Query  53089  GCTCACAGGAGGACTTTGCAAGAATAAGACTCTTGGGGACTGTTGTTTGGGAACTGGAGG  53148
+              |||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||
+Sbjct  236    GCTCACAGGAGGACTTTGCAAGAATAAGACTCTCAGGGACTGTTGTTTGGGAACTGGAGG  177
+
+Query  53149  AAAAGCTGAAAACCCGTGCTGGGGGCTGGACAGGCAAAGGGCCCACCAGAATGTGTTCTA  53208
+              ||| ||||||||||| ||| |||||||||||||||||||||| |||||||| ||||| | 
+Sbjct  176    AAAGGCTGAAAACCCCTGCAGGGGGCTGGACAGGCAAAGGGCTCACCAGAAGGTGTTTTT  117
+
+Query  53209  AATCTAACCCACTGGGCCCAGGCTGCTGAAACGGCCCAGACAGAAGAGGCAACAGGCTGA  53268
+              ||||  | |||||| ||||||||||||||||| ||||| | |||| ||||||||||||||
+Sbjct  116    AATCGGAACCACTGAGCCCAGGCTGCTGAAACAGCCCATAGAGAAAAGGCAACAGGCTGA  57
+
+Query  53269  AATCAATCTGAA  53280
+              ||||||||||||
+Sbjct  56     AATCAATCTGAA  45
+
+
+> TRINITY_DN31_c3_g1_i4 len=219 path=[0:0-74 2:75-112 3:113-139 
+5:140-184 7:185-186 9:187-218]
+Length=219
+
+ Score = 142 bits (71),  Expect = 7e-35
+ Identities = 106/113 (94%), Gaps = 0/113 (0%)
+ Strand=Plus/Plus
+
+Query  52931  GCACTGCACAGACAGACCAGCAGAGGCTGCCACTGGGGTCTGCGCAGTAGACGGTCTGAG  52990
+              ||||||| ||||||||||||| |||||||  | |||||||||| ||||||||||||||||
+Sbjct  1      GCACTGCGCAGACAGACCAGCGGAGGCTGGGATTGGGGTCTGCACAGTAGACGGTCTGAG  60
+
+Query  52991  AGGCGGGCCTGGTGCGACCAGCCAACCAGAGCTGAGCAGGGAGGGGCGGAGCC  53043
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61     GGGCGGGCCTGGTGCGACCAGCCAACCAGAGCTGAGCAGGGAGGGGCGGAGCC  113
+
+
+
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Gapped
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.4
+    Posted date:  Aug 12, 2019  6:17 PM
+  Number of letters in database: 498,698
+  Number of sequences in database:  1,251
+
+
+
+Matrix: blastn matrix 1 -5
+Gap Penalties: Existence: 5, Extension: 5
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.5
+           1,251 sequences; 529,888 total letters
+
+
+
+Query= NW_015504249.1 masked CHUNK number:3 size:100000 offset:300000
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  TRINITY_DN370_c0_g1_i6 len=353 path=[1:0-225 2:226-269 4:270-27...  288     8e-79
+  TRINITY_DN721_c0_g1_i7 len=478 path=[2:0-59 10:60-70 11:71-75 1...  188     1e-48
+  TRINITY_DN1910_c0_g1_i1 len=208 path=[0:0-207]                      120     3e-28
+  TRINITY_DN1072_c2_g1_i1 len=267 path=[0:0-266]                      86.4    5e-18
+
+
+> TRINITY_DN370_c0_g1_i6 len=353 path=[1:0-225 2:226-269 4:270-271 
+6:272-352]
+Length=353
+
+ Score = 288 bits (144),  Expect = 8e-79
+ Identities = 229/245 (93%), Gaps = 1/245 (0%)
+ Strand=Plus/Minus
+
+Query  52179  aaaaaaCAGAGAAACATACCTGAGTGGACGAAGTGTGAGTGGGGAGCACTGAGGAACCAT  52238
+              |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||
+Sbjct  272    AAAAAACAGAGAAACATACCTGAGTGGACGGAGTGTGAGTGGGGAGCACTGAGGAACCAT  213
+
+Query  52239  CACAGAGTCCGGTAAGAGAGGGGGCCCTTGGAAGGGGGAGTTCCCCTGAAGCCTGTGCTG  52298
+              ||  ||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||
+Sbjct  212    CAGGGAGTCTGGTAAGAGAGGGGGCCCTTGGAAGGGGGAGTCCCCCTGAAGCCTGTGCTG  153
+
+Query  52299  GGCTCCGAGCCTAAAGGCTTGGAGGCTGCAAAACCCCGCGGACTGCATCCAAAAGCAGGG  52358
+              |||||||||||| ||||||||||||||||||| | |||||||| |||||||||||| |||
+Sbjct  152    GGCTCCGAGCCTGAAGGCTTGGAGGCTGCAAAGCTCCGCGGACGGCATCCAAAAGCGGGG  93
+
+Query  52359  ATCCCACACTCAGAGCAGAGAGGGGAAGGAGCGCCCCGCACACAGGGCAGAGGGACCCAG  52418
+              |||||||||   |||||||||||||||||||| ||| || ||||||||||||||||||||
+Sbjct  92     ATCCCACACCTGGAGCAGAGAGGGGAAGGAGCACCC-GCGCACAGGGCAGAGGGACCCAG  34
+
+Query  52419  GGGAG  52423
+              |||||
+Sbjct  33     GGGAG  29
+
+
+> TRINITY_DN721_c0_g1_i7 len=478 path=[2:0-59 10:60-70 11:71-75 
+12:76-82 13:83-281 15:282-289 21:290-309 23:310-336 26:337-357 
+29:358-397 31:398-477]
+Length=478
+
+ Score = 188 bits (94),  Expect = 1e-48
+ Identities = 174/187 (93%), Gaps = 3/187 (2%)
+ Strand=Plus/Minus
+
+Query  52458  AAACAAAGCCTCTAGGGGCGGCTGCGACCCGGCGTCTGGTGCTTGGGGTGCTGACCATAG  52517
+              |||||||||||||||||||||||| |||||| ||||||||| | ||||||||||||||||
+Sbjct  449    AAACAAAGCCTCTAGGGGCGGCTGTGACCCG-CGTCTGGTGGTCGGGGTGCTGACCATAG  391
+
+Query  52518  GGAAGGACTGTCCCAAGGCCTGTGGCACCCAAGTAGTAAGGGACCAGAGGACTGCCCTGA  52577
+              |||||| ||||||||||||||||||||||||||| || ||||||||||||||||| ||||
+Sbjct  390    GGAAGG-CTGTCCCAAGGCCTGTGGCACCCAAGTGGTGAGGGACCAGAGGACTGCACTGA  332
+
+Query  52578  GCACCCGCACACGGGGACCCTCTGCCTCCCTGTGGGGCACTGTGTTGAGCCCCAGAAAGC  52637
+              |||||| ||||  || ||||| ||||||||||||||||||||||||||||||||||||||
+Sbjct  331    GCACCCACACA-TGGCACCCTATGCCTCCCTGTGGGGCACTGTGTTGAGCCCCAGAAAGC  273
+
+Query  52638  GCTGAAT  52644
+              |||||||
+Sbjct  272    GCTGAAT  266
+
+
+ Score = 124 bits (62),  Expect = 2e-29
+ Identities = 137/152 (90%), Gaps = 0/152 (0%)
+ Strand=Plus/Minus
+
+Query  52699  AGAGGCTGGGATCTGTGACCGGCCCTGAGGGGCCCCGTGGTGGCACATGAAGCCGCTCCA  52758
+              |||||||||||| | ||||| ||||||||||||||| ||||||   |||||||| |||||
+Sbjct  152    AGAGGCTGGGATATTTGACCAGCCCTGAGGGGCCCCATGGTGGTGTATGAAGCCCCTCCA  93
+
+Query  52759  GCTTTGCTCAGACCAGCGGTGTGGAGAGCTGCATGGAGCTGACTTTGGGTCCCCTCCCGC  52818
+              |||||||||||||||||||||||||||||||||||||||||||||||| || ||  || |
+Sbjct  92     GCTTTGCTCAGACCAGCGGTGTGGAGAGCTGCATGGAGCTGACTTTGGATCACCAGCCAC  33
+
+Query  52819  TGGGTGCCTTGGAGCAAAGGCGGCGGGACCTT  52850
+              ||||||||||||||||| || |||||||||||
+Sbjct  32     TGGGTGCCTTGGAGCAAGGGAGGCGGGACCTT  1
+
+
+> TRINITY_DN1910_c0_g1_i1 len=208 path=[0:0-207]
+Length=208
+
+ Score = 120 bits (60),  Expect = 3e-28
+ Identities = 90/96 (94%), Gaps = 0/96 (0%)
+ Strand=Plus/Minus
+
+Query  53089  GCTCACAGGAGGACTTTGCAAGAATAAGACTCTTGGGGACTGTTGTTTGGGAACTGGAGG  53148
+              |||||||||||||||||||||||||||||||||  |||||||||||||| ||||||||||
+Sbjct  191    GCTCACAGGAGGACTTTGCAAGAATAAGACTCTCAGGGACTGTTGTTTGTGAACTGGAGG  132
+
+Query  53149  AAAAGCTGAAAACCCGTGCTGGGGGCTGGACAGGCA  53184
+              ||| ||||||||||| ||||||||||||| ||||||
+Sbjct  131    AAATGCTGAAAACCCCTGCTGGGGGCTGGGCAGGCA  96
+
+
+> TRINITY_DN1072_c2_g1_i1 len=267 path=[0:0-266]
+Length=267
+
+ Score = 86.4 bits (43),  Expect = 5e-18
+ Identities = 153/174 (88%), Gaps = 1/174 (1%)
+ Strand=Plus/Minus
+
+Query  53107  CAAGAATAAGACTCTTGGGGACTGTTGTTTGGGAACTGGAGGAAAAGCTGAAAACCCGTG  53166
+              |||||||||||||||  |||||||||||||||||||||||||||| ||||||| | | ||
+Sbjct  256    CAAGAATAAGACTCTCAGGGACTGTTGTTTGGGAACTGGAGGAAATGCTGAAACCGC-TG  198
+
+Query  53167  CTGGGGGCTGGACAGGCAAAGGGCCCACCAGAATGTGTTCTAAATCTAACCCACTGGGCC  53226
+              ||||||||| | |||||||||||| ||||||||  |||| | |||  ||||||||| |||
+Sbjct  197    CTGGGGGCTTGGCAGGCAAAGGGCTCACCAGAAGTTGTTTTTAATTCAACCCACTGAGCC  138
+
+Query  53227  CAGGCTGCTGAAACGGCCCAGACAGAAGAGGCAACAGGCTGAAATCAATCTGAA  53280
+              |||| ||||||||| ||||| | |||| ||||||||||||||||||||||||||
+Sbjct  137    CAGGTTGCTGAAACAGCCCATATAGAAAAGGCAACAGGCTGAAATCAATCTGAA  84
+
+
+
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Gapped
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.5
+    Posted date:  Aug 12, 2019  6:17 PM
+  Number of letters in database: 529,888
+  Number of sequences in database:  1,251
+
+
+
+Matrix: blastn matrix 1 -5
+Gap Penalties: Existence: 5, Extension: 5
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.6
+           1,250 sequences; 578,303 total letters
+
+
+
+Query= NW_015504249.1 masked CHUNK number:3 size:100000 offset:300000
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  TRINITY_DN1910_c0_g2_i1 len=215 path=[0:0-214]                      194     2e-50
+  TRINITY_DN31_c0_g1_i11 len=824 path=[0:0-171 3:172-220 4:221-25...  182     7e-47
+  TRINITY_DN31_c0_g1_i4 len=556 path=[2:0-33 3:34-82 5:83-90 7:91...  180     3e-46
+  TRINITY_DN1090_c0_g1_i9 len=397 path=[1:0-190 2:191-191 4:192-2...  110     3e-25
+  TRINITY_DN721_c0_g1_i1 len=215 path=[4:0-61 5:62-84 6:85-107 8:...  108     1e-24
+
+
+> TRINITY_DN1910_c0_g2_i1 len=215 path=[0:0-214]
+Length=215
+
+ Score = 194 bits (97),  Expect = 2e-50
+ Identities = 147/157 (94%), Gaps = 0/157 (0%)
+ Strand=Plus/Minus
+
+Query  53124  GGGACTGTTGTTTGGGAACTGGAGGAAAAGCTGAAAACCCGTGCTGGGGGCTGGACAGGC  53183
+              ||||||| |||||||||| ||||||||| ||||||||||| |||||||| |||| |||||
+Sbjct  215    GGGACTGCTGTTTGGGAATTGGAGGAAACGCTGAAAACCCCTGCTGGGGCCTGGGCAGGC  156
+
+Query  53184  AAAGGGCCCACCAGAATGTGTTCTAAATCTAACCCACTGGGCCCAGGCTGCTGAAACGGC  53243
+              |||||||||||||||||||||||| |||| |||||||||||||| |||||||||||| ||
+Sbjct  155    AAAGGGCCCACCAGAATGTGTTCTGAATCGAACCCACTGGGCCCTGGCTGCTGAAACAGC  96
+
+Query  53244  CCAGACAGAAGAGGCAACAGGCTGAAATCAATCTGAA  53280
+              |||||||||||||||||||||||||||||||||||||
+Sbjct  95     CCAGACAGAAGAGGCAACAGGCTGAAATCAATCTGAA  59
+
+
+> TRINITY_DN31_c0_g1_i11 len=824 path=[0:0-171 3:172-220 4:221-253 
+8:254-256 9:257-409 10:410-415 12:416-459 14:460-483 15:484-543 
+18:544-574 19:575-580 21:581-604 22:605-611 23:612-620 
+26:621-630 27:631-639 28:640-667 31:668-692 33:693-704 35:705-713 
+36:714-725 37:726-740 39:741-749 40:750-823]
+Length=824
+
+ Score = 182 bits (91),  Expect = 7e-47
+ Identities = 196/215 (91%), Gaps = 2/215 (1%)
+ Strand=Plus/Plus
+
+Query  53066  GTCCTGAGGGGGAAGGGAGAGCAGCTCACAGGAGGACTTTGCAAGAATAAGACTCTTGGG  53125
+              |||||||||||||||||||||||| ||||||||||||||| |||||||||||||| ||||
+Sbjct  198    GTCCTGAGGGGGAAGGGAGAGCAGATCACAGGAGGACTTTACAAGAATAAGACTC-TGGG  256
+
+Query  53126  GACTGTTGTTTGGGAACTGGAGGAAAAGCTGAAAACCCGTGCTGGGGGCTGGACAGGCAA  53185
+              |||||||||||||||||||||||||| ||||||||||| ||||||||||||| |||||||
+Sbjct  257    GACTGTTGTTTGGGAACTGGAGGAAACGCTGAAAACCCCTGCTGGGGGCTGGGCAGGCAA  316
+
+Query  53186  AGGGCCCACCAGAATGTGTTCTAAATCTAACCCACTGGGCCCAGGCTGCTGAAACGGCCC  53245
+              || || |||  ||||||  | ||| |  ||||||||| ||||||||||||||||||||||
+Sbjct  317    AGAGCTCACTGGAATGTTCTTTAATTG-AACCCACTGAGCCCAGGCTGCTGAAACGGCCC  375
+
+Query  53246  AGACAGAAGAGGCAACAGGCTGAAATCAATCTGAA  53280
+              | |||||| ||||||||||||||||||||||||||
+Sbjct  376    ATACAGAAAAGGCAACAGGCTGAAATCAATCTGAA  410
+
+
+> TRINITY_DN31_c0_g1_i4 len=556 path=[2:0-33 3:34-82 5:83-90 7:91-116 
+8:117-119 9:120-272 10:273-278 13:279-322 14:323-346 
+15:347-406 18:407-437 19:438-443 21:444-467 22:468-474 23:475-483 
+26:484-493 27:494-502 29:503-508 30:509-530 31:531-555]
+Length=556
+
+ Score = 180 bits (90),  Expect = 3e-46
+ Identities = 195/215 (91%), Gaps = 1/215 (0%)
+ Strand=Plus/Plus
+
+Query  53066  GTCCTGAGGGGGAAGGGAGAGCAGCTCACAGGAGGACTTTGCAAGAATAAGACTCTTGGG  53125
+              ||||||||||||||||||||||||||||||||||||| || |||||||||||||||  ||
+Sbjct  60     GTCCTGAGGGGGAAGGGAGAGCAGCTCACAGGAGGACATTACAAGAATAAGACTCTCAGG  119
+
+Query  53126  GACTGTTGTTTGGGAACTGGAGGAAAAGCTGAAAACCCGTGCTGGGGGCTGGACAGGCAA  53185
+              |||||||||||||||||||||||||| ||||||||||| ||||||||||||| |||||||
+Sbjct  120    GACTGTTGTTTGGGAACTGGAGGAAACGCTGAAAACCCCTGCTGGGGGCTGGGCAGGCAA  179
+
+Query  53186  AGGGCCCACCAGAATGTGTTCTAAATCTAACCCACTGGGCCCAGGCTGCTGAAACGGCCC  53245
+              || || |||  ||||||  | ||| |  ||||||||| ||||||||||||||||||||||
+Sbjct  180    AGAGCTCACTGGAATGTTCTTTAATTG-AACCCACTGAGCCCAGGCTGCTGAAACGGCCC  238
+
+Query  53246  AGACAGAAGAGGCAACAGGCTGAAATCAATCTGAA  53280
+              | |||||| ||||||||||||||||||||||||||
+Sbjct  239    ATACAGAAAAGGCAACAGGCTGAAATCAATCTGAA  273
+
+
+> TRINITY_DN1090_c0_g1_i9 len=397 path=[1:0-190 2:191-191 4:192-245 
+8:246-264 11:265-280 13:281-309 16:310-312 18:313-325 22:326-332 
+25:333-338 26:339-342 29:343-343 30:344-357 33:358-396]
+Length=397
+
+ Score = 110 bits (55),  Expect = 3e-25
+ Identities = 65/67 (97%), Gaps = 0/67 (0%)
+ Strand=Plus/Minus
+
+Query  53214  AACCCACTGGGCCCAGGCTGCTGAAACGGCCCAGACAGAAGAGGCAACAGGCTGAAATCA  53273
+              ||||||||| |||||||||||||||||||||||||||||||||||||||||| |||||||
+Sbjct  366    AACCCACTGAGCCCAGGCTGCTGAAACGGCCCAGACAGAAGAGGCAACAGGCGGAAATCA  307
+
+Query  53274  ATCTGAA  53280
+              |||||||
+Sbjct  306    ATCTGAA  300
+
+
+> TRINITY_DN721_c0_g1_i1 len=215 path=[4:0-61 5:62-84 6:85-107 
+8:108-120 11:121-125 12:126-132 14:133-144 16:145-214]
+Length=215
+
+ Score = 108 bits (54),  Expect = 1e-24
+ Identities = 104/113 (92%), Gaps = 1/113 (1%)
+ Strand=Plus/Minus
+
+Query  52756  CCAGCTTTGCTCAGACCAGCGGTGTGGAGAGCTGCATGGAGCTGACTTTGGGTCCCCTCC  52815
+              ||||||||||| |||||||||||| || |||||||  |||||||||||||||||||||||
+Sbjct  145    CCAGCTTTGCTGAGACCAGCGGTGCGGGGAGCTGCGGGGAGCTGACTTTGGGTCCCCTCC  86
+
+Query  52816  CGCTGGGTGCCTTGGAGCAAAGGCGGCGGGACCTTGCAGGGCGGACTCTCTGC  52868
+              |||||||||||||||||||| ||||| |||| ||||||||| |||||||||||
+Sbjct  85     CGCTGGGTGCCTTGGAGCAAGGGCGG-GGGAACTTGCAGGGTGGACTCTCTGC  34
+
+
+
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Gapped
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.6
+    Posted date:  Aug 12, 2019  6:17 PM
+  Number of letters in database: 578,303
+  Number of sequences in database:  1,250
+
+
+
+Matrix: blastn matrix 1 -5
+Gap Penalties: Existence: 5, Extension: 5
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.7
+           1,250 sequences; 533,893 total letters
+
+
+
+Query= NW_015504249.1 masked CHUNK number:3 size:100000 offset:300000
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  TRINITY_DN721_c0_g1_i2 len=453 path=[3:0-162 6:163-185 7:186-18...  402     4e-113
+  TRINITY_DN370_c0_g1_i1 len=362 path=[1:0-225 2:226-269 4:270-27...  308     8e-85 
+  TRINITY_DN4607_c0_g1_i1 len=249 path=[0:0-248]                      220     2e-58 
+  TRINITY_DN31_c0_g1_i5 len=556 path=[2:0-33 3:34-82 5:83-90 6:91...  192     6e-50 
+  TRINITY_DN1537_c1_g2_i1 len=320 path=[0:0-146 1:147-319]            118     1e-27 
+  TRINITY_DN1072_c0_g2_i1 len=229 path=[0:0-106 2:107-113 3:114-1...  104     2e-23 
+
+
+> TRINITY_DN721_c0_g1_i2 len=453 path=[3:0-162 6:163-185 7:186-187 
+10:188-198 11:199-203 12:204-210 14:211-222 17:223-278 18:279-343 
+20:344-358 21:359-378 22:379-387 25:388-401 28:402-452]
+Length=453
+
+ Score = 402 bits (201),  Expect = 4e-113
+ Identities = 376/411 (91%), Gaps = 0/411 (0%)
+ Strand=Plus/Minus
+
+Query  52526  TGTCCCAAGGCCTGTGGCACCCAAGTAGTAAGGGACCAGAGGACTGCCCTGAGCACCCGC  52585
+              |||||||||| |||||||||||||||||| ||||||||||||||| | || |||||||||
+Sbjct  453    TGTCCCAAGGACTGTGGCACCCAAGTAGTGAGGGACCAGAGGACTACGCTAAGCACCCGC  394
+
+Query  52586  ACACGGGGACCCTCTGCCTCCCTGTGGGGCACTGTGTTGAGCCCCAGAAAGCGCTGAATC  52645
+              |||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||
+Sbjct  393    ACACGGGGACCCTCTGCCTCCCTGTGGGGCACTGGGTTGAGCCCCAGAAAGTGCTGAATC  334
+
+Query  52646  TGTGTGGCACGGGGGAGGGGAGGAGCCCTCCCACCCTGAGCTCCCGGGTGCCAAGAGGCT  52705
+              ||  |||   |||||||||||||||||||||| |||||||||||||||||||||||||||
+Sbjct  333    TGCATGGTGTGGGGGAGGGGAGGAGCCCTCCCGCCCTGAGCTCCCGGGTGCCAAGAGGCT  274
+
+Query  52706  GGGATCTGTGACCGGCCCTGAGGGGCCCCGTGGTGGCACATGAAGCCGCTCCAGCTTTGC  52765
+              |||||||||||||||||||||||||||| |||||||  | | ||||||||||||||||||
+Sbjct  273    GGGATCTGTGACCGGCCCTGAGGGGCCCAGTGGTGGTGCCTCAAGCCGCTCCAGCTTTGC  214
+
+Query  52766  TCAGACCAGCGGTGTGGAGAGCTGCATGGAGCTGACTTTGGGTCCCCTCCCGCTGGGTGC  52825
+              | ||||||||||||||||||||||| |||||||||||||||||||||||| ||| |||||
+Sbjct  213    TGAGACCAGCGGTGTGGAGAGCTGCGTGGAGCTGACTTTGGGTCCCCTCCTGCTCGGTGC  154
+
+Query  52826  CTTGGAGCAAAGGCGGCGGGACCTTGCAGGGCGGACTCTCTGCCTGTGTGTTGCTTTGTG  52885
+              |||||| ||| ||| | ||||| |||||||| |||||||| |||||||||||||||||||
+Sbjct  153    CTTGGAACAAGGGCCGGGGGACGTTGCAGGGTGGACTCTCCGCCTGTGTGTTGCTTTGTG  94
+
+Query  52886  CTTTTGCGAGTTTGATTGTGGAACTGGTTCCCCCCTTCCCGGCGTGCACTG  52936
+              | ||| |||||||||| | ||||||||||||| ||||||| ||||||||||
+Sbjct  93     CATTTTCGAGTTTGATCGCGGAACTGGTTCCCACCTTCCCAGCGTGCACTG  43
+
+
+> TRINITY_DN370_c0_g1_i1 len=362 path=[1:0-225 2:226-269 4:270-271 
+5:272-273 7:274-274 8:275-290 10:291-361]
+Length=362
+
+ Score = 308 bits (154),  Expect = 8e-85
+ Identities = 244/261 (93%), Gaps = 1/261 (0%)
+ Strand=Plus/Minus
+
+Query  52163  GTAACCAGCTTTaaaaaaaaaaCAGAGAAACATACCTGAGTGGACGAAGTGTGAGTGGGG  52222
+              ||||||||||| |||||||||||||||||||||||||||||||||| |||||||||||||
+Sbjct  288    GTAACCAGCTTGAAAAAAAAAACAGAGAAACATACCTGAGTGGACGGAGTGTGAGTGGGG  229
+
+Query  52223  AGCACTGAGGAACCATCACAGAGTCCGGTAAGAGAGGGGGCCCTTGGAAGGGGGAGTTCC  52282
+              ||||||||||||||||||  ||||| ||||||||||||||||||||||||||||||| ||
+Sbjct  228    AGCACTGAGGAACCATCAGGGAGTCTGGTAAGAGAGGGGGCCCTTGGAAGGGGGAGTCCC  169
+
+Query  52283  CCTGAAGCCTGTGCTGGGCTCCGAGCCTAAAGGCTTGGAGGCTGCAAAACCCCGCGGACT  52342
+              |||||||||||||||||||||||||||| ||||||||||||||||||| | |||||||| 
+Sbjct  168    CCTGAAGCCTGTGCTGGGCTCCGAGCCTGAAGGCTTGGAGGCTGCAAAGCTCCGCGGACG  109
+
+Query  52343  GCATCCAAAAGCAGGGATCCCACACTCAGAGCAGAGAGGGGAAGGAGCGCCCCGCACACA  52402
+              |||||||||||| ||||||||||||   |||||||||||||||||||| ||| || ||||
+Sbjct  108    GCATCCAAAAGCGGGGATCCCACACCTGGAGCAGAGAGGGGAAGGAGCACCC-GCGCACA  50
+
+Query  52403  GGGCAGAGGGACCCAGGGGAG  52423
+              |||||||||||||||||||||
+Sbjct  49     GGGCAGAGGGACCCAGGGGAG  29
+
+
+> TRINITY_DN4607_c0_g1_i1 len=249 path=[0:0-248]
+Length=249
+
+ Score = 220 bits (110),  Expect = 2e-58
+ Identities = 220/242 (91%), Gaps = 0/242 (0%)
+ Strand=Plus/Plus
+
+Query  52267  TGGAAGGGGGAGTTCCCCTGAAGCCTGTGCTGGGCTCCGAGCCTAAAGGCTTGGAGGCTG  52326
+              |||||| |||||| |||||||||||||| ||||||||||||||  ||||| |||||||||
+Sbjct  1      TGGAAGAGGGAGTCCCCCTGAAGCCTGTTCTGGGCTCCGAGCCCGAAGGCATGGAGGCTG  60
+
+Query  52327  CAAAACCCCGCGGACTGCATCCAAAAGCAGGGATCCCACACTCAGAGCAGAGAGGGGAAG  52386
+              |||| |||||||||| |||||||||||| ||||||| |||| ||||||||||||||||||
+Sbjct  61     CAAAGCCCCGCGGACAGCATCCAAAAGCGGGGATCCAACACCCAGAGCAGAGAGGGGAAG  120
+
+Query  52387  GAGCGCCCCGCACACAGGGCAGAGGGACCCAGGGGAGCGGTGAGTGTGGGAGGAGACGGT  52446
+              |||||||||||  |||||||||||||| |||||||||||||||||   ||||||||||| 
+Sbjct  121    GAGCGCCCCGCGAACAGGGCAGAGGGATCCAGGGGAGCGGTGAGTCCAGGAGGAGACGGC  180
+
+Query  52447  GCCTTCCCAGGAAACAAAGCCTCTAGGGGCGGCTGCGACCCGGCGTCTGGTGCTTGGGGT  52506
+              ||||||||||||||||||||||||||||||| |||||||| || |||||||||| |||||
+Sbjct  181    GCCTTCCCAGGAAACAAAGCCTCTAGGGGCGCCTGCGACCGGGAGTCTGGTGCTCGGGGT  240
+
+Query  52507  GC  52508
+              ||
+Sbjct  241    GC  242
+
+
+> TRINITY_DN31_c0_g1_i5 len=556 path=[2:0-33 3:34-82 5:83-90 6:91-119 
+9:120-272 10:273-278 12:279-322 14:323-346 15:347-406 
+18:407-437 19:438-443 21:444-467 22:468-474 23:475-483 26:484-493 
+27:494-502 29:503-508 30:509-530 31:531-555]
+Length=556
+
+ Score = 192 bits (96),  Expect = 6e-50
+ Identities = 196/215 (91%), Gaps = 1/215 (0%)
+ Strand=Plus/Plus
+
+Query  53066  GTCCTGAGGGGGAAGGGAGAGCAGCTCACAGGAGGACTTTGCAAGAATAAGACTCTTGGG  53125
+              |||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||
+Sbjct  60     GTCCTGAGGGGGAAGGGAGAGCAGCTCACAGGCGGACTTTGCAAGAATAAGACTCTCGGG  119
+
+Query  53126  GACTGTTGTTTGGGAACTGGAGGAAAAGCTGAAAACCCGTGCTGGGGGCTGGACAGGCAA  53185
+               ||||||||||||||||||||||||| ||||||||||| ||||||||||||| |||||||
+Sbjct  120    CACTGTTGTTTGGGAACTGGAGGAAACGCTGAAAACCCCTGCTGGGGGCTGGGCAGGCAA  179
+
+Query  53186  AGGGCCCACCAGAATGTGTTCTAAATCTAACCCACTGGGCCCAGGCTGCTGAAACGGCCC  53245
+              || || |||  ||||||  | ||| |  ||||||||| ||||||||||||||||||||||
+Sbjct  180    AGAGCTCACTGGAATGTTCTTTAATTG-AACCCACTGAGCCCAGGCTGCTGAAACGGCCC  238
+
+Query  53246  AGACAGAAGAGGCAACAGGCTGAAATCAATCTGAA  53280
+              | |||||| ||||||||||||||||||||||||||
+Sbjct  239    ATACAGAAAAGGCAACAGGCTGAAATCAATCTGAA  273
+
+
+> TRINITY_DN1537_c1_g2_i1 len=320 path=[0:0-146 1:147-319]
+Length=320
+
+ Score = 118 bits (59),  Expect = 1e-27
+ Identities = 94/101 (93%), Gaps = 0/101 (0%)
+ Strand=Plus/Minus
+
+Query  53073  GGGGGAAGGGAGAGCAGCTCACAGGAGGACTTTGCAAGAATAAGACTCTTGGGGACTGTT  53132
+              ||||||||||||||||||||||||||||||||| ||||||||||||||   |||||||||
+Sbjct  251    GGGGGAAGGGAGAGCAGCTCACAGGAGGACTTTACAAGAATAAGACTCCCTGGGACTGTT  192
+
+Query  53133  GTTTGGGAACTGGAGGAAAAGCTGAAAACCCGTGCTGGGGG  53173
+              |||||||| |||||||||| ||||||||||| |||||||||
+Sbjct  191    GTTTGGGAGCTGGAGGAAACGCTGAAAACCCCTGCTGGGGG  151
+
+
+> TRINITY_DN1072_c0_g2_i1 len=229 path=[0:0-106 2:107-113 3:114-116 
+5:117-228]
+Length=229
+
+ Score = 104 bits (52),  Expect = 2e-23
+ Identities = 87/94 (93%), Gaps = 0/94 (0%)
+ Strand=Plus/Minus
+
+Query  52950  GCAGAGGCTGCCACTGGGGTCTGCGCAGTAGACGGTCTGAGAGGCGGGCCTGGTGCGACC  53009
+              ||||||||||||| ||||| |||| |||||||||||||| | || ||||||||||| |||
+Sbjct  229    GCAGAGGCTGCCATTGGGGGCTGCACAGTAGACGGTCTGGGGGGGGGGCCTGGTGCAACC  170
+
+Query  53010  AGCCAACCAGAGCTGAGCAGGGAGGGGCGGAGCC  53043
+              ||||||||||||||||||||||||||||||||||
+Sbjct  169    AGCCAACCAGAGCTGAGCAGGGAGGGGCGGAGCC  136
+
+
+
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Gapped
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.7
+    Posted date:  Aug 12, 2019  6:17 PM
+  Number of letters in database: 533,893
+  Number of sequences in database:  1,250
+
+
+
+Matrix: blastn matrix 1 -5
+Gap Penalties: Existence: 5, Extension: 5
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.8
+           1,250 sequences; 548,659 total letters
+
+
+
+Query= NW_015504249.1 masked CHUNK number:3 size:100000 offset:300000
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  TRINITY_DN370_c0_g1_i2 len=375 path=[1:0-225 2:226-269 3:270-27...  374     1e-104
+  TRINITY_DN3299_c0_g1_i1 len=326 path=[0:0-325]                      282     5e-77 
+  TRINITY_DN721_c0_g1_i3 len=606 path=[3:0-162 6:163-185 7:186-18...  188     1e-48 
+  TRINITY_DN31_c0_g1_i6 len=614 path=[2:0-33 3:34-82 5:83-90 7:91...  180     3e-46 
+  TRINITY_DN3435_c0_g1_i1 len=252 path=[0:0-251]                      146     4e-36 
+  TRINITY_DN159_c0_g1_i4 len=730 path=[0:0-334 2:335-396 5:397-40...  140     3e-34 
+
+
+> TRINITY_DN370_c0_g1_i2 len=375 path=[1:0-225 2:226-269 3:270-270 
+4:271-272 5:273-274 9:275-374]
+Length=375
+
+ Score = 374 bits (187),  Expect = 1e-104
+ Identities = 312/335 (93%), Gaps = 2/335 (1%)
+ Strand=Plus/Minus
+
+Query  52089  GAAGATGGCAGCCCTGTGAGAAGCAGCAGCGCCCCCACTCCAGCCACGGATTTGATTTCC  52148
+              |||||||||||||||||||||||||||||||||||| ||||||||||||| |||||||||
+Sbjct  361    GAAGATGGCAGCCCTGTGAGAAGCAGCAGCGCCCCCGCTCCAGCCACGGACTTGATTTCC  302
+
+Query  52149  TCCCGAAATCCTATGTAACCAGCTTTaaaaaaaaaaCAGAGAAACATACCTGAGTGGACG  52208
+              |||  |||||||||||||||||||| |||| |||| ||||||||||||||||||||||||
+Sbjct  301    TCCTAAAATCCTATGTAACCAGCTTGAAAATAAAA-CAGAGAAACATACCTGAGTGGACG  243
+
+Query  52209  AAGTGTGAGTGGGGAGCACTGAGGAACCATCACAGAGTCCGGTAAGAGAGGGGGCCCTTG  52268
+               |||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||
+Sbjct  242    GAGTGTGAGTGGGGAGCACTGAGGAACCATCAGGGAGTCTGGTAAGAGAGGGGGCCCTTG  183
+
+Query  52269  GAAGGGGGAGTTCCCCTGAAGCCTGTGCTGGGCTCCGAGCCTAAAGGCTTGGAGGCTGCA  52328
+              ||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||
+Sbjct  182    GAAGGGGGAGTCCCCCTGAAGCCTGTGCTGGGCTCCGAGCCTGAAGGCTTGGAGGCTGCA  123
+
+Query  52329  AAACCCCGCGGACTGCATCCAAAAGCAGGGATCCCACACTCAGAGCAGAGAGGGGAAGGA  52388
+              || | |||||||| |||||||||||| ||||||||||||   ||||||||||||||||||
+Sbjct  122    AAGCTCCGCGGACGGCATCCAAAAGCGGGGATCCCACACCTGGAGCAGAGAGGGGAAGGA  63
+
+Query  52389  GCGCCCCGCACACAGGGCAGAGGGACCCAGGGGAG  52423
+              || ||| || |||||||||||||||||||||||||
+Sbjct  62     GCACCC-GCGCACAGGGCAGAGGGACCCAGGGGAG  29
+
+
+> TRINITY_DN3299_c0_g1_i1 len=326 path=[0:0-325]
+Length=326
+
+ Score = 282 bits (141),  Expect = 5e-77
+ Identities = 141/141 (100%), Gaps = 0/141 (0%)
+ Strand=Plus/Plus
+
+Query  95974  CACCCTGCAGGCAGCTTGAGCAGTGGGCTCTTCCAGGTGTGTCCAGTAGCCAAAGAGGTT  96033
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  49     CACCCTGCAGGCAGCTTGAGCAGTGGGCTCTTCCAGGTGTGTCCAGTAGCCAAAGAGGTT  108
+
+Query  96034  GTCTTCCAGTCTAACACAGGTGAAGGCGTCGAGGTTTTGTCTTTTGGGCTCACAGAGAGG  96093
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  109    GTCTTCCAGTCTAACACAGGTGAAGGCGTCGAGGTTTTGTCTTTTGGGCTCACAGAGAGG  168
+
+Query  96094  AAGGGTACTTCCTCAATCTGA  96114
+              |||||||||||||||||||||
+Sbjct  169    AAGGGTACTTCCTCAATCTGA  189
+
+
+ Score = 274 bits (137),  Expect = 1e-74
+ Identities = 137/137 (100%), Gaps = 0/137 (0%)
+ Strand=Plus/Plus
+
+Query  95990  TGAGCAGTGGGCTCTTCCAGGTGTGTCCAGTAGCCAAAGAGGTTGTCTTCCAGTCTAACA  96049
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  187    TGAGCAGTGGGCTCTTCCAGGTGTGTCCAGTAGCCAAAGAGGTTGTCTTCCAGTCTAACA  246
+
+Query  96050  CAGGTGAAGGCGTCGAGGTTTTGTCTTTTGGGCTCACAGAGAGGAAGGGTACTTCCTCAA  96109
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  247    CAGGTGAAGGCGTCGAGGTTTTGTCTTTTGGGCTCACAGAGAGGAAGGGTACTTCCTCAA  306
+
+Query  96110  TCTGACAGATGAAGGCT  96126
+              |||||||||||||||||
+Sbjct  307    TCTGACAGATGAAGGCT  323
+
+
+> TRINITY_DN721_c0_g1_i3 len=606 path=[3:0-162 6:163-185 7:186-187 
+10:188-198 11:199-203 12:204-210 13:211-409 15:410-417 21:418-437 
+23:438-464 26:465-485 29:486-525 31:526-605]
+Length=606
+
+ Score = 188 bits (94),  Expect = 1e-48
+ Identities = 214/238 (90%), Gaps = 0/238 (0%)
+ Strand=Plus/Minus
+
+Query  52699  AGAGGCTGGGATCTGTGACCGGCCCTGAGGGGCCCCGTGGTGGCACATGAAGCCGCTCCA  52758
+              |||||||||||| | ||||| ||||||||||||||| ||||||   |||||||| |||||
+Sbjct  280    AGAGGCTGGGATATTTGACCAGCCCTGAGGGGCCCCATGGTGGTGTATGAAGCCCCTCCA  221
+
+Query  52759  GCTTTGCTCAGACCAGCGGTGTGGAGAGCTGCATGGAGCTGACTTTGGGTCCCCTCCCGC  52818
+              |||||||||||||||||||||||||||||||| |||||||||||||||||||||||| ||
+Sbjct  220    GCTTTGCTCAGACCAGCGGTGTGGAGAGCTGCGTGGAGCTGACTTTGGGTCCCCTCCTGC  161
+
+Query  52819  TGGGTGCCTTGGAGCAAAGGCGGCGGGACCTTGCAGGGCGGACTCTCTGCCTGTGTGTTG  52878
+              | ||||||||||| ||| ||| | ||||| |||||||| |||||||| ||||||||||||
+Sbjct  160    TCGGTGCCTTGGAACAAGGGCCGGGGGACGTTGCAGGGTGGACTCTCCGCCTGTGTGTTG  101
+
+Query  52879  CTTTGTGCTTTTGCGAGTTTGATTGTGGAACTGGTTCCCCCCTTCCCGGCGTGCACTG  52936
+              |||||||| ||| |||||||||| | ||||||||||||| ||||||| ||||||||||
+Sbjct  100    CTTTGTGCATTTTCGAGTTTGATCGCGGAACTGGTTCCCACCTTCCCAGCGTGCACTG  43
+
+
+ Score = 188 bits (94),  Expect = 1e-48
+ Identities = 174/187 (93%), Gaps = 3/187 (2%)
+ Strand=Plus/Minus
+
+Query  52458  AAACAAAGCCTCTAGGGGCGGCTGCGACCCGGCGTCTGGTGCTTGGGGTGCTGACCATAG  52517
+              |||||||||||||||||||||||| |||||| ||||||||| | ||||||||||||||||
+Sbjct  577    AAACAAAGCCTCTAGGGGCGGCTGTGACCCG-CGTCTGGTGGTCGGGGTGCTGACCATAG  519
+
+Query  52518  GGAAGGACTGTCCCAAGGCCTGTGGCACCCAAGTAGTAAGGGACCAGAGGACTGCCCTGA  52577
+              |||||| ||||||||||||||||||||||||||| || ||||||||||||||||| ||||
+Sbjct  518    GGAAGG-CTGTCCCAAGGCCTGTGGCACCCAAGTGGTGAGGGACCAGAGGACTGCACTGA  460
+
+Query  52578  GCACCCGCACACGGGGACCCTCTGCCTCCCTGTGGGGCACTGTGTTGAGCCCCAGAAAGC  52637
+              |||||| ||||  || ||||| ||||||||||||||||||||||||||||||||||||||
+Sbjct  459    GCACCCACACA-TGGCACCCTATGCCTCCCTGTGGGGCACTGTGTTGAGCCCCAGAAAGC  401
+
+Query  52638  GCTGAAT  52644
+              |||||||
+Sbjct  400    GCTGAAT  394
+
+
+> TRINITY_DN31_c0_g1_i6 len=614 path=[2:0-33 3:34-82 5:83-90 7:91-116 
+8:117-119 9:120-272 10:273-278 12:279-322 14:323-346 
+15:347-406 18:407-437 19:438-443 20:444-467 22:468-474 23:475-483 
+25:484-493 27:494-502 29:503-508 30:509-530 31:531-555 
+32:556-577 36:578-589 37:590-604 39:605-613]
+Length=614
+
+ Score = 180 bits (90),  Expect = 3e-46
+ Identities = 195/215 (91%), Gaps = 1/215 (0%)
+ Strand=Plus/Plus
+
+Query  53066  GTCCTGAGGGGGAAGGGAGAGCAGCTCACAGGAGGACTTTGCAAGAATAAGACTCTTGGG  53125
+              ||||||||||||||||||||||||||||||||||||| || |||||||||||||||  ||
+Sbjct  60     GTCCTGAGGGGGAAGGGAGAGCAGCTCACAGGAGGACATTACAAGAATAAGACTCTCAGG  119
+
+Query  53126  GACTGTTGTTTGGGAACTGGAGGAAAAGCTGAAAACCCGTGCTGGGGGCTGGACAGGCAA  53185
+              |||||||||||||||||||||||||| ||||||||||| ||||||||||||| |||||||
+Sbjct  120    GACTGTTGTTTGGGAACTGGAGGAAACGCTGAAAACCCCTGCTGGGGGCTGGGCAGGCAA  179
+
+Query  53186  AGGGCCCACCAGAATGTGTTCTAAATCTAACCCACTGGGCCCAGGCTGCTGAAACGGCCC  53245
+              || || |||  ||||||  | ||| |  ||||||||| ||||||||||||||||||||||
+Sbjct  180    AGAGCTCACTGGAATGTTCTTTAATTG-AACCCACTGAGCCCAGGCTGCTGAAACGGCCC  238
+
+Query  53246  AGACAGAAGAGGCAACAGGCTGAAATCAATCTGAA  53280
+              | |||||| ||||||||||||||||||||||||||
+Sbjct  239    ATACAGAAAAGGCAACAGGCTGAAATCAATCTGAA  273
+
+
+> TRINITY_DN3435_c0_g1_i1 len=252 path=[0:0-251]
+Length=252
+
+ Score = 146 bits (73),  Expect = 4e-36
+ Identities = 143/157 (91%), Gaps = 0/157 (0%)
+ Strand=Plus/Plus
+
+Query  53124  GGGACTGTTGTTTGGGAACTGGAGGAAAAGCTGAAAACCCGTGCTGGGGGCTGGACAGGC  53183
+              |||||||||||||||||||||||||||||||||||||||| ||||||||||||| |||||
+Sbjct  8      GGGACTGTTGTTTGGGAACTGGAGGAAAAGCTGAAAACCCCTGCTGGGGGCTGGGCAGGC  67
+
+Query  53184  AAAGGGCCCACCAGAATGTGTTCTAAATCTAACCCACTGGGCCCAGGCTGCTGAAACGGC  53243
+              |||||   ||||||||||| || | |||| || |||||| |||||||||||||||| |||
+Sbjct  68     AAAGGATTCACCAGAATGTTTTTTTAATCGAAACCACTGAGCCCAGGCTGCTGAAATGGC  127
+
+Query  53244  CCAGACAGAAGAGGCAACAGGCTGAAATCAATCTGAA  53280
+              ||| |||||| ||||||||||||||||||||||||||
+Sbjct  128    CCATACAGAAAAGGCAACAGGCTGAAATCAATCTGAA  164
+
+
+> TRINITY_DN159_c0_g1_i4 len=730 path=[0:0-334 2:335-396 5:397-401 
+8:402-420 11:421-424 12:425-427 13:428-437 14:438-729]
+Length=730
+
+ Score = 140 bits (70),  Expect = 3e-34
+ Identities = 110/118 (93%), Gaps = 0/118 (0%)
+ Strand=Plus/Minus
+
+Query  53996  TTGTTAGTTTCTCTTATTCTCTTTATTGTATTTTTGTTTTCTCATTTTCAACTATTATCC  54055
+              ||||||||||||||||||||||||||||||||||| |||| ||||||| ||||| |||||
+Sbjct  495    TTGTTAGTTTCTCTTATTCTCTTTATTGTATTTTTATTTTTTCATTTTAAACTACTATCC  436
+
+Query  54056  TATTCCTATTCTCTCCCTTAATTTTGTGCTGGCGCTTCTTTCAGAATCTTTTCTCTGC  54113
+              ||||||||||||||||||||||||| ||||||| |||| |||| ||||||||||||||
+Sbjct  435    TATTCCTATTCTCTCCCTTAATTTTTTGCTGGCCCTTCCTTCAAAATCTTTTCTCTGC  378
+
+
+
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Gapped
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.8
+    Posted date:  Aug 12, 2019  6:17 PM
+  Number of letters in database: 548,659
+  Number of sequences in database:  1,250
+
+
+
+Matrix: blastn matrix 1 -5
+Gap Penalties: Existence: 5, Extension: 5
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.9
+           1,250 sequences; 525,601 total letters
+
+
+
+Query= NW_015504249.1 masked CHUNK number:3 size:100000 offset:300000
+
+Length=100000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  TRINITY_DN370_c0_g1_i3 len=375 path=[1:0-225 2:226-269 4:270-27...  386     3e-108
+  TRINITY_DN31_c0_g1_i7 len=468 path=[2:0-33 3:34-82 4:83-115 8:1...  182     7e-47 
+  TRINITY_DN159_c0_g1_i5 len=814 path=[0:0-334 1:335-385 4:386-39...  160     3e-40 
+  TRINITY_DN1479_c1_g1_i1 len=291 path=[0:0-290]                      122     7e-29 
+  TRINITY_DN2657_c0_g1_i1 len=249 path=[0:0-248]                      106     5e-24 
+  TRINITY_DN1072_c0_g2_i2 len=229 path=[0:0-106 1:107-116 5:117-228]  104     2e-23 
+  TRINITY_DN1090_c0_g1_i10 len=491 path=[1:0-190 2:191-191 4:192-...  96.4    5e-21 
+  TRINITY_DN2607_c1_g1_i2 len=382 path=[0:0-225 2:226-381]            92.4    8e-20 
+  TRINITY_DN1537_c1_g1_i1 len=395 path=[0:0-77 1:78-102 3:103-394]    92.4    8e-20 
+  TRINITY_DN4197_c0_g1_i1 len=220 path=[0:0-219]                      62.4    8e-11 
+
+
+> TRINITY_DN370_c0_g1_i3 len=375 path=[1:0-225 2:226-269 4:270-271 
+5:272-273 7:274-274 9:275-374]
+Length=375
+
+ Score = 386 bits (193),  Expect = 3e-108
+ Identities = 313/335 (93%), Gaps = 2/335 (1%)
+ Strand=Plus/Minus
+
+Query  52089  GAAGATGGCAGCCCTGTGAGAAGCAGCAGCGCCCCCACTCCAGCCACGGATTTGATTTCC  52148
+              |||||||||||||||||||||||||||||||||||| ||||||||||||| |||||||||
+Sbjct  361    GAAGATGGCAGCCCTGTGAGAAGCAGCAGCGCCCCCGCTCCAGCCACGGACTTGATTTCC  302
+
+Query  52149  TCCCGAAATCCTATGTAACCAGCTTTaaaaaaaaaaCAGAGAAACATACCTGAGTGGACG  52208
+              |||  |||||||||||||||||||| ||||||||| ||||||||||||||||||||||||
+Sbjct  301    TCCTAAAATCCTATGTAACCAGCTTGAAAAAAAAA-CAGAGAAACATACCTGAGTGGACG  243
+
+Query  52209  AAGTGTGAGTGGGGAGCACTGAGGAACCATCACAGAGTCCGGTAAGAGAGGGGGCCCTTG  52268
+               |||||||||||||||||||||||||||||||  ||||| ||||||||||||||||||||
+Sbjct  242    GAGTGTGAGTGGGGAGCACTGAGGAACCATCAGGGAGTCTGGTAAGAGAGGGGGCCCTTG  183
+
+Query  52269  GAAGGGGGAGTTCCCCTGAAGCCTGTGCTGGGCTCCGAGCCTAAAGGCTTGGAGGCTGCA  52328
+              ||||||||||| |||||||||||||||||||||||||||||| |||||||||||||||||
+Sbjct  182    GAAGGGGGAGTCCCCCTGAAGCCTGTGCTGGGCTCCGAGCCTGAAGGCTTGGAGGCTGCA  123
+
+Query  52329  AAACCCCGCGGACTGCATCCAAAAGCAGGGATCCCACACTCAGAGCAGAGAGGGGAAGGA  52388
+              || | |||||||| |||||||||||| ||||||||||||   ||||||||||||||||||
+Sbjct  122    AAGCTCCGCGGACGGCATCCAAAAGCGGGGATCCCACACCTGGAGCAGAGAGGGGAAGGA  63
+
+Query  52389  GCGCCCCGCACACAGGGCAGAGGGACCCAGGGGAG  52423
+              || ||| || |||||||||||||||||||||||||
+Sbjct  62     GCACCC-GCGCACAGGGCAGAGGGACCCAGGGGAG  29
+
+
+> TRINITY_DN31_c0_g1_i7 len=468 path=[2:0-33 3:34-82 4:83-115 8:116-118 
+9:119-271 10:272-277 12:278-321 14:322-345 16:346-404 
+17:405-406 18:407-437 19:438-443 20:444-467]
+Length=468
+
+ Score = 182 bits (91),  Expect = 7e-47
+ Identities = 196/215 (91%), Gaps = 2/215 (1%)
+ Strand=Plus/Plus
+
+Query  53066  GTCCTGAGGGGGAAGGGAGAGCAGCTCACAGGAGGACTTTGCAAGAATAAGACTCTTGGG  53125
+              |||||||||||||||||||||||| ||||||||||||||| |||||||||||||| ||||
+Sbjct  60     GTCCTGAGGGGGAAGGGAGAGCAGATCACAGGAGGACTTTACAAGAATAAGACTC-TGGG  118
+
+Query  53126  GACTGTTGTTTGGGAACTGGAGGAAAAGCTGAAAACCCGTGCTGGGGGCTGGACAGGCAA  53185
+              |||||||||||||||||||||||||| ||||||||||| ||||||||||||| |||||||
+Sbjct  119    GACTGTTGTTTGGGAACTGGAGGAAACGCTGAAAACCCCTGCTGGGGGCTGGGCAGGCAA  178
+
+Query  53186  AGGGCCCACCAGAATGTGTTCTAAATCTAACCCACTGGGCCCAGGCTGCTGAAACGGCCC  53245
+              || || |||  ||||||  | ||| |  ||||||||| ||||||||||||||||||||||
+Sbjct  179    AGAGCTCACTGGAATGTTCTTTAATTG-AACCCACTGAGCCCAGGCTGCTGAAACGGCCC  237
+
+Query  53246  AGACAGAAGAGGCAACAGGCTGAAATCAATCTGAA  53280
+              | |||||| ||||||||||||||||||||||||||
+Sbjct  238    ATACAGAAAAGGCAACAGGCTGAAATCAATCTGAA  272
+
+
+> TRINITY_DN159_c0_g1_i5 len=814 path=[0:0-334 1:335-385 4:386-396 
+5:397-401 7:402-409 9:410-424 12:425-427 13:428-437 14:438-729 
+15:730-813]
+Length=814
+
+ Score = 160 bits (80),  Expect = 3e-40
+ Identities = 140/152 (92%), Gaps = 0/152 (0%)
+ Strand=Plus/Minus
+
+Query  53996  TTGTTAGTTTCTCTTATTCTCTTTATTGTATTTTTGTTTTCTCATTTTCAACTATTATCC  54055
+              ||||||||||||||||||||||||||||||||||| |||| ||||||| ||||| |||||
+Sbjct  495    TTGTTAGTTTCTCTTATTCTCTTTATTGTATTTTTATTTTTTCATTTTAAACTACTATCC  436
+
+Query  54056  TATTCCTATTCTCTCCCTTAATTTTGTGCTGGCGCTTCTTTCAGAATCTTTTCTCTGCTT  54115
+              |||||||||| |||||||||||||| ||||||  ||||||||||||||||||||||||||
+Sbjct  435    TATTCCTATTTTCTCCCTTAATTTTTTGCTGGACCTTCTTTCAGAATCTTTTCTCTGCTT  376
+
+Query  54116  CTGTTACCTCACAGTAGCTTCTCTATTTTTTA  54147
+              || |||  || |||||||||||||||||||||
+Sbjct  375    CTATTATTTCCCAGTAGCTTCTCTATTTTTTA  344
+
+
+> TRINITY_DN1479_c1_g1_i1 len=291 path=[0:0-290]
+Length=291
+
+ Score = 122 bits (61),  Expect = 7e-29
+ Identities = 81/85 (95%), Gaps = 0/85 (0%)
+ Strand=Plus/Plus
+
+Query  53996  TTGTTAGTTTCTCTTATTCTCTTTATTGTATTTTTGTTTTCTCATTTTCAACTATTATCC  54055
+              |||||||||||| ||||||||||||||| |||||||||||||||||||||||||||| ||
+Sbjct  205    TTGTTAGTTTCTTTTATTCTCTTTATTGAATTTTTGTTTTCTCATTTTCAACTATTAACC  264
+
+Query  54056  TATTCCTATTCTCTCCCTTAATTTT  54080
+              ||||||||||||| |||||||||||
+Sbjct  265    TATTCCTATTCTCACCCTTAATTTT  289
+
+
+> TRINITY_DN2657_c0_g1_i1 len=249 path=[0:0-248]
+Length=249
+
+ Score = 106 bits (53),  Expect = 5e-24
+ Identities = 83/89 (93%), Gaps = 0/89 (0%)
+ Strand=Plus/Plus
+
+Query  52798  TGACTTTGGGTCCCCTCCCGCTGGGTGCCTTGGAGCAAAGGCGGCGGGACCTTGCAGGGC  52857
+              |||||||||||||||||||||||||||||||||||||| ||| |||||||| ||||||||
+Sbjct  1      TGACTTTGGGTCCCCTCCCGCTGGGTGCCTTGGAGCAAGGGCAGCGGGACCCTGCAGGGC  60
+
+Query  52858  GGACTCTCTGCCTGTGTGTTGCTTTGTGC  52886
+               |||| |||||||||||||||| ||||||
+Sbjct  61     AGACTTTCTGCCTGTGTGTTGCATTGTGC  89
+
+
+ Score = 70.4 bits (35),  Expect = 3e-13
+ Identities = 60/65 (92%), Gaps = 0/65 (0%)
+ Strand=Plus/Plus
+
+Query  52979  AGACGGTCTGAGAGGCGGGCCTGGTGCGACCAGCCAACCAGAGCTGAGCAGGGAGGGGCG  53038
+              |||||| ||||| ||||||||||||||||||||||||||||||||| | |||||||| ||
+Sbjct  182    AGACGGACTGAGGGGCGGGCCTGGTGCGACCAGCCAACCAGAGCTGGGAAGGGAGGGACG  241
+
+Query  53039  GAGCC  53043
+              |||||
+Sbjct  242    GAGCC  246
+
+
+> TRINITY_DN1072_c0_g2_i2 len=229 path=[0:0-106 1:107-116 5:117-228]
+Length=229
+
+ Score = 104 bits (52),  Expect = 2e-23
+ Identities = 87/94 (93%), Gaps = 0/94 (0%)
+ Strand=Plus/Minus
+
+Query  52950  GCAGAGGCTGCCACTGGGGTCTGCGCAGTAGACGGTCTGAGAGGCGGGCCTGGTGCGACC  53009
+              ||||||||||||| ||||| |||| |||||||||||||| | || ||||||||||| |||
+Sbjct  229    GCAGAGGCTGCCATTGGGGGCTGCACAGTAGACGGTCTGGGGGGGGGGCCTGGTGCAACC  170
+
+Query  53010  AGCCAACCAGAGCTGAGCAGGGAGGGGCGGAGCC  53043
+              ||||||||||||||||||||||||||||||||||
+Sbjct  169    AGCCAACCAGAGCTGAGCAGGGAGGGGCGGAGCC  136
+
+
+> TRINITY_DN1090_c0_g1_i10 len=491 path=[1:0-190 2:191-191 4:192-245 
+8:246-264 11:265-280 13:281-309 16:310-312 17:313-314 
+19:315-319 20:320-325 22:326-332 25:333-338 26:339-342 29:343-343 
+30:344-357 32:358-383 39:384-407 41:408-408 43:409-423 
+45:424-490]
+Length=491
+
+ Score = 96.4 bits (48),  Expect = 5e-21
+ Identities = 163/184 (89%), Gaps = 2/184 (1%)
+ Strand=Plus/Minus
+
+Query  53097  GAGGACTTTGCAAGAATAAGACTCTTGGGGACTGTTGTTTGGGAACTGGAGGAAAAGCTG  53156
+              ||||||||| ||||||||||||||| |||||| ||||||||||||||||||||||  |||
+Sbjct  481    GAGGACTTTACAAGAATAAGACTCTCGGGGACCGTTGTTTGGGAACTGGAGGAAACACTG  422
+
+Query  53157  AAAACCCGTGCTGGGGGCTGGACAGGCAAAGGGCCCACCAGAATGTGTTCTAAATCTAAC  53216
+              ||||||| |||||||| |||| |||||||||||| |||  |||||| |  | |||| |||
+Sbjct  421    AAAACCCCTGCTGGGG-CTGGGCAGGCAAAGGGCTCACTGGAATGT-TCTTTAATCGAAC  364
+
+Query  53217  CCACTGGGCCCAGGCTGCTGAAACGGCCCAGACAGAAGAGGCAACAGGCTGAAATCAATC  53276
+              |||  | |||||||||||||||||||||||||||||| |||| |||||||||||||||||
+Sbjct  363    CCAGGGAGCCCAGGCTGCTGAAACGGCCCAGACAGAAAAGGCGACAGGCTGAAATCAATC  304
+
+Query  53277  TGAA  53280
+              ||||
+Sbjct  303    TGAA  300
+
+
+> TRINITY_DN2607_c1_g1_i2 len=382 path=[0:0-225 2:226-381]
+Length=382
+
+ Score = 92.4 bits (46),  Expect = 8e-20
+ Identities = 66/70 (94%), Gaps = 0/70 (0%)
+ Strand=Plus/Minus
+
+Query  53066  GTCCTGAGGGGGAAGGGAGAGCAGCTCACAGGAGGACTTTGCAAGAATAAGACTCTTGGG  53125
+              ||||||||||| |||||||||||||||||||||||||||| |||||||||||||||  ||
+Sbjct  184    GTCCTGAGGGGAAAGGGAGAGCAGCTCACAGGAGGACTTTACAAGAATAAGACTCTAAGG  125
+
+Query  53126  GACTGTTGTT  53135
+              ||||||||||
+Sbjct  124    GACTGTTGTT  115
+
+
+> TRINITY_DN1537_c1_g1_i1 len=395 path=[0:0-77 1:78-102 3:103-394]
+Length=395
+
+ Score = 92.4 bits (46),  Expect = 8e-20
+ Identities = 51/52 (98%), Gaps = 0/52 (0%)
+ Strand=Plus/Minus
+
+Query  52992  GGCGGGCCTGGTGCGACCAGCCAACCAGAGCTGAGCAGGGAGGGGCGGAGCC  53043
+              |||||||||||||| |||||||||||||||||||||||||||||||||||||
+Sbjct  210    GGCGGGCCTGGTGCAACCAGCCAACCAGAGCTGAGCAGGGAGGGGCGGAGCC  159
+
+
+ Score = 64.4 bits (32),  Expect = 2e-11
+ Identities = 72/80 (90%), Gaps = 0/80 (0%)
+ Strand=Plus/Minus
+
+Query  52807  GTCCCCTCCCGCTGGGTGCCTTGGAGCAAAGGCGGCGGGACCTTGCAGGGCGGACTCTCT  52866
+              |||||||||| ||||| ||||||| ||| ||| ||| ||||| |||||||| ||||||||
+Sbjct  395    GTCCCCTCCCACTGGGGGCCTTGGTGCACAGGTGGCAGGACCCTGCAGGGCAGACTCTCT  336
+
+Query  52867  GCCTGTGTGTTGCTTTGTGC  52886
+              ||||||||||||||||||||
+Sbjct  335    GCCTGTGTGTTGCTTTGTGC  316
+
+
+> TRINITY_DN4197_c0_g1_i1 len=220 path=[0:0-219]
+Length=220
+
+ Score = 62.4 bits (31),  Expect = 8e-11
+ Identities = 36/37 (97%), Gaps = 0/37 (0%)
+ Strand=Plus/Minus
+
+Query  53066  GTCCTGAGGGGGAAGGGAGAGCAGCTCACAGGAGGAC  53102
+              |||||||||||||||||||||||||||| ||||||||
+Sbjct  58     GTCCTGAGGGGGAAGGGAGAGCAGCTCATAGGAGGAC  22
+
+
+
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Gapped
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/Trinity%2Efasta.mpi.10.9
+    Posted date:  Aug 12, 2019  6:17 PM
+  Number of letters in database: 525,601
+  Number of sequences in database:  1,250
+
+
+
+Matrix: blastn matrix 1 -5
+Gap Penalties: Existence: 5, Extension: 5

@@ -1,0 +1,21 @@
+##gff-version 3
+NW_015504249.1	blastn	expressed_sequence_match	2797270	2797509	234	+	.	ID=NW_015504249.1:hit:8025:3.2.0.28;Name=TRINITY_DN3247_c0_g1_i1;target_length=240
+NW_015504249.1	blastn	match_part	2797270	2797509	234	+	.	ID=NW_015504249.1:hsp:10373:3.2.0.28;Parent=NW_015504249.1:hit:8025:3.2.0.28;Target=TRINITY_DN3247_c0_g1_i1 1 240 +;Gap=M240
+NW_015504249.1	blastn	expressed_sequence_match	2797619	2797724	43	-	.	ID=NW_015504249.1:hit:8026:3.2.0.28;Name=TRINITY_DN4349_c0_g1_i1;target_length=261
+NW_015504249.1	blastn	match_part	2797619	2797724	43	-	.	ID=NW_015504249.1:hsp:10374:3.2.0.28;Parent=NW_015504249.1:hit:8026:3.2.0.28;Target=TRINITY_DN4349_c0_g1_i1 15 122 +;Gap=M39 I2 M67
+NW_015504249.1	blastn	expressed_sequence_match	2798093	2798370	76	+	.	ID=NW_015504249.1:hit:8027:3.2.0.28;Name=TRINITY_DN3924_c0_g1_i1;target_length=381
+NW_015504249.1	blastn	match_part	2798093	2798370	76	+	.	ID=NW_015504249.1:hsp:10375:3.2.0.28;Parent=NW_015504249.1:hit:8027:3.2.0.28;Target=TRINITY_DN3924_c0_g1_i1 110 381 +;Gap=M68 D1 M70 D5 M134
+NW_015504249.1	blastn	expressed_sequence_match	2832603	2832753	151	+	.	ID=NW_015504249.1:hit:8028:3.2.0.28;Name=TRINITY_DN4251_c0_g1_i1;target_length=209
+NW_015504249.1	blastn	match_part	2832603	2832753	151	+	.	ID=NW_015504249.1:hsp:10376:3.2.0.28;Parent=NW_015504249.1:hit:8028:3.2.0.28;Target=TRINITY_DN4251_c0_g1_i1 1 151 +;Gap=M151
+NW_015504249.1	blastn	expressed_sequence_match	2881914	2882144	225	+	.	ID=NW_015504249.1:hit:8029:3.2.0.28;Name=TRINITY_DN1949_c0_g1_i1;target_length=231
+NW_015504249.1	blastn	match_part	2881914	2882144	225	+	.	ID=NW_015504249.1:hsp:10377:3.2.0.28;Parent=NW_015504249.1:hit:8029:3.2.0.28;Target=TRINITY_DN1949_c0_g1_i1 1 231 +;Gap=M231
+NW_015504249.1	est2genome	expressed_sequence_match	2797270	2797509	1191	+	.	ID=NW_015504249.1:hit:8030:3.2.0.28;Name=TRINITY_DN3247_c0_g1_i1;target_length=240;aligned_coverage=100;aligned_identity=99.6
+NW_015504249.1	est2genome	match_part	2797270	2797509	1191	+	.	ID=NW_015504249.1:hsp:10378:3.2.0.28;Parent=NW_015504249.1:hit:8030:3.2.0.28;Target=TRINITY_DN3247_c0_g1_i1 1 240 +;Gap=M240
+NW_015504249.1	est2genome	expressed_sequence_match	2797501	2797736	833	-	.	ID=NW_015504249.1:hit:8031:3.2.0.28;Name=TRINITY_DN4349_c0_g1_i1;target_length=261;aligned_coverage=91.95;aligned_identity=83.8
+NW_015504249.1	est2genome	match_part	2797501	2797736	833	-	.	ID=NW_015504249.1:hsp:10379:3.2.0.28;Parent=NW_015504249.1:hit:8031:3.2.0.28;Target=TRINITY_DN4349_c0_g1_i1 1 240 +;Gap=M12 I2 M39 I2 M185
+NW_015504249.1	est2genome	expressed_sequence_match	2798021	2798370	1266	-	.	ID=NW_015504249.1:hit:8032:3.2.0.28;Name=TRINITY_DN3924_c0_g1_i1;target_length=381;aligned_coverage=91.08;aligned_identity=86.3
+NW_015504249.1	est2genome	match_part	2798021	2798370	1266	-	.	ID=NW_015504249.1:hsp:10380:3.2.0.28;Parent=NW_015504249.1:hit:8032:3.2.0.28;Target=TRINITY_DN3924_c0_g1_i1 35 381 -;Gap=M7 I1 M12 I1 M1 I1 M120 D1 M70 D5 M134
+NW_015504249.1	est2genome	expressed_sequence_match	2832603	2832811	1036	-	.	ID=NW_015504249.1:hit:8033:3.2.0.28;Name=TRINITY_DN4251_c0_g1_i1;target_length=209;aligned_coverage=100;aligned_identity=99.5
+NW_015504249.1	est2genome	match_part	2832603	2832811	1036	-	.	ID=NW_015504249.1:hsp:10381:3.2.0.28;Parent=NW_015504249.1:hit:8033:3.2.0.28;Target=TRINITY_DN4251_c0_g1_i1 1 209 -;Gap=M209
+NW_015504249.1	est2genome	expressed_sequence_match	2881914	2882144	1146	+	.	ID=NW_015504249.1:hit:8034:3.2.0.28;Name=TRINITY_DN1949_c0_g1_i1;target_length=231;aligned_coverage=100;aligned_identity=99.6
+NW_015504249.1	est2genome	match_part	2881914	2882144	1146	+	.	ID=NW_015504249.1:hsp:10382:3.2.0.28;Parent=NW_015504249.1:hit:8034:3.2.0.28;Target=TRINITY_DN1949_c0_g1_i1 1 231 +;Gap=M231

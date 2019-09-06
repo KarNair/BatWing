@@ -1,0 +1,90 @@
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /scratch/9748766/maker_hGoj1k/0/blastprep/db.85342-
+112317.for_blastn.fasta
+           1 sequences; 464 total letters
+
+
+
+Query= NW_015504249.1 CHUNK number:0 size:1 offset:85341
+
+Length=26976
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  TRINITY_DN3197_c0_g2_i1 len=464 path=[0:0-463]                      706     0.0  
+
+
+> TRINITY_DN3197_c0_g2_i1 len=464 path=[0:0-463]
+Length=464
+
+ Score = 706 bits (353),  Expect = 0.0
+ Identities = 353/353 (100%), Gaps = 0/353 (0%)
+ Strand=Plus/Minus
+
+Query  10001  AGAATAGAGAGCTTCAGAGAAGTTAACTGACTTACCTAAACTCTTCGTGTGTTGAGCCAT  10060
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  464    AGAATAGAGAGCTTCAGAGAAGTTAACTGACTTACCTAAACTCTTCGTGTGTTGAGCCAT  405
+
+Query  10061  ACTTGAAAGCTGCTCTGTCAGGCTCCAAGTACAGGGTGGAGCAAAAGCAGCTGTACTCAT  10120
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  404    ACTTGAAAGCTGCTCTGTCAGGCTCCAAGTACAGGGTGGAGCAAAAGCAGCTGTACTCAT  345
+
+Query  10121  TAATTATTGTATTATTTCCCGTTCAAACGATTGTAAACCTACTTTTGCTCCACCCCGTAT  10180
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  344    TAATTATTGTATTATTTCCCGTTCAAACGATTGTAAACCTACTTTTGCTCCACCCCGTAT  285
+
+Query  10181  TTTGCAGGAGTCCCCTTGTGCAAAATGATTCCACACAATCTCCTCCTAGGCGTAGAGCGT  10240
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  284    TTTGCAGGAGTCCCCTTGTGCAAAATGATTCCACACAATCTCCTCCTAGGCGTAGAGCGT  225
+
+Query  10241  GTTGTCATGGGGCCAGGAGTTGGGACACATGGTTTTCCTGGAGTGGATCATACTCTTCCC  10300
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  224    GTTGTCATGGGGCCAGGAGTTGGGACACATGGTTTTCCTGGAGTGGATCATACTCTTCCC  165
+
+Query  10301  TTCTCTCCTCTGAAGCATCAAGTTCTCAAATATTCATCTTCCTAGGATGGAGT  10353
+              |||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  164    TTCTCTCCTCTGAAGCATCAAGTTCTCAAATATTCATCTTCCTAGGATGGAGT  112
+
+
+ Score = 222 bits (111),  Expect = 6e-59
+ Identities = 111/111 (100%), Gaps = 0/111 (0%)
+ Strand=Plus/Minus
+
+Query  16866  AGTTCCGCAGGAAGCAGATCACAGGCCCACCAGGAAGCCGCTTCAGGGCTCCCTGGAAAC  16925
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  111    AGTTCCGCAGGAAGCAGATCACAGGCCCACCAGGAAGCCGCTTCAGGGCTCCCTGGAAAC  52
+
+Query  16926  AAGCCAGGGGAGTCTTGTCCAGAGGGAAGGCTGCGAGGGCGGCAGCAAAGA  16976
+              |||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  51     AAGCCAGGGGAGTCTTGTCCAGAGGGAAGGCTGCGAGGGCGGCAGCAAAGA  1
+
+
+
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Gapped
+Lambda      K        H
+    1.39    0.747     1.38 
+
+Effective search space used: 500000000
+
+
+  Database: /scratch/9748766/maker_hGoj1k/0/blastprep/db.85342-
+112317.for_blastn.fasta
+    Posted date:  Aug 12, 2019  6:17 PM
+  Number of letters in database: 464
+  Number of sequences in database:  1
+
+
+
+Matrix: blastn matrix 1 -5
+Gap Penalties: Existence: 5, Extension: 5

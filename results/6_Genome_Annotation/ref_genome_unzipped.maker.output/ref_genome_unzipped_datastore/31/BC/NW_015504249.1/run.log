@@ -1,0 +1,510 @@
+SHARED_ID	8e5c5b34e23fa733e597d3a93b1bc588	
+CTL_OPTIONS	maker_gff	
+CTL_OPTIONS	other_gff	
+CTL_OPTIONS	est	/domus/h1/karnair/GenomeAnalysis/BatWing/results/4_Transcriptome_Assembly/trinity_paired/Trinity.fasta
+CTL_OPTIONS	est_reads	
+CTL_OPTIONS	altest	
+CTL_OPTIONS	est_gff	
+CTL_OPTIONS	altest_gff	
+CTL_OPTIONS	protein	
+CTL_OPTIONS	protein_gff	
+CTL_OPTIONS	model_org	all
+CTL_OPTIONS	repeat_protein	te_proteins.fasta
+CTL_OPTIONS	rmlib	
+CTL_OPTIONS	rm_gff	
+CTL_OPTIONS	organism_type	eukaryotic
+CTL_OPTIONS	allow_overlap	0
+CTL_OPTIONS	predictor	augustus,snap
+CTL_OPTIONS	est2genome	0
+CTL_OPTIONS	altest2genome	0
+CTL_OPTIONS	snaphmm	/home/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped.hmm
+CTL_OPTIONS	gmhmm	
+CTL_OPTIONS	augustus_species	human
+CTL_OPTIONS	fgenesh_par_file	
+CTL_OPTIONS	run_evm	0
+CTL_OPTIONS	model_gff	
+CTL_OPTIONS	pred_gff	
+CTL_OPTIONS	max_dna_len	100000
+CTL_OPTIONS	split_hit	10000
+CTL_OPTIONS	min_intron	20
+CTL_OPTIONS	pred_flank	200
+CTL_OPTIONS	pred_stats	0
+CTL_OPTIONS	min_protein	0
+CTL_OPTIONS	AED_threshold	1
+CTL_OPTIONS	single_exon	0
+CTL_OPTIONS	single_length	250
+CTL_OPTIONS	keep_preds	1
+CTL_OPTIONS	map_forward	0
+CTL_OPTIONS	est_forward	0
+CTL_OPTIONS	correct_est_fusion	0
+CTL_OPTIONS	alt_splice	0
+CTL_OPTIONS	always_complete	0
+CTL_OPTIONS	alt_peptide	C
+CTL_OPTIONS	evaluate	0
+CTL_OPTIONS	blast_type	ncbi+
+CTL_OPTIONS	use_rapsearch	0
+CTL_OPTIONS	softmask	1
+CTL_OPTIONS	pcov_blastn	0.8
+CTL_OPTIONS	pid_blastn	0.85
+CTL_OPTIONS	eval_blastn	1e-10
+CTL_OPTIONS	bit_blastn	40
+CTL_OPTIONS	depth_blastn	0
+CTL_OPTIONS	pcov_rm_blastx	0.5
+CTL_OPTIONS	pid_rm_blastx	0.4
+CTL_OPTIONS	eval_rm_blastx	1e-06
+CTL_OPTIONS	bit_rm_blastx	30
+CTL_OPTIONS	pcov_blastx	0.5
+CTL_OPTIONS	pid_blastx	0.4
+CTL_OPTIONS	depth_blastx	0
+CTL_OPTIONS	eval_blastx	1e-06
+CTL_OPTIONS	bit_blastx	30
+CTL_OPTIONS	pcov_tblastx	0.8
+CTL_OPTIONS	pid_tblastx	0.85
+CTL_OPTIONS	eval_tblastx	1e-10
+CTL_OPTIONS	bit_tblastx	40
+CTL_OPTIONS	depth_tblastx	0
+CTL_OPTIONS	ep_score_limit	20
+CTL_OPTIONS	en_score_limit	20
+CTL_OPTIONS	enable_fathom	0
+CTL_OPTIONS	unmask	0
+CTL_OPTIONS	model_pass	0
+CTL_OPTIONS	est_pass	0
+CTL_OPTIONS	altest_pass	0
+CTL_OPTIONS	protein_pass	0
+CTL_OPTIONS	rm_pass	0
+CTL_OPTIONS	other_pass	0
+CTL_OPTIONS	pred_pass	0
+CTL_OPTIONS	run	augustus,snap
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.0	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.0	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.0	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.1	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.1	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.1	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.2	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.2	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.2	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.3	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.3	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.3	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.4	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.4	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.4	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.5	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.5	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.5	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.6	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.6	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.6	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.7	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.7	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.7	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.8	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.8	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.8	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.9	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.9	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.9	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.10	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.10	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.10	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.11	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.11	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.11	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.12	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.12	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.12	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.13	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.13	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.13	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.14	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.14	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.14	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.15	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.15	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.15	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.16	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.16	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.16	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.17	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.17	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.17	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.18	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.18	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.18	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.19	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.19	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.19	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.20	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.20	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.20	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.21	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.21	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.21	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.22	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.22	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.22	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.23	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.23	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.23	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.24	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.24	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.24	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.25	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.25	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.25	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.26	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.26	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.26	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.27	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.27	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.27	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.28	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.28	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.28	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.29	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.29	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.29	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.30	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.30	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.30	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.31	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.31	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.31	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.32	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.32	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.32	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.abinit_masked.0.ref_genome_unzipped%2Ehmm.snap	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.abinit_masked.0.ref_genome_unzipped%2Ehmm.snap	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.abinit_masked.0.human.augustus	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.abinit_masked.0.human.augustus	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.0.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.0.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.1.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.1.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.2.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.2.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.3.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.3.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.4.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.4.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.5.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.5.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.6.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.6.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.7.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.7.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.8.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.8.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.9.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.9.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.10.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.10.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.11.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.11.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.12.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.12.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.13.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.13.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.14.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.14.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.15.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.15.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.16.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.16.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.17.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.17.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.18.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.18.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.19.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.19.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.20.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.20.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.21.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.21.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.22.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.22.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.23.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.23.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.24.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.24.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.25.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.25.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.26.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.26.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.27.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.27.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.28.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.28.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.29.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.29.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.30.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.30.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.31.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.31.pred.raw.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.32.pred.raw.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.32.pred.raw.section	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.0	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.0	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.0	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.1	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.1	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.1	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.2	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.2	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.2	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.3	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.3	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.3	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.4	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.4	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.4	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.5	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.5	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.5	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.6	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.6	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.6	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.7	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.7	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.7	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.8	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.8	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.8	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.9	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.9	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.9	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.10	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.10	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.10	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.11	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.11	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.11	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.12	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.12	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.12	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.13	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.13	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.13	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.14	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.14	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.14	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.15	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.15	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.15	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.16	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.16	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.16	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.17	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.17	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.17	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.18	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.18	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.18	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.19	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.19	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.19	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.20	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.20	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.20	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.21	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.21	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.21	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.22	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.22	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.22	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.23	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.23	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.23	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.24	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.24	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.24	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.25	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.25	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.25	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.26	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.26	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.26	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.27	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.27	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.27	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.28	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.28	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.28	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.29	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.29	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.29	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.30	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.30	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.30	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.31	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.31	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.31	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.32	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.32	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.32	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.0.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.0.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.1.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.1.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.2.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.2.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.3.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.3.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.4.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.4.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.5.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.5.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.6.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.6.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.7.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.7.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.8.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.8.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.9.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.9.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.10.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.10.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.11.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.11.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.12.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.12.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.13.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.13.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.14.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.14.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.15.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.15.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.16.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.16.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.17.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.17.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.18.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.18.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.19.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.19.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.20.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.20.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.21.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.21.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.22.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.22.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.23.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.23.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.24.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.24.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.25.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.25.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.26.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.26.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.27.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.27.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.28.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.28.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.29.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.29.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.30.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.30.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.31.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.31.final.section	
+STARTED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.32.final.section	
+FINISHED	ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/NW_015504249%2E1.32.final.section	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.0	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.0	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.0	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.1	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.1	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.1	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.2	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.2	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.2	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.3	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.3	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.3	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.4	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.4	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.4	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.5	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.5	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.5	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.6	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.6	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.6	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.7	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.7	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.7	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.8	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.8	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.8	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.9	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.9	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.9	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.10	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.10	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.10	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.11	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.11	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.11	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.12	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.12	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.12	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.13	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.13	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.13	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.14	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.14	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.14	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.15	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.15	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.15	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.16	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.16	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.16	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.17	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.17	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.17	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.18	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.18	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.18	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.19	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.19	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.19	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.20	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.20	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.20	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.21	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.21	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.21	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.22	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.22	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.22	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.23	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.23	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.23	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.24	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.24	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.24	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.25	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.25	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.25	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.26	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.26	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.26	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.27	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.27	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.27	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.28	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.28	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.28	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.29	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.29	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.29	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.30	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.30	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.30	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.31	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.31	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.31	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.32	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.32	
+LOGCHILD	/domus/h1/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output/ref_genome_unzipped_datastore/31/BC/NW_015504249.1//theVoid.NW_015504249.1/run.log.child.32	
