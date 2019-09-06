@@ -1,0 +1,6 @@
+gnuplot 4.6 patchlevel 2
+Writing filtered delta file /home/karnair/GenomeAnalysis/BatWing/results/5_Assembly_Validation/soapdenovo_wgs/soapdenovo.filter
+Reading delta file /home/karnair/GenomeAnalysis/BatWing/results/5_Assembly_Validation/soapdenovo_wgs/soapdenovo.filter
+Writing plot files /home/karnair/GenomeAnalysis/BatWing/results/5_Assembly_Validation/soapdenovo_wgs/soapdenovo.fplot, /home/karnair/GenomeAnalysis/BatWing/results/5_Assembly_Validation/soapdenovo_wgs/soapdenovo.rplot
+Writing gnuplot script /home/karnair/GenomeAnalysis/BatWing/results/5_Assembly_Validation/soapdenovo_wgs/soapdenovo.gp
+Rendering plot /home/karnair/GenomeAnalysis/BatWing/results/5_Assembly_Validation/soapdenovo_wgs/soapdenovo.png

@@ -12,6 +12,6 @@ module load bioinfo-tools
 module load maker
 
 #Your commands
-cd /home/shsr0481/Genome_Analysis/results/6_Genome_Annotation
+cd /home/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation
 
-maker -CTL
+maker

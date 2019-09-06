@@ -1,0 +1,121 @@
+21062 GFF lines processed.
+Warning: Read DJB775P1:392:D1R59ACXX:6:1114:11993:74228 claims to have an aligned mate which could not be found in an adjacent line.
+100000 SAM alignment record pairs processed.
+200000 SAM alignment record pairs processed.
+300000 SAM alignment record pairs processed.
+400000 SAM alignment record pairs processed.
+500000 SAM alignment record pairs processed.
+600000 SAM alignment record pairs processed.
+700000 SAM alignment record pairs processed.
+Warning: 722434 reads with missing mate encountered.
+785367 SAM alignment pairs processed.
+Warning: Read DJB77P1:411:H0FA3ADXX:1:1103:12203:93341 claims to have an aligned mate which could not be found in an adjacent line.
+100000 SAM alignment record pairs processed.
+200000 SAM alignment record pairs processed.
+300000 SAM alignment record pairs processed.
+400000 SAM alignment record pairs processed.
+500000 SAM alignment record pairs processed.
+600000 SAM alignment record pairs processed.
+700000 SAM alignment record pairs processed.
+800000 SAM alignment record pairs processed.
+900000 SAM alignment record pairs processed.
+1000000 SAM alignment record pairs processed.
+1100000 SAM alignment record pairs processed.
+Warning: 1072544 reads with missing mate encountered.
+1167261 SAM alignment pairs processed.
+Warning: Read DJB775P1:392:D1R59ACXX:7:1106:4600:13921 claims to have an aligned mate which could not be found in an adjacent line.
+100000 SAM alignment record pairs processed.
+200000 SAM alignment record pairs processed.
+300000 SAM alignment record pairs processed.
+400000 SAM alignment record pairs processed.
+500000 SAM alignment record pairs processed.
+600000 SAM alignment record pairs processed.
+700000 SAM alignment record pairs processed.
+Warning: 722128 reads with missing mate encountered.
+791743 SAM alignment pairs processed.
+Warning: Read DJB775P1:392:D1R59ACXX:5:1207:2159:3351 claims to have an aligned mate which could not be found in an adjacent line.
+100000 SAM alignment record pairs processed.
+200000 SAM alignment record pairs processed.
+300000 SAM alignment record pairs processed.
+400000 SAM alignment record pairs processed.
+500000 SAM alignment record pairs processed.
+600000 SAM alignment record pairs processed.
+700000 SAM alignment record pairs processed.
+Warning: 676768 reads with missing mate encountered.
+753706 SAM alignment pairs processed.
+Warning: Read DJB775P1:392:D1R59ACXX:6:2105:17449:19477 claims to have an aligned mate which could not be found in an adjacent line.
+100000 SAM alignment record pairs processed.
+200000 SAM alignment record pairs processed.
+300000 SAM alignment record pairs processed.
+400000 SAM alignment record pairs processed.
+500000 SAM alignment record pairs processed.
+600000 SAM alignment record pairs processed.
+700000 SAM alignment record pairs processed.
+800000 SAM alignment record pairs processed.
+900000 SAM alignment record pairs processed.
+Warning: 846666 reads with missing mate encountered.
+935036 SAM alignment pairs processed.
+Error occured when processing SAM input (record #1 in file /home/karnair/GenomeAnalysis/BatWing/results/8_Tophat/hindlimb/cs17/accepted_hits.bam):
+  'pair_alignments' needs a sequence of paired-end alignments
+  [Exception type: ValueError, raised in __init__.py:618]
+21062 GFF lines processed.
+Warning: Read DJB775P1:392:D1R59ACXX:6:1114:11993:74228 claims to have an aligned mate which could not be found in an adjacent line.
+100000 SAM alignment record pairs processed.
+200000 SAM alignment record pairs processed.
+300000 SAM alignment record pairs processed.
+400000 SAM alignment record pairs processed.
+500000 SAM alignment record pairs processed.
+600000 SAM alignment record pairs processed.
+700000 SAM alignment record pairs processed.
+Warning: 722434 reads with missing mate encountered.
+785367 SAM alignment pairs processed.
+21062 GFF lines processed.
+Warning: Read DJB775P1:392:D1R59ACXX:5:1207:2159:3351 claims to have an aligned mate which could not be found in an adjacent line.
+100000 SAM alignment record pairs processed.
+200000 SAM alignment record pairs processed.
+300000 SAM alignment record pairs processed.
+400000 SAM alignment record pairs processed.
+500000 SAM alignment record pairs processed.
+600000 SAM alignment record pairs processed.
+700000 SAM alignment record pairs processed.
+Warning: 676768 reads with missing mate encountered.
+753706 SAM alignment pairs processed.
+21062 GFF lines processed.
+Warning: Read DJB77P1:411:H0FA3ADXX:1:1103:12203:93341 claims to have an aligned mate which could not be found in an adjacent line.
+100000 SAM alignment record pairs processed.
+200000 SAM alignment record pairs processed.
+300000 SAM alignment record pairs processed.
+400000 SAM alignment record pairs processed.
+500000 SAM alignment record pairs processed.
+600000 SAM alignment record pairs processed.
+700000 SAM alignment record pairs processed.
+800000 SAM alignment record pairs processed.
+900000 SAM alignment record pairs processed.
+1000000 SAM alignment record pairs processed.
+1100000 SAM alignment record pairs processed.
+Warning: 1072544 reads with missing mate encountered.
+1167261 SAM alignment pairs processed.
+21062 GFF lines processed.
+Warning: Read DJB775P1:392:D1R59ACXX:6:2105:17449:19477 claims to have an aligned mate which could not be found in an adjacent line.
+100000 SAM alignment record pairs processed.
+200000 SAM alignment record pairs processed.
+300000 SAM alignment record pairs processed.
+400000 SAM alignment record pairs processed.
+500000 SAM alignment record pairs processed.
+600000 SAM alignment record pairs processed.
+700000 SAM alignment record pairs processed.
+800000 SAM alignment record pairs processed.
+900000 SAM alignment record pairs processed.
+Warning: 846666 reads with missing mate encountered.
+935036 SAM alignment pairs processed.
+21062 GFF lines processed.
+Warning: Read DJB775P1:392:D1R59ACXX:7:1106:4600:13921 claims to have an aligned mate which could not be found in an adjacent line.
+100000 SAM alignment record pairs processed.
+200000 SAM alignment record pairs processed.
+300000 SAM alignment record pairs processed.
+400000 SAM alignment record pairs processed.
+500000 SAM alignment record pairs processed.
+600000 SAM alignment record pairs processed.
+700000 SAM alignment record pairs processed.
+Warning: 722128 reads with missing mate encountered.
+791743 SAM alignment pairs processed.

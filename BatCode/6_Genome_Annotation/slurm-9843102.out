@@ -1,0 +1,22 @@
+GeneMark/4.33-es_Perl5.24.1 : A recent key file is needed to use this software
+and it must exist in your home directory. If you know you 
+GeneMark/4.33-es_Perl5.24.1 : already have this key file, ignore this message.
+If you need the key file, use this command: 
+GeneMark/4.33-es_Perl5.24.1 : cp -v
+/sw/apps/bioinfo/GeneMark/4.33-es/rackham/gm_key $HOME/.gm_key 
+If MPI support is desired, load maker/3.01.2-beta-mpi instead 
+
+The following have been reloaded with a version change:
+  1) augustus/3.2.3_Perl5.24.1 => augustus/3.2.3
+  2) perl/5.24.1 => perl/5.18.4
+  3) perl_modules/5.24.1 => perl_modules/5.18.4
+
+Can't open perl script "randomSplit.pl": No such file or directory
+
+etraining: ERROR
+	Could not open input file "augustus.gbk.train"!
+
+
+augustus: ERROR
+	Could not open input file "augustus.gbk.test"!
+

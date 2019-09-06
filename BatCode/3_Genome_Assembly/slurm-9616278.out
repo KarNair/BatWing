@@ -1,0 +1,543 @@
+
+Version 2.04: released on July 13th, 2012
+Compile Nov 20 2013	12:17:09
+
+********************
+Pregraph
+********************
+
+Parameters: pregraph -s //home/karnair/GenomeAnalysis/BatWing/BatCode/3_Genome_Assembly/soapdenovo_config.txt -K 49 -o /home/karnair/GenomeAnalysis/BatWing/results/3_Genome_Assembly/SOAPdenovo/ 
+
+In //home/karnair/GenomeAnalysis/BatWing/BatCode/3_Genome_Assembly/soapdenovo_config.txt, 6 lib(s), maximum read length 120, maximum name length 256.
+
+8 thread(s) initialized.
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819798.trim_1P.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819794.trim_2P.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819798.trim_1U.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819798.trim_2U.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819799.trim_1P.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819799.trim_2P.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819799.trim_1U.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819799.trim_2U.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819796.trim_1P.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819796.trim_2P.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819796.trim_1U.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819796.trim_2U.fastq.gz
+Time spent on hashing reads: 168s, 27212048 read(s) processed.
+LIB(s) information:
+ [LIB] 0, avg_ins 175, reverse 0.
+ [LIB] 1, avg_ins 400, reverse 0.
+ [LIB] 2, avg_ins 800, reverse 0.
+ [LIB] 3, avg_ins 3000, reverse 1.
+ [LIB] 4, avg_ins 5500, reverse 1.
+ [LIB] 5, avg_ins 9000, reverse 1.
+131343256 node(s) allocated, 1188670265 kmer(s) in reads, 1188670265 kmer(s) processed.
+done hashing nodes
+124886458 linear node(s) marked.
+Time spent on marking linear nodes: 3s.
+Time spent on pre-graph construction: 171s.
+
+Start to remove frequency-one-kmer tips shorter than 98.
+Total 2197249 tip(s) removed.
+8 thread(s) initialized.
+603978 linear node(s) marked.
+Start to remove tips with minority links.
+1126179 tip(s) removed in cycle 1.
+9062 tip(s) removed in cycle 2.
+54 tip(s) removed in cycle 3.
+0 tip(s) removed in cycle 4.
+Total 1135295 tip(s) removed.
+8 thread(s) initialized.
+0 linear node(s) marked.
+Time spent on removing tips: 69s.
+
+4508996 (2254522) edge(s) and 543786 extra node(s) constructed.
+Time spent on constructing edges: 47s.
+
+In file: //home/karnair/GenomeAnalysis/BatWing/BatCode/3_Genome_Assembly/soapdenovo_config.txt, max seq len 120, max name len 256.
+8 thread(s) initialized.
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819798.trim_1P.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819794.trim_2P.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819798.trim_1U.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819798.trim_2U.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819799.trim_1P.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819799.trim_2P.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819799.trim_1U.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819799.trim_2U.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819796.trim_1P.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819796.trim_2P.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819796.trim_1U.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819796.trim_2U.fastq.gz
+27212048 read(s) processed.
+Time spent on:
+ importing reads: 31s,
+ chopping reads to kmers: 20s,
+ searching kmers: 55s,
+ aligning reads to edges: 18s,
+ searching (K+1)mers: 11s,
+ adding pre-arcs: 12s,
+ recording read paths: 0s.
+0 marker(s) output.
+Reads alignment done, 3420424 read(s) deleted, 4801256 pre-arc(s) added.
+LIB(s) information:
+ [LIB] 0, avg_ins 175, reverse 0.
+ [LIB] 1, avg_ins 400, reverse 0.
+ [LIB] 2, avg_ins 800, reverse 0.
+ [LIB] 3, avg_ins 3000, reverse 1.
+ [LIB] 4, avg_ins 5500, reverse 1.
+ [LIB] 5, avg_ins 9000, reverse 1.
+Time spent on aligning reads: 156s.
+
+1566268 vertex(es) output.
+Overall time spent on constructing pre-graph: 7m.
+
+
+********************
+Contig
+********************
+
+Parameters: contig -g /home/karnair/GenomeAnalysis/BatWing/results/3_Genome_Assembly/SOAPdenovo/ -M 1 -s //home/karnair/GenomeAnalysis/BatWing/BatCode/3_Genome_Assembly/soapdenovo_config.txt 
+
+There are 1566268 kmer(s) in vertex file.
+There are 4508996 edge(s) in edge file.
+Kmers sorted.
+4508996 edge(s) input.
+5794258 pre-arcs loaded.
+1126338 none-palindrome edge(s) swapped, 0 palindrome edge(s) processed.
+4508996 edge(s) sorted.
+Arcs sorted.
+Start to pinch bubbles, cutoff 0.100000, MAX NODE NUM 3, MAX DIFF NUM 2.
+78115 start points, 3868360 dheap nodes.
+1280854 pair(s) found, 9390 pair of path(s) compared, 7395 pair(s) merged.
+Sequence comparison failed:
+ Path crossing deleted edge                         0
+ Length difference of two paths greater than two    813
+ Mismatch score greater than cutoff (2)             325
+ Mismatch score ratio greater than cutoff (0.1)     0
+ Path length shorter than (Kmer-1)                  857
+DFibHeap: 429707 node(s) allocated.
+99606 edge(s) concatenated in cycle 1.
+697 edge(s) concatenated in cycle 2.
+4 edge(s) concatenated in cycle 3.
+0 edge(s) concatenated in cycle 4.
+Time spent on pinching bubbles: 8s.
+Start to destroy weak inner edges.
+112191 weak inner edge(s) destroyed in cycle 1.
+867 weak inner edge(s) destroyed in cycle 2.
+5 weak inner edge(s) destroyed in cycle 3.
+0 weak inner edge(s) destroyed in cycle 4.
+223903 dead arc(s) removed.
+26091 inner edge(s) with coverage lower than or equal to 1 destroyed.
+56244 dead arc(s) removed.
+191394 edge(s) concatenated in cycle 1.
+770 edge(s) concatenated in cycle 2.
+0 edge(s) concatenated in cycle 3.
+Before compacting, 4508996 edge(s) existed.
+After compacting, 3630658 edge(s) left.
+
+Strict: 0, cutoff length: 98.
+234193 tips cut in cycle 1.
+41654 tips cut in cycle 2.
+10433 tips cut in cycle 3.
+3417 tips cut in cycle 4.
+1432 tips cut in cycle 5.
+602 tips cut in cycle 6.
+273 tips cut in cycle 7.
+148 tips cut in cycle 8.
+87 tips cut in cycle 9.
+40 tips cut in cycle 10.
+30 tips cut in cycle 11.
+34 tips cut in cycle 12.
+29 tips cut in cycle 13.
+25 tips cut in cycle 14.
+25 tips cut in cycle 15.
+21 tips cut in cycle 16.
+23 tips cut in cycle 17.
+8 tips cut in cycle 18.
+10 tips cut in cycle 19.
+0 tips cut in cycle 20.
+175462 dead arc(s) removed.
+126825 edge(s) concatenated in cycle 1.
+715 edge(s) concatenated in cycle 2.
+1 edge(s) concatenated in cycle 3.
+0 edge(s) concatenated in cycle 4.
+Before compacting, 3630658 edge(s) existed.
+After compacting, 2790608 edge(s) left.
+
+There are 208521 contig(s) longer than 100, sum up 38229185 bp, with average length 183.
+The longest length is 19390 bp, contig N50 is 184 bp,contig N90 is 113 bp.
+1395327 contig(s) longer than 50 output.
+
+Time spent on constructing contig: 0m.
+
+
+********************
+Map
+********************
+
+Parameters: map -s //home/karnair/GenomeAnalysis/BatWing/BatCode/3_Genome_Assembly/soapdenovo_config.txt -g /home/karnair/GenomeAnalysis/BatWing/results/3_Genome_Assembly/SOAPdenovo/ -K 49 
+
+Kmer size: 49.
+Contig length cutoff: 51.
+
+1395327 contig(s), maximum sequence length 19390, minimum sequence length 50, maximum name length 10.
+Time spent on parsing contigs file: 1s.
+8 thread(s) initialized.
+Time spent on hashing contigs: 5s.
+37635712 node(s) allocated, 38833606 kmer(s) in contigs, 38833606 kmer(s) processed.
+Time spent on graph construction: 6s.
+
+Time spent on aligning long reads: 0s.
+
+In file: //home/karnair/GenomeAnalysis/BatWing/BatCode/3_Genome_Assembly/soapdenovo_config.txt, max seq len 120, max name len 256
+8 thread(s) initialized.
+2790608 edge(s) in the graph.
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819797.trim_1P.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819797.trim_2P.fastq.gz
+Current insert size is 175, map_len is 32.
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819794.trim_1P.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819794.trim_2P.fastq.gz
+Current insert size is 400, map_len is 32.
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819795.trim_1P.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819795.trim_2P.fastq.gz
+Current insert size is 800, map_len is 32.
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819798.trim_1P.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819794.trim_2P.fastq.gz
+Current insert size is 3000, map_len is 35.
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819799.trim_1P.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819799.trim_2P.fastq.gz
+Current insert size is 5500, map_len is 35.
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819796.trim_1P.fastq.gz
+Import reads from file:
+ /home/karnair/GenomeAnalysis/BatWing/Data/wgs_data/sel3_SRR5819796.trim_2P.fastq.gz
+Current insert size is 9000, map_len is 35.
+
+Total reads         43938106
+Reads in gaps       26062553
+Ratio               59.3%
+Reads on contigs    32744903
+Ratio               74.5%
+6 pe insert size, the largest boundary is 43938106.
+
+LIB(s) information:
+ [LIB] 0, avg_ins 175, reverse 0.
+ [LIB] 1, avg_ins 400, reverse 0.
+ [LIB] 2, avg_ins 800, reverse 0.
+ [LIB] 3, avg_ins 3000, reverse 1.
+ [LIB] 4, avg_ins 5500, reverse 1.
+ [LIB] 5, avg_ins 9000, reverse 1.
+Time spent on aligning reads: 347s.
+
+Overall time spent on alignment: 5m.
+
+
+********************
+Scaff
+********************
+
+Parameters: scaff -g /home/karnair/GenomeAnalysis/BatWing/results/3_Genome_Assembly/SOAPdenovo/ 
+
+Files for scaffold construction are OK.
+
+There are 6 grad(s), 43938106 read(s), max read len 120.
+Kmer size: 49
+There are 2790608 edge(s) in edge file.
+Mask contigs with coverage lower than 0.8 or higher than 16.0, and strict length 0.
+Average contig coverage is 8, 951774 contig(s) masked.
+Mask contigs shorter than 51, 1470706 contig(s) masked.
+3747470 arc(s) loaded, average weight is 5.
+1395327 contig(s) loaded.
+Done loading updated edges.
+Time spent on loading updated edges: 6s.
+
+*****************************************************
+Start to load paired-end reads information.
+
+For insert size: 175
+ Total PE links                      1457990
+ Normal PE links on same contig      577119
+ Incorrect oriented PE links         57826
+ PE links of too small insert size   58342
+ PE links of too large insert size   0
+ Correct PE links                    764703
+ Accumulated connections             645304
+Use contigs longer than 175 to estimate insert size: 
+ PE links               349886
+ Average insert size    171
+ SD                     50
+322652 new connections.
+
+For insert size: 400
+ Total PE links                      6443604
+ Normal PE links on same contig      1067069
+ Incorrect oriented PE links         373
+ PE links of too small insert size   2768
+ PE links of too large insert size   0
+ Correct PE links                    5373378
+ Accumulated connections             3207276
+Use contigs longer than 400 to estimate insert size: 
+ PE links               863611
+ Average insert size    282
+ SD                     56
+1603638 new connections.
+
+For insert size: 800
+ Total PE links                      3644529
+ Normal PE links on same contig      512534
+ Incorrect oriented PE links         2688
+ PE links of too small insert size   681
+ PE links of too large insert size   0
+ Correct PE links                    3128616
+ Accumulated connections             1858246
+Use contigs longer than 800 to estimate insert size: 
+ PE links               469877
+ Average insert size    451
+ SD                     79
+929123 new connections.
+
+For insert size: 3000
+ Total PE links                      742672
+ Normal PE links on same contig      7
+ Incorrect oriented PE links         30
+ PE links of too small insert size   66581
+ PE links of too large insert size   0
+ Correct PE links                    676047
+ Accumulated connections             1301044
+Use contigs longer than 3000 to estimate insert size: 
+ PE links               7
+Too few PE links.
+650522 new connections.
+
+For insert size: 5500
+ Total PE links                      316097
+ Normal PE links on same contig      29390
+ Incorrect oriented PE links         624
+ PE links of too small insert size   166
+ PE links of too large insert size   0
+ Correct PE links                    285686
+ Accumulated connections             77880
+Use contigs longer than 5500 to estimate insert size: 
+ PE links               27772
+ Average insert size    4886
+ SD                     705
+38940 new connections.
+
+For insert size: 9000
+ Total PE links                      201930
+ Normal PE links on same contig      8554
+ Incorrect oriented PE links         31841
+ PE links of too small insert size   654
+ PE links of too large insert size   0
+ Correct PE links                    160582
+ Accumulated connections             54214
+Use contigs longer than 9000 to estimate insert size: 
+ PE links               6034
+ Average insert size    6956
+ SD                     2162
+27107 new connections.
+
+All paired-end reads information loaded.
+Time spent on loading paired-end reads information: 21s.
+
+*****************************************************
+Start to construct scaffolds.
+
+***************************
+For insert size: 175
+ Total PE links                322651
+ PE links to masked contigs    302621
+ On same scaffold PE links     0
+***************************
+For insert size: 400
+ Total PE links                1603638
+ PE links to masked contigs    1487506
+ On same scaffold PE links     0
+***************************
+For insert size: 800
+ Total PE links                929123
+ PE links to masked contigs    841124
+ On same scaffold PE links     0
+Report from smallScaf: 0 scaffolds by smallPE.
+***************************
+For insert size: 3000
+ Total PE links                650522
+ PE links to masked contigs    603932
+ On same scaffold PE links     0
+***************************
+For insert size: 5500
+ Total PE links                38940
+ PE links to masked contigs    34782
+ On same scaffold PE links     0
+***************************
+For insert size: 9000
+ Total PE links                27107
+ PE links to masked contigs    24511
+ On same scaffold PE links     0
+Cutoff of PE links to make a reliable connection: 5
+Report from checkScaf: 0 scaffold segments broken.
+ Active connections    432376
+ Weak connections      282158
+ Weak ratio            65.3%
+2 circles removed.
+Start to remove transitive connection.
+Total contigs                         2790608
+Masked contigs                        2422488
+Remained contigs                      368120
+None-outgoing-connection contigs      251287 (68.262253%)
+Single-outgoing-connection contigs    90392
+Multi-outgoing-connection contigs     4494
+Cycle 1
+ Two-outgoing-connection contigs     21947
+ Potential transitive connections    9823
+ Transitive connections              5599
+ Transitive ratio                    25.5%
+Cycle 2
+ Two-outgoing-connection contigs     16176
+ Potential transitive connections    4222
+ Transitive connections              10
+ Transitive ratio                    0.1%
+Cycle 3
+ Two-outgoing-connection contigs     16165
+ Potential transitive connections    4211
+ Transitive connections              0
+ Transitive ratio                    0.0%
+Start to linearize sub-graph.
+ Picked sub-graphs          8166
+ Connection-conflict        14
+ Significant overlapping    3596
+ Eligible                   4
+ Bubble structures          0
+Mask repeats:
+ Puzzles           2316
+ Masked contigs    1345
+Start to remove transitive connection.
+Total contigs                         2790608
+Masked contigs                        2425178
+Remained contigs                      365430
+None-outgoing-connection contigs      247152 (67.633202%)
+Single-outgoing-connection contigs    117622
+Multi-outgoing-connection contigs     73
+Cycle 1
+ Two-outgoing-connection contigs     583
+ Potential transitive connections    315
+ Transitive connections              153
+ Transitive ratio                    26.2%
+Cycle 2
+ Two-outgoing-connection contigs     430
+ Potential transitive connections    162
+ Transitive connections              1
+ Transitive ratio                    0.2%
+Cycle 3
+ Two-outgoing-connection contigs     429
+ Potential transitive connections    161
+ Transitive connections              0
+ Transitive ratio                    0.0%
+Start to linearize sub-graph.
+ Picked sub-graphs          306
+ Connection-conflict        1
+ Significant overlapping    193
+ Eligible                   0
+ Bubble structures          0
+Non-strict linearization.
+Start to linearize sub-graph.
+ Picked sub-graphs          154
+ Connection-conflict        0
+ Significant overlapping    132
+ Eligible                   0
+ Bubble structures          0
+Start to mask puzzles.
+ Masked contigs      70
+ Remained puzzles    0
+Freezing done.
+
+Recover contigs.
+ Total recovered contigs    3602
+ Single-route cases         2968
+ Multi-route cases          655
+
+All links loaded.
+Time spent on constructing scaffolds: 9s.
+
+The final rank
+
+*******************************
+ Scaffold number                  26971
+ In-scaffold contig number        208519
+ Total scaffold length            32545893
+ Average scaffold length          1206
+ Filled gap number                689
+ Longest scaffold                 24049
+ Scaffold and singleton number    149308
+ Scaffold and singleton length    50000857
+ Average length                   334
+ N50                              936
+ N90                              114
+ Weak points                      0
+
+*******************************
+1000 scaffolds processed.
+2000 scaffolds processed.
+3000 scaffolds processed.
+4000 scaffolds processed.
+5000 scaffolds processed.
+6000 scaffolds processed.
+7000 scaffolds processed.
+8000 scaffolds processed.
+9000 scaffolds processed.
+10000 scaffolds processed.
+11000 scaffolds processed.
+12000 scaffolds processed.
+13000 scaffolds processed.
+14000 scaffolds processed.
+15000 scaffolds processed.
+16000 scaffolds processed.
+17000 scaffolds processed.
+18000 scaffolds processed.
+19000 scaffolds processed.
+20000 scaffolds processed.
+21000 scaffolds processed.
+22000 scaffolds processed.
+23000 scaffolds processed.
+24000 scaffolds processed.
+25000 scaffolds processed.
+26000 scaffolds processed.
+
+Done with 26971 scaffolds, 0 gaps finished, 61778 gaps overall.
+
+Overall time spent on constructing scaffolds: 38m.
+Time for the whole pipeline: 52m.

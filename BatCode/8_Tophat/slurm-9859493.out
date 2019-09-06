@@ -1,0 +1,14 @@
+bowtie not loaded, will load bowtie 
+bowtie2 not loaded, will load bowtie2/2.3.2 
+
+[2019-08-24 18:20:34] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2019-08-24 18:20:34] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2019-08-24 18:20:35] Checking for Bowtie index files (genome)..
+[2019-08-24 18:20:35] Checking for reference FASTA file
+	Warning: Could not find FASTA file /home/karnair/GenomeAnalysis/BatWing/results/7_Bowtie/ref.fa
+[2019-08-24 18:20:35] Reconstituting reference FASTA file from Bowtie index
+  Executing: /sw/bioinfo/bowtie2/2.3.2/rackham/bin/bowtie2-inspect /home/karnair/GenomeAnalysis/BatWing/results/7_Bowtie/ref > //home/karnair/GenomeAnalysis/BatWing/results/8_Tophat/forelimb/cs16/tmp/ref.fa
+[2019-08-24 18:20:35] Generating SAM header for /home/karnair/GenomeAnalysis/BatWing/results/7_Bowtie/ref
+Error: could not open pipe gzip -cd < home/karnair/GenomeAnalysis/BatWing/Data/raw_data/rna_seq/trimmed/sel3_SRR1719204.trim_1P.fastq.gz

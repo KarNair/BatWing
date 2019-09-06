@@ -1,0 +1,18 @@
+	trimmomatic 0.36 loaded, see 'module help trimmomatic/0.36' for more
+information. 
+TrimmomaticPE: Started with arguments:
+ -phred33 /home/karnair/GenomeAnalysis/BatWing/Data/raw_data/rna_seq/raw/sel3_SRR1719266.1.fastq.gz /home/karnair/GenomeAnalysis/BatWing/Data/raw_data/rna_seq/raw/sel3_SRR1719266.2.fastq.gz /home/karnair/GenomeAnalysis/BatWing/results/2_Trimming/rna_seq_data/raw/sel3_SRR1719266.trim_1P.fastq.gz /home/karnair/GenomeAnalysis/BatWing/results/2_Trimming/rna_seq_data/raw/sel3_SRR1719266.trim_1U.fastq.gz /home/karnair/GenomeAnalysis/BatWing/results/2_Trimming/rna_seq_data/raw/sel3_SRR1719266.trim_2P.fastq.gz /home/karnair/GenomeAnalysis/BatWing/results/2_Trimming/rna_seq_data/raw/sel3_SRR1719266.trim_2U.fastq.gz ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Multiple cores found: Using 2 threads
+java.io.FileNotFoundException: /domus/h1/karnair/GenomeAnalysis/BatWing/BatCode/2_Trimming/TruSeq3-PE.fa (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticPE.run(TrimmomaticPE.java:536)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:80)
+Input Read Pairs: 182848 Both Surviving: 168813 (92.32%) Forward Only Surviving: 11737 (6.42%) Reverse Only Surviving: 1193 (0.65%) Dropped: 1105 (0.60%)
+TrimmomaticPE: Completed successfully

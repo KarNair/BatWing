@@ -11,5 +11,7 @@
 module load bioinfo-tools
 module load maker
 
+
+cd /home/karnair/GenomeAnalysis/BatWing/results/6_Genome_Annotation/ref_genome_unzipped.maker.output
 #Your commands
 gff3_merge -d ref_genome_unzipped_master_datastore_index.log

@@ -1,0 +1,4073 @@
+BLASTN 2.7.1+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           53,209,063 sequences; 228,549,963,193 total letters
+
+
+
+Query= 
+Length=4995
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+XM_016197562.1  PREDICTED: Miniopterus natalensis follistatin lik...  254     4e-62
+XM_019642158.1  PREDICTED: Hipposideros armiger follistatin like ...  206     1e-47
+XM_017651466.1  PREDICTED: Manis javanica follistatin like 4 (FST...  200     5e-46
+XM_005865624.2  PREDICTED: Myotis brandtii follistatin-like 4 (FS...  196     6e-45
+XM_028528662.1  PREDICTED: Phyllostomus discolor follistatin like...  193     8e-44
+XM_008142339.2  PREDICTED: Eptesicus fuscus follistatin like 4 (F...  191     3e-43
+XM_006100177.3  PREDICTED: Myotis lucifugus follistatin like 4 (F...  191     3e-43
+XM_006759172.2  PREDICTED: Myotis davidii follistatin like 4 (FST...  191     3e-43
+XM_025432164.1  PREDICTED: Canis lupus dingo follistatin like 4 (...  187     4e-42
+XM_025432163.1  PREDICTED: Canis lupus dingo follistatin like 4 (...  187     4e-42
+XM_025432162.1  PREDICTED: Canis lupus dingo follistatin like 4 (...  187     4e-42
+XM_025432161.1  PREDICTED: Canis lupus dingo follistatin like 4 (...  187     4e-42
+XM_025432159.1  PREDICTED: Canis lupus dingo follistatin like 4 (...  187     4e-42
+XM_022425287.1  PREDICTED: Canis lupus familiaris follistatin lik...  187     4e-42
+XM_022425286.1  PREDICTED: Canis lupus familiaris follistatin lik...  187     4e-42
+XM_022425284.1  PREDICTED: Canis lupus familiaris follistatin lik...  187     4e-42
+XM_008590679.1  PREDICTED: Galeopterus variegatus follistatin-rel...  185     1e-41
+XM_015140780.2  PREDICTED: Macaca mulatta follistatin like 4 (FST...  183     5e-41
+XM_015140778.2  PREDICTED: Macaca mulatta follistatin like 4 (FST...  183     5e-41
+XM_028849721.1  PREDICTED: Macaca mulatta follistatin like 4 (FST...  183     5e-41
+XM_015140777.2  PREDICTED: Macaca mulatta follistatin like 4 (FST...  183     5e-41
+XM_026507974.1  PREDICTED: Ursus arctos horribilis follistatin li...  183     5e-41
+XM_023196194.2  PREDICTED: Piliocolobus tephrosceles follistatin ...  183     5e-41
+XM_025994911.1  PREDICTED: Vulpes vulpes follistatin like 4 (FSTL...  183     5e-41
+XM_025994910.1  PREDICTED: Vulpes vulpes follistatin like 4 (FSTL...  183     5e-41
+XM_025924720.1  PREDICTED: Puma concolor follistatin like 4 (FSTL...  183     5e-41
+XM_025432160.1  PREDICTED: Canis lupus dingo follistatin like 4 (...  183     5e-41
+XM_011716596.2  PREDICTED: Macaca nemestrina follistatin like 4 (...  183     5e-41
+XM_011716595.2  PREDICTED: Macaca nemestrina follistatin like 4 (...  183     5e-41
+XM_022425285.1  PREDICTED: Canis lupus familiaris follistatin lik...  183     5e-41
+XM_019799116.1  PREDICTED: Ailuropoda melanoleuca follistatin lik...  183     5e-41
+XM_019799110.1  PREDICTED: Ailuropoda melanoleuca follistatin lik...  183     5e-41
+XM_019422006.1  PREDICTED: Panthera pardus follistatin like 4 (FS...  183     5e-41
+XM_019422005.1  PREDICTED: Panthera pardus follistatin like 4 (FS...  183     5e-41
+XM_019422004.1  PREDICTED: Panthera pardus follistatin like 4 (FS...  183     5e-41
+XM_019422002.1  PREDICTED: Panthera pardus follistatin like 4 (FS...  183     5e-41
+XM_019422001.1  PREDICTED: Panthera pardus follistatin like 4 (FS...  183     5e-41
+XM_019028415.1  PREDICTED: Gorilla gorilla gorilla follistatin li...  183     5e-41
+XM_017969682.1  PREDICTED: Callithrix jacchus follistatin like 4 ...  183     5e-41
+XM_002744592.3  PREDICTED: Callithrix jacchus follistatin like 4 ...  183     5e-41
+XM_009449652.2  PREDICTED: Pan troglodytes follistatin like 4 (FS...  183     5e-41
+XM_009449651.2  PREDICTED: Pan troglodytes follistatin like 4 (FS...  183     5e-41
+XM_005557766.2  PREDICTED: Macaca fascicularis follistatin like 4...  183     5e-41
+XM_005557765.2  PREDICTED: Macaca fascicularis follistatin like 4...  183     5e-41
+XM_015451882.1  PREDICTED: Macaca fascicularis follistatin like 4...  183     5e-41
+XM_005557764.2  PREDICTED: Macaca fascicularis follistatin like 4...  183     5e-41
+XM_011716594.1  PREDICTED: Macaca nemestrina follistatin like 4 (...  183     5e-41
+XM_011716593.1  PREDICTED: Macaca nemestrina follistatin like 4 (...  183     5e-41
+XM_012090252.1  PREDICTED: Cercocebus atys follistatin-like 4 (FS...  183     5e-41
+XM_012090251.1  PREDICTED: Cercocebus atys follistatin-like 4 (FS...  183     5e-41
+XM_012090250.1  PREDICTED: Cercocebus atys follistatin-like 4 (FS...  183     5e-41
+XM_012090249.1  PREDICTED: Cercocebus atys follistatin-like 4 (FS...  183     5e-41
+XM_012090248.1  PREDICTED: Cercocebus atys follistatin-like 4 (FS...  183     5e-41
+XM_012090246.1  PREDICTED: Cercocebus atys follistatin-like 4 (FS...  183     5e-41
+XM_012090245.1  PREDICTED: Cercocebus atys follistatin-like 4 (FS...  183     5e-41
+XM_011969239.1  PREDICTED: Mandrillus leucophaeus follistatin-lik...  183     5e-41
+XM_008691740.1  PREDICTED: Ursus maritimus follistatin-like 4 (FS...  183     5e-41
+XM_006923138.1  PREDICTED: Pteropus alecto follistatin like 4 (FS...  183     5e-41
+XM_003829286.1  PREDICTED: Pan paniscus follistatin like 4 (FSTL4...  183     5e-41
+XM_016118344.1  PREDICTED: Rousettus aegyptiacus follistatin like...  182     2e-40
+XM_004666513.1  PREDICTED: Jaculus jaculus follistatin-like 4 (Fs...  182     2e-40
+XM_027076701.1  PREDICTED: Acinonyx jubatus follistatin like 4 (F...  180     6e-40
+XM_027076700.1  PREDICTED: Acinonyx jubatus follistatin like 4 (F...  180     6e-40
+XM_015083153.2  PREDICTED: Acinonyx jubatus follistatin like 4 (F...  180     6e-40
+XM_027076699.1  PREDICTED: Acinonyx jubatus follistatin like 4 (F...  180     6e-40
+XM_019831947.2  PREDICTED: Felis catus follistatin like 4 (FSTL4)...  180     6e-40
+XM_019831942.2  PREDICTED: Felis catus follistatin like 4 (FSTL4)...  180     6e-40
+XM_023255130.1  PREDICTED: Felis catus follistatin like 4 (FSTL4)...  180     6e-40
+XM_015540077.1  PREDICTED: Panthera tigris altaica follistatin li...  180     6e-40
+XM_025388001.1  PREDICTED: Theropithecus gelada follistatin like ...  178     2e-39
+XM_025388000.1  PREDICTED: Theropithecus gelada follistatin like ...  178     2e-39
+XM_024247171.1  PREDICTED: Pongo abelii follistatin like 4 (FSTL4...  178     2e-39
+XM_009209070.3  PREDICTED: Papio anubis follistatin like 4 (FSTL4...  178     2e-39
+XM_017959857.2  PREDICTED: Papio anubis follistatin like 4 (FSTL4...  178     2e-39
+XM_003900097.3  PREDICTED: Papio anubis follistatin like 4 (FSTL4...  178     2e-39
+XM_017871987.1  PREDICTED: Rhinopithecus bieti follistatin like 4...  178     2e-39
+XM_017871986.1  PREDICTED: Rhinopithecus bieti follistatin like 4...  178     2e-39
+XM_006212812.2  PREDICTED: Vicugna pacos follistatin-like 4 (FSTL...  178     2e-39
+XM_012565196.1  PREDICTED: Odobenus rosmarus divergens follistati...  178     2e-39
+XM_010338766.1  PREDICTED: Saimiri boliviensis boliviensis follis...  178     2e-39
+XM_010359959.1  PREDICTED: Rhinopithecus roxellana follistatin-li...  178     2e-39
+XM_008014412.1  PREDICTED: Chlorocebus sabaeus follistatin-like 4...  178     2e-39
+XM_008014411.1  PREDICTED: Chlorocebus sabaeus follistatin-like 4...  178     2e-39
+XM_004408273.1  PREDICTED: Odobenus rosmarus divergens follistati...  178     2e-39
+XM_011362303.1  PREDICTED: Pteropus vampyrus follistatin like 4 (...  176     8e-39
+XM_029941169.1  PREDICTED: Suricata suricatta follistatin like 4 ...  174     3e-38
+XM_015246613.1  PREDICTED: Vicugna pacos follistatin-like 4 (FSTL...  174     3e-38
+XM_028103667.1  PREDICTED: Eumetopias jubatus follistatin like 4 ...  172     1e-37
+XM_027607114.1  PREDICTED: Zalophus californianus follistatin lik...  172     1e-37
+XM_025860911.1  PREDICTED: Callorhinus ursinus follistatin like 4...  172     1e-37
+XM_017532418.1  PREDICTED: Cebus capucinus imitator follistatin l...  172     1e-37
+XM_017532416.1  PREDICTED: Cebus capucinus imitator follistatin l...  172     1e-37
+XM_006179610.2  PREDICTED: Camelus ferus follistatin-like 4 (FSTL...  172     1e-37
+XM_012651317.1  PREDICTED: Propithecus coquereli follistatin-like...  172     1e-37
+XM_010982391.1  PREDICTED: Camelus dromedarius follistatin-like 4...  172     1e-37
+XM_010971612.1  PREDICTED: Camelus bactrianus follistatin-like 4 ...  172     1e-37
+XM_014794055.1  PREDICTED: Ceratotherium simum simum follistatin-...  171     4e-37
+XM_027097696.1  PREDICTED: Lagenorhynchus obliquidens follistatin...  167     5e-36
+XM_024744976.1  PREDICTED: Neophocaena asiaeorientalis asiaeorien...  167     5e-36
+XM_024744974.1  PREDICTED: Neophocaena asiaeorientalis asiaeorien...  167     5e-36
+XM_024744973.1  PREDICTED: Neophocaena asiaeorientalis asiaeorien...  167     5e-36
+XM_023617697.1  PREDICTED: Equus caballus follistatin like 4 (FST...  167     5e-36
+XM_023617696.1  PREDICTED: Equus caballus follistatin like 4 (FST...  167     5e-36
+XM_022588800.1  PREDICTED: Delphinapterus leucas follistatin like...  167     5e-36
+XM_022588797.1  PREDICTED: Delphinapterus leucas follistatin like...  167     5e-36
+XM_022588796.1  PREDICTED: Delphinapterus leucas follistatin like...  167     5e-36
+XM_008532156.1  PREDICTED: Equus przewalskii follistatin-like 4 (...  167     5e-36
+XM_004282127.1  PREDICTED: Orcinus orca follistatin-like 4 (FSTL4...  167     5e-36
+XM_013508431.1  PREDICTED: Chinchilla lanigera follistatin-like 4...  165     2e-35
+XM_005376123.2  PREDICTED: Chinchilla lanigera follistatin-like 4...  165     2e-35
+XM_023583916.1  PREDICTED: Dasypus novemcinctus follistatin-relat...  163     6e-35
+XM_019209874.1  PREDICTED: Fukomys damarensis follistatin like 4 ...  163     6e-35
+XM_006888071.1  PREDICTED: Elephantulus edwardii follistatin-like...  163     6e-35
+XM_024124790.2  PREDICTED: Physeter catodon follistatin like 4 (F...  161     2e-34
+XM_008071447.2  PREDICTED: Carlito syrichta follistatin like 4 (F...  161     2e-34
+XM_019924423.1  PREDICTED: Tursiops truncatus follistatin like 4 ...  161     2e-34
+XM_014856745.1  PREDICTED: Equus asinus follistatin-like 4 (FSTL4...  161     2e-34
+XM_013030921.1  PREDICTED: Dipodomys ordii follistatin-like 4 (Fs...  161     2e-34
+XM_004686719.2  PREDICTED: Condylura cristata follistatin-like 4 ...  161     2e-34
+XM_007461353.1  PREDICTED: Lipotes vexillifer follistatin-like 4 ...  161     2e-34
+XM_020908085.1  PREDICTED: Odocoileus virginianus texanus follist...  156     1e-32
+XM_020908084.1  PREDICTED: Odocoileus virginianus texanus follist...  156     1e-32
+XM_020908083.1  PREDICTED: Odocoileus virginianus texanus follist...  156     1e-32
+XM_020908082.1  PREDICTED: Odocoileus virginianus texanus follist...  156     1e-32
+XM_020908081.1  PREDICTED: Odocoileus virginianus texanus follist...  156     1e-32
+XM_020908080.1  PREDICTED: Odocoileus virginianus texanus follist...  156     1e-32
+XM_020908079.1  PREDICTED: Odocoileus virginianus texanus follist...  156     1e-32
+XM_007172137.1  PREDICTED: Balaenoptera acutorostrata scammoni fo...  156     1e-32
+XM_007172136.1  PREDICTED: Balaenoptera acutorostrata scammoni fo...  156     1e-32
+XM_012441992.1  PREDICTED: Aotus nancymaae follistatin like 4 (FS...  154     4e-32
+XM_023713103.1  PREDICTED: Octodon degus follistatin like 4 (Fstl...  152     1e-31
+XM_017341563.1  PREDICTED: Oryctolagus cuniculus follistatin like...  152     1e-31
+XM_012442064.1  PREDICTED: Aotus nancymaae follistatin like 4 (FS...  150     5e-31
+XM_004696992.1  PREDICTED: Echinops telfairi follistatin-like 4 (...  150     5e-31
+LR584069.1  Scleropages formosus genome assembly, chromosome: 4       147     6e-30
+AF463762.1  Mus musculus strain C57BL/6J cytokine gene cluster, p...  145     2e-29
+AL596382.12  Mouse DNA sequence from clone RP23-337J7 on chromoso...  145     2e-29
+XM_020181280.1  PREDICTED: Castor canadensis follistatin like 4 (...  143     8e-29
+AC155318.2  Ornithorhynchus anatinus chromosome UNK clone OABb-15...  141     3e-28
+XM_029050943.1  PREDICTED: Ornithorhynchus anatinus follistatin l...  139     1e-27
+XM_029050942.1  PREDICTED: Ornithorhynchus anatinus follistatin l...  137     4e-27
+XM_004384723.1  PREDICTED: Trichechus manatus latirostris follist...  137     4e-27
+XM_021176957.2  PREDICTED: Mus caroli follistatin like 4 (Fstl4),...  135     1e-26
+XM_029483851.1  PREDICTED: Mus caroli follistatin like 4 (Fstl4),...  135     1e-26
+XM_006533539.3  PREDICTED: Mus musculus follistatin-like 4 (Fstl4...  135     1e-26
+XR_388477.3  PREDICTED: Mus musculus follistatin-like 4 (Fstl4), ...  135     1e-26
+BC144824.1  Mus musculus cDNA clone IMAGE:9053372                     135     1e-26
+NM_177059.3  Mus musculus follistatin-like 4 (Fstl4), mRNA            135     1e-26
+AK220367.1  Mus musculus mRNA for mKIAA1061 protein                   135     1e-26
+AK081114.1  Mus musculus 10 days neonate cerebellum cDNA, RIKEN f...  135     1e-26
+AK046350.1  Mus musculus adult male corpora quadrigemina cDNA, RI...  135     1e-26
+XM_018751700.2  PREDICTED: Scleropages formosus follistatin-relat...  134     5e-26
+XM_021241322.1  PREDICTED: Heterocephalus glaber follistatin like...  134     5e-26
+XM_021241312.1  PREDICTED: Heterocephalus glaber follistatin like...  134     5e-26
+XM_021241308.1  PREDICTED: Heterocephalus glaber follistatin like...  134     5e-26
+XM_021241299.1  PREDICTED: Heterocephalus glaber follistatin like...  134     5e-26
+XM_004836583.3  PREDICTED: Heterocephalus glaber follistatin like...  134     5e-26
+XM_021241289.1  PREDICTED: Heterocephalus glaber follistatin like...  134     5e-26
+XM_021241287.1  PREDICTED: Heterocephalus glaber follistatin like...  134     5e-26
+XM_021241286.1  PREDICTED: Heterocephalus glaber follistatin like...  134     5e-26
+XM_021241282.1  PREDICTED: Heterocephalus glaber follistatin like...  134     5e-26
+XM_021241278.1  PREDICTED: Heterocephalus glaber follistatin like...  134     5e-26
+XM_021241270.1  PREDICTED: Heterocephalus glaber follistatin like...  134     5e-26
+XM_021241264.1  PREDICTED: Heterocephalus glaber follistatin like...  134     5e-26
+XM_006166916.2  PREDICTED: Tupaia chinensis follistatin like 4 (F...  134     5e-26
+XM_027949662.1  PREDICTED: Marmota flaviventris follistatin like ...  132     2e-25
+XM_003405014.2  PREDICTED: Loxodonta africana follistatin like 4 ...  132     2e-25
+XM_021241302.1  PREDICTED: Heterocephalus glaber follistatin like...  130     6e-25
+XM_012807125.1  PREDICTED: Otolemur garnettii follistatin like 4 ...  124     3e-23
+XM_021213419.2  PREDICTED: Mus pahari follistatin like 4 (Fstl4),...  122     1e-22
+XM_017597253.1  PREDICTED: Rattus norvegicus follistatin-like 4 (...  110     8e-19
+NM_001107000.1  Rattus norvegicus follistatin-like 4 (Fstl4), mRNA    108     3e-18
+
+
+>XM_016197562.1 PREDICTED: Miniopterus natalensis follistatin like 4 (FSTL4), 
+mRNA
+Length=2587
+
+ Score = 254 bits (137),  Expect = 4e-62
+ Identities = 137/137 (100%), Gaps = 0/137 (0%)
+ Strand=Plus/Plus
+
+Query  517   AGCCAACGGGAGCGAGCTCCACATCGCCAGCGTCCGGTATGAGGACACAGGGGCCTACAC  576
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1176  AGCCAACGGGAGCGAGCTCCACATCGCCAGCGTCCGGTATGAGGACACAGGGGCCTACAC  1235
+
+Query  577   CTGCATCGCCAAAAACGAAGTGGGTGTGGACGAAGATATCTCCTCACTCTTTATTGAAGA  636
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1236  CTGCATCGCCAAAAACGAAGTGGGTGTGGACGAAGATATCTCCTCACTCTTTATTGAAGA  1295
+
+Query  637   CTCGGCCAGAAAGACCC  653
+             |||||||||||||||||
+Sbjct  1296  CTCGGCCAGAAAGACCC  1312
+
+
+ Score = 233 bits (126),  Expect = 5e-56
+ Identities = 126/126 (100%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1052  CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  1111
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1112  GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1171
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1172  TTTTAG  1177
+
+
+ Score = 226 bits (122),  Expect = 8e-54
+ Identities = 122/122 (100%), Gaps = 0/122 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1338  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  1397
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1398  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1457
+
+Query  4778  TG  4779
+             ||
+Sbjct  1458  TG  1459
+
+
+ Score = 52.8 bits (28),  Expect = 0.14
+ Identities = 28/28 (100%), Gaps = 0/28 (0%)
+ Strand=Plus/Plus
+
+Query  1573  TTGCGAACATTCTCTGGCGCGAGGAAGG  1600
+             ||||||||||||||||||||||||||||
+Sbjct  1313  TTGCGAACATTCTCTGGCGCGAGGAAGG  1340
+
+
+>XM_019642158.1 PREDICTED: Hipposideros armiger follistatin like 4 (FSTL4), mRNA
+Length=8523
+
+ Score = 206 bits (111),  Expect = 1e-47
+ Identities = 121/126 (96%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1267  CACAGGAGCCAGGGGTGGCGGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  1326
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||| ||||||||||| ||||| ||||||||||||||||||||||
+Sbjct  1327  GAATCACTTGGCTGAAAAATGGCATGGATGTATCAACCCAGATGTCTAAACAGCTCTCCC  1386
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1387  TTTTAG  1392
+
+
+ Score = 60.2 bits (32),  Expect = 8e-04
+ Identities = 36/38 (95%), Gaps = 0/38 (0%)
+ Strand=Plus/Plus
+
+Query  3206  TCAATTTTCAGAGAAGCCCCAGGAGGCTGTTCCTGGGG  3243
+             ||| ||||| ||||||||||||||||||||||||||||
+Sbjct  1763  TCAGTTTTCGGAGAAGCCCCAGGAGGCTGTTCCTGGGG  1800
+
+
+>XM_017651466.1 PREDICTED: Manis javanica follistatin like 4 (FSTL4), partial 
+mRNA
+Length=1529
+
+ Score = 200 bits (108),  Expect = 5e-46
+ Identities = 120/126 (95%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1    CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+            |||||||||| |||||||| |||| |||||||||||| ||||||||||||||||||||||
+Sbjct  644  CACAGGAGCCTGGGGTGGCGGCCACTCTGAGATGCCATGCAGAGGGCATTCCTATGCCCA  703
+
+Query  61   GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+            | |||||||||||||||||||||||||||||||||||||||||||| |||||||||||||
+Sbjct  704  GAATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCAAAACAGCTCTCCC  763
+
+Query  121  TTTTAG  126
+            ||||||
+Sbjct  764  TTTTAG  769
+
+
+>XM_005865624.2 PREDICTED: Myotis brandtii follistatin-like 4 (FSTL4), mRNA
+Length=3390
+
+ Score = 196 bits (106),  Expect = 6e-45
+ Identities = 118/124 (95%), Gaps = 0/124 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| |||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1122  CACAGGAGCCGGGGGTGGCGGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  1181
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||| ||||||||||||||| | ||||||||||||||||||||||
+Sbjct  1182  GAATCACTTGGCTGAAAAATGGCATGGATGTCTCAGCCCAGATGTCTAAACAGCTCTCCC  1241
+
+Query  121   TTTT  124
+             ||||
+Sbjct  1242  TTTT  1245
+
+
+>XM_028528662.1 PREDICTED: Phyllostomus discolor follistatin like 4 (FSTL4), 
+mRNA
+Length=8201
+
+ Score = 193 bits (104),  Expect = 8e-44
+ Identities = 126/137 (92%), Gaps = 0/137 (0%)
+ Strand=Plus/Plus
+
+Query  517   AGCCAACGGGAGCGAGCTCCACATCGCCAGCGTCCGGTATGAGGACACAGGGGCCTACAC  576
+             |||||| ||||| ||||||||||||| |||||| |||||||| ||||||||||| |||||
+Sbjct  1399  AGCCAATGGGAGTGAGCTCCACATCGGCAGCGTTCGGTATGAAGACACAGGGGCGTACAC  1458
+
+Query  577   CTGCATCGCCAAAAACGAAGTGGGTGTGGACGAAGATATCTCCTCACTCTTTATTGAAGA  636
+             |||||||||||||||||||||||||||||||||||| |||||||||||||| || |||||
+Sbjct  1459  CTGCATCGCCAAAAACGAAGTGGGTGTGGACGAAGACATCTCCTCACTCTTCATCGAAGA  1518
+
+Query  637   CTCGGCCAGAAAGACCC  653
+             |||||| || |||||||
+Sbjct  1519  CTCGGCAAGGAAGACCC  1535
+
+
+>XM_008142339.2 PREDICTED: Eptesicus fuscus follistatin like 4 (FSTL4), mRNA
+Length=3744
+
+ Score = 191 bits (103),  Expect = 3e-43
+ Identities = 117/124 (94%), Gaps = 0/124 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| |||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1305  CACAGGAGCCGGGGGTGGCGGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  1364
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||| ||| ||||||||||| | ||||||||||||||||||||||
+Sbjct  1365  GAATCACTTGGCTGAAAAATGGCCTGGATGTCTCAGCCCAGATGTCTAAACAGCTCTCCC  1424
+
+Query  121   TTTT  124
+             ||||
+Sbjct  1425  TTTT  1428
+
+
+>XM_006100177.3 PREDICTED: Myotis lucifugus follistatin like 4 (FSTL4), partial 
+mRNA
+Length=1511
+
+ Score = 191 bits (103),  Expect = 3e-43
+ Identities = 117/124 (94%), Gaps = 0/124 (0%)
+ Strand=Plus/Plus
+
+Query  1    CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+            |||||||||| |||||||| ||||||||||| ||||||||||||||||||||||||||||
+Sbjct  37   CACAGGAGCCGGGGGTGGCGGCCAGTCTGAGGTGCCACGCAGAGGGCATTCCTATGCCCA  96
+
+Query  61   GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+            | ||||||||||||||||| ||||||||||||||| | ||||||||||||||||||||||
+Sbjct  97   GAATCACTTGGCTGAAAAATGGCATGGATGTCTCAGCCCAGATGTCTAAACAGCTCTCCC  156
+
+Query  121  TTTT  124
+            ||||
+Sbjct  157  TTTT  160
+
+
+>XM_006759172.2 PREDICTED: Myotis davidii follistatin like 4 (FSTL4), mRNA
+Length=3120
+
+ Score = 191 bits (103),  Expect = 3e-43
+ Identities = 117/124 (94%), Gaps = 0/124 (0%)
+ Strand=Plus/Plus
+
+Query  1    CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+            |||||||||| |||||||| ||||||||||| |||||||| |||||||||||||||||||
+Sbjct  707  CACAGGAGCCGGGGGTGGCGGCCAGTCTGAGGTGCCACGCGGAGGGCATTCCTATGCCCA  766
+
+Query  61   GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+            | ||||||||||||||||||||||||||||||||| | ||||||||||||||||||||||
+Sbjct  767  GAATCACTTGGCTGAAAAACGGCATGGATGTCTCAGCCCAGATGTCTAAACAGCTCTCCC  826
+
+Query  121  TTTT  124
+            ||||
+Sbjct  827  TTTT  830
+
+
+>XM_025432164.1 PREDICTED: Canis lupus dingo follistatin like 4 (FSTL4), transcript 
+variant X6, mRNA
+Length=8456
+
+ Score = 187 bits (101),  Expect = 4e-42
+ Identities = 115/122 (94%), Gaps = 0/122 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||| 
+Sbjct  1556  AGGCCTCAGTGTGGGAAACATGTTCTATGTCTTCTCCGATGATGGCATCATCATCCTGCA  1615
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1616  CCCCGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1675
+
+Query  4778  TG  4779
+             ||
+Sbjct  1676  TG  1677
+
+
+>XM_025432163.1 PREDICTED: Canis lupus dingo follistatin like 4 (FSTL4), transcript 
+variant X5, mRNA
+Length=8547
+
+ Score = 187 bits (101),  Expect = 4e-42
+ Identities = 115/122 (94%), Gaps = 0/122 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||| 
+Sbjct  1647  AGGCCTCAGTGTGGGAAACATGTTCTATGTCTTCTCCGATGATGGCATCATCATCCTGCA  1706
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1707  CCCCGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1766
+
+Query  4778  TG  4779
+             ||
+Sbjct  1767  TG  1768
+
+
+>XM_025432162.1 PREDICTED: Canis lupus dingo follistatin like 4 (FSTL4), transcript 
+variant X4, mRNA
+Length=8335
+
+ Score = 187 bits (101),  Expect = 4e-42
+ Identities = 115/122 (94%), Gaps = 0/122 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||| 
+Sbjct  1435  AGGCCTCAGTGTGGGAAACATGTTCTATGTCTTCTCCGATGATGGCATCATCATCCTGCA  1494
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1495  CCCCGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1554
+
+Query  4778  TG  4779
+             ||
+Sbjct  1555  TG  1556
+
+
+>XM_025432161.1 PREDICTED: Canis lupus dingo follistatin like 4 (FSTL4), transcript 
+variant X3, mRNA
+Length=8430
+
+ Score = 187 bits (101),  Expect = 4e-42
+ Identities = 115/122 (94%), Gaps = 0/122 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||| 
+Sbjct  1530  AGGCCTCAGTGTGGGAAACATGTTCTATGTCTTCTCCGATGATGGCATCATCATCCTGCA  1589
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1590  CCCCGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1649
+
+Query  4778  TG  4779
+             ||
+Sbjct  1650  TG  1651
+
+
+>XM_025432159.1 PREDICTED: Canis lupus dingo follistatin like 4 (FSTL4), transcript 
+variant X1, mRNA
+Length=8613
+
+ Score = 187 bits (101),  Expect = 4e-42
+ Identities = 115/122 (94%), Gaps = 0/122 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||| 
+Sbjct  1713  AGGCCTCAGTGTGGGAAACATGTTCTATGTCTTCTCCGATGATGGCATCATCATCCTGCA  1772
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1773  CCCCGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1832
+
+Query  4778  TG  4779
+             ||
+Sbjct  1833  TG  1834
+
+
+>XM_022425287.1 PREDICTED: Canis lupus familiaris follistatin like 4 (FSTL4), 
+transcript variant X4, mRNA
+Length=8443
+
+ Score = 187 bits (101),  Expect = 4e-42
+ Identities = 115/122 (94%), Gaps = 0/122 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||| 
+Sbjct  1556  AGGCCTCAGTGTGGGAAACATGTTCTATGTCTTCTCCGATGATGGCATCATCATCCTGCA  1615
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1616  CCCCGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1675
+
+Query  4778  TG  4779
+             ||
+Sbjct  1676  TG  1677
+
+
+>XM_022425286.1 PREDICTED: Canis lupus familiaris follistatin like 4 (FSTL4), 
+transcript variant X3, mRNA
+Length=8531
+
+ Score = 187 bits (101),  Expect = 4e-42
+ Identities = 115/122 (94%), Gaps = 0/122 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||| 
+Sbjct  1644  AGGCCTCAGTGTGGGAAACATGTTCTATGTCTTCTCCGATGATGGCATCATCATCCTGCA  1703
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1704  CCCCGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1763
+
+Query  4778  TG  4779
+             ||
+Sbjct  1764  TG  1765
+
+
+>XM_022425284.1 PREDICTED: Canis lupus familiaris follistatin like 4 (FSTL4), 
+transcript variant X1, mRNA
+Length=8601
+
+ Score = 187 bits (101),  Expect = 4e-42
+ Identities = 115/122 (94%), Gaps = 0/122 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||| 
+Sbjct  1714  AGGCCTCAGTGTGGGAAACATGTTCTATGTCTTCTCCGATGATGGCATCATCATCCTGCA  1773
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1774  CCCCGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1833
+
+Query  4778  TG  4779
+             ||
+Sbjct  1834  TG  1835
+
+
+>XM_008590679.1 PREDICTED: Galeopterus variegatus follistatin-related protein 
+4 (LOC103606082), partial mRNA
+Length=1233
+
+ Score = 185 bits (100),  Expect = 1e-41
+ Identities = 116/124 (94%), Gaps = 0/124 (0%)
+ Strand=Plus/Plus
+
+Query  1    CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+            |||||||||| |||||||| ||||| ||||| |||||||||||||||||||| |||||| 
+Sbjct  677  CACAGGAGCCTGGGGTGGCGGCCAGCCTGAGGTGCCACGCAGAGGGCATTCCCATGCCCC  736
+
+Query  61   GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+            | ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||
+Sbjct  737  GAATCACTTGGCTGAAAAACGGCATGGATGTCTCAACCCAGATGTCTAAACAGCTCTCCC  796
+
+Query  121  TTTT  124
+            ||||
+Sbjct  797  TTTT  800
+
+
+ Score = 148 bits (80),  Expect = 2e-30
+ Identities = 108/122 (89%), Gaps = 0/122 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||||||||  | ||||||||| || | | 
+Sbjct  963   AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGACAATGGCATCATCGTCATTCA  1022
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| ||||||||| |||| |||||||||||||||||||| |||||||||||
+Sbjct  1023  CCCCGTGGACTGTGAGATCCAGCGGCATCTCAAACCCACTGAGAAGATTTTCATGAGCTA  1082
+
+Query  4778  TG  4779
+             ||
+Sbjct  1083  TG  1084
+
+
+>XM_015140780.2 PREDICTED: Macaca mulatta follistatin like 4 (FSTL4), transcript 
+variant X4, mRNA
+Length=8506
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1426  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1485
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1486  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1545
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1546  TTTTAG  1551
+
+
+>XM_015140778.2 PREDICTED: Macaca mulatta follistatin like 4 (FSTL4), transcript 
+variant X3, mRNA
+Length=8587
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1426  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1485
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1486  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1545
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1546  TTTTAG  1551
+
+
+>XM_028849721.1 PREDICTED: Macaca mulatta follistatin like 4 (FSTL4), transcript 
+variant X2, mRNA
+Length=8315
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1127  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1186
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1187  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1246
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1247  TTTTAG  1252
+
+
+>XM_015140777.2 PREDICTED: Macaca mulatta follistatin like 4 (FSTL4), transcript 
+variant X1, mRNA
+Length=8614
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1426  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1485
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1486  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1545
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1546  TTTTAG  1551
+
+
+>XM_026507974.1 PREDICTED: Ursus arctos horribilis follistatin like 4 (FSTL4), 
+mRNA
+Length=4774
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| |||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1275  CACAGGAGCCCGGGGTGGCGGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  1334
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||| ||| ||||||||||||| |||||||| |||||||| ||||
+Sbjct  1335  GAATCACTTGGCTGAAAAATGGCGTGGATGTCTCAACCCAGATGTCGAAACAGCTTTCCC  1394
+
+Query  121   TTTTAG  126
+             | ||||
+Sbjct  1395  TATTAG  1400
+
+
+>XM_023196194.2 PREDICTED: Piliocolobus tephrosceles follistatin like 4 (FSTL4), 
+mRNA
+Length=3406
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1298  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1357
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1358  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1417
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1418  TTTTAG  1423
+
+
+>XM_025994911.1 PREDICTED: Vulpes vulpes follistatin like 4 (FSTL4), transcript 
+variant X2, mRNA
+Length=8199
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| |||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1066  CACAGGAGCCTGGGGTGGCAGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  1125
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||| || ||||||||||| || |||||||| |||||||||||||
+Sbjct  1126  GAATCACTTGGCTGAAAAATGGAATGGATGTCTCCACCCAGATGTCAAAACAGCTCTCCC  1185
+
+Query  121   TTTTAG  126
+             | ||||
+Sbjct  1186  TATTAG  1191
+
+
+ Score = 178 bits (96),  Expect = 2e-39
+ Identities = 112/120 (93%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4660  GCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCGCC  4719
+             |||| |||||||||||||||||||| |||||||||||||| |||||||||||||||| ||
+Sbjct  1327  GCCTTAGTGTGGGAAACATGTTCTATGTCTTCTCCGATGATGGCATCATCATCCTGCACC  1386
+
+Query  4720  CTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTATG  4779
+             | | || ||| |||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1387  CCGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTATG  1446
+
+
+>XM_025994910.1 PREDICTED: Vulpes vulpes follistatin like 4 (FSTL4), transcript 
+variant X1, mRNA
+Length=8212
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| |||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1052  CACAGGAGCCTGGGGTGGCAGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  1111
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||| || ||||||||||| || |||||||| |||||||||||||
+Sbjct  1112  GAATCACTTGGCTGAAAAATGGAATGGATGTCTCCACCCAGATGTCAAAACAGCTCTCCC  1171
+
+Query  121   TTTTAG  126
+             | ||||
+Sbjct  1172  TATTAG  1177
+
+
+ Score = 182 bits (98),  Expect = 2e-40
+ Identities = 114/122 (93%), Gaps = 0/122 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||| |||||||||||||||||||| |||||||||||||| |||||||||||||||| 
+Sbjct  1338  AGGCCTTAGTGTGGGAAACATGTTCTATGTCTTCTCCGATGATGGCATCATCATCCTGCA  1397
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1398  CCCCGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1457
+
+Query  4778  TG  4779
+             ||
+Sbjct  1458  TG  1459
+
+
+>XM_025924720.1 PREDICTED: Puma concolor follistatin like 4 (FSTL4), mRNA
+Length=2529
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| |||||||| ||||||||||  ||||||||||||||||||||||||||||
+Sbjct  1052  CACAGGAGCCCGGGGTGGCAGCCAGTCTGAAGTGCCACGCAGAGGGCATTCCTATGCCCA  1111
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | |||||||||||||||||||||||||| |||||||| |||||||| ||||| |||||||
+Sbjct  1112  GAATCACTTGGCTGAAAAACGGCATGGACGTCTCAACCCAGATGTCGAAACAACTCTCCC  1171
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1172  TTTTAG  1177
+
+
+ Score = 167 bits (90),  Expect = 5e-36
+ Identities = 110/120 (92%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||||||||||||||||||||| |||||||| || || ||||| |||||||| | 
+Sbjct  1338  AGGCCTCAGTGTGGGAAACATGTTCTATGTCTTCTCTGACGATGGCATTATCATCCTACA  1397
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| |||| ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1398  CCCCGCGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1457
+
+
+>XM_025432160.1 PREDICTED: Canis lupus dingo follistatin like 4 (FSTL4), transcript 
+variant X2, mRNA
+Length=8582
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 113/120 (94%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4660  GCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCGCC  4719
+             ||||||||||||||||||||||||| |||||||||||||| |||||||||||||||| ||
+Sbjct  1684  GCCTCAGTGTGGGAAACATGTTCTATGTCTTCTCCGATGATGGCATCATCATCCTGCACC  1743
+
+Query  4720  CTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTATG  4779
+             | | || ||| |||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1744  CCGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTATG  1803
+
+
+>XM_011716596.2 PREDICTED: Macaca nemestrina follistatin like 4 (FSTL4), transcript 
+variant X4, mRNA
+Length=7356
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1276  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1335
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1336  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1395
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1396  TTTTAG  1401
+
+
+>XM_011716595.2 PREDICTED: Macaca nemestrina follistatin like 4 (FSTL4), transcript 
+variant X3, mRNA
+Length=7437
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1276  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1335
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1336  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1395
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1396  TTTTAG  1401
+
+
+>XM_022425285.1 PREDICTED: Canis lupus familiaris follistatin like 4 (FSTL4), 
+transcript variant X2, mRNA
+Length=8570
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 113/120 (94%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4660  GCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCGCC  4719
+             ||||||||||||||||||||||||| |||||||||||||| |||||||||||||||| ||
+Sbjct  1685  GCCTCAGTGTGGGAAACATGTTCTATGTCTTCTCCGATGATGGCATCATCATCCTGCACC  1744
+
+Query  4720  CTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTATG  4779
+             | | || ||| |||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1745  CCGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTATG  1804
+
+
+>XM_019799116.1 PREDICTED: Ailuropoda melanoleuca follistatin like 4 (FSTL4), 
+transcript variant X2, mRNA
+Length=7916
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| |||||||| |||||| |||||||||||||||||||||||||||||||||
+Sbjct  1059  CACAGGAGCCTGGGGTGGCAGCCAGTATGAGATGCCACGCAGAGGGCATTCCTATGCCCA  1118
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||| ||||||||||||||||| |||||||| |||||||| ||||
+Sbjct  1119  GAATCACTTGGCTGAAAAATGGCATGGATGTCTCAACCCAGATGTCGAAACAGCTTTCCC  1178
+
+Query  121   TTTTAG  126
+             | ||||
+Sbjct  1179  TATTAG  1184
+
+
+>XM_019799110.1 PREDICTED: Ailuropoda melanoleuca follistatin like 4 (FSTL4), 
+transcript variant X1, mRNA
+Length=7943
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| |||||||| |||||| |||||||||||||||||||||||||||||||||
+Sbjct  1059  CACAGGAGCCTGGGGTGGCAGCCAGTATGAGATGCCACGCAGAGGGCATTCCTATGCCCA  1118
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||| ||||||||||||||||| |||||||| |||||||| ||||
+Sbjct  1119  GAATCACTTGGCTGAAAAATGGCATGGATGTCTCAACCCAGATGTCGAAACAGCTTTCCC  1178
+
+Query  121   TTTTAG  126
+             | ||||
+Sbjct  1179  TATTAG  1184
+
+
+>XM_019422006.1 PREDICTED: Panthera pardus follistatin like 4 (FSTL4), transcript 
+variant X5, mRNA
+Length=8462
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| |||||||| ||||||||||  ||||||||||||||||||||||||||||
+Sbjct  1321  CACAGGAGCCCGGGGTGGCAGCCAGTCTGAAGTGCCACGCAGAGGGCATTCCTATGCCCA  1380
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | |||||||||||||||||||||||||| |||||||| |||||||| ||||| |||||||
+Sbjct  1381  GAATCACTTGGCTGAAAAACGGCATGGACGTCTCAACCCAGATGTCGAAACAACTCTCCC  1440
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1441  TTTTAG  1446
+
+
+ Score = 172 bits (93),  Expect = 1e-37
+ Identities = 111/120 (93%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||||||||||||||||||||| |||||||| || || ||||| |||||||||| 
+Sbjct  1607  AGGCCTCAGTGTGGGAAACATGTTCTATGTCTTCTCTGACGATGGCATTATCATCCTGCA  1666
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| |||| ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1667  CCCCGCGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1726
+
+
+>XM_019422005.1 PREDICTED: Panthera pardus follistatin like 4 (FSTL4), transcript 
+variant X4, mRNA
+Length=8535
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| |||||||| ||||||||||  ||||||||||||||||||||||||||||
+Sbjct  1313  CACAGGAGCCCGGGGTGGCAGCCAGTCTGAAGTGCCACGCAGAGGGCATTCCTATGCCCA  1372
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | |||||||||||||||||||||||||| |||||||| |||||||| ||||| |||||||
+Sbjct  1373  GAATCACTTGGCTGAAAAACGGCATGGACGTCTCAACCCAGATGTCGAAACAACTCTCCC  1432
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1433  TTTTAG  1438
+
+
+ Score = 169 bits (91),  Expect = 1e-36
+ Identities = 109/118 (92%), Gaps = 0/118 (0%)
+ Strand=Plus/Plus
+
+Query  4660  GCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCGCC  4719
+             ||||||||||||||||||||||||| |||||||| || || ||||| |||||||||| ||
+Sbjct  1574  GCCTCAGTGTGGGAAACATGTTCTATGTCTTCTCTGACGATGGCATTATCATCCTGCACC  1633
+
+Query  4720  CTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             | |||| ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1634  CCGCGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1691
+
+
+>XM_019422004.1 PREDICTED: Panthera pardus follistatin like 4 (FSTL4), transcript 
+variant X3, mRNA
+Length=8428
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| |||||||| ||||||||||  ||||||||||||||||||||||||||||
+Sbjct  1179  CACAGGAGCCCGGGGTGGCAGCCAGTCTGAAGTGCCACGCAGAGGGCATTCCTATGCCCA  1238
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | |||||||||||||||||||||||||| |||||||| |||||||| ||||| |||||||
+Sbjct  1239  GAATCACTTGGCTGAAAAACGGCATGGACGTCTCAACCCAGATGTCGAAACAACTCTCCC  1298
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1299  TTTTAG  1304
+
+
+ Score = 172 bits (93),  Expect = 1e-37
+ Identities = 111/120 (93%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||||||||||||||||||||| |||||||| || || ||||| |||||||||| 
+Sbjct  1465  AGGCCTCAGTGTGGGAAACATGTTCTATGTCTTCTCTGACGATGGCATTATCATCCTGCA  1524
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| |||| ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1525  CCCCGCGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1584
+
+
+>XM_019422002.1 PREDICTED: Panthera pardus follistatin like 4 (FSTL4), transcript 
+variant X2, mRNA
+Length=8459
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| |||||||| ||||||||||  ||||||||||||||||||||||||||||
+Sbjct  1210  CACAGGAGCCCGGGGTGGCAGCCAGTCTGAAGTGCCACGCAGAGGGCATTCCTATGCCCA  1269
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | |||||||||||||||||||||||||| |||||||| |||||||| ||||| |||||||
+Sbjct  1270  GAATCACTTGGCTGAAAAACGGCATGGACGTCTCAACCCAGATGTCGAAACAACTCTCCC  1329
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1330  TTTTAG  1335
+
+
+ Score = 172 bits (93),  Expect = 1e-37
+ Identities = 111/120 (93%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||||||||||||||||||||| |||||||| || || ||||| |||||||||| 
+Sbjct  1496  AGGCCTCAGTGTGGGAAACATGTTCTATGTCTTCTCTGACGATGGCATTATCATCCTGCA  1555
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| |||| ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1556  CCCCGCGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1615
+
+
+>XM_019422001.1 PREDICTED: Panthera pardus follistatin like 4 (FSTL4), transcript 
+variant X1, mRNA
+Length=8563
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| |||||||| ||||||||||  ||||||||||||||||||||||||||||
+Sbjct  1314  CACAGGAGCCCGGGGTGGCAGCCAGTCTGAAGTGCCACGCAGAGGGCATTCCTATGCCCA  1373
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | |||||||||||||||||||||||||| |||||||| |||||||| ||||| |||||||
+Sbjct  1374  GAATCACTTGGCTGAAAAACGGCATGGACGTCTCAACCCAGATGTCGAAACAACTCTCCC  1433
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1434  TTTTAG  1439
+
+
+ Score = 172 bits (93),  Expect = 1e-37
+ Identities = 111/120 (93%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||||||||||||||||||||| |||||||| || || ||||| |||||||||| 
+Sbjct  1600  AGGCCTCAGTGTGGGAAACATGTTCTATGTCTTCTCTGACGATGGCATTATCATCCTGCA  1659
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| |||| ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1660  CCCCGCGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1719
+
+
+>XM_019028415.1 PREDICTED: Gorilla gorilla gorilla follistatin like 4 (FSTL4), 
+mRNA
+Length=5172
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1059  CACAGGAGCCCGGAGTGGCAGCCAGCCTGAGATGCCATGCTGAGGGCATTCCCATGCCCA  1118
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1119  GAATCACTTGGCTGAAGAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1178
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1179  TTTTAG  1184
+
+
+>XM_017969682.1 PREDICTED: Callithrix jacchus follistatin like 4 (FSTL4), transcript 
+variant X2, mRNA
+Length=6102
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| |||||||||||||| |||||||
+Sbjct  1239  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCAGAGGGCATTCCCATGCCCA  1298
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||
+Sbjct  1299  GAATCACTTGGCTGAAAAACGGCATAGATGTCTCAACCCAGATGTCTAAACAGCTCTCCC  1358
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1359  TTTTAG  1364
+
+
+ Score = 150 bits (81),  Expect = 5e-31
+ Identities = 107/120 (89%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4660  GCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCGCC  4719
+             ||||||| |||||||||||||||||||||||||||||||| ||||||||| || | |  |
+Sbjct  1500  GCCTCAGCGTGGGAAACATGTTCTACGTCTTCTCCGATGATGGCATCATCGTCATCCATC  1559
+
+Query  4720  CTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTATG  4779
+             ||| || ||| ||||||||||||||||| |||||||| |||||||| |||||||||||||
+Sbjct  1560  CTGTGGACTGTGAGATCCAGAGGCACCTGAAACCCACAGAGAAGATTTTCATGAGCTATG  1619
+
+
+>XM_002744592.3 PREDICTED: Callithrix jacchus follistatin like 4 (FSTL4), transcript 
+variant X1, mRNA
+Length=6129
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| |||||||||||||| |||||||
+Sbjct  1239  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCAGAGGGCATTCCCATGCCCA  1298
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||
+Sbjct  1299  GAATCACTTGGCTGAAAAACGGCATAGATGTCTCAACCCAGATGTCTAAACAGCTCTCCC  1358
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1359  TTTTAG  1364
+
+
+ Score = 154 bits (83),  Expect = 4e-32
+ Identities = 109/122 (89%), Gaps = 0/122 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||| |||||||||||||||||||||||||||||||| ||||||||| || | | 
+Sbjct  1525  AGGCCTCAGCGTGGGAAACATGTTCTACGTCTTCTCCGATGATGGCATCATCGTCATCCA  1584
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+              |||| || ||| ||||||||||||||||| |||||||| |||||||| |||||||||||
+Sbjct  1585  TCCTGTGGACTGTGAGATCCAGAGGCACCTGAAACCCACAGAGAAGATTTTCATGAGCTA  1644
+
+Query  4778  TG  4779
+             ||
+Sbjct  1645  TG  1646
+
+
+>XM_009449652.2 PREDICTED: Pan troglodytes follistatin like 4 (FSTL4), transcript 
+variant X2, mRNA
+Length=5409
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1297  CACAGGAGCCCGGAGTGGCAGCCAGCCTGAGATGCCATGCTGAGGGCATTCCCATGCCCA  1356
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1357  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1416
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1417  TTTTAG  1422
+
+
+>XM_009449651.2 PREDICTED: Pan troglodytes follistatin like 4 (FSTL4), transcript 
+variant X1, mRNA
+Length=3495
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1287  CACAGGAGCCCGGAGTGGCAGCCAGCCTGAGATGCCATGCTGAGGGCATTCCCATGCCCA  1346
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1347  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1406
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1407  TTTTAG  1412
+
+
+>XM_005557766.2 PREDICTED: Macaca fascicularis follistatin like 4 (FSTL4), transcript 
+variant X4, mRNA
+Length=7289
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1281  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1340
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1341  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1400
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1401  TTTTAG  1406
+
+
+>XM_005557765.2 PREDICTED: Macaca fascicularis follistatin like 4 (FSTL4), transcript 
+variant X3, mRNA
+Length=7370
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1281  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1340
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1341  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1400
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1401  TTTTAG  1406
+
+
+>XM_015451882.1 PREDICTED: Macaca fascicularis follistatin like 4 (FSTL4), transcript 
+variant X2, mRNA
+Length=7257
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1141  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1200
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1201  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1260
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1261  TTTTAG  1266
+
+
+>XM_005557764.2 PREDICTED: Macaca fascicularis follistatin like 4 (FSTL4), transcript 
+variant X1, mRNA
+Length=7421
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1305  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1364
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1365  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1424
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1425  TTTTAG  1430
+
+
+>XM_011716594.1 PREDICTED: Macaca nemestrina follistatin like 4 (FSTL4), transcript 
+variant X2, mRNA
+Length=7333
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1145  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1204
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1205  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1264
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1265  TTTTAG  1270
+
+
+>XM_011716593.1 PREDICTED: Macaca nemestrina follistatin like 4 (FSTL4), transcript 
+variant X1, mRNA
+Length=7493
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1305  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1364
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1365  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1424
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1425  TTTTAG  1430
+
+
+>XM_012090252.1 PREDICTED: Cercocebus atys follistatin-like 4 (FSTL4), transcript 
+variant X7, mRNA
+Length=6877
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1135  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1194
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1195  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1254
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1255  TTTTAG  1260
+
+
+>XM_012090251.1 PREDICTED: Cercocebus atys follistatin-like 4 (FSTL4), transcript 
+variant X6, mRNA
+Length=6882
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1140  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1199
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1200  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1259
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1260  TTTTAG  1265
+
+
+>XM_012090250.1 PREDICTED: Cercocebus atys follistatin-like 4 (FSTL4), transcript 
+variant X5, mRNA
+Length=7040
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1298  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1357
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1358  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1417
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1418  TTTTAG  1423
+
+
+>XM_012090249.1 PREDICTED: Cercocebus atys follistatin-like 4 (FSTL4), transcript 
+variant X4, mRNA
+Length=6912
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1278  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1337
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1338  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1397
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1398  TTTTAG  1403
+
+
+>XM_012090248.1 PREDICTED: Cercocebus atys follistatin-like 4 (FSTL4), transcript 
+variant X3, mRNA
+Length=6993
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1278  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1337
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1338  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1397
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1398  TTTTAG  1403
+
+
+>XM_012090246.1 PREDICTED: Cercocebus atys follistatin-like 4 (FSTL4), transcript 
+variant X2, mRNA
+Length=8578
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  2836  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  2895
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  2896  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  2955
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  2956  TTTTAG  2961
+
+
+>XM_012090245.1 PREDICTED: Cercocebus atys follistatin-like 4 (FSTL4), transcript 
+variant X1, mRNA
+Length=7044
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1302  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1361
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1362  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1421
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1422  TTTTAG  1427
+
+
+>XM_011969239.1 PREDICTED: Mandrillus leucophaeus follistatin-like 4 (FSTL4), 
+mRNA
+Length=5286
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1177  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1236
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1237  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1296
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1297  TTTTAG  1302
+
+
+>XM_008691740.1 PREDICTED: Ursus maritimus follistatin-like 4 (FSTL4), mRNA
+Length=2373
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| |||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1223  CACAGGAGCCCGGGGTGGCGGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  1282
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||| ||| ||||||||||||| |||||||| |||||||| ||||
+Sbjct  1283  GAATCACTTGGCTGAAAAATGGCGTGGATGTCTCAACCCAGATGTCGAAACAGCTTTCCC  1342
+
+Query  121   TTTTAG  126
+             | ||||
+Sbjct  1343  TATTAG  1348
+
+
+>XM_006923138.1 PREDICTED: Pteropus alecto follistatin like 4 (FSTL4), mRNA
+Length=2529
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             ||||||||||||||||||| ||||| ||||| ||||||||||||||||||||||||||||
+Sbjct  1052  CACAGGAGCCAGGGGTGGCGGCCAGCCTGAGGTGCCACGCAGAGGGCATTCCTATGCCCA  1111
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||| ||||||| ||||||||| |||||||| |||||||| ||||
+Sbjct  1112  GAATCACTTGGCTGAAAAATGGCATGGTTGTCTCAACCCAGATGTCCAAACAGCTTTCCC  1171
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1172  TTTTAG  1177
+
+
+ Score = 171 bits (92),  Expect = 4e-37
+ Identities = 112/122 (92%), Gaps = 0/122 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||| ||||||||||||||||| ||||| |||||  ||||||||| 
+Sbjct  1338  AGGCCTCAGTGTGGGAAATATGTTCTACGTCTTCTCAGATGATGGCATTGTCATCCTGCA  1397
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1398  CCCCGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1457
+
+Query  4778  TG  4779
+             ||
+Sbjct  1458  TG  1459
+
+
+>XM_003829286.1 PREDICTED: Pan paniscus follistatin like 4 (FSTL4), mRNA
+Length=5236
+
+ Score = 183 bits (99),  Expect = 5e-41
+ Identities = 117/126 (93%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1125  CACAGGAGCCCGGAGTGGCAGCCAGCCTGAGATGCCATGCGGAGGGCATTCCCATGCCCA  1184
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1185  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1244
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1245  TTTTAG  1250
+
+
+>XM_016118344.1 PREDICTED: Rousettus aegyptiacus follistatin like 4 (FSTL4), 
+mRNA
+Length=3195
+
+ Score = 182 bits (98),  Expect = 2e-40
+ Identities = 114/122 (93%), Gaps = 0/122 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||||| ||||| |||||  ||||||||| 
+Sbjct  1359  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCAGATGATGGCATTGTCATCCTGCA  1418
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||||| || ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1419  CCCTGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1478
+
+Query  4778  TG  4779
+             ||
+Sbjct  1479  TG  1480
+
+
+>XM_004666513.1 PREDICTED: Jaculus jaculus follistatin-like 4 (Fstl4), mRNA
+Length=2502
+
+ Score = 182 bits (98),  Expect = 2e-40
+ Identities = 124/137 (91%), Gaps = 0/137 (0%)
+ Strand=Plus/Plus
+
+Query  518   GCCAACGGGAGCGAGCTCCACATCGCCAGCGTCCGGTATGAGGACACAGGGGCCTACACC  577
+             ||||||||||||||||||||||||| |||||| |||||||| ||||||||||| ||||||
+Sbjct  1174  GCCAACGGGAGCGAGCTCCACATCGGCAGCGTTCGGTATGAAGACACAGGGGCATACACC  1233
+
+Query  578   TGCATCGCCAAAAACGAAGTGGGTGTGGACGAAGATATCTCCTCACTCTTTATTGAAGAC  637
+             ||||| ||||| |||||||||||||||||||||||||||||||| ||||| || || |||
+Sbjct  1234  TGCATTGCCAAGAACGAAGTGGGTGTGGACGAAGATATCTCCTCTCTCTTCATCGAGGAC  1293
+
+Query  638   TCGGCCAGAAAGACCCG  654
+             || || || ||||||||
+Sbjct  1294  TCAGCTAGGAAGACCCG  1310
+
+
+>XM_027076701.1 PREDICTED: Acinonyx jubatus follistatin like 4 (FSTL4), transcript 
+variant X4, mRNA
+Length=8526
+
+ Score = 180 bits (97),  Expect = 6e-40
+ Identities = 115/124 (93%), Gaps = 0/124 (0%)
+ Strand=Plus/Plus
+
+Query  3     CAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCAGG  62
+             |||||||| |||||||| ||||||||||  ||||||||||||||||||||||||||||| 
+Sbjct  1289  CAGGAGCCCGGGGTGGCAGCCAGTCTGAAGTGCCACGCAGAGGGCATTCCTATGCCCAGA  1348
+
+Query  63    ATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCCTT  122
+             |||||||||||||||||||||||||| |||||||| |||||||| ||||| |||||||||
+Sbjct  1349  ATCACTTGGCTGAAAAACGGCATGGACGTCTCAACCCAGATGTCGAAACAACTCTCCCTT  1408
+
+Query  123   TTAG  126
+             ||||
+Sbjct  1409  TTAG  1412
+
+
+ Score = 163 bits (88),  Expect = 6e-35
+ Identities = 108/118 (92%), Gaps = 0/118 (0%)
+ Strand=Plus/Plus
+
+Query  4660  GCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCGCC  4719
+             ||||||||||||||||||||||||| |||||||| || || ||||| |||||||| | ||
+Sbjct  1548  GCCTCAGTGTGGGAAACATGTTCTATGTCTTCTCTGACGATGGCATTATCATCCTACACC  1607
+
+Query  4720  CTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             | |||| ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1608  CCGCGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1665
+
+
+>XM_027076700.1 PREDICTED: Acinonyx jubatus follistatin like 4 (FSTL4), transcript 
+variant X3, mRNA
+Length=8445
+
+ Score = 180 bits (97),  Expect = 6e-40
+ Identities = 115/124 (93%), Gaps = 0/124 (0%)
+ Strand=Plus/Plus
+
+Query  3     CAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCAGG  62
+             |||||||| |||||||| ||||||||||  ||||||||||||||||||||||||||||| 
+Sbjct  1181  CAGGAGCCCGGGGTGGCAGCCAGTCTGAAGTGCCACGCAGAGGGCATTCCTATGCCCAGA  1240
+
+Query  63    ATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCCTT  122
+             |||||||||||||||||||||||||| |||||||| |||||||| ||||| |||||||||
+Sbjct  1241  ATCACTTGGCTGAAAAACGGCATGGACGTCTCAACCCAGATGTCGAAACAACTCTCCCTT  1300
+
+Query  123   TTAG  126
+             ||||
+Sbjct  1301  TTAG  1304
+
+
+ Score = 167 bits (90),  Expect = 5e-36
+ Identities = 110/120 (92%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||||||||||||||||||||| |||||||| || || ||||| |||||||| | 
+Sbjct  1465  AGGCCTCAGTGTGGGAAACATGTTCTATGTCTTCTCTGACGATGGCATTATCATCCTACA  1524
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| |||| ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1525  CCCCGCGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1584
+
+
+>XM_015083153.2 PREDICTED: Acinonyx jubatus follistatin like 4 (FSTL4), transcript 
+variant X2, mRNA
+Length=8679
+
+ Score = 180 bits (97),  Expect = 6e-40
+ Identities = 115/124 (93%), Gaps = 0/124 (0%)
+ Strand=Plus/Plus
+
+Query  3     CAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCAGG  62
+             |||||||| |||||||| ||||||||||  ||||||||||||||||||||||||||||| 
+Sbjct  1415  CAGGAGCCCGGGGTGGCAGCCAGTCTGAAGTGCCACGCAGAGGGCATTCCTATGCCCAGA  1474
+
+Query  63    ATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCCTT  122
+             |||||||||||||||||||||||||| |||||||| |||||||| ||||| |||||||||
+Sbjct  1475  ATCACTTGGCTGAAAAACGGCATGGACGTCTCAACCCAGATGTCGAAACAACTCTCCCTT  1534
+
+Query  123   TTAG  126
+             ||||
+Sbjct  1535  TTAG  1538
+
+
+ Score = 167 bits (90),  Expect = 5e-36
+ Identities = 110/120 (92%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||||||||||||||||||||| |||||||| || || ||||| |||||||| | 
+Sbjct  1699  AGGCCTCAGTGTGGGAAACATGTTCTATGTCTTCTCTGACGATGGCATTATCATCCTACA  1758
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| |||| ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1759  CCCCGCGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1818
+
+
+>XM_027076699.1 PREDICTED: Acinonyx jubatus follistatin like 4 (FSTL4), transcript 
+variant X1, mRNA
+Length=8554
+
+ Score = 180 bits (97),  Expect = 6e-40
+ Identities = 115/124 (93%), Gaps = 0/124 (0%)
+ Strand=Plus/Plus
+
+Query  3     CAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCAGG  62
+             |||||||| |||||||| ||||||||||  ||||||||||||||||||||||||||||| 
+Sbjct  1290  CAGGAGCCCGGGGTGGCAGCCAGTCTGAAGTGCCACGCAGAGGGCATTCCTATGCCCAGA  1349
+
+Query  63    ATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCCTT  122
+             |||||||||||||||||||||||||| |||||||| |||||||| ||||| |||||||||
+Sbjct  1350  ATCACTTGGCTGAAAAACGGCATGGACGTCTCAACCCAGATGTCGAAACAACTCTCCCTT  1409
+
+Query  123   TTAG  126
+             ||||
+Sbjct  1410  TTAG  1413
+
+
+ Score = 167 bits (90),  Expect = 5e-36
+ Identities = 110/120 (92%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||||||||||||||||||||| |||||||| || || ||||| |||||||| | 
+Sbjct  1574  AGGCCTCAGTGTGGGAAACATGTTCTATGTCTTCTCTGACGATGGCATTATCATCCTACA  1633
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| |||| ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1634  CCCCGCGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1693
+
+
+>XM_019831947.2 PREDICTED: Felis catus follistatin like 4 (FSTL4), transcript 
+variant X3, mRNA
+Length=3303
+
+ Score = 180 bits (97),  Expect = 6e-40
+ Identities = 115/124 (93%), Gaps = 0/124 (0%)
+ Strand=Plus/Plus
+
+Query  3     CAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCAGG  62
+             |||||||| |||||||| ||||||||||  ||||||||||||||||||||||||||||| 
+Sbjct  1174  CAGGAGCCCGGGGTGGCAGCCAGTCTGAAGTGCCACGCAGAGGGCATTCCTATGCCCAGA  1233
+
+Query  63    ATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCCTT  122
+             |||||||||||||||||||||||||| |||||||| |||||||| ||||| |||||||||
+Sbjct  1234  ATCACTTGGCTGAAAAACGGCATGGACGTCTCAACCCAGATGTCGAAACAACTCTCCCTT  1293
+
+Query  123   TTAG  126
+             ||||
+Sbjct  1294  TTAG  1297
+
+
+ Score = 172 bits (93),  Expect = 1e-37
+ Identities = 111/120 (93%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||||||||||||||||||||| ||||||||||| || ||| | |||||||||| 
+Sbjct  1458  AGGCCTCAGTGTGGGAAACATGTTCTATGTCTTCTCCGACGATGGCGTTATCATCCTGCA  1517
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| |||| ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1518  CCCCGCGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1577
+
+
+>XM_019831942.2 PREDICTED: Felis catus follistatin like 4 (FSTL4), transcript 
+variant X2, mRNA
+Length=3555
+
+ Score = 180 bits (97),  Expect = 6e-40
+ Identities = 115/124 (93%), Gaps = 0/124 (0%)
+ Strand=Plus/Plus
+
+Query  3     CAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCAGG  62
+             |||||||| |||||||| ||||||||||  ||||||||||||||||||||||||||||| 
+Sbjct  1426  CAGGAGCCCGGGGTGGCAGCCAGTCTGAAGTGCCACGCAGAGGGCATTCCTATGCCCAGA  1485
+
+Query  63    ATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCCTT  122
+             |||||||||||||||||||||||||| |||||||| |||||||| ||||| |||||||||
+Sbjct  1486  ATCACTTGGCTGAAAAACGGCATGGACGTCTCAACCCAGATGTCGAAACAACTCTCCCTT  1545
+
+Query  123   TTAG  126
+             ||||
+Sbjct  1546  TTAG  1549
+
+
+ Score = 172 bits (93),  Expect = 1e-37
+ Identities = 111/120 (93%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||||||||||||||||||||| ||||||||||| || ||| | |||||||||| 
+Sbjct  1710  AGGCCTCAGTGTGGGAAACATGTTCTATGTCTTCTCCGACGATGGCGTTATCATCCTGCA  1769
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| |||| ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1770  CCCCGCGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1829
+
+
+>XM_023255130.1 PREDICTED: Felis catus follistatin like 4 (FSTL4), transcript 
+variant X1, mRNA
+Length=3428
+
+ Score = 180 bits (97),  Expect = 6e-40
+ Identities = 115/124 (93%), Gaps = 0/124 (0%)
+ Strand=Plus/Plus
+
+Query  3     CAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCAGG  62
+             |||||||| |||||||| ||||||||||  ||||||||||||||||||||||||||||| 
+Sbjct  1299  CAGGAGCCCGGGGTGGCAGCCAGTCTGAAGTGCCACGCAGAGGGCATTCCTATGCCCAGA  1358
+
+Query  63    ATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCCTT  122
+             |||||||||||||||||||||||||| |||||||| |||||||| ||||| |||||||||
+Sbjct  1359  ATCACTTGGCTGAAAAACGGCATGGACGTCTCAACCCAGATGTCGAAACAACTCTCCCTT  1418
+
+Query  123   TTAG  126
+             ||||
+Sbjct  1419  TTAG  1422
+
+
+ Score = 172 bits (93),  Expect = 1e-37
+ Identities = 111/120 (93%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||||||||||||||||||||| ||||||||||| || ||| | |||||||||| 
+Sbjct  1583  AGGCCTCAGTGTGGGAAACATGTTCTATGTCTTCTCCGACGATGGCGTTATCATCCTGCA  1642
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| |||| ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1643  CCCCGCGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1702
+
+
+>XM_015540077.1 PREDICTED: Panthera tigris altaica follistatin like 4 (FSTL4), 
+mRNA
+Length=3215
+
+ Score = 180 bits (97),  Expect = 6e-40
+ Identities = 115/124 (93%), Gaps = 0/124 (0%)
+ Strand=Plus/Plus
+
+Query  3     CAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCAGG  62
+             |||||||| |||||||| ||||||||||  ||||||||||||||||||||||||||||| 
+Sbjct  1164  CAGGAGCCCGGGGTGGCAGCCAGTCTGAAGTGCCACGCAGAGGGCATTCCTATGCCCAGA  1223
+
+Query  63    ATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCCTT  122
+             |||||||||||||||||||||||||| |||||||| |||||||| ||||| |||||||||
+Sbjct  1224  ATCACTTGGCTGAAAAACGGCATGGACGTCTCAACCCAGATGTCGAAACAACTCTCCCTT  1283
+
+Query  123   TTAG  126
+             ||||
+Sbjct  1284  TTAG  1287
+
+
+ Score = 167 bits (90),  Expect = 5e-36
+ Identities = 110/120 (92%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||| |||||| |||||||| || || ||||| |||||||||| 
+Sbjct  1448  AGGCCTCAGTGTGGGAAACACGTTCTATGTCTTCTCTGACGATGGCATTATCATCCTGCA  1507
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| |||| ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1508  CCCCGCGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1567
+
+
+>XM_025388001.1 PREDICTED: Theropithecus gelada follistatin like 4 (FSTL4), transcript 
+variant X2, mRNA
+Length=5414
+
+ Score = 178 bits (96),  Expect = 2e-39
+ Identities = 116/126 (92%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||  ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1302  CACAGGAGCCCGGAGTGGTGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1361
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1362  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1421
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1422  TTTTAG  1427
+
+
+>XM_025388000.1 PREDICTED: Theropithecus gelada follistatin like 4 (FSTL4), transcript 
+variant X1, mRNA
+Length=3283
+
+ Score = 178 bits (96),  Expect = 2e-39
+ Identities = 116/126 (92%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||  ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1177  CACAGGAGCCCGGAGTGGTGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1236
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1237  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1296
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1297  TTTTAG  1302
+
+
+>XM_024247171.1 PREDICTED: Pongo abelii follistatin like 4 (FSTL4), mRNA
+Length=3408
+
+ Score = 178 bits (96),  Expect = 2e-39
+ Identities = 116/126 (92%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1302  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCTGAGGGCATTCCCATGCCCA  1361
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||| ||||
+Sbjct  1362  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTTTCCC  1421
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1422  TTTTAG  1427
+
+
+>XM_009209070.3 PREDICTED: Papio anubis follistatin like 4 (FSTL4), transcript 
+variant X3, mRNA
+Length=8591
+
+ Score = 178 bits (96),  Expect = 2e-39
+ Identities = 116/126 (92%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||  ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1402  CACAGGAGCCCGGAGTGGTGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1461
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1462  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1521
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1522  TTTTAG  1527
+
+
+>XM_017959857.2 PREDICTED: Papio anubis follistatin like 4 (FSTL4), transcript 
+variant X2, mRNA
+Length=8811
+
+ Score = 178 bits (96),  Expect = 2e-39
+ Identities = 116/126 (92%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||  ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1622  CACAGGAGCCCGGAGTGGTGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1681
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1682  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1741
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1742  TTTTAG  1747
+
+
+>XM_003900097.3 PREDICTED: Papio anubis follistatin like 4 (FSTL4), transcript 
+variant X1, mRNA
+Length=8530
+
+ Score = 178 bits (96),  Expect = 2e-39
+ Identities = 116/126 (92%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||  ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1341  CACAGGAGCCCGGAGTGGTGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1400
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1401  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1460
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1461  TTTTAG  1466
+
+
+>XM_017871987.1 PREDICTED: Rhinopithecus bieti follistatin like 4 (FSTL4), transcript 
+variant X2, mRNA
+Length=7390
+
+ Score = 178 bits (96),  Expect = 2e-39
+ Identities = 116/126 (92%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1301  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1360
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| |||| |||||||||||||||||||||||||||||||
+Sbjct  1361  GAATCACTTGGCTGAAAAACGGCGTGGACGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1420
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1421  TTTTAG  1426
+
+
+>XM_017871986.1 PREDICTED: Rhinopithecus bieti follistatin like 4 (FSTL4), transcript 
+variant X1, mRNA
+Length=7393
+
+ Score = 178 bits (96),  Expect = 2e-39
+ Identities = 116/126 (92%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1304  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1363
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| |||| |||||||||||||||||||||||||||||||
+Sbjct  1364  GAATCACTTGGCTGAAAAACGGCGTGGACGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1423
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1424  TTTTAG  1429
+
+
+>XM_006212812.2 PREDICTED: Vicugna pacos follistatin-like 4 (FSTL4), transcript 
+variant X2, mRNA
+Length=3089
+
+ Score = 178 bits (96),  Expect = 2e-39
+ Identities = 112/120 (93%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||| |||||||||||||||||||||||||||||||| ||||| |||||||||| 
+Sbjct  1338  AGGCCTCAGCGTGGGAAACATGTTCTACGTCTTCTCCGATGATGGCATTATCATCCTGCA  1397
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||||| || ||| |||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  1398  CCCTGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACGGAGAAGATCTTCATGAGCTA  1457
+
+
+>XM_012565196.1 PREDICTED: Odobenus rosmarus divergens follistatin-like 4 (FSTL4), 
+transcript variant X1, mRNA
+Length=2682
+
+ Score = 178 bits (96),  Expect = 2e-39
+ Identities = 116/126 (92%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1205  CACAGGAGCCCGGCGTGGCGGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  1264
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||| |||||||||||||| || |||||||| |||||||| ||||
+Sbjct  1265  GAATCACTTGGCTGAAAAATGGCATGGATGTCTCCACCCAGATGTCGAAACAGCTTTCCC  1324
+
+Query  121   TTTTAG  126
+             | ||||
+Sbjct  1325  TATTAG  1330
+
+
+>XM_010338766.1 PREDICTED: Saimiri boliviensis boliviensis follistatin-like 4 
+(FSTL4), mRNA
+Length=5210
+
+ Score = 178 bits (96),  Expect = 2e-39
+ Identities = 116/126 (92%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1059  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCGGAGGGCATTCCCATGCCCA  1118
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||| ||||||||||||||||||||||
+Sbjct  1119  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACGCAGATGTCTAAACAGCTCTCCC  1178
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1179  TTTTAG  1184
+
+
+>XM_010359959.1 PREDICTED: Rhinopithecus roxellana follistatin-like 4 (FSTL4), 
+mRNA
+Length=3167
+
+ Score = 178 bits (96),  Expect = 2e-39
+ Identities = 116/126 (92%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1059  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1118
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| |||| |||||||||||||||||||||||||||||||
+Sbjct  1119  GAATCACTTGGCTGAAAAACGGCGTGGACGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1178
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1179  TTTTAG  1184
+
+
+>XM_008014412.1 PREDICTED: Chlorocebus sabaeus follistatin-like 4 (FSTL4), transcript 
+variant X2, mRNA
+Length=9034
+
+ Score = 178 bits (96),  Expect = 2e-39
+ Identities = 116/126 (92%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  1880  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  1939
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||| ||| ||||||||||||||||||||||||||||||||||||
+Sbjct  1940  GAATCACTTGGCTGAAAAATGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  1999
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  2000  TTTTAG  2005
+
+
+>XM_008014411.1 PREDICTED: Chlorocebus sabaeus follistatin-like 4 (FSTL4), transcript 
+variant X1, mRNA
+Length=9186
+
+ Score = 178 bits (96),  Expect = 2e-39
+ Identities = 116/126 (92%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| ||||||||||| || ||||||||||| |||||||
+Sbjct  2005  CACAGGAGCCCGGAGTGGCGGCCAGCCTGAGATGCCATGCCGAGGGCATTCCCATGCCCA  2064
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||| ||| ||||||||||||||||||||||||||||||||||||
+Sbjct  2065  GAATCACTTGGCTGAAAAATGGCGTGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  2124
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  2125  TTTTAG  2130
+
+
+>XM_004408273.1 PREDICTED: Odobenus rosmarus divergens follistatin-like 4 (FSTL4), 
+transcript variant X2, mRNA
+Length=2769
+
+ Score = 178 bits (96),  Expect = 2e-39
+ Identities = 116/126 (92%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1292  CACAGGAGCCCGGCGTGGCGGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  1351
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||| |||||||||||||| || |||||||| |||||||| ||||
+Sbjct  1352  GAATCACTTGGCTGAAAAATGGCATGGATGTCTCCACCCAGATGTCGAAACAGCTTTCCC  1411
+
+Query  121   TTTTAG  126
+             | ||||
+Sbjct  1412  TATTAG  1417
+
+
+>XM_011362303.1 PREDICTED: Pteropus vampyrus follistatin like 4 (FSTL4), mRNA
+Length=2529
+
+ Score = 176 bits (95),  Expect = 8e-39
+ Identities = 113/122 (93%), Gaps = 0/122 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||||| ||||| |||||  ||||||||| 
+Sbjct  1338  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCAGATGATGGCATTGTCATCCTGCA  1397
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1398  CCCCGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1457
+
+Query  4778  TG  4779
+             ||
+Sbjct  1458  TG  1459
+
+
+>XM_029941169.1 PREDICTED: Suricata suricatta follistatin like 4 (FSTL4), mRNA
+Length=3603
+
+ Score = 174 bits (94),  Expect = 3e-38
+ Identities = 114/124 (92%), Gaps = 0/124 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||||||||| ||||||||||||||||||||||||||||
+Sbjct  1467  CACAGGAGCCCGGCGTGGCAGCCAGTCTGAGGTGCCACGCAGAGGGCATTCCTATGCCCA  1526
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||| |||||||| |||||||| |||||||| ||||||||||| |
+Sbjct  1527  GAATCACTTGGCTGAAAAATGGCATGGACGTCTCAACCCAGATGTCGAAACAGCTCTCTC  1586
+
+Query  121   TTTT  124
+             ||||
+Sbjct  1587  TTTT  1590
+
+
+>XM_015246613.1 PREDICTED: Vicugna pacos follistatin-like 4 (FSTL4), transcript 
+variant X1, mRNA
+Length=2829
+
+ Score = 174 bits (94),  Expect = 3e-38
+ Identities = 110/118 (93%), Gaps = 0/118 (0%)
+ Strand=Plus/Plus
+
+Query  4660  GCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCGCC  4719
+             ||||||| |||||||||||||||||||||||||||||||| ||||| |||||||||| ||
+Sbjct  1080  GCCTCAGCGTGGGAAACATGTTCTACGTCTTCTCCGATGATGGCATTATCATCCTGCACC  1139
+
+Query  4720  CTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| || ||| |||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  1140  CTGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACGGAGAAGATCTTCATGAGCTA  1197
+
+
+>XM_028103667.1 PREDICTED: Eumetopias jubatus follistatin like 4 (FSTL4), mRNA
+Length=2529
+
+ Score = 172 bits (93),  Expect = 1e-37
+ Identities = 115/126 (91%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1052  CACAGGAGCCCGGCGTGGCGGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  1111
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||| |||||||||||||| || |||||||| |||||||| || |
+Sbjct  1112  GAATCACTTGGCTGAAAAATGGCATGGATGTCTCCACCCAGATGTCGAAACAGCTTTCTC  1171
+
+Query  121   TTTTAG  126
+             | ||||
+Sbjct  1172  TATTAG  1177
+
+
+>XM_027607114.1 PREDICTED: Zalophus californianus follistatin like 4 (FSTL4), 
+mRNA
+Length=8263
+
+ Score = 172 bits (93),  Expect = 1e-37
+ Identities = 115/126 (91%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1167  CACAGGAGCCCGGCGTGGCAGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  1226
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||| |||||||||||||| || |||||||| |||||||| || |
+Sbjct  1227  GAATCACTTGGCTGAAAAATGGCATGGATGTCTCCACCCAGATGTCGAAACAGCTTTCTC  1286
+
+Query  121   TTTTAG  126
+             | ||||
+Sbjct  1287  TATTAG  1292
+
+
+>XM_025860911.1 PREDICTED: Callorhinus ursinus follistatin like 4 (FSTL4), mRNA
+Length=2579
+
+ Score = 172 bits (93),  Expect = 1e-37
+ Identities = 115/126 (91%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1102  CACAGGAGCCCGGTGTGGCGGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  1161
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||| |||||||||||||| || |||||||| |||||||| || |
+Sbjct  1162  GAATCACTTGGCTGAAAAATGGCATGGATGTCTCCACCCAGATGTCGAAACAGCTTTCTC  1221
+
+Query  121   TTTTAG  126
+             | ||||
+Sbjct  1222  TATTAG  1227
+
+
+>XM_017532418.1 PREDICTED: Cebus capucinus imitator follistatin like 4 (FSTL4), 
+transcript variant X2, mRNA
+Length=8404
+
+ Score = 172 bits (93),  Expect = 1e-37
+ Identities = 115/126 (91%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| || |||||||| || ||||||||||| |||||||
+Sbjct  1278  CACAGGAGCCCGGAGTGGCAGCCAGCCTAAGATGCCATGCGGAGGGCATTCCCATGCCCA  1337
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||| ||||||||||||||||||||||
+Sbjct  1338  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACCCAGATGTCTAAACAGCTCTCCC  1397
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1398  TTTTAG  1403
+
+
+ Score = 150 bits (81),  Expect = 5e-31
+ Identities = 107/120 (89%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4660  GCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCGCC  4719
+             ||||||| ||||||||||||||||||||||||||||| |||||||||||| || | |  |
+Sbjct  1539  GCCTCAGCGTGGGAAACATGTTCTACGTCTTCTCCGACGACGGCATCATCGTCATCCATC  1598
+
+Query  4720  CTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTATG  4779
+             ||| || ||| ||||||||||||||||| |||||||| |||||||| |||||||||||||
+Sbjct  1599  CTGTGGACTGTGAGATCCAGAGGCACCTGAAACCCACAGAGAAGATTTTCATGAGCTATG  1658
+
+
+>XM_017532416.1 PREDICTED: Cebus capucinus imitator follistatin like 4 (FSTL4), 
+transcript variant X1, mRNA
+Length=8455
+
+ Score = 172 bits (93),  Expect = 1e-37
+ Identities = 115/126 (91%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| || ||||| ||||| || |||||||| || ||||||||||| |||||||
+Sbjct  1302  CACAGGAGCCCGGAGTGGCAGCCAGCCTAAGATGCCATGCGGAGGGCATTCCCATGCCCA  1361
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||| ||||||||||||| ||||||||||||||||||||||
+Sbjct  1362  GAATCACTTGGCTGAAAAACGGCGTGGATGTCTCAACCCAGATGTCTAAACAGCTCTCCC  1421
+
+Query  121   TTTTAG  126
+             ||||||
+Sbjct  1422  TTTTAG  1427
+
+
+ Score = 154 bits (83),  Expect = 4e-32
+ Identities = 109/122 (89%), Gaps = 0/122 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||| ||||||||||||||||||||||||||||| |||||||||||| || | | 
+Sbjct  1588  AGGCCTCAGCGTGGGAAACATGTTCTACGTCTTCTCCGACGACGGCATCATCGTCATCCA  1647
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+              |||| || ||| ||||||||||||||||| |||||||| |||||||| |||||||||||
+Sbjct  1648  TCCTGTGGACTGTGAGATCCAGAGGCACCTGAAACCCACAGAGAAGATTTTCATGAGCTA  1707
+
+Query  4778  TG  4779
+             ||
+Sbjct  1708  TG  1709
+
+
+>XM_006179610.2 PREDICTED: Camelus ferus follistatin-like 4 (FSTL4), mRNA
+Length=3096
+
+ Score = 172 bits (93),  Expect = 1e-37
+ Identities = 111/120 (93%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||| |||||||||||||||||||||||||||||||| ||||| ||| |||||| 
+Sbjct  1345  AGGCCTCAGCGTGGGAAACATGTTCTACGTCTTCTCCGATGATGGCATTATCGTCCTGCA  1404
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||||| || ||| |||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  1405  CCCTGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACGGAGAAGATCTTCATGAGCTA  1464
+
+
+>XM_012651317.1 PREDICTED: Propithecus coquereli follistatin-like 4 (FSTL4), 
+mRNA
+Length=2854
+
+ Score = 172 bits (93),  Expect = 1e-37
+ Identities = 115/126 (91%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| |||||||| ||||| ||||||||||||||||||||||| || | |||||
+Sbjct  1052  CACAGGAGCCCGGGGTGGCGGCCAGCCTGAGATGCCACGCAGAGGGCATCCCCACGCCCA  1111
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | || |||||||||||||||||||||||||||||||  ||||||||||||||||||||||
+Sbjct  1112  GAATTACTTGGCTGAAAAACGGCATGGATGTCTCAAACCAGATGTCTAAACAGCTCTCCC  1171
+
+Query  121   TTTTAG  126
+             | ||||
+Sbjct  1172  TCTTAG  1177
+
+
+ Score = 132 bits (71),  Expect = 2e-25
+ Identities = 103/119 (87%), Gaps = 0/119 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||| ||||||||||||||||||||||||||||| ||||||||| || || | | 
+Sbjct  1338  AGGCCTCAGCGTGGGAAACATGTTCTACGTCTTCTCCGACGACGGCATCGTCGTCGTCCA  1397
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCT  4776
+             ||| |||| ||| ||||||||||||||||||  ||| || |||| ||| ||||||||||
+Sbjct  1398  CCCCGCGGACTGTGAGATCCAGAGGCACCTCCGACCGACGGAGAGGATTTTCATGAGCT  1456
+
+
+>XM_010982391.1 PREDICTED: Camelus dromedarius follistatin-like 4 (FSTL4), mRNA
+Length=2732
+
+ Score = 172 bits (93),  Expect = 1e-37
+ Identities = 111/120 (93%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||| |||||||||||||||||||||||||||||||| ||||| ||| |||||| 
+Sbjct  981   AGGCCTCAGCGTGGGAAACATGTTCTACGTCTTCTCCGATGATGGCATTATCGTCCTGCA  1040
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||||| || ||| |||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  1041  CCCTGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACGGAGAAGATCTTCATGAGCTA  1100
+
+
+>XM_010971612.1 PREDICTED: Camelus bactrianus follistatin-like 4 (FSTL4), mRNA
+Length=3089
+
+ Score = 172 bits (93),  Expect = 1e-37
+ Identities = 111/120 (93%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||| |||||||||||||||||||||||||||||||| ||||| ||| |||||| 
+Sbjct  1338  AGGCCTCAGCGTGGGAAACATGTTCTACGTCTTCTCCGATGATGGCATTATCGTCCTGCA  1397
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||||| || ||| |||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  1398  CCCTGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACGGAGAAGATCTTCATGAGCTA  1457
+
+
+>XM_014794055.1 PREDICTED: Ceratotherium simum simum follistatin-like 4 (LOC101397545), 
+mRNA
+Length=3880
+
+ Score = 171 bits (92),  Expect = 4e-37
+ Identities = 122/137 (89%), Gaps = 0/137 (0%)
+ Strand=Plus/Plus
+
+Query  517   AGCCAACGGGAGCGAGCTCCACATCGCCAGCGTCCGGTATGAGGACACAGGGGCCTACAC  576
+             |||||| ||||| || |||||||||   || || |||||||| ||||||||||| || ||
+Sbjct  1155  AGCCAATGGGAGTGAACTCCACATCAGTAGTGTTCGGTATGAAGACACAGGGGCGTATAC  1214
+
+Query  577   CTGCATCGCCAAAAACGAAGTGGGTGTGGACGAAGATATCTCCTCACTCTTTATTGAAGA  636
+             |||||| |||||||| ||||||||||||||||||||||||||||||||||| ||||||||
+Sbjct  1215  CTGCATTGCCAAAAATGAAGTGGGTGTGGACGAAGATATCTCCTCACTCTTCATTGAAGA  1274
+
+Query  637   CTCGGCCAGAAAGACCC  653
+             |||||| ||||||||||
+Sbjct  1275  CTCGGCTAGAAAGACCC  1291
+
+
+ Score = 167 bits (90),  Expect = 5e-36
+ Identities = 110/120 (92%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||||||||||| |||||  ||||||||| 
+Sbjct  1317  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGATGGCATTGTCATCCTGCA  1376
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||| ||||||||||||||||| ||||||||||||||
+Sbjct  1377  CCCCGTGGACTGTGAGATCCAGAGGCATCTCAAACCCACTGAGAAAATCTTCATGAGCTA  1436
+
+
+>XM_027097696.1 PREDICTED: Lagenorhynchus obliquidens follistatin like 4 (FSTL4), 
+mRNA
+Length=2822
+
+ Score = 167 bits (90),  Expect = 5e-36
+ Identities = 110/120 (92%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||| |||||||||| || ||||| |||||||||| 
+Sbjct  1588  AGGCCTCAGTGTGGGAAACATGTTCTACATCTTCTCCGACGATGGCATAATCATCCTGCA  1647
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  1648  CCCGGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACGGAGAAGATCTTCATGAGCTA  1707
+
+
+>XM_024744976.1 PREDICTED: Neophocaena asiaeorientalis asiaeorientalis follistatin 
+like 4 (FSTL4), transcript variant X4, mRNA
+Length=5750
+
+ Score = 167 bits (90),  Expect = 5e-36
+ Identities = 110/120 (92%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||| |||||||||| || ||||| |||||||||| 
+Sbjct  1526  AGGCCTCAGTGTGGGAAACATGTTCTACATCTTCTCCGACGATGGCATAATCATCCTGCA  1585
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  1586  CCCAGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACAGAGAAGATCTTCATGAGCTA  1645
+
+
+>XM_024744974.1 PREDICTED: Neophocaena asiaeorientalis asiaeorientalis follistatin 
+like 4 (FSTL4), transcript variant X2, mRNA
+Length=5854
+
+ Score = 167 bits (90),  Expect = 5e-36
+ Identities = 110/120 (92%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||| |||||||||| || ||||| |||||||||| 
+Sbjct  1523  AGGCCTCAGTGTGGGAAACATGTTCTACATCTTCTCCGACGATGGCATAATCATCCTGCA  1582
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  1583  CCCAGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACAGAGAAGATCTTCATGAGCTA  1642
+
+
+>XM_024744973.1 PREDICTED: Neophocaena asiaeorientalis asiaeorientalis follistatin 
+like 4 (FSTL4), transcript variant X1, mRNA
+Length=5858
+
+ Score = 167 bits (90),  Expect = 5e-36
+ Identities = 110/120 (92%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||| |||||||||| || ||||| |||||||||| 
+Sbjct  1526  AGGCCTCAGTGTGGGAAACATGTTCTACATCTTCTCCGACGATGGCATAATCATCCTGCA  1585
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  1586  CCCAGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACAGAGAAGATCTTCATGAGCTA  1645
+
+
+>XM_023617697.1 PREDICTED: Equus caballus follistatin like 4 (FSTL4), transcript 
+variant X2, mRNA
+Length=8426
+
+ Score = 167 bits (90),  Expect = 5e-36
+ Identities = 110/120 (92%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||| |||||||| || ||||| |||||||||| 
+Sbjct  1649  AGGCCTCAGTGTGGGAAACATGTTCTACGTTTTCTCCGACGATGGCATTATCATCCTGCA  1708
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||| ||||||||||||||||||||||||||||||||
+Sbjct  1709  CCCAGTGGACTGTGAGATCCAGAGGCATCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1768
+
+
+>XM_023617696.1 PREDICTED: Equus caballus follistatin like 4 (FSTL4), transcript 
+variant X1, mRNA
+Length=8524
+
+ Score = 167 bits (90),  Expect = 5e-36
+ Identities = 110/120 (92%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||| |||||||| || ||||| |||||||||| 
+Sbjct  1639  AGGCCTCAGTGTGGGAAACATGTTCTACGTTTTCTCCGACGATGGCATTATCATCCTGCA  1698
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||| ||||||||||||||||||||||||||||||||
+Sbjct  1699  CCCAGTGGACTGTGAGATCCAGAGGCATCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1758
+
+
+>XM_022588800.1 PREDICTED: Delphinapterus leucas follistatin like 4 (FSTL4), 
+transcript variant X5, mRNA
+Length=7532
+
+ Score = 167 bits (90),  Expect = 5e-36
+ Identities = 110/120 (92%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||| |||||||||| || ||||| |||||||||| 
+Sbjct  771   AGGCCTCAGTGTGGGAAACATGTTCTACATCTTCTCCGACGATGGCATAATCATCCTGCA  830
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  831   CCCAGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACAGAGAAGATCTTCATGAGCTA  890
+
+
+>XM_022588797.1 PREDICTED: Delphinapterus leucas follistatin like 4 (FSTL4), 
+transcript variant X2, mRNA
+Length=7691
+
+ Score = 167 bits (90),  Expect = 5e-36
+ Identities = 110/120 (92%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||| |||||||||| || ||||| |||||||||| 
+Sbjct  930   AGGCCTCAGTGTGGGAAACATGTTCTACATCTTCTCCGACGATGGCATAATCATCCTGCA  989
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  990   CCCAGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACAGAGAAGATCTTCATGAGCTA  1049
+
+
+>XM_022588796.1 PREDICTED: Delphinapterus leucas follistatin like 4 (FSTL4), 
+transcript variant X1, mRNA
+Length=7694
+
+ Score = 167 bits (90),  Expect = 5e-36
+ Identities = 110/120 (92%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||| |||||||||| || ||||| |||||||||| 
+Sbjct  933   AGGCCTCAGTGTGGGAAACATGTTCTACATCTTCTCCGACGATGGCATAATCATCCTGCA  992
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  993   CCCAGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACAGAGAAGATCTTCATGAGCTA  1052
+
+
+>XM_008532156.1 PREDICTED: Equus przewalskii follistatin-like 4 (FSTL4), mRNA
+Length=8077
+
+ Score = 167 bits (90),  Expect = 5e-36
+ Identities = 110/120 (92%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||| |||||||| || ||||| |||||||||| 
+Sbjct  1210  AGGCCTCAGTGTGGGAAACATGTTCTACGTTTTCTCCGACGATGGCATTATCATCCTGCA  1269
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||| ||||||||||||||||||||||||||||||||
+Sbjct  1270  CCCAGTGGACTGTGAGATCCAGAGGCATCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1329
+
+
+>XM_004282127.1 PREDICTED: Orcinus orca follistatin-like 4 (FSTL4), mRNA
+Length=2785
+
+ Score = 167 bits (90),  Expect = 5e-36
+ Identities = 110/120 (92%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||| |||||||||| || ||||| |||||||||| 
+Sbjct  1588  AGGCCTCAGTGTGGGAAACATGTTCTACATCTTCTCCGACGATGGCATAATCATCCTGCA  1647
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  1648  CCCGGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACGGAGAAGATCTTCATGAGCTA  1707
+
+
+>XM_013508431.1 PREDICTED: Chinchilla lanigera follistatin-like 4 (Fstl4), transcript 
+variant X2, mRNA
+Length=2612
+
+ Score = 165 bits (89),  Expect = 2e-35
+ Identities = 111/122 (91%), Gaps = 0/122 (0%)
+ Strand=Plus/Plus
+
+Query  3     CAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCAGG  62
+             |||||||| |||||||| ||||| |||||||||||||| ||||||||||| | |||||| 
+Sbjct  1058  CAGGAGCCCGGGGTGGCGGCCAGCCTGAGATGCCACGCGGAGGGCATTCCCACGCCCAGA  1117
+
+Query  63    ATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCCTT  122
+             ||||||||||||||||||||||||||||||||| | |||||||| |||||||| ||||||
+Sbjct  1118  ATCACTTGGCTGAAAAACGGCATGGATGTCTCAGCCCAGATGTCCAAACAGCTGTCCCTT  1177
+
+Query  123   TT  124
+             ||
+Sbjct  1178  TT  1179
+
+
+ Score = 147 bits (79),  Expect = 6e-30
+ Identities = 105/118 (89%), Gaps = 0/118 (0%)
+ Strand=Plus/Plus
+
+Query  4660  GCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCGCC  4719
+             ||||||||||||||||||||||||||||||||||||| || |||||  || || | |  |
+Sbjct  1317  GCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGACGATGGCATTGTCGTCGTCCATC  1376
+
+Query  4720  CTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| || |||||||||||||||||||||||||||||| |||||||| |||||||||||
+Sbjct  1377  CTGTGGACTGCGAGATCCAGAGGCACCTCAAACCCACAGAGAAGATTTTCATGAGCTA  1434
+
+
+>XM_005376123.2 PREDICTED: Chinchilla lanigera follistatin-like 4 (Fstl4), transcript 
+variant X1, mRNA
+Length=2639
+
+ Score = 165 bits (89),  Expect = 2e-35
+ Identities = 111/122 (91%), Gaps = 0/122 (0%)
+ Strand=Plus/Plus
+
+Query  3     CAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCAGG  62
+             |||||||| |||||||| ||||| |||||||||||||| ||||||||||| | |||||| 
+Sbjct  1058  CAGGAGCCCGGGGTGGCGGCCAGCCTGAGATGCCACGCGGAGGGCATTCCCACGCCCAGA  1117
+
+Query  63    ATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCCTT  122
+             ||||||||||||||||||||||||||||||||| | |||||||| |||||||| ||||||
+Sbjct  1118  ATCACTTGGCTGAAAAACGGCATGGATGTCTCAGCCCAGATGTCCAAACAGCTGTCCCTT  1177
+
+Query  123   TT  124
+             ||
+Sbjct  1178  TT  1179
+
+
+ Score = 150 bits (81),  Expect = 5e-31
+ Identities = 107/120 (89%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||||||||||||||||||||||||||||||||| || |||||  || || | | 
+Sbjct  1342  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGACGATGGCATTGTCGTCGTCCA  1401
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+              |||| || |||||||||||||||||||||||||||||| |||||||| |||||||||||
+Sbjct  1402  TCCTGTGGACTGCGAGATCCAGAGGCACCTCAAACCCACAGAGAAGATTTTCATGAGCTA  1461
+
+
+>XM_023583916.1 PREDICTED: Dasypus novemcinctus follistatin-related protein 4-like 
+(LOC101419635), partial mRNA
+Length=1722
+
+ Score = 163 bits (88),  Expect = 6e-35
+ Identities = 112/124 (90%), Gaps = 0/124 (0%)
+ Strand=Plus/Plus
+
+Query  3     CAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCAGG  62
+             |||||||| |||||||  ||||| ||||||||||| |||||||||||||| | |||||| 
+Sbjct  1318  CAGGAGCCCGGGGTGGTGGCCAGCCTGAGATGCCATGCAGAGGGCATTCCCACGCCCAGA  1377
+
+Query  63    ATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCCTT  122
+             ||||  ||||||||||||||| ||||||||||||| ||||||||||||||||||||||||
+Sbjct  1378  ATCAGCTGGCTGAAAAACGGCCTGGATGTCTCAACCCAGATGTCTAAACAGCTCTCCCTT  1437
+
+Query  123   TTAG  126
+             ||||
+Sbjct  1438  TTAG  1441
+
+
+ Score = 163 bits (88),  Expect = 6e-35
+ Identities = 110/121 (91%), Gaps = 0/121 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||||||||||||||||||||||||||||||||| || ||||| ||| || | | 
+Sbjct  1602  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGACGATGGCATTATCGTCATCCA  1661
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             |||  ||| ||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1662  CCCCTCGGACTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1721
+
+Query  4778  T  4778
+             |
+Sbjct  1722  T  1722
+
+
+>XM_019209874.1 PREDICTED: Fukomys damarensis follistatin like 4 (Fstl4), mRNA
+Length=9366
+
+ Score = 163 bits (88),  Expect = 6e-35
+ Identities = 110/121 (91%), Gaps = 0/121 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| |||||||| ||||| ||| |||||||||||||||||||||| |||||||
+Sbjct  2906  CACAGGAGCCCGGGGTGGCGGCCAGCCTGCGATGCCACGCAGAGGGCATTCCCATGCCCA  2965
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | ||||||||||||||||||||||||||||||||  | |||||||| |||||||| ||||
+Sbjct  2966  GAATCACTTGGCTGAAAAACGGCATGGATGTCTCGGCCCAGATGTCCAAACAGCTGTCCC  3025
+
+Query  121   T  121
+             |
+Sbjct  3026  T  3026
+
+
+ Score = 145 bits (78),  Expect = 2e-29
+ Identities = 106/120 (88%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||||||||||||||||||||||||||||||||||||||||||  |  || | | 
+Sbjct  3192  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATTGTGGTCGTCCA  3251
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||||| |  ||| |||||||||||||||||||||||||| |||||||||||||  |||||
+Sbjct  3252  CCCTGTGCACTGTGAGATCCAGAGGCACCTCAAACCCACAGAGAAGATCTTCACCAGCTA  3311
+
+
+>XM_006888071.1 PREDICTED: Elephantulus edwardii follistatin-like 4 (FSTL4), 
+mRNA
+Length=2520
+
+ Score = 163 bits (88),  Expect = 6e-35
+ Identities = 108/118 (92%), Gaps = 0/118 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||||||||| |||||||| ||||| ||||||||||| ||||| |||||||| |||||||
+Sbjct  1046  CACAGGAGCCCGGGGTGGCGGCCAGCCTGAGATGCCATGCAGAAGGCATTCCCATGCCCA  1105
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTC  118
+             | ||||||||||||||||| || ||| |||||||||||||||||||||||||||||||
+Sbjct  1106  GAATCACTTGGCTGAAAAATGGAATGAATGTCTCAACTCAGATGTCTAAACAGCTCTC  1163
+
+
+>XM_024124790.2 PREDICTED: Physeter catodon follistatin like 4 (FSTL4), mRNA
+Length=2806
+
+ Score = 161 bits (87),  Expect = 2e-34
+ Identities = 109/120 (91%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||| |||||||||| || ||||| |||||||||| 
+Sbjct  1609  AGGCCTCAGTGTGGGAAACATGTTCTACATCTTCTCCGACGATGGCATAATCATCCTGCA  1668
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||||||||  ||||||||||||||||||||
+Sbjct  1669  CCCAGTGGACTGTGAGATCCAGAGGCACCTCAAACCCATGGAGAAGATCTTCATGAGCTA  1728
+
+
+>XM_008071447.2 PREDICTED: Carlito syrichta follistatin like 4 (FSTL4), mRNA
+Length=2744
+
+ Score = 161 bits (87),  Expect = 2e-34
+ Identities = 113/126 (90%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1    CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+            ||||||| || |||||||| ||||| ||||||||||| |||||||| || || |||||||
+Sbjct  654  CACAGGAACCTGGGGTGGCGGCCAGCCTGAGATGCCATGCAGAGGGTATCCCCATGCCCA  713
+
+Query  61   GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+            | ||||||||||||||||||||||||||||||||||| |||||||| ||||||||||| |
+Sbjct  714  GAATCACTTGGCTGAAAAACGGCATGGATGTCTCAACCCAGATGTCCAAACAGCTCTCTC  773
+
+Query  121  TTTTAG  126
+            | ||||
+Sbjct  774  TGTTAG  779
+
+
+>XM_019924423.1 PREDICTED: Tursiops truncatus follistatin like 4 (FSTL4), mRNA
+Length=2809
+
+ Score = 161 bits (87),  Expect = 2e-34
+ Identities = 109/120 (91%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||| |||||||||| || ||||| |||||||||| 
+Sbjct  1588  AGGCCTCAGTGTGGGAAACATGTTCTACATCTTCTCCGACGATGGCATAATCATCCTGCA  1647
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| ||||||||||||||||||| |||||| ||||||||||||||||||||
+Sbjct  1648  CCCGGTGGACTGTGAGATCCAGAGGCACCTCAGACCCACGGAGAAGATCTTCATGAGCTA  1707
+
+
+>XM_014856745.1 PREDICTED: Equus asinus follistatin-like 4 (FSTL4), mRNA
+Length=8398
+
+ Score = 161 bits (87),  Expect = 2e-34
+ Identities = 109/120 (91%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||| |||||| | || ||||| |||||||||| 
+Sbjct  1531  AGGCCTCAGTGTGGGAAACATGTTCTACGTTTTCTCCAACGATGGCATTATCATCCTGCA  1590
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||| ||||||||||||||||||||||||||||||||
+Sbjct  1591  CCCAGTGGACTGTGAGATCCAGAGGCATCTCAAACCCACTGAGAAGATCTTCATGAGCTA  1650
+
+
+>XM_013030921.1 PREDICTED: Dipodomys ordii follistatin-like 4 (Fstl4), mRNA
+Length=3108
+
+ Score = 161 bits (87),  Expect = 2e-34
+ Identities = 119/135 (88%), Gaps = 0/135 (0%)
+ Strand=Plus/Plus
+
+Query  517   AGCCAACGGGAGCGAGCTCCACATCGCCAGCGTCCGGTATGAGGACACAGGGGCCTACAC  576
+             |||||| |||||||| |||||||||| |||||||||||| || |||||||| || |||||
+Sbjct  1231  AGCCAATGGGAGCGAACTCCACATCGGCAGCGTCCGGTACGAAGACACAGGAGCATACAC  1290
+
+Query  577   CTGCATCGCCAAAAACGAAGTGGGTGTGGACGAAGATATCTCCTCACTCTTTATTGAAGA  636
+             |||||||||||||||||||||||| ||||| ||||| |||||||| ||||| ||||| ||
+Sbjct  1291  CTGCATCGCCAAAAACGAAGTGGGCGTGGATGAAGACATCTCCTCCCTCTTCATTGAGGA  1350
+
+Query  637   CTCGGCCAGAAAGAC  651
+             ||| || || |||||
+Sbjct  1351  CTCCGCTAGGAAGAC  1365
+
+
+ Score = 148 bits (80),  Expect = 2e-30
+ Identities = 108/122 (89%), Gaps = 0/122 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||| ||||||||||||||||||||||||||||| ||||||||| |  || | | 
+Sbjct  1393  AGGCCTCAGCGTGGGAAACATGTTCTACGTCTTCTCCGACGACGGCATCGTGGTCATCCA  1452
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| |||| ||| ||||||||| |||||||||||||||| |||||||| |||||||||||
+Sbjct  1453  CCCCGCGGACTGTGAGATCCAGCGGCACCTCAAACCCACCGAGAAGATTTTCATGAGCTA  1512
+
+Query  4778  TG  4779
+             ||
+Sbjct  1513  TG  1514
+
+
+>XM_004686719.2 PREDICTED: Condylura cristata follistatin-like 4 (FSTL4), mRNA
+Length=2927
+
+ Score = 161 bits (87),  Expect = 2e-34
+ Identities = 109/120 (91%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||| ||||||||||||||||||||||||||||| ||||||||||||| ||| | 
+Sbjct  1335  AGGCCTCAGCGTGGGAAACATGTTCTACGTCTTCTCCGACGACGGCATCATCAGCCTCCA  1394
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| || | ||| |||||||||||||||||||| ||||| ||||||||||||||||||||
+Sbjct  1395  CCCCGCAGACTGTGAGATCCAGAGGCACCTCAAGCCCACAGAGAAGATCTTCATGAGCTA  1454
+
+
+ Score = 152 bits (82),  Expect = 1e-31
+ Identities = 110/124 (89%), Gaps = 0/124 (0%)
+ Strand=Plus/Plus
+
+Query  3     CAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCAGG  62
+             |||||||| |||||||| ||||| ||| | ||||||||||||||||| || | |||||| 
+Sbjct  1051  CAGGAGCCTGGGGTGGCGGCCAGCCTGCGGTGCCACGCAGAGGGCATCCCCACGCCCAGA  1110
+
+Query  63    ATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCCTT  122
+             ||||  |||||||| ||||||||||||||||| || ||||||||||||||||||||||||
+Sbjct  1111  ATCAAATGGCTGAAGAACGGCATGGATGTCTCCACCCAGATGTCTAAACAGCTCTCCCTT  1170
+
+Query  123   TTAG  126
+             ||||
+Sbjct  1171  TTAG  1174
+
+
+>XM_007461353.1 PREDICTED: Lipotes vexillifer follistatin-like 4 (FSTL4), mRNA
+Length=2535
+
+ Score = 161 bits (87),  Expect = 2e-34
+ Identities = 109/120 (91%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||| |||||||||| || ||||| |||||||||| 
+Sbjct  1338  AGGCCTCAGTGTGGGAAACATGTTCTACATCTTCTCCGACGATGGCATAATCATCCTGCA  1397
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||||||||| |||||| |||||||||||||
+Sbjct  1398  CCCAGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACGGAGAAGGTCTTCATGAGCTA  1457
+
+
+>XM_020908085.1 PREDICTED: Odocoileus virginianus texanus follistatin like 4 
+(FSTL4), transcript variant X7, mRNA
+Length=4872
+
+ Score = 156 bits (84),  Expect = 1e-32
+ Identities = 108/120 (90%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||||||||  | ||||| ||| |||||| 
+Sbjct  1042  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGACAATGGCATAATCGTCCTGCA  1101
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||| ||||| ||||||||||||||||||||
+Sbjct  1102  CCCAGTGGACTGTGAGATCCAGAGGCACCTCAAGCCCACGGAGAAGATCTTCATGAGCTA  1161
+
+
+>XM_020908084.1 PREDICTED: Odocoileus virginianus texanus follistatin like 4 
+(FSTL4), transcript variant X6, mRNA
+Length=4800
+
+ Score = 156 bits (84),  Expect = 1e-32
+ Identities = 108/120 (90%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||||||||  | ||||| ||| |||||| 
+Sbjct  970   AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGACAATGGCATAATCGTCCTGCA  1029
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||| ||||| ||||||||||||||||||||
+Sbjct  1030  CCCAGTGGACTGTGAGATCCAGAGGCACCTCAAGCCCACGGAGAAGATCTTCATGAGCTA  1089
+
+
+>XM_020908083.1 PREDICTED: Odocoileus virginianus texanus follistatin like 4 
+(FSTL4), transcript variant X5, mRNA
+Length=5418
+
+ Score = 156 bits (84),  Expect = 1e-32
+ Identities = 108/120 (90%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||||||||  | ||||| ||| |||||| 
+Sbjct  1588  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGACAATGGCATAATCGTCCTGCA  1647
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||| ||||| ||||||||||||||||||||
+Sbjct  1648  CCCAGTGGACTGTGAGATCCAGAGGCACCTCAAGCCCACGGAGAAGATCTTCATGAGCTA  1707
+
+
+>XM_020908082.1 PREDICTED: Odocoileus virginianus texanus follistatin like 4 
+(FSTL4), transcript variant X4, mRNA
+Length=5225
+
+ Score = 156 bits (84),  Expect = 1e-32
+ Identities = 108/120 (90%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||||||||  | ||||| ||| |||||| 
+Sbjct  1395  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGACAATGGCATAATCGTCCTGCA  1454
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||| ||||| ||||||||||||||||||||
+Sbjct  1455  CCCAGTGGACTGTGAGATCCAGAGGCACCTCAAGCCCACGGAGAAGATCTTCATGAGCTA  1514
+
+
+>XM_020908081.1 PREDICTED: Odocoileus virginianus texanus follistatin like 4 
+(FSTL4), transcript variant X3, mRNA
+Length=5568
+
+ Score = 156 bits (84),  Expect = 1e-32
+ Identities = 108/120 (90%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||||||||  | ||||| ||| |||||| 
+Sbjct  1738  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGACAATGGCATAATCGTCCTGCA  1797
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||| ||||| ||||||||||||||||||||
+Sbjct  1798  CCCAGTGGACTGTGAGATCCAGAGGCACCTCAAGCCCACGGAGAAGATCTTCATGAGCTA  1857
+
+
+>XM_020908080.1 PREDICTED: Odocoileus virginianus texanus follistatin like 4 
+(FSTL4), transcript variant X2, mRNA
+Length=5768
+
+ Score = 156 bits (84),  Expect = 1e-32
+ Identities = 108/120 (90%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||||||||  | ||||| ||| |||||| 
+Sbjct  1938  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGACAATGGCATAATCGTCCTGCA  1997
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||| ||||| ||||||||||||||||||||
+Sbjct  1998  CCCAGTGGACTGTGAGATCCAGAGGCACCTCAAGCCCACGGAGAAGATCTTCATGAGCTA  2057
+
+
+>XM_020908079.1 PREDICTED: Odocoileus virginianus texanus follistatin like 4 
+(FSTL4), transcript variant X1, mRNA
+Length=5653
+
+ Score = 156 bits (84),  Expect = 1e-32
+ Identities = 108/120 (90%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||||||||  | ||||| ||| |||||| 
+Sbjct  1823  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGACAATGGCATAATCGTCCTGCA  1882
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||| ||||| ||||||||||||||||||||
+Sbjct  1883  CCCAGTGGACTGTGAGATCCAGAGGCACCTCAAGCCCACGGAGAAGATCTTCATGAGCTA  1942
+
+
+>XM_007172137.1 PREDICTED: Balaenoptera acutorostrata scammoni follistatin like 
+4 (FSTL4), transcript variant X2, mRNA
+Length=8107
+
+ Score = 156 bits (84),  Expect = 1e-32
+ Identities = 108/120 (90%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||| |||||||||| || ||||| ||| |||||| 
+Sbjct  1343  AGGCCTCAGTGTGGGAAACATGTTCTACATCTTCTCCGACGATGGCATAATCGTCCTGCA  1402
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||||||||| |||||||||||| |||||||
+Sbjct  1403  CCCAGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACGGAGAAGATCTTCGTGAGCTA  1462
+
+
+>XM_007172136.1 PREDICTED: Balaenoptera acutorostrata scammoni follistatin like 
+4 (FSTL4), transcript variant X1, mRNA
+Length=8110
+
+ Score = 156 bits (84),  Expect = 1e-32
+ Identities = 108/120 (90%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||| |||||||||| || ||||| ||| |||||| 
+Sbjct  1346  AGGCCTCAGTGTGGGAAACATGTTCTACATCTTCTCCGACGATGGCATAATCGTCCTGCA  1405
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| |||||||||||||||||||||||||| |||||||||||| |||||||
+Sbjct  1406  CCCAGTGGACTGTGAGATCCAGAGGCACCTCAAACCCACGGAGAAGATCTTCGTGAGCTA  1465
+
+
+>XM_012441992.1 PREDICTED: Aotus nancymaae follistatin like 4 (FSTL4), transcript 
+variant X1, mRNA
+Length=8469
+
+ Score = 154 bits (83),  Expect = 4e-32
+ Identities = 109/122 (89%), Gaps = 0/122 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||| ||||||||||||||||||||||||||||| |||||||||||| || | | 
+Sbjct  1588  AGGCCTCAGCGTGGGAAACATGTTCTACGTCTTCTCCGACGACGGCATCATCGTCATCCA  1647
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+              |||| || ||| ||||||||||||||||| |||||||| |||||||| |||||||||||
+Sbjct  1648  TCCTGTGGACTGTGAGATCCAGAGGCACCTGAAACCCACAGAGAAGATTTTCATGAGCTA  1707
+
+Query  4778  TG  4779
+             ||
+Sbjct  1708  TG  1709
+
+
+>XM_023713103.1 PREDICTED: Octodon degus follistatin like 4 (Fstl4), mRNA
+Length=2731
+
+ Score = 152 bits (82),  Expect = 1e-31
+ Identities = 106/118 (90%), Gaps = 0/118 (0%)
+ Strand=Plus/Plus
+
+Query  4660  GCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCGCC  4719
+             ||||||||||||||||| |||||||| ||||||||||  |||||||  ||||| | | ||
+Sbjct  1436  GCCTCAGTGTGGGAAACGTGTTCTACATCTTCTCCGACAACGGCATTGTCATCATCCACC  1495
+
+Query  4720  CTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             |||||| |||||||||||||||||||||||||||||| |||||||| |||||||||||
+Sbjct  1496  CTGCGGACTGCGAGATCCAGAGGCACCTCAAACCCACGGAGAAGATTTTCATGAGCTA  1553
+
+
+>XM_017341563.1 PREDICTED: Oryctolagus cuniculus follistatin like 4 (FSTL4), 
+mRNA
+Length=7040
+
+ Score = 152 bits (82),  Expect = 1e-31
+ Identities = 110/124 (89%), Gaps = 0/124 (0%)
+ Strand=Plus/Plus
+
+Query  3     CAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCAGG  62
+             |||||||| |||||||| ||||| ||| ||||||||||||||||||| || |||||||| 
+Sbjct  949   CAGGAGCCCGGGGTGGCCGCCAGCCTGCGATGCCACGCAGAGGGCATCCCCATGCCCAGA  1008
+
+Query  63    ATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCCTT  122
+             ||||||||||||||||||||||||||||||||  | ||| |||| || |||||||| |||
+Sbjct  1009  ATCACTTGGCTGAAAAACGGCATGGATGTCTCGGCCCAGCTGTCCAAGCAGCTCTCGCTT  1068
+
+Query  123   TTAG  126
+             ||||
+Sbjct  1069  TTAG  1072
+
+
+ Score = 106 bits (57),  Expect = 1e-17
+ Identities = 94/112 (84%), Gaps = 1/112 (1%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||| ||||||||||||||||||||||||||||||||||||||| |  |  | | 
+Sbjct  1233  AGGCCTCAGCGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCGTGCTGGTCCA  1292
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAA-GATCTT  4768
+             ||||| |  ||||||| || || ||||||||||||| || ||| | ||||||
+Sbjct  1293  CCCTGTGTACTGCGAGTTCGAGCGGCACCTCAAACCTACCGAGCATGATCTT  1344
+
+
+>XM_012442064.1 PREDICTED: Aotus nancymaae follistatin like 4 (FSTL4), transcript 
+variant X2, mRNA
+Length=8247
+
+ Score = 150 bits (81),  Expect = 5e-31
+ Identities = 107/120 (89%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4660  GCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCGCC  4719
+             ||||||| ||||||||||||||||||||||||||||| |||||||||||| || | |  |
+Sbjct  1368  GCCTCAGCGTGGGAAACATGTTCTACGTCTTCTCCGACGACGGCATCATCGTCATCCATC  1427
+
+Query  4720  CTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTATG  4779
+             ||| || ||| ||||||||||||||||| |||||||| |||||||| |||||||||||||
+Sbjct  1428  CTGTGGACTGTGAGATCCAGAGGCACCTGAAACCCACAGAGAAGATTTTCATGAGCTATG  1487
+
+
+>XM_004696992.1 PREDICTED: Echinops telfairi follistatin-like 4 (FSTL4), mRNA
+Length=2193
+
+ Score = 150 bits (81),  Expect = 5e-31
+ Identities = 107/120 (89%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||| ||||||| |||||| || || | | 
+Sbjct  1005  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCGCCGATGATGGCATCGTCGTCGTCCA  1064
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| ||||||||||||||||| |||||||| ||||||||||||||||||||
+Sbjct  1065  CCCCGGGGACTGTGAGATCCAGAGGCACCTGAAACCCACCGAGAAGATCTTCATGAGCTA  1124
+
+
+>LR584069.1 Scleropages formosus genome assembly, chromosome: 4
+Length=39064107
+
+ Score = 147 bits (79),  Expect = 6e-30
+ Identities = 123/145 (85%), Gaps = 0/145 (0%)
+ Strand=Plus/Plus
+
+Query  515       GCAGCCAACGGGAGCGAGCTCCACATCGCCAGCGTCCGGTATGAGGACACAGGGGCCTAC  574
+                 |||||||| || |||||||| ||||| |  || || || |||||||||||||||||||||
+Sbjct  31889292  GCAGCCAATGGCAGCGAGCTTCACATTGGAAGTGTGCGCTATGAGGACACAGGGGCCTAC  31889351
+
+Query  575       ACCTGCATCGCCAAAAACGAAGTGGGTGTGGACGAAGATATCTCCTCACTCTTTATTGAA  634
+                 |||||||| ||||||||||| ||||| |||||||| |||||||||||  | ||  | || 
+Sbjct  31889352  ACCTGCATTGCCAAAAACGATGTGGGAGTGGACGAGGATATCTCCTCGTTGTTCGTGGAG  31889411
+
+Query  635       GACTCGGCCAGAAAGACCCGTGAGT  659
+                 ||||| ||||||||||| |||||||
+Sbjct  31889412  GACTCTGCCAGAAAGACACGTGAGT  31889436
+
+
+>AF463762.1 Mus musculus strain C57BL/6J cytokine gene cluster, partial sequence
+Length=14207
+
+ Score = 145 bits (78),  Expect = 2e-29
+ Identities = 114/132 (86%), Gaps = 0/132 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||| || || |||||||| ||||| ||  ||||||| || |||||||| ||  ||||||
+Sbjct  1181  CACAAGAACCTGGGGTGGCAGCCAGCCTTCGATGCCATGCTGAGGGCATCCCCCTGCCCA  1240
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | |||| |||||||||||||||||||||||||||||| |||||||| |||||||||||||
+Sbjct  1241  GAATCATTTGGCTGAAAAACGGCATGGATGTCTCAACCCAGATGTCCAAACAGCTCTCCC  1300
+
+Query  121   TTTTAGGTAAGA  132
+             | || |||||||
+Sbjct  1301  TCTTGGGTAAGA  1312
+
+
+>AL596382.12 Mouse DNA sequence from clone RP23-337J7 on chromosome 11, complete 
+sequence
+Length=225083
+
+ Score = 145 bits (78),  Expect = 2e-29
+ Identities = 114/132 (86%), Gaps = 0/132 (0%)
+ Strand=Plus/Plus
+
+Query  1      CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+              |||| || || |||||||| ||||| ||  ||||||| || |||||||| ||  ||||||
+Sbjct  94908  CACAAGAACCTGGGGTGGCAGCCAGCCTTCGATGCCATGCTGAGGGCATCCCCCTGCCCA  94967
+
+Query  61     GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+              | |||| |||||||||||||||||||||||||||||| |||||||| |||||||||||||
+Sbjct  94968  GAATCATTTGGCTGAAAAACGGCATGGATGTCTCAACCCAGATGTCCAAACAGCTCTCCC  95027
+
+Query  121    TTTTAGGTAAGA  132
+              | || |||||||
+Sbjct  95028  TCTTGGGTAAGA  95039
+
+
+>XM_020181280.1 PREDICTED: Castor canadensis follistatin like 4 (Fstl4), mRNA
+Length=2755
+
+ Score = 143 bits (77),  Expect = 8e-29
+ Identities = 110/125 (88%), Gaps = 6/125 (5%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCAT--CA-TCATCCT  4714
+             |||||||||||||||||||||||||||||||||||| ||||| |||||  |  |||||| 
+Sbjct  1344  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCTGATGATGGCATTGCTGTCATCCA  1403
+
+Query  4715  GCGCCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAG  4774
+                |||||||| ||| ||||||||||||||||||| |||||| |||||||| ||||||||
+Sbjct  1404  ---CCCTGCGGACTGTGAGATCCAGAGGCACCTCAGACCCACGGAGAAGATTTTCATGAG  1460
+
+Query  4775  CTATG  4779
+             |||||
+Sbjct  1461  CTATG  1465
+
+
+>AC155318.2 Ornithorhynchus anatinus chromosome UNK clone OABb-158A1, complete 
+sequence
+Length=163918
+
+ Score = 141 bits (76),  Expect = 3e-28
+ Identities = 120/142 (85%), Gaps = 0/142 (0%)
+ Strand=Plus/Minus
+
+Query  517     AGCCAACGGGAGCGAGCTCCACATCGCCAGCGTCCGGTATGAGGACACAGGGGCCTACAC  576
+               |||||| |||||||| || ||||||  ||||||||| ||||| ||||| || ||||| ||
+Sbjct  106498  AGCCAATGGGAGCGAACTGCACATCCGCAGCGTCCGCTATGAAGACACCGGCGCCTATAC  106439
+
+Query  577     CTGCATCGCCAAAAACGAAGTGGGTGTGGACGAAGATATCTCCTCACTCTTTATTGAAGA  636
+               ||| || || ||||| || ||||| |||||||| || || || || ||||||||||||||
+Sbjct  106438  CTGTATTGCTAAAAATGAGGTGGGGGTGGACGAGGACATTTCTTCTCTCTTTATTGAAGA  106379
+
+Query  637     CTCGGCCAGAAAGACCCGTGAG  658
+               ||||||||||||||||||| ||
+Sbjct  106378  CTCGGCCAGAAAGACCCGTAAG  106357
+
+
+>XM_029050943.1 PREDICTED: Ornithorhynchus anatinus follistatin like 4 (FSTL4), 
+transcript variant X2, mRNA
+Length=3296
+
+ Score = 139 bits (75),  Expect = 1e-27
+ Identities = 117/138 (85%), Gaps = 0/138 (0%)
+ Strand=Plus/Plus
+
+Query  517   AGCCAACGGGAGCGAGCTCCACATCGCCAGCGTCCGGTATGAGGACACAGGGGCCTACAC  576
+             |||||| |||||||| || ||||||  ||||||||| ||||| ||||| || ||||| ||
+Sbjct  1323  AGCCAATGGGAGCGAACTGCACATCCGCAGCGTCCGCTATGAAGACACCGGCGCCTATAC  1382
+
+Query  577   CTGCATCGCCAAAAACGAAGTGGGTGTGGACGAAGATATCTCCTCACTCTTTATTGAAGA  636
+             ||| || || ||||| || ||||| |||||||| || || || || ||||||||||||||
+Sbjct  1383  CTGTATTGCTAAAAATGAGGTGGGGGTGGACGAGGACATTTCTTCTCTCTTTATTGAAGA  1442
+
+Query  637   CTCGGCCAGAAAGACCCG  654
+             ||||||||||||||||||
+Sbjct  1443  CTCGGCCAGAAAGACCCG  1460
+
+
+>XM_029050942.1 PREDICTED: Ornithorhynchus anatinus follistatin like 4 (FSTL4), 
+transcript variant X1, mRNA
+Length=3323
+
+ Score = 137 bits (74),  Expect = 4e-27
+ Identities = 116/137 (85%), Gaps = 0/137 (0%)
+ Strand=Plus/Plus
+
+Query  517   AGCCAACGGGAGCGAGCTCCACATCGCCAGCGTCCGGTATGAGGACACAGGGGCCTACAC  576
+             |||||| |||||||| || ||||||  ||||||||| ||||| ||||| || ||||| ||
+Sbjct  1323  AGCCAATGGGAGCGAACTGCACATCCGCAGCGTCCGCTATGAAGACACCGGCGCCTATAC  1382
+
+Query  577   CTGCATCGCCAAAAACGAAGTGGGTGTGGACGAAGATATCTCCTCACTCTTTATTGAAGA  636
+             ||| || || ||||| || ||||| |||||||| || || || || ||||||||||||||
+Sbjct  1383  CTGTATTGCTAAAAATGAGGTGGGGGTGGACGAGGACATTTCTTCTCTCTTTATTGAAGA  1442
+
+Query  637   CTCGGCCAGAAAGACCC  653
+             |||||||||||||||||
+Sbjct  1443  CTCGGCCAGAAAGACCC  1459
+
+
+>XM_004384723.1 PREDICTED: Trichechus manatus latirostris follistatin like 4 
+(LOC101351881), mRNA
+Length=2526
+
+ Score = 137 bits (74),  Expect = 4e-27
+ Identities = 106/122 (87%), Gaps = 0/122 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||||| || || ||||| |   || | | 
+Sbjct  1338  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCTGACGATGGCATTACTGTCATCCA  1397
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||||| || ||| |||||||||||||| |||||||||| ||||||||| |||||||||||
+Sbjct  1398  CCCTGTGGACTGTGAGATCCAGAGGCATCTCAAACCCAGTGAGAAGATTTTCATGAGCTA  1457
+
+Query  4778  TG  4779
+             ||
+Sbjct  1458  TG  1459
+
+
+>XM_021176957.2 PREDICTED: Mus caroli follistatin like 4 (Fstl4), transcript 
+variant X2, mRNA
+Length=3418
+
+ Score = 135 bits (73),  Expect = 1e-26
+ Identities = 105/121 (87%), Gaps = 0/121 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||| || || |||||||| ||||| ||  ||||||| || |||||||| ||  ||||||
+Sbjct  1285  CACAAGAACCTGGGGTGGCAGCCAGCCTTCGATGCCATGCTGAGGGCATCCCCCTGCCCA  1344
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | |||| |||||||||||||||||||||||||||||| |||||||| |||||||||||||
+Sbjct  1345  GAATCATTTGGCTGAAAAACGGCATGGATGTCTCAACCCAGATGTCCAAACAGCTCTCCC  1404
+
+Query  121   T  121
+             |
+Sbjct  1405  T  1405
+
+
+>XM_029483851.1 PREDICTED: Mus caroli follistatin like 4 (Fstl4), transcript 
+variant X1, mRNA
+Length=3267
+
+ Score = 135 bits (73),  Expect = 1e-26
+ Identities = 105/121 (87%), Gaps = 0/121 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||| || || |||||||| ||||| ||  ||||||| || |||||||| ||  ||||||
+Sbjct  1134  CACAAGAACCTGGGGTGGCAGCCAGCCTTCGATGCCATGCTGAGGGCATCCCCCTGCCCA  1193
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | |||| |||||||||||||||||||||||||||||| |||||||| |||||||||||||
+Sbjct  1194  GAATCATTTGGCTGAAAAACGGCATGGATGTCTCAACCCAGATGTCCAAACAGCTCTCCC  1253
+
+Query  121   T  121
+             |
+Sbjct  1254  T  1254
+
+
+>XM_006533539.3 PREDICTED: Mus musculus follistatin-like 4 (Fstl4), transcript 
+variant X2, mRNA
+Length=8871
+
+ Score = 135 bits (73),  Expect = 1e-26
+ Identities = 105/121 (87%), Gaps = 0/121 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||| || || |||||||| ||||| ||  ||||||| || |||||||| ||  ||||||
+Sbjct  1887  CACAAGAACCTGGGGTGGCAGCCAGCCTTCGATGCCATGCTGAGGGCATCCCCCTGCCCA  1946
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | |||| |||||||||||||||||||||||||||||| |||||||| |||||||||||||
+Sbjct  1947  GAATCATTTGGCTGAAAAACGGCATGGATGTCTCAACCCAGATGTCCAAACAGCTCTCCC  2006
+
+Query  121   T  121
+             |
+Sbjct  2007  T  2007
+
+
+>XR_388477.3 PREDICTED: Mus musculus follistatin-like 4 (Fstl4), transcript 
+variant X1, misc_RNA
+Length=6973
+
+ Score = 135 bits (73),  Expect = 1e-26
+ Identities = 105/121 (87%), Gaps = 0/121 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||| || || |||||||| ||||| ||  ||||||| || |||||||| ||  ||||||
+Sbjct  1900  CACAAGAACCTGGGGTGGCAGCCAGCCTTCGATGCCATGCTGAGGGCATCCCCCTGCCCA  1959
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | |||| |||||||||||||||||||||||||||||| |||||||| |||||||||||||
+Sbjct  1960  GAATCATTTGGCTGAAAAACGGCATGGATGTCTCAACCCAGATGTCCAAACAGCTCTCCC  2019
+
+Query  121   T  121
+             |
+Sbjct  2020  T  2020
+
+
+>BC144824.1 Mus musculus cDNA clone IMAGE:9053372
+Length=3036
+
+ Score = 135 bits (73),  Expect = 1e-26
+ Identities = 105/121 (87%), Gaps = 0/121 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||| || || |||||||| ||||| ||  ||||||| || |||||||| ||  ||||||
+Sbjct  1206  CACAAGAACCTGGGGTGGCAGCCAGCCTTCGATGCCATGCTGAGGGCATCCCCCTGCCCA  1265
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | |||| |||||||||||||||||||||||||||||| |||||||| |||||||||||||
+Sbjct  1266  GAATCATTTGGCTGAAAAACGGCATGGATGTCTCAACCCAGATGTCCAAACAGCTCTCCC  1325
+
+Query  121   T  121
+             |
+Sbjct  1326  T  1326
+
+
+>NM_177059.3 Mus musculus follistatin-like 4 (Fstl4), mRNA
+ AF374459.1 Mus musculus SPIG1-A mRNA, complete cds
+Length=3117
+
+ Score = 135 bits (73),  Expect = 1e-26
+ Identities = 105/121 (87%), Gaps = 0/121 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||| || || |||||||| ||||| ||  ||||||| || |||||||| ||  ||||||
+Sbjct  1236  CACAAGAACCTGGGGTGGCAGCCAGCCTTCGATGCCATGCTGAGGGCATCCCCCTGCCCA  1295
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | |||| |||||||||||||||||||||||||||||| |||||||| |||||||||||||
+Sbjct  1296  GAATCATTTGGCTGAAAAACGGCATGGATGTCTCAACCCAGATGTCCAAACAGCTCTCCC  1355
+
+Query  121   T  121
+             |
+Sbjct  1356  T  1356
+
+
+>AK220367.1 Mus musculus mRNA for mKIAA1061 protein
+Length=2099
+
+ Score = 135 bits (73),  Expect = 1e-26
+ Identities = 105/121 (87%), Gaps = 0/121 (0%)
+ Strand=Plus/Plus
+
+Query  1    CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+            |||| || || |||||||| ||||| ||  ||||||| || |||||||| ||  ||||||
+Sbjct  616  CACAAGAACCTGGGGTGGCAGCCAGCCTTCGATGCCATGCTGAGGGCATCCCCCTGCCCA  675
+
+Query  61   GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+            | |||| |||||||||||||||||||||||||||||| |||||||| |||||||||||||
+Sbjct  676  GAATCATTTGGCTGAAAAACGGCATGGATGTCTCAACCCAGATGTCCAAACAGCTCTCCC  735
+
+Query  121  T  121
+            |
+Sbjct  736  T  736
+
+
+>AK081114.1 Mus musculus 10 days neonate cerebellum cDNA, RIKEN full-length 
+enriched library, clone:B930089H01 product:hypothetical Immunoglobulin 
+and major histocompatibility complex domain /Kazal-type 
+serine protease inhibitor domain/EF-hand containing 
+protein, full insert sequence
+Length=2829
+
+ Score = 135 bits (73),  Expect = 1e-26
+ Identities = 105/121 (87%), Gaps = 0/121 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||| || || |||||||| ||||| ||  ||||||| || |||||||| ||  ||||||
+Sbjct  1286  CACAAGAACCTGGGGTGGCAGCCAGCCTTCGATGCCATGCTGAGGGCATACCCCTGCCCA  1345
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | |||| |||||||||||||||||||||||||||||| |||||||| |||||||||||||
+Sbjct  1346  GAATCATTTGGCTGAAAAACGGCATGGATGTCTCAACCCAGATGTCCAAACAGCTCTCCC  1405
+
+Query  121   T  121
+             |
+Sbjct  1406  T  1406
+
+
+>AK046350.1 Mus musculus adult male corpora quadrigemina cDNA, RIKEN full-length 
+enriched library, clone:B230374F23 product:hypothetical 
+Immunoglobulin and major histocompatibility complex domain 
+containing protein, full insert sequence
+Length=2834
+
+ Score = 135 bits (73),  Expect = 1e-26
+ Identities = 105/121 (87%), Gaps = 0/121 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||| || || |||||||| ||||| ||  ||||||| || |||||||| ||  ||||||
+Sbjct  1287  CACAAGAACCTGGGGTGGCAGCCAGCCTTCGATGCCATGCTGAGGGCATCCCCCTGCCCA  1346
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | |||| |||||||||||||||||||||||||||||| |||||||| |||||||||||||
+Sbjct  1347  GAATCATTTGGCTGAAAAACGGCATGGATGTCTCAACCCAGATGTCCAAACAGCTCTCCC  1406
+
+Query  121   T  121
+             |
+Sbjct  1407  T  1407
+
+
+>XM_018751700.2 PREDICTED: Scleropages formosus follistatin-related protein 4-like 
+(LOC108934170), mRNA
+Length=3358
+
+ Score = 134 bits (72),  Expect = 5e-26
+ Identities = 114/135 (84%), Gaps = 0/135 (0%)
+ Strand=Plus/Plus
+
+Query  517   AGCCAACGGGAGCGAGCTCCACATCGCCAGCGTCCGGTATGAGGACACAGGGGCCTACAC  576
+             |||||| || |||||||| ||||| |  || || || |||||||||||||||||||||||
+Sbjct  1184  AGCCAATGGCAGCGAGCTTCACATTGGAAGTGTGCGCTATGAGGACACAGGGGCCTACAC  1243
+
+Query  577   CTGCATCGCCAAAAACGAAGTGGGTGTGGACGAAGATATCTCCTCACTCTTTATTGAAGA  636
+             |||||| ||||||||||| ||||| |||||||| |||||||||||  | ||  | || ||
+Sbjct  1244  CTGCATTGCCAAAAACGATGTGGGAGTGGACGAGGATATCTCCTCGTTGTTCGTGGAGGA  1303
+
+Query  637   CTCGGCCAGAAAGAC  651
+             ||| |||||||||||
+Sbjct  1304  CTCTGCCAGAAAGAC  1318
+
+
+>XM_021241322.1 PREDICTED: Heterocephalus glaber follistatin like 4 (Fstl4), 
+transcript variant X13, mRNA
+Length=8131
+
+ Score = 134 bits (72),  Expect = 5e-26
+ Identities = 104/120 (87%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||||| || || |||||  |  || | | 
+Sbjct  1778  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCTGACGATGGCATTGTGGTCATCCA  1837
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||||| |  ||| |||||||||||||||||||||||||| |||||||| |||||||||||
+Sbjct  1838  CCCTGTGCACTGTGAGATCCAGAGGCACCTCAAACCCACAGAGAAGATTTTCATGAGCTA  1897
+
+
+>XM_021241312.1 PREDICTED: Heterocephalus glaber follistatin like 4 (Fstl4), 
+transcript variant X12, mRNA
+Length=8445
+
+ Score = 134 bits (72),  Expect = 5e-26
+ Identities = 104/120 (87%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||||| || || |||||  |  || | | 
+Sbjct  2092  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCTGACGATGGCATTGTGGTCATCCA  2151
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||||| |  ||| |||||||||||||||||||||||||| |||||||| |||||||||||
+Sbjct  2152  CCCTGTGCACTGTGAGATCCAGAGGCACCTCAAACCCACAGAGAAGATTTTCATGAGCTA  2211
+
+
+>XM_021241308.1 PREDICTED: Heterocephalus glaber follistatin like 4 (Fstl4), 
+transcript variant X11, mRNA
+Length=8583
+
+ Score = 134 bits (72),  Expect = 5e-26
+ Identities = 104/120 (87%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||||| || || |||||  |  || | | 
+Sbjct  2338  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCTGACGATGGCATTGTGGTCATCCA  2397
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||||| |  ||| |||||||||||||||||||||||||| |||||||| |||||||||||
+Sbjct  2398  CCCTGTGCACTGTGAGATCCAGAGGCACCTCAAACCCACAGAGAAGATTTTCATGAGCTA  2457
+
+
+>XM_021241299.1 PREDICTED: Heterocephalus glaber follistatin like 4 (Fstl4), 
+transcript variant X9, mRNA
+Length=8116
+
+ Score = 134 bits (72),  Expect = 5e-26
+ Identities = 104/120 (87%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||||| || || |||||  |  || | | 
+Sbjct  1763  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCTGACGATGGCATTGTGGTCATCCA  1822
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||||| |  ||| |||||||||||||||||||||||||| |||||||| |||||||||||
+Sbjct  1823  CCCTGTGCACTGTGAGATCCAGAGGCACCTCAAACCCACAGAGAAGATTTTCATGAGCTA  1882
+
+
+>XM_004836583.3 PREDICTED: Heterocephalus glaber follistatin like 4 (Fstl4), 
+transcript variant X8, mRNA
+Length=7933
+
+ Score = 134 bits (72),  Expect = 5e-26
+ Identities = 104/120 (87%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||||| || || |||||  |  || | | 
+Sbjct  1580  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCTGACGATGGCATTGTGGTCATCCA  1639
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||||| |  ||| |||||||||||||||||||||||||| |||||||| |||||||||||
+Sbjct  1640  CCCTGTGCACTGTGAGATCCAGAGGCACCTCAAACCCACAGAGAAGATTTTCATGAGCTA  1699
+
+
+>XM_021241289.1 PREDICTED: Heterocephalus glaber follistatin like 4 (Fstl4), 
+transcript variant X7, mRNA
+Length=8688
+
+ Score = 134 bits (72),  Expect = 5e-26
+ Identities = 104/120 (87%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||||| || || |||||  |  || | | 
+Sbjct  2335  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCTGACGATGGCATTGTGGTCATCCA  2394
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||||| |  ||| |||||||||||||||||||||||||| |||||||| |||||||||||
+Sbjct  2395  CCCTGTGCACTGTGAGATCCAGAGGCACCTCAAACCCACAGAGAAGATTTTCATGAGCTA  2454
+
+
+>XM_021241287.1 PREDICTED: Heterocephalus glaber follistatin like 4 (Fstl4), 
+transcript variant X6, mRNA
+Length=8573
+
+ Score = 134 bits (72),  Expect = 5e-26
+ Identities = 104/120 (87%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||||| || || |||||  |  || | | 
+Sbjct  2220  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCTGACGATGGCATTGTGGTCATCCA  2279
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||||| |  ||| |||||||||||||||||||||||||| |||||||| |||||||||||
+Sbjct  2280  CCCTGTGCACTGTGAGATCCAGAGGCACCTCAAACCCACAGAGAAGATTTTCATGAGCTA  2339
+
+
+>XM_021241286.1 PREDICTED: Heterocephalus glaber follistatin like 4 (Fstl4), 
+transcript variant X5, mRNA
+Length=8668
+
+ Score = 134 bits (72),  Expect = 5e-26
+ Identities = 104/120 (87%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||||| || || |||||  |  || | | 
+Sbjct  2315  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCTGACGATGGCATTGTGGTCATCCA  2374
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||||| |  ||| |||||||||||||||||||||||||| |||||||| |||||||||||
+Sbjct  2375  CCCTGTGCACTGTGAGATCCAGAGGCACCTCAAACCCACAGAGAAGATTTTCATGAGCTA  2434
+
+
+>XM_021241282.1 PREDICTED: Heterocephalus glaber follistatin like 4 (Fstl4), 
+transcript variant X4, mRNA
+Length=8695
+
+ Score = 134 bits (72),  Expect = 5e-26
+ Identities = 104/120 (87%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||||| || || |||||  |  || | | 
+Sbjct  2342  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCTGACGATGGCATTGTGGTCATCCA  2401
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||||| |  ||| |||||||||||||||||||||||||| |||||||| |||||||||||
+Sbjct  2402  CCCTGTGCACTGTGAGATCCAGAGGCACCTCAAACCCACAGAGAAGATTTTCATGAGCTA  2461
+
+
+>XM_021241278.1 PREDICTED: Heterocephalus glaber follistatin like 4 (Fstl4), 
+transcript variant X3, mRNA
+Length=8547
+
+ Score = 134 bits (72),  Expect = 5e-26
+ Identities = 104/120 (87%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||||| || || |||||  |  || | | 
+Sbjct  2194  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCTGACGATGGCATTGTGGTCATCCA  2253
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||||| |  ||| |||||||||||||||||||||||||| |||||||| |||||||||||
+Sbjct  2254  CCCTGTGCACTGTGAGATCCAGAGGCACCTCAAACCCACAGAGAAGATTTTCATGAGCTA  2313
+
+
+>XM_021241270.1 PREDICTED: Heterocephalus glaber follistatin like 4 (Fstl4), 
+transcript variant X2, mRNA
+Length=8871
+
+ Score = 134 bits (72),  Expect = 5e-26
+ Identities = 104/120 (87%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||||| || || |||||  |  || | | 
+Sbjct  2518  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCTGACGATGGCATTGTGGTCATCCA  2577
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||||| |  ||| |||||||||||||||||||||||||| |||||||| |||||||||||
+Sbjct  2578  CCCTGTGCACTGTGAGATCCAGAGGCACCTCAAACCCACAGAGAAGATTTTCATGAGCTA  2637
+
+
+>XM_021241264.1 PREDICTED: Heterocephalus glaber follistatin like 4 (Fstl4), 
+transcript variant X1, mRNA
+Length=8613
+
+ Score = 134 bits (72),  Expect = 5e-26
+ Identities = 104/120 (87%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             |||||||||||||||||||||||||||||||||||| || || |||||  |  || | | 
+Sbjct  2260  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCTGACGATGGCATTGTGGTCATCCA  2319
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||||| |  ||| |||||||||||||||||||||||||| |||||||| |||||||||||
+Sbjct  2320  CCCTGTGCACTGTGAGATCCAGAGGCACCTCAAACCCACAGAGAAGATTTTCATGAGCTA  2379
+
+
+>XM_006166916.2 PREDICTED: Tupaia chinensis follistatin like 4 (FSTL4), mRNA
+Length=4179
+
+ Score = 134 bits (72),  Expect = 5e-26
+ Identities = 104/120 (87%), Gaps = 0/120 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||| |||||||||||||||||||||||||||||  ||||||||  | || | | 
+Sbjct  1836  AGGCCTCAGCGTGGGAAACATGTTCTACGTCTTCTCCGACAACGGCATCGCCGTCATCCA  1895
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | || ||| ||||||||| |||||||||||||||| |||||||| |||||||||||
+Sbjct  1896  CCCCGTGGACTGTGAGATCCAGCGGCACCTCAAACCCACCGAGAAGATTTTCATGAGCTA  1955
+
+
+>XM_027949662.1 PREDICTED: Marmota flaviventris follistatin like 4 (Fstl4), mRNA
+Length=2602
+
+ Score = 132 bits (71),  Expect = 2e-25
+ Identities = 105/122 (86%), Gaps = 0/122 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||| |||||||||||||||||||||||||||||||||||| | || |||||  || | | 
+Sbjct  1411  AGGACTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATAATGGTATCATTGTCATCCA  1470
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             |||   || ||| |||||||||||||||||||||||||| |||||||| |||||||| ||
+Sbjct  1471  CCCCATGGACTGTGAGATCCAGAGGCACCTCAAACCCACAGAGAAGATTTTCATGAGTTA  1530
+
+Query  4778  TG  4779
+             ||
+Sbjct  1531  TG  1532
+
+
+>XM_003405014.2 PREDICTED: Loxodonta africana follistatin like 4 (FSTL4), mRNA
+Length=3247
+
+ Score = 132 bits (71),  Expect = 2e-25
+ Identities = 105/122 (86%), Gaps = 0/122 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||||||||||||||||||||| |||||||| ||  | ||||| ||  || | | 
+Sbjct  1338  AGGCCTCAGTGTGGGAAACATGTTCTATGTCTTCTCTGACAATGGCATTATTGTCATTCA  1397
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| | ||  || ||||||||||||||||||||||||||||||||||| |||||||||||
+Sbjct  1398  CCCCGAGGAGTGTGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATTTTCATGAGCTA  1457
+
+Query  4778  TG  4779
+             ||
+Sbjct  1458  TG  1459
+
+
+>XM_021241302.1 PREDICTED: Heterocephalus glaber follistatin like 4 (Fstl4), 
+transcript variant X10, mRNA
+Length=8664
+
+ Score = 130 bits (70),  Expect = 6e-25
+ Identities = 102/118 (86%), Gaps = 0/118 (0%)
+ Strand=Plus/Plus
+
+Query  4660  GCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCGCC  4719
+             |||||||||||||||||||||||||||||||||| || || |||||  |  || | | ||
+Sbjct  2313  GCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCTGACGATGGCATTGTGGTCATCCACC  2372
+
+Query  4720  CTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||| |  ||| |||||||||||||||||||||||||| |||||||| |||||||||||
+Sbjct  2373  CTGTGCACTGTGAGATCCAGAGGCACCTCAAACCCACAGAGAAGATTTTCATGAGCTA  2430
+
+
+>XM_012807125.1 PREDICTED: Otolemur garnettii follistatin like 4 (FSTL4), mRNA
+Length=2570
+
+ Score = 124 bits (67),  Expect = 3e-23
+ Identities = 103/121 (85%), Gaps = 0/121 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||||||||| |||||||||||||||||||||||||||||  | ||||||||  || | | 
+Sbjct  1529  AGGCCTCAGCGTGGGAAACATGTTCTACGTCTTCTCCGACAATGGCATCATGGTCATTCA  1588
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             |||   || ||| ||||||||||| |||||||||||||| |||||| | |||||||||||
+Sbjct  1589  CCCCATGGACTGTGAGATCCAGAGACACCTCAAACCCACAGAGAAGGTTTTCATGAGCTA  1648
+
+Query  4778  T  4778
+             |
+Sbjct  1649  T  1649
+
+
+>XM_021213419.2 PREDICTED: Mus pahari follistatin like 4 (Fstl4), mRNA
+Length=3335
+
+ Score = 122 bits (66),  Expect = 1e-22
+ Identities = 106/126 (84%), Gaps = 0/126 (0%)
+ Strand=Plus/Plus
+
+Query  1     CACAGGAGCCAGGGGTGGCTGCCAGTCTGAGATGCCACGCAGAGGGCATTCCTATGCCCA  60
+             |||| || || |||||||| ||||| ||  | ||||| || |||||||| ||  ||||||
+Sbjct  1285  CACAAGAACCTGGGGTGGCAGCCAGCCTTCGGTGCCATGCTGAGGGCATCCCCCTGCCCA  1344
+
+Query  61    GGATCACTTGGCTGAAAAACGGCATGGATGTCTCAACTCAGATGTCTAAACAGCTCTCCC  120
+             | |||| |||||||||||||||||||||||||||||| ||||  || |||||||||||||
+Sbjct  1345  GAATCATTTGGCTGAAAAACGGCATGGATGTCTCAACCCAGACATCCAAACAGCTCTCCC  1404
+
+Query  121   TTTTAG  126
+             | ||||
+Sbjct  1405  TCTTAG  1410
+
+
+>XM_017597253.1 PREDICTED: Rattus norvegicus follistatin-like 4 (Fstl4), transcript 
+variant X1, mRNA
+Length=3072
+
+ Score = 110 bits (59),  Expect = 8e-19
+ Identities = 101/122 (83%), Gaps = 0/122 (0%)
+ Strand=Plus/Plus
+
+Query  4658  AGGCCTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCG  4717
+             ||| ||||| |||||||||||||||||||||||||||||||| || ||  |  || | | 
+Sbjct  1787  AGGTCTCAGCGTGGGAAACATGTTCTACGTCTTCTCCGATGATGGTATTGTTGTCATCCA  1846
+
+Query  4718  CCCTGCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTA  4777
+             ||||| || ||| ||| ||||||| | | ||||||| || ||||||||||||||||| ||
+Sbjct  1847  CCCTGTGGACTGTGAGGTCCAGAGACGCTTCAAACCTACAGAGAAGATCTTCATGAGTTA  1906
+
+Query  4778  TG  4779
+             ||
+Sbjct  1907  TG  1908
+
+
+>NM_001107000.1 Rattus norvegicus follistatin-like 4 (Fstl4), mRNA
+Length=2811
+
+ Score = 108 bits (58),  Expect = 3e-18
+ Identities = 98/118 (83%), Gaps = 0/118 (0%)
+ Strand=Plus/Plus
+
+Query  4662  CTCAGTGTGGGAAACATGTTCTACGTCTTCTCCGATGACGGCATCATCATCCTGCGCCCT  4721
+             ||||| |||||||||||||||||||||||||||||||| || ||  |  || | | ||||
+Sbjct  1550  CTCAGCGTGGGAAACATGTTCTACGTCTTCTCCGATGATGGTATTGTTGTCATCCACCCT  1609
+
+Query  4722  GCGGGCTGCGAGATCCAGAGGCACCTCAAACCCACTGAGAAGATCTTCATGAGCTATG  4779
+             | || ||| ||| ||||||| | | ||||||| || ||||||||||||||||| ||||
+Sbjct  1610  GTGGACTGTGAGGTCCAGAGACGCTTCAAACCTACAGAGAAGATCTTCATGAGTTATG  1667
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1123389727739796
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Jul 24, 2019  4:44 AM
+  Number of letters in database: 228,549,963,193
+  Number of sequences in database:  53,209,063
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

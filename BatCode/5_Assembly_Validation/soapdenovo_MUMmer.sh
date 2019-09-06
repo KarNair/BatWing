@@ -12,12 +12,12 @@ module load bioinfo-tools
 module load MUMmer
 
 # Your commands
-nucmer --prefix /home/shsr0481/GenomeAnalysis/results/5_assembly_validation/soapdenovo_wgs/soapdenovo \
-/home/shsr0481/Genome_Analysis/data/ref_genome_unzipped.fasta \
-/home/shsr0481/Genome_Analysis/results/3_Genome_Assembly/SOAPdenovo/GapCloser_output.fasta
+nucmer --prefix /home/karnair/GenomeAnalysis/BatWing/results/5_Assembly_Validation/soapdenovo_wgs/soapdenovo \
+/home/karnair/GenomeAnalysis/BatWing/Data/ref_genome_unzipped.fasta \
+/home/karnair/GenomeAnalysis/BatWing/results/3_Genome_Assembly/SOAPdenovo/GapCloser_output.fasta
 
 mummerplot -x "[0,4000000]" -y "[0,4000000]" --png --layout --filter -p \
-/home/shsr0481/GenomeAnalysis/results/5_assembly_validation/soapdenovo_wgs/soapdenovo \
-/home/shsr0481/GenomeAnalysis/results/5_assembly_validation/soapdenovo_wgs/soapdenovo/soapdenovo.delta \
--R /home/shsr0481/Genome_Analysis/data/ref_genome_unzipped.fasta \
--Q /home/shsr0481/Genome_Analysis/results/3_Genome_Assembly/SOAPdenovo/GapCloser_output.fasta
+/home/karnair/GenomeAnalysis/BatWing/results/5_Assembly_Validation/soapdenovo_wgs/soapdenovo \
+/home/karnair/GenomeAnalysis/BatWing/results/5_Assembly_Validation/soapdenovo_wgs/soapdenovo.delta \
+-R /home/karnair/GenomeAnalysis/BatWing/Data/ref_genome_unzipped.fasta \
+-Q /home/karnair/GenomeAnalysis/BatWing/results/3_Genome_Assembly/SOAPdenovo/GapCloser_output.fasta

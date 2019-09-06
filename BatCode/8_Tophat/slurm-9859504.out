@@ -1,0 +1,44 @@
+bowtie not loaded, will load bowtie 
+bowtie2 not loaded, will load bowtie2/2.3.2 
+
+[2019-08-24 18:47:25] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2019-08-24 18:47:25] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2019-08-24 18:47:25] Checking for Bowtie index files (genome)..
+[2019-08-24 18:47:25] Checking for reference FASTA file
+	Warning: Could not find FASTA file /home/karnair/GenomeAnalysis/BatWing/results/7_Bowtie/ref.fa
+[2019-08-24 18:47:25] Reconstituting reference FASTA file from Bowtie index
+  Executing: /sw/bioinfo/bowtie2/2.3.2/rackham/bin/bowtie2-inspect /home/karnair/GenomeAnalysis/BatWing/results/7_Bowtie/ref > /home/karnair/GenomeAnalysis/BatWing/results/8_Tophat/hindlimb/cs16/tmp/ref.fa
+[2019-08-24 18:47:26] Generating SAM header for /home/karnair/GenomeAnalysis/BatWing/results/7_Bowtie/ref
+[2019-08-24 18:47:26] Preparing reads
+	 left reads: min. length=36, max. length=100, 956479 kept reads (74 discarded)
+	right reads: min. length=36, max. length=100, 954830 kept reads (1723 discarded)
+[2019-08-24 18:48:05] Mapping left_kept_reads to genome ref with Bowtie2 
+[2019-08-24 18:53:10] Mapping left_kept_reads_seg1 to genome ref with Bowtie2 (1/4)
+[2019-08-24 18:53:52] Mapping left_kept_reads_seg2 to genome ref with Bowtie2 (2/4)
+[2019-08-24 18:54:31] Mapping left_kept_reads_seg3 to genome ref with Bowtie2 (3/4)
+[2019-08-24 18:55:22] Mapping left_kept_reads_seg4 to genome ref with Bowtie2 (4/4)
+[2019-08-24 18:56:09] Mapping right_kept_reads to genome ref with Bowtie2 
+[2019-08-24 19:00:24] Mapping right_kept_reads_seg1 to genome ref with Bowtie2 (1/4)
+[2019-08-24 19:00:56] Mapping right_kept_reads_seg2 to genome ref with Bowtie2 (2/4)
+[2019-08-24 19:01:27] Mapping right_kept_reads_seg3 to genome ref with Bowtie2 (3/4)
+[2019-08-24 19:02:05] Mapping right_kept_reads_seg4 to genome ref with Bowtie2 (4/4)
+[2019-08-24 19:02:44] Searching for junctions via segment mapping
+[2019-08-24 19:35:25] Retrieving sequences for splices
+[2019-08-24 19:35:25] Indexing splices
+Building a SMALL index
+[2019-08-24 19:35:28] Mapping left_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/4)
+[2019-08-24 19:36:15] Mapping left_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/4)
+[2019-08-24 19:37:14] Mapping left_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/4)
+[2019-08-24 19:38:07] Mapping left_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/4)
+[2019-08-24 19:39:01] Joining segment hits
+[2019-08-24 19:40:46] Mapping right_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/4)
+[2019-08-24 19:41:20] Mapping right_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/4)
+[2019-08-24 19:42:05] Mapping right_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/4)
+[2019-08-24 19:42:49] Mapping right_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/4)
+[2019-08-24 19:43:37] Joining segment hits
+[2019-08-24 19:44:55] Reporting output tracks
+-----------------------------------------------
+[2019-08-24 19:46:25] A summary of the alignment counts can be found in /home/karnair/GenomeAnalysis/BatWing/results/8_Tophat/hindlimb/cs16/align_summary.txt
+[2019-08-24 19:46:25] Run complete: 00:59:00 elapsed

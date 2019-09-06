@@ -2,8 +2,8 @@
 
 #SBATCH -A g2019003
 #SBATCH -p core
-#SBATCH -n 2
-#SBATCH -t 02:00:00
+#SBATCH -n 12
+#SBATCH -t 200:00:00
 #SBATCH -J soapdenovo_dna_assembly_wgs
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user karthik.nair.7680@student.uu.se

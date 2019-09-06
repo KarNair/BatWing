@@ -1,0 +1,10 @@
+bowtie not loaded, will load bowtie 
+bowtie2 not loaded, will load bowtie2/2.3.2 
+Traceback (most recent call last):
+  File "/sw/apps/bioinfo/tophat/2.1.1/rackham/bin/tophat", line 4107, in <module>
+    sys.exit(main())
+  File "/sw/apps/bioinfo/tophat/2.1.1/rackham/bin/tophat", line 3885, in main
+    prepare_output_dir()
+  File "/sw/apps/bioinfo/tophat/2.1.1/rackham/bin/tophat", line 1244, in prepare_output_dir
+    os.mkdir(output_dir)
+OSError: [Errno 13] Permission denied: '/home/shsr0481/Genome_Analysis/results/8_Tophat_Aligner/forelimb/cs15/'
