@@ -3,7 +3,9 @@ This projects aims to replicate the bioinformatics analysis and approaches made 
 
 The study aimed to understand the developmental processes involved in the formation of bat wings
 
-This repository contains code for genome analysis pipeline followed to replicate the study
+This repository contains code for genome analysis pipeline followed to replicate the study. This includes the code for:
+
+
 * Quality Control and Trimming
 * Genome Assembly
 * Transcriptome assembly
